@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">Derbarê de</string>
+    <string name="about_api">Ev sepan API ji SponsorBlock bikar tîne</string>
+    <string name="about_api_sum">Bikirtînin da ku bêtir fêr bibin, û dakêşanên ji bo platformên din li ser: sponsor.ajay.app bibînin</string>
+    <string name="about_madeby">Entegrasyona ji aliyê JakubWeg ve hatiye çêkirin</string>
+    <string name="action_ads">Ads</string>
+    <string name="action_browser">SB Browser</string>
+    <string name="action_copy">Girêdanê ji ber bike</string>
+    <string name="action_segments">Segments</string>
+    <string name="action_tcopy">Timestamp</string>
+    <string name="api_url_changed">API URL changed</string>
+    <string name="api_url_invalid">Provided API URL is invalid</string>
+    <string name="api_url_reset">API URL reset</string>
+    <string name="bawm_summary">Pêkanîna SponsorBlock</string>
+    <string name="cane_summary">Pêşveçûn ji bo pêkanîna SponsorBlock</string>
+    <string name="change">Change</string>
+    <string name="color_change">Are you looking for changing colors?</string>
+    <string name="color_change_sum">"You can now change a category's color by clicking on it above."</string>
+    <string name="color_changed">Color changed</string>
+    <string name="color_choose_category">Choose the category</string>
+    <string name="color_invalid">Invalid hex code</string>
+    <string name="color_reset">Color reset</string>
+    <string name="diff_segments">Bi beşên cuda re çi bikin</string>
+    <string name="enable_sb">Enable SponsorBlock</string>
+    <string name="enable_sb_sum">SponsorBlock is a crowd-sourced system for skipping annoying parts in YouTube videos</string>
+    <string name="enable_segmadding">Lêzêdekirina beşên nû çalak bike</string>
+    <string name="enable_segmadding_sum">Vê yekê biguherînin da ku dabeşkirina ceribandinê (pirsgirêkên bişkojka dîtinê hene)</string>
+    <string name="enable_voting">Enable voting</string>
+    <string name="enable_voting_sum">Switch this on to enable voting.</string>
+    <string name="general">Giştî</string>
+    <string name="general_adjusting">Pêngava nû ya dabeşkirinê tê sererastkirin</string>
+    <string name="general_adjusting_sum">Ev hejmara mîlîçirkan e ku hûn dikarin dema ku hûn bişkojka guherîna demê di dema lêzêdekirina beşên nû de bikar bînin, bilivîne</string>
+    <string name="general_api_url">Change API URL</string>
+    <string name="general_api_url_sum">"The address SponsorBlock uses to make calls to the server. &lt;b>Don't change this unless you know what you're doing.&lt;/b>"</string>
+    <string name="general_browser_button">Enable SB Browser button</string>
+    <string name="general_browser_button_sum">Clicking this button under the player will open sb.ltn.fi where you can see more details about segments.</string>
+    <string name="general_cache">Beşên pêşbirkê yên herêmî</string>
+    <string name="general_cache_clear">Beşên SponsorBlock paqij bike</string>
+    <string name="general_cache_sum">Vîdeoyên ku gelek caran tê temaşekirin (wek vîdeoyên muzîkê) dikarin beşên di pêşbirka sepanê de depo bikin da ku beşên bileztir bikin</string>
+    <string name="general_min_duration">Minimum segment duration</string>
+    <string name="general_min_duration_sum">Segments shorter than the set value (in seconds) will not be skipped or show in the player</string>
+    <string name="general_skipcount">Di şopandina hejmartinê de biserkeve</string>
+    <string name="general_skipcount_sum">Ev dibe ku pergala rêberiyê ya SponsorBlock bizanibe ka çiqas dema mirovan xilas kiriye. Pêvek her dema ku tu beşekê derbas dikî peyamekê ji pêşkêşkar re dişîne</string>
+    <string name="general_skiptoast">Dema ku bixweber ji beşê diqede tost nîşan bide</string>
+    <string name="general_skiptoast_sum">Ji bo dîtina tosteke mînak bitikin</string>
+    <string name="general_time_without_sb">Show time without segments</string>
+    <string name="general_time_without_sb_sum">This time appears in brackets next to the current time. This shows the total video duration minus any segments.</string>
+    <string name="general_uuid">Nasnameya xwe ya taybet a bikarhêner</string>
+    <string name="general_uuid_sum">Divê ev taybet bê girtin. Ev yek weke şîfreyekê ye û divê bi kesî re neyê parvekirin. Eger kesek xwedî vê be, ew dikare te bike bin îxtîmala xwe</string>
+    <string name="general_whitelisting">Channel whitelisting</string>
+    <string name="general_whitelisting_sum">Use the Segments button under the player to whitelist a channel</string>
+    <string name="litho_comments">Jêbirina şîroveyan</string>
+    <string name="litho_comments_off">Rakirina şîroveyan tê veqetandin (tenê şîrove/tenê têlefon)</string>
+    <string name="litho_comments_on">Rakirina şîroveyan hate vedan (tenê şîroveyên/tenê têlefon)</string>
+    <string name="litho_community_guidelines">Rêbernameyên civakê</string>
+    <string name="litho_community_guidelines_off">Rakirina rêbernameyên civatê vedihewîne</string>
+    <string name="litho_community_guidelines_on">Rakirina rêbernameyên civakê tê zivirandin</string>
+    <string name="litho_community_posts">Rakirina piştî civatê</string>
+    <string name="litho_community_posts_off">Rakirina postê civatê tê vedan</string>
+    <string name="litho_community_posts_on">Rakirina postê civakê tê pêkirin</string>
+    <string name="litho_compact_banner">Kompakt pankart rakirin</string>
+    <string name="litho_compact_banner_off">Rakirina pankartê ya kompakt tê girtin</string>
+    <string name="litho_compact_banner_on">Rakirina pankartê ya kompakt tê pêkirin</string>
+    <string name="litho_compact_movie">Rakirina fîlimê kompakt</string>
+    <string name="litho_compact_movie_off">Rakirina fîlimê kompakt tê vedan</string>
+    <string name="litho_compact_movie_on">Rakirina fîlimê ya kompakt tê pêkirin</string>
+    <string name="litho_general_ad_removal">Rakirina reklama nîskê ya giştî</string>
+    <string name="litho_general_ad_removal_off">Nîska giştî ya rakirina reklamê hate vegûherandin</string>
+    <string name="litho_general_ad_removal_on">Nîska giştî ya rakirina reklamê tê hilandin</string>
+    <string name="litho_horizontal_movie_shelf">Rakirina refî fîlimê</string>
+    <string name="litho_horizontal_movie_shelf_off">Rakirina refeya fîlman tê vedan</string>
+    <string name="litho_horizontal_movie_shelf_on">Rakirina refeya fîlman tê vedan</string>
+    <string name="litho_in_feed_survey">Rakirina rapirsînê</string>
+    <string name="litho_in_feed_survey_off">Rakirina anketê ya çavkaniyê tê veguheztin</string>
+    <string name="litho_in_feed_survey_on">Rakirina rapirsînê tê pêkirin</string>
+    <string name="litho_merchandise">Rakirina ber</string>
+    <string name="litho_merchandise_off">Rakirina berhemê hate vegûherandin</string>
+    <string name="litho_merchandise_on">Rakirina berhemê tê zivirandin</string>
+    <string name="litho_movie_upsell">Rakirina firotana herî jor a fîlman</string>
+    <string name="litho_movie_upsell_off">Firotana jor a fîlimê hate girtin</string>
+    <string name="litho_movie_upsell_on">Rakirina firotanê li ser</string>
+    <string name="litho_shorts_shelf">Refika şortan</string>
+    <string name="litho_shorts_shelf_off">Rakirina refika şortan tê vemirandin</string>
+    <string name="litho_shorts_shelf_on">Rakirina refika şortikan tê vedan</string>
+    <string name="microg_notification_settings">Mîhengên agahdariyê</string>
+    <string name="microg_notification_settings_summary">"1. Ji bo agahdarkirinê divê qeydkirina cîhaza Google û Peyamberiya Google Cloud were çalak kirin.
+2. Divê Vanced weke qeydkirî di bin GCM de bê nîşandan.
+3. Divê rewşa heyî ya di GCM'ê de ne girêdayî be.
+4. GCM -> Advanced (sê xal serê rastê) û ji bo girêdanê carekê navbera ping-Wi-Fi paş ve biguheze."</string>
+    <string name="microg_settings">Mîhengên MicroG</string>
+    <string name="minutes">minutes</string>
+    <string name="new_segment_choose_category">Kategoriya beşan hilbijêre</string>
+    <string name="new_segment_confirm_content" formatted="false">"Ev beş ji %02d:%02d heta %02d:%02d (%d xulek %02d seconds)
+Amade ye ku radest bike?"</string>
+    <string name="new_segment_confirm_title">Dem rast in?</string>
+    <string name="new_segment_disabled_category">Te ev kategori di mîhengan de neçalak kir, çalak bike ku bikaribe radest bike</string>
+    <string name="new_segment_edit_by_hand_content">Tu dixwazî dema destpêkê an dawiya beşê biguherînî?</string>
+    <string name="new_segment_edit_by_hand_parse_error">Wextê nederbasdar tê dayîn</string>
+    <string name="new_segment_edit_by_hand_saved">Biqede</string>
+    <string name="new_segment_edit_by_hand_title">Dema beşê bi destî biguherîne</string>
+    <string name="new_segment_mark_end">dawî</string>
+    <string name="new_segment_mark_locations_first">Pêşîn du cihên li ser darbarê demê nîşan bike</string>
+    <string name="new_segment_mark_start">destpêkirin</string>
+    <string name="new_segment_mark_time_as_question" formatted="false">%02d:%02d:%04d wekî destpêka an dawiya beşeknû binav bike?</string>
+    <string name="new_segment_now">niha</string>
+    <string name="new_segment_time_end">Dema ku beş bi dawî dibe</string>
+    <string name="new_segment_time_end_set">Dawiya dabeşkirina beşan</string>
+    <string name="new_segment_time_start">Dema ku beş dest pê dike</string>
+    <string name="new_segment_time_start_set">Destpêk ji seta beşê</string>
+    <string name="new_segment_title">Segmenta SponsorBlock ya nû</string>
+    <string name="oizaro_summary">Rastkirina xeletiyan / arîkarî</string>
+    <string name="pref_subtitles_scale_normal">Asayî</string>
+    <string name="reset">Reset</string>
+    <string name="sb_guidelines_popup_already_read">Jixwe xwendin</string>
+    <string name="sb_guidelines_popup_content">Tê pêşniyar kirin ku berî ku her beşê pêşkêş bike rêbernameyên Bloka Sponsorbixwîne bixwîne</string>
+    <string name="sb_guidelines_popup_open">Nîşanê min bide</string>
+    <string name="sb_guidelines_popup_title">Rêbername hene</string>
+    <string name="sb_guidelines_preference_sum">Rêbernameyên di derheqê dabeşkirina beşek de pêşniyar hene</string>
+    <string name="sb_guidelines_preference_title">Rêbernameyên dîtinê</string>
+    <string name="sb_settings">Mîhengên SponsorBlock</string>
+    <string name="sb_summary">Bi kar tîne sponsor.ajay.app API</string>
+    <string name="segments_endcards">Kartên Dawîn/Kredî</string>
+    <string name="segments_endcards_sum">Qertaf an jî dema qertafên youTube yê xuya be ne cebirên nedilî</string>
+    <string name="segments_filler">Filler Tangent/Jokes</string>
+    <string name="segments_filler_sum">Tangential scenes added only for filler or humor that are not required to understand the main content of the video. This should not include segments providing context or background details</string>
+    <string name="segments_intermission">Lêgerandin/Anîmasyona Têvedan</string>
+    <string name="segments_intermission_sum">Navberek bêyî naveroka rastîn. Dibe ku biweste, çarçoveyeke statîk, anîmasyona dubarekirî</string>
+    <string name="segments_nomusic">Muzîk: Beşa Ne-Muzîkê</string>
+    <string name="segments_nomusic_sum">Tenê ji bo bikaranîna di vîdeoyên muzîkê de. Ev di vîdyoyên muzîkê de danasîn an outroyan pêk tê</string>
+    <string name="segments_preview">Preview/Recap</string>
+    <string name="segments_preview_sum">"Quick recap of previous episodes, or a preview of what's coming up later in the current video. Meant for edited together clips, not for spoken summaries."</string>
+    <string name="segments_selfpromo">Bêpar/Xwe Pêşvexistin</string>
+    <string name="segments_selfpromo_sum">Bi heman rengî \"sponsor\" ji bilî danasîna bêpere an xwe-danasîn. Di vê yekê de beşên di derheqê bazirganî, bexşîn, an agahdariya ku bi wan re hevkar bûne heye</string>
+    <string name="segments_sponsor">Sponsor</string>
+    <string name="segments_sponsor_sum">Reklamên payedar, reklamên bi paye û reklamên rasterast</string>
+    <string name="segments_subscribe">Bîra Têkîliyê (Abone)</string>
+    <string name="segments_subscribe_sum">Dema ku bîrdariyek kurt heye ku meriv jê hez bike, bike abone an jî di navroka naverokê de wan bişopîne</string>
+    <string name="settings_export_failed">Hinardekirina mîhengan bi ser neket</string>
+    <string name="settings_ie">Mîhengên Import / Export</string>
+    <string name="settings_ie_sum">Ev tevahiya veavakirina we ye ku di pêveka sermaseyê ya JSON de derbasdar e. Di nav vê de nasnameya bikarhênerê we heye, ji ber vê yekê pê ewle bin ku hûn vê bi aqilmendî parve bikin.</string>
+    <string name="settings_import_failed">Veguhastina mîhengan bi ser neket</string>
+    <string name="settings_import_successful">Mîheng bi serfirazî hatin şandin</string>
+    <string name="skip_automatically">Bixweber derbas bûn</string>
+    <string name="skip_ignore">Tiştek nekin</string>
+    <string name="skip_showbutton">Bişkojka derbas bûnê nîşan bide</string>
+    <string name="skip_sponsor">Beşê biserkeve</string>
+    <string name="skipped_endcard">Outro derbas bû</string>
+    <string name="skipped_filler">Skipped filler</string>
+    <string name="skipped_intermission">Têketin derbas bû</string>
+    <string name="skipped_nomusic">Bêdengî derbas bûn</string>
+    <string name="skipped_preview">Pêşdîtin hat derbas bûn</string>
+    <string name="skipped_segment">Beşek sponsorê derbas bû</string>
+    <string name="skipped_selfpromo">Xwepêşvebirinê ji dest xwe hat derbas bûn</string>
+    <string name="skipped_sponsor">Sponsor derbas bû</string>
+    <string name="skipped_subscribe">Bîranînek bêzarker hate derbas bûn</string>
+    <string name="skipped_unsubmitted">Beşa ku nehatî şandin derbas bû</string>
+    <string name="souramoo_summary">Reklamên malan zêdebûn jê dibirin û rêbazên din ên çewtkirinê nîşan didan</string>
+    <string name="stats">Stats</string>
+    <string name="stats_loading">Loading..</string>
+    <string name="stats_saved">"You've saved people from &lt;b>%s&lt;/b> segments."</string>
+    <string name="stats_saved_sum">"That's &lt;b>%s&lt;/b> of their lives. Click to see the leaderboard"</string>
+    <string name="stats_sb_disabled">SponsorBlock is disabled</string>
+    <string name="stats_self_saved">"You've skipped &lt;b>%s&lt;/b> segments."</string>
+    <string name="stats_self_saved_sum">"That's &lt;b>%s&lt;/b>."</string>
+    <string name="stats_submissions">Submissions: &lt;b>%s&lt;/b></string>
+    <string name="stats_username">Your username: &lt;b>%s&lt;/b></string>
+    <string name="stats_username_change">Click to change your username</string>
+    <string name="stats_username_change_unknown_error" formatted="false">Unable to change username: Status: %d %s</string>
+    <string name="stats_username_changed">Username successfully changed</string>
+    <string name="submit_failed_duplicate">"Nikare beşê radest bike.
+Jixwe heye"</string>
+    <string name="submit_failed_forbidden">"Can't submit the segment.
+
+%s"</string>
+    <string name="submit_failed_rate_limit">"Nikare beşê radest bike.
+Rate Limited (Gelek ji heman bikarhêner an IP)"</string>
+    <string name="submit_failed_unknown_error" formatted="false">Nekarî beşan bipejirîne: Rewş: %d %s</string>
+    <string name="submit_started">Beşên tê radestkirin…</string>
+    <string name="submit_succeeded">Beşek bi serkeftî hate radestkirin</string>
+    <string name="tap_skip">Destlêdê da ku derbas bibin</string>
+    <string name="vanced_button_location_entry_both">Both</string>
+    <string name="vanced_button_location_entry_buttoncontainer">Under player (ALPHA)</string>
+    <string name="vanced_button_location_entry_none">Hidden</string>
+    <string name="vanced_button_location_entry_player">In player</string>
+    <string name="vanced_disable">Disable</string>
+    <string name="vanced_enable">Enable</string>
+    <string name="vanced_learnmore">Learn more</string>
+    <string name="vanced_ryd">Return YouTube Dislike</string>
+    <string name="vanced_ryd_attribution_summary">This integration uses the RYD API from https://returnyoutubedislike.com. Tap to learn more</string>
+    <string name="vanced_ryd_attribution_title">Return YouTube Dislike Integration</string>
+    <string name="vanced_ryd_firstrun">(WARNING! CURRENTLY IN ALPHA, You may not see dislike button appear if YouTube pushes a server side update to you) Want to enable Return YouTube Dislikes to see dislikes again? Your likes/dislikes will be sent to RYD API (anonymously) after enabling RYD integration. You can enable/disable this in the settings at any time.</string>
+    <string name="vanced_ryd_settings_summary">Uses the RYD API</string>
+    <string name="vanced_ryd_settings_title">Return YouTube Dislike settings</string>
+    <string name="vanced_ryd_summary">Switch this on to see the dislike counts again</string>
+    <string name="vanced_ryd_title">Enable RYD (ALPHA)</string>
+    <string name="vanced_sb">SponsorBlock</string>
+    <string name="vanced_sb_firstrun">Are you aware of the SponsorBlock integration in Vanced? With it you can skip sponsored segments in the videos. You can enable/disable this in the settings at any time.</string>
+    <string name="vanced_settings">Mîhengên Vanced</string>
+    <string name="vanced_translators_summary">Girêdana Crowdin ku hûn dikarin bi wergera Vanced li ser zimanê xwe beşdar bibin</string>
+    <string name="vanced_translators_title">Wergêrvanê vanced</string>
+    <string name="vanced_video_ad_settings_title">Video ad settings</string>
+    <string name="vanced_videoadwhitelisting_summary_off">Video ad whitelisting is turned off</string>
+    <string name="vanced_videoadwhitelisting_summary_on">Video ad whitelisting is turned on. Use the Ads button under the player to whitelist a channel</string>
+    <string name="vanced_videoadwhitelisting_title">Video ad whitelisting</string>
+    <string name="vanced_whitelisting_add_failed" formatted="false">Failed to add channel %s to the %s whitelist</string>
+    <string name="vanced_whitelisting_added" formatted="false">Channel %s was added to the %s whitelist</string>
+    <string name="vanced_whitelisting_ads">Ads</string>
+    <string name="vanced_whitelisting_fetch_failed">Failed to retrieve channel details, received code %d</string>
+    <string name="vanced_whitelisting_remove_failed" formatted="false">Failed to remove channel %s from the %s whitelist</string>
+    <string name="vanced_whitelisting_removed" formatted="false">Channel %s was removed from the %s whitelist</string>
+    <string name="vanced_whitelisting_sponsorblock">SponsorBlock</string>
+    <string name="vote_category">Kategorî biguherînin</string>
+    <string name="vote_downvote">Downvote</string>
+    <string name="vote_failed_forbidden">"Can't vote for segment.
+
+%s"</string>
+    <string name="vote_failed_rate_limit">"Nikare beşê radest bike.
+Rate Limited (Gelek ji heman bikarhêner an IP)"</string>
+    <string name="vote_failed_unknown_error" formatted="false">Ji bo beşê deng nayê dayîn: Rewş: %d %s</string>
+    <string name="vote_no_segments">There are no segments to vote for</string>
+    <string name="vote_started">Dengdan ji bo beşê…</string>
+    <string name="vote_succeeded">"Nikare dengê xwe bide beşê.
+Moderatorek biryar da ku ev beş rast e"</string>
+    <string name="vote_upvote">Upvote</string>
+    <string name="xfile_about_summary">"
+- xfileFIN (Modan, Mijar diafirînin, Alîkarî)
+- Laura (Mijar diafirînin, Alîkarî)
+- ZaneZam (Weşangerî, Alîkarî)
+- KevinX8 (Derebeg, Alîkarî)"</string>
+    <string name="xfile_about_theme_summary">Vegûherandina tema fermî ya nû di mîhengên giştî de ye. Ev vebijêrk \"Pêşvebir\" e</string>
+    <string name="xfile_about_theme_title">Agahdariya tema</string>
+    <string name="xfile_about_title">Derbarê de</string>
+    <string name="xfile_accessibility_seek_buttons_summary_off">Kontrolên gihîştî di lêkerê de nayên nîşandan</string>
+    <string name="xfile_accessibility_seek_buttons_summary_on">Kontrolên gihanê di lêkerê de têne nîşandan</string>
+    <string name="xfile_accessibility_seek_buttons_title">Lîstikvanê gihîştî</string>
+    <string name="xfile_ad_settings_title">Mîhengên reklamê</string>
+    <string name="xfile_auto_captions_summary_off">Sernav bixweber nayên çalak kirin ji %0 volume</string>
+    <string name="xfile_auto_captions_summary_on">Sernav bixweber di bijareya 0% de têne çalak kirin</string>
+    <string name="xfile_auto_captions_title">Sernivîsên xweser</string>
+    <string name="xfile_auto_repeat_button_summary_off">Di pêlkirina lêkerê de bişkojka dubarekirina bixweber nîşan nede. Ji bo kontrolkirina dubarekirina bixweber, vê gera jêr bi kar bîne</string>
+    <string name="xfile_auto_repeat_button_summary_on">Bişkojka dubarekirina bixweber di pêlkirina lêkeran de tê nîşandan</string>
+    <string name="xfile_auto_repeat_button_title">Bişkojka dubarekirina bixweber</string>
+    <string name="xfile_auto_repeat_summary_off">Dubarekirina bixweber qut e</string>
+    <string name="xfile_auto_repeat_summary_on">Dubarekirina bixweber li ser e</string>
+    <string name="xfile_auto_repeat_title">Dubarekirina bixweber</string>
+    <string name="xfile_branding_watermark_summary_off">Filîgran ya vîdyoyê veşartî ye</string>
+    <string name="xfile_branding_watermark_summary_on">Nîşana filîgran ya vîdyoyê tê nîşandan</string>
+    <string name="xfile_branding_watermark_title">Nîşana filîgran ya vîdyoyê</string>
+    <string name="xfile_buffer_summary">Ji bo mîhengên tampon divê ExoPlayer v2 were çalak kirin</string>
+    <string name="xfile_buffer_title">Mîhengên tampon</string>
+    <string name="xfile_cast_button_summary_off">Bişkojka weşanê veşartî ye</string>
+    <string name="xfile_cast_button_summary_on">Bişkojka weşanê tê nîşandan</string>
+    <string name="xfile_cast_button_title">Bişkojka betal bike</string>
+    <string name="xfile_codec_override_title">Codec betal bike</string>
+    <string name="xfile_comments_location_summary_off">Li jor şîrove tên nîşandan (cihê nû)</string>
+    <string name="xfile_comments_location_summary_on">Li jêr (cihê kevn) şîrove tên nîşandan. Ev taybetmendî dikare tiştan bişikîne. Ji bo nimûne taybetmendiyên şemitandinê dê nexebitîne</string>
+    <string name="xfile_comments_location_title">Cihê şîroveyan (Alfa)</string>
+    <string name="xfile_copy_video_url_summary_off">Bişkojka ji bo kopîkirina lînkê ji pêlkirina lêkerê veşartî ye</string>
+    <string name="xfile_copy_video_url_summary_on">Bişkojka ji bo kopîkirina lînkê di rûbirûbûna lêkerê de tê nîşandan</string>
+    <string name="xfile_copy_video_url_timestamp_summary_off">Bişkojka ji bo kopîkirina girêdanê bi demboriya demê ve ji lêkerê veşarî ye</string>
+    <string name="xfile_copy_video_url_timestamp_summary_on">Bişkojka ji bo kopîkirina girêdanê bi demboriya demê re di pêveka lêkerê de tê nîşandan</string>
+    <string name="xfile_copy_video_url_timestamp_title">Girêdanê kopî bike (bi demboriya demê re)</string>
+    <string name="xfile_copy_video_url_title">Girêdanê ji ber bike</string>
+    <string name="xfile_create_button_summary_off">Bişkojka afirandinê xwedî dîtineke pêşdarazî ye</string>
+    <string name="xfile_create_button_summary_on">Bişkojka biafirîne bi zorê neçalak e</string>
+    <string name="xfile_create_button_title">Bişkojka biafirîne</string>
+    <string name="xfile_credit_summary">Krediyên ji bo kesên ku beşdar bûne</string>
+    <string name="xfile_credit_title">Kredî</string>
+    <string name="xfile_current_override_manufacturer">Hilberînerê betal bike</string>
+    <string name="xfile_current_override_model">Model betal bike</string>
+    <string name="xfile_debug_summary_off">Têketinên çewtiyên zêde neçalak e</string>
+    <string name="xfile_debug_summary_on">Têketinên çewtiyên zêde tê çalak kirin</string>
+    <string name="xfile_debug_title">Moda jibartina xeletî</string>
+    <string name="xfile_default_codec_summary">Ji bo ku koda xwerû ya cîhaza xwe saz bike lêde</string>
+    <string name="xfile_default_codec_title">Codec ya bixweber</string>
+    <string name="xfile_discord_summary">Destlêdin da ku beşdarî Vanced li Discord bibe</string>
+    <string name="xfile_discord_title">Serverê Discord</string>
+    <string name="xfile_exoplayer_v2">ExoPlayer V2</string>
+    <string name="xfile_exoplayer_v2_off">ExoPlayer V2 neçalak e (ExoPlayer V1 tê bikaranîn)</string>
+    <string name="xfile_exoplayer_v2_on">ExoPlayer V2 çalak e (Bixweber). ExoPlayer V1 dibe ku performansek çêtir be</string>
+    <string name="xfile_exoplayerv2_warning_summary">ExoPlayer v2 ezmûn e. Dema ExoPlayer v2 çalak be çewtiyên ku çêdibin rapor neke</string>
+    <string name="xfile_exoplayerv2_warning_title">Hişyarî</string>
+    <string name="xfile_hardware_hdr_summary">Ji bo çalakkirina hardware HDR destlêdin</string>
+    <string name="xfile_hdr_full_brightness_summary_off">Ronahîya vîdyoyê dê li dû ronahiyên cîhaza we li ser vîdyoyên perestgehê HDR be</string>
+    <string name="xfile_hdr_full_brightness_summary_on">Ronahîya vîdyoyê li ser vîdyoyên perestgehê HDR tête bicîh kirin</string>
+    <string name="xfile_hdr_full_brightness_title">Ronahîya HDR Max</string>
+    <string name="xfile_hiddenmenu_needed">destlêdan hewce ye ku mîhengên veşartî çalak bike</string>
+    <string name="xfile_hiddenmenu_open">Ne hewce ye, mîhengên veşartî jixwe çalak in</string>
+    <string name="xfile_hiddenmenu_opened">Mîhengên veşartî hatine çalak kirin</string>
+    <string name="xfile_home_ads_summary_off">Reklamên malan veşartî ne</string>
+    <string name="xfile_home_ads_summary_on">Reklamên malan têne nîşandan</string>
+    <string name="xfile_home_ads_title">Reklamên malê (Ezmûnî)</string>
+    <string name="xfile_info_cards_summary_off">Kartên agahdariyê veşartî ne</string>
+    <string name="xfile_info_cards_summary_on">Kartên agahdariyê tên nîşandan</string>
+    <string name="xfile_info_cards_title">Kartên agahdariyê</string>
+    <string name="xfile_layout_settings_title">Mîhengên pergal</string>
+    <string name="xfile_maximum_buffer_summary">"Dema herî zêde ya medyayê ya ku lîstikvan dê hewl bide tampon bike (bi mîlîçirke)
+
+        Bixweber: 120000"</string>
+    <string name="xfile_maximum_buffer_title">Tampona herî zêde</string>
+    <string name="xfile_minimized_video_type_summary">Cureyê vîdyoyê yê ku hatiye tercîhkirin hilbijêre</string>
+    <string name="xfile_minimized_video_type_title">Cureyê vîdyoyê yê kêmkirî</string>
+    <string name="xfile_miniplayer_style_video">Tenê vîdyo</string>
+    <string name="xfile_miniplayer_style_video_controls">Vîdeoya bi kontrolên medyayê</string>
+    <string name="xfile_misc_title">Cudayî</string>
+    <string name="xfile_new_actionbar_summary_off">Stîla darişk lêgerînê ji aliyê pêvekê ve hatiye diyarkirin</string>
+    <string name="xfile_new_actionbar_summary_on">Bi zorê kirina darişka lêgerînê ya berfireh</string>
+    <string name="xfile_new_actionbar_title">Darişka lêgerînê ya berfireh</string>
+    <string name="xfile_old_style_quality_settings_summary_off">Using default style video quality settings</string>
+    <string name="xfile_old_style_quality_settings_summary_on">Using old style video quality settings</string>
+    <string name="xfile_old_style_quality_settings_title">Quality settings style</string>
+    <string name="xfile_override_resolution_summary_off">Çareserkirina vîdyoyê li dû redasmana ekrana cîhaza te ye</string>
+    <string name="xfile_override_resolution_summary_on">Vebijarka vîdyoyê herî zêde tê rakirin</string>
+    <string name="xfile_override_resolution_title">Mezinahiya maksîmûm</string>
+    <string name="xfile_playback_start_summary">"Maweya mîdyeyê ya ku divê ji bo lêdanan were venihêrandin ji bo destpêkirina an jî ji nû ve destpêkirina çalakiya bikarhêner ên wekî digerin (bi mîlçirke)
+
+Pêşdarazî: 2500)
+
+        Bixweber: 2500"</string>
+    <string name="xfile_playback_start_title">Destpêka lêdanê</string>
+    <string name="xfile_preferred_video_quality_mobile_summary">Di Tora Hucreyî de biryareke bijartî ya vîdeoyê hilbijêre</string>
+    <string name="xfile_preferred_video_quality_mobile_title">Qalîteya vîdyoyê ya Hucreyî bijarte</string>
+    <string name="xfile_preferred_video_quality_wifi_summary">Li ser Tora Wi-Fi çareseriya vîdyoyê ya bijarte hilbijêrin</string>
+    <string name="xfile_preferred_video_quality_wifi_title">Wi-Fi ya kalîteya vîdyoyê ya bijarte</string>
+    <string name="xfile_preferred_video_speed_summary">Leza vîdyoya bijarte hilbijêrin</string>
+    <string name="xfile_preferred_video_speed_title">Leza vîdyoyê ya bijarte</string>
+    <string name="xfile_rebuffer_summary">"Maweya mîdyeyê ya ku divê ji bo lêdana ji nû ve were vegirtin piştî rebuffer (bi milîçirkeyan) bê tampon kirin. Ji nû ve tê tesbîtkirin ku ji ber çalakiya bikarhêner ji ber kêmkirina tampon tê tesbîtkirin
+
+        Bixweber: 5000"</string>
+    <string name="xfile_rebuffer_title">Tampon dîsa</string>
+    <string name="xfile_reel_summary_off">Çîrok veşarî ne</string>
+    <string name="xfile_reel_summary_on">Çîrok tên nîşandan</string>
+    <string name="xfile_reel_title">Çîrokên YouTube (Ezmûnî)</string>
+    <string name="xfile_seekbar_tapping">Li ser bara lêgeranê vedihewîne</string>
+    <string name="xfile_seekbar_tapping_off">Lêdana li ser bara lêgerrînê (barê pêşveçûna vîdyoyê) neçalak e</string>
+    <string name="xfile_seekbar_tapping_on">Lêdana li ser bara lêgerrînê (bara pêşveçûna vîdyoyê) çalak e</string>
+    <string name="xfile_settings">Mîhengên Vanced</string>
+    <string name="xfile_software_hdr_summary">Destlêdin da ku nermalava HDR çalak bike</string>
+    <string name="xfile_suggestion_summary_off">Ekranên dawî veşartî ne</string>
+    <string name="xfile_suggestion_summary_on">Ekranên dawî tên nîşandan</string>
+    <string name="xfile_suggestion_title">Dawî li ekranan bîne</string>
+    <string name="xfile_support_summary">Girêdanên piştgiriyê</string>
+    <string name="xfile_support_title">Alîkarî</string>
+    <string name="xfile_swipe_padding_top_summary">Mîqdara pîkselên ku di dema dakêşana agahdariyan de ji bo pêşîgirtina kontrolên lêdanê ji bo veqetandina li jor ê pêşandanê nehiştiye</string>
+    <string name="xfile_swipe_padding_top_title">Şemitoka puwazkirî</string>
+    <string name="xfile_swipe_threshold_summary">Mîqdara pîkselên ku hûn neçar in ku şemitandine bikin heya ku tespîtkirin dest pê bike da ku pêşî li vegirtina bêserûber bigirin</string>
+    <string name="xfile_swipe_threshold_title">Şemitandina şîpane</string>
+    <string name="xfile_tablet_miniplayer_summary_off">Lêkera mini tabletê nayê bikaranîn</string>
+    <string name="xfile_tablet_miniplayer_summary_on">Bi karanîna lêkera mini tabletê</string>
+    <string name="xfile_tablet_miniplayer_title">Lêkera mini tabletê</string>
+    <string name="xfile_video_settings_title">Mîhengên vîdyoyê</string>
+    <string name="xfile_vp9_summary">Destlêdin ji bo bi zorê bikaranîna kodê VP9</string>
+    <string name="xfile_vp9_summary_off">Codec VP9 ne mecbûrî ye</string>
+    <string name="xfile_vp9_summary_on">Codec VP9 ji hêla amûrên piştgirî ve ji hêla bixweber ve tête çalak kirin, heke hûn di vîdyoyan de bi stûxwarî/hêdîbûnê re rûbirû nehêlin</string>
+    <string name="xfile_vp9_title">VP9 codec</string>
+    <string name="xfile_website_summary">Destlêdin bo vekirina malpera me</string>
+    <string name="xfile_website_title">Malpera Vanced</string>
+    <string name="xfile_xda_summary">Destlêdin ji bo vekirina postê XDA bike</string>
+    <string name="xfile_xda_title">Dezî XDA</string>
+    <string name="xfile_xfenster_brightness_summary_off">Kontrolên şemitandinê ji bo ronahiyê neçalak in</string>
+    <string name="xfile_xfenster_brightness_summary_on">Kontrolên ji bo ronahiyê tê çalak kirin</string>
+    <string name="xfile_xfenster_brightness_title">Kontrolên ji bo Ronahîyê şemitandinê</string>
+    <string name="xfile_xfenster_screen_summary">Kontrolên şemitandinê yên ji bo Ronahî û Dengê</string>
+    <string name="xfile_xfenster_tablet_summary_off">Tablet style is turned off</string>
+    <string name="xfile_xfenster_tablet_summary_on">Tablet style is turned on. For example suggested videos are only partially working</string>
+    <string name="xfile_xfenster_tablet_title">Tablet style</string>
+    <string name="xfile_xfenster_title">Kontrolên şemitandinê</string>
+    <string name="xfile_xfenster_volume_summary_off">Kontrolên ji bo dengê neçalak in</string>
+    <string name="xfile_xfenster_volume_summary_on">Kontrolên şemitandinê yên ji bo dengê tên çalak kirin</string>
+    <string name="xfile_xfenster_volume_title">Kontrolên ji bo Dengê şemitandin</string>
+    <string name="xfile_zoom_to_fit_vertical_summary_off">Lîstikvanê dînamîk bixweber tê pênasekirin</string>
+    <string name="xfile_zoom_to_fit_vertical_summary_on">Lîstikvanê dînamîk bi zorê li vîdyoyên çargoşe û tîryakî tê ferz kirin</string>
+    <string name="xfile_zoom_to_fit_vertical_title">Lîstikvanê dînamîk</string>
+</resources>

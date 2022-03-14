@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/image_option_image_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/image_option_empty_image_view" android:background="@drawable/image_poll_cell_top_border" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:background="@drawable/round_call_to_action_button_background" android:layout_width="@dimen/image_poll_cell_select_image_background_size" android:layout_height="@dimen/image_poll_cell_select_image_background_size">
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/image_poll_cell_select_image_icon_size" android:layout_height="@dimen/image_poll_cell_select_image_icon_size" android:src="@drawable/quantum_ic_drive_image_white_24" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/image_poll_cell_bottom_border" android:layout_width="fill_parent" android:layout_height="@dimen/image_poll_cell_text_height">
+        <EditText android:textAppearance="?textAppearanceBody1" android:textColor="?ytTextPrimary" android:textColorHint="?ytTextSecondary" android:id="@id/image_option_text" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" android:inputType="text" android:paddingStart="@dimen/image_poll_cell_text_margin_start_end" android:paddingEnd="@dimen/image_poll_cell_text_margin_start_end" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceCaption" android:id="@id/image_option_character_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/image_poll_cell_text_margin_start_end" />
+    </LinearLayout>
+</LinearLayout>

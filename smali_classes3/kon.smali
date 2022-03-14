@@ -1,0 +1,682 @@
+.class public final Lkon;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lkoa;
+.implements Lkok;
+
+
+# static fields
+.field private static final e:I
+
+
+# instance fields
+.field public a:I
+
+.field public b:I
+
+.field public d:J
+
+.field private final f:Lkse;
+
+.field private final g:Lkse;
+
+.field private final h:Lkse;
+
+.field private final i:Lkse;
+
+.field private j:Lkob;
+
+.field private k:I
+
+.field private l:I
+
+.field private m:Lkom;
+
+.field private n:Lkor;
+
+.field private o:Lkoo;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    const-string v0, "FLV"
+
+    .line 1
+    invoke-static {v0}, Lksh;->c(Ljava/lang/String;)I
+
+    move-result v0
+
+    sput v0, Lkon;->e:I
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Lkse;
+
+    const/4 v1, 0x4
+
+    invoke-direct {v0, v1}, Lkse;-><init>(I)V
+
+    iput-object v0, p0, Lkon;->f:Lkse;
+
+    new-instance v0, Lkse;
+
+    const/16 v1, 0x9
+
+    .line 2
+    invoke-direct {v0, v1}, Lkse;-><init>(I)V
+
+    iput-object v0, p0, Lkon;->g:Lkse;
+
+    new-instance v0, Lkse;
+
+    const/16 v1, 0xb
+
+    .line 3
+    invoke-direct {v0, v1}, Lkse;-><init>(I)V
+
+    iput-object v0, p0, Lkon;->h:Lkse;
+
+    new-instance v0, Lkse;
+
+    invoke-direct {v0}, Lkse;-><init>()V
+
+    iput-object v0, p0, Lkon;->i:Lkse;
+
+    const/4 v0, 0x1
+
+    iput v0, p0, Lkon;->k:I
+
+    return-void
+.end method
+
+.method private final g(Lknx;)Lkse;
+    .locals 4
+
+    .line 1
+    iget v0, p0, Lkon;->b:I
+
+    iget-object v1, p0, Lkon;->i:Lkse;
+
+    invoke-virtual {v1}, Lkse;->b()I
+
+    move-result v2
+
+    const/4 v3, 0x0
+
+    if-le v0, v2, :cond_0
+
+    invoke-virtual {v1}, Lkse;->b()I
+
+    move-result v2
+
+    add-int/2addr v2, v2
+
+    invoke-static {v2, v0}, Ljava/lang/Math;->max(II)I
+
+    move-result v0
+
+    new-array v0, v0, [B
+
+    invoke-virtual {v1, v0, v3}, Lkse;->u([BI)V
+
+    goto :goto_0
+
+    .line 2
+    :cond_0
+    invoke-virtual {v1, v3}, Lkse;->w(I)V
+
+    .line 1
+    :goto_0
+    iget-object v0, p0, Lkon;->i:Lkse;
+
+    iget v1, p0, Lkon;->b:I
+
+    .line 3
+    invoke-virtual {v0, v1}, Lkse;->v(I)V
+
+    iget-object v0, p0, Lkon;->i:Lkse;
+
+    iget-object v0, v0, Lkse;->c:Ljava/lang/Object;
+
+    iget v1, p0, Lkon;->b:I
+
+    check-cast v0, [B
+
+    .line 4
+    invoke-virtual {p1, v0, v3, v1}, Lknx;->e([BII)V
+
+    iget-object p1, p0, Lkon;->i:Lkse;
+
+    return-object p1
+.end method
+
+
+# virtual methods
+.method public final a(J)J
+    .locals 0
+
+    const-wide/16 p1, 0x0
+
+    return-wide p1
+.end method
+
+.method public final b()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final c(Lkob;)V
+    .locals 0
+
+    iput-object p1, p0, Lkon;->j:Lkob;
+
+    return-void
+.end method
+
+.method public final d()V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    iput v0, p0, Lkon;->k:I
+
+    const/4 v0, 0x0
+
+    iput v0, p0, Lkon;->l:I
+
+    return-void
+.end method
+
+.method public final e(Lknx;)Z
+    .locals 3
+
+    iget-object v0, p0, Lkon;->f:Lkse;
+
+    iget-object v0, v0, Lkse;->c:Ljava/lang/Object;
+
+    check-cast v0, [B
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x3
+
+    .line 1
+    invoke-virtual {p1, v0, v1, v2}, Lknx;->d([BII)V
+
+    iget-object v0, p0, Lkon;->f:Lkse;
+
+    .line 2
+    invoke-virtual {v0, v1}, Lkse;->w(I)V
+
+    iget-object v0, p0, Lkon;->f:Lkse;
+
+    .line 3
+    invoke-virtual {v0}, Lkse;->i()I
+
+    move-result v0
+
+    sget v2, Lkon;->e:I
+
+    if-eq v0, v2, :cond_0
+
+    return v1
+
+    :cond_0
+    iget-object v0, p0, Lkon;->f:Lkse;
+
+    iget-object v0, v0, Lkse;->c:Ljava/lang/Object;
+
+    check-cast v0, [B
+
+    const/4 v2, 0x2
+
+    .line 4
+    invoke-virtual {p1, v0, v1, v2}, Lknx;->d([BII)V
+
+    iget-object v0, p0, Lkon;->f:Lkse;
+
+    .line 5
+    invoke-virtual {v0, v1}, Lkse;->w(I)V
+
+    iget-object v0, p0, Lkon;->f:Lkse;
+
+    .line 6
+    invoke-virtual {v0}, Lkse;->k()I
+
+    move-result v0
+
+    and-int/lit16 v0, v0, 0xfa
+
+    if-eqz v0, :cond_1
+
+    return v1
+
+    :cond_1
+    iget-object v0, p0, Lkon;->f:Lkse;
+
+    iget-object v0, v0, Lkse;->c:Ljava/lang/Object;
+
+    check-cast v0, [B
+
+    const/4 v2, 0x4
+
+    .line 7
+    invoke-virtual {p1, v0, v1, v2}, Lknx;->d([BII)V
+
+    iget-object v0, p0, Lkon;->f:Lkse;
+
+    .line 8
+    invoke-virtual {v0, v1}, Lkse;->w(I)V
+
+    iget-object v0, p0, Lkon;->f:Lkse;
+
+    .line 9
+    invoke-virtual {v0}, Lkse;->c()I
+
+    move-result v0
+
+    .line 10
+    invoke-virtual {p1}, Lknx;->f()V
+
+    .line 11
+    invoke-virtual {p1, v0}, Lknx;->c(I)V
+
+    iget-object v0, p0, Lkon;->f:Lkse;
+
+    iget-object v0, v0, Lkse;->c:Ljava/lang/Object;
+
+    check-cast v0, [B
+
+    .line 12
+    invoke-virtual {p1, v0, v1, v2}, Lknx;->d([BII)V
+
+    iget-object p1, p0, Lkon;->f:Lkse;
+
+    .line 13
+    invoke-virtual {p1, v1}, Lkse;->w(I)V
+
+    iget-object p1, p0, Lkon;->f:Lkse;
+
+    .line 14
+    invoke-virtual {p1}, Lkse;->c()I
+
+    move-result p1
+
+    if-nez p1, :cond_2
+
+    const/4 p1, 0x1
+
+    return p1
+
+    :cond_2
+    return v1
+.end method
+
+.method public final f(Lknx;Lnqx;)I
+    .locals 9
+
+    :cond_0
+    :goto_0
+    iget p2, p0, Lkon;->k:I
+
+    const/4 v0, -0x1
+
+    const/16 v1, 0x8
+
+    const/16 v2, 0x9
+
+    const/4 v3, 0x2
+
+    const/4 v4, 0x4
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x1
+
+    if-eq p2, v6, :cond_b
+
+    const/4 v7, 0x3
+
+    if-eq p2, v3, :cond_a
+
+    if-eq p2, v7, :cond_8
+
+    if-eq p2, v4, :cond_1
+
+    goto :goto_0
+
+    .line 9
+    :cond_1
+    iget p2, p0, Lkon;->a:I
+
+    if-ne p2, v1, :cond_2
+
+    iget-object p2, p0, Lkon;->m:Lkom;
+
+    if-eqz p2, :cond_3
+
+    .line 20
+    invoke-direct {p0, p1}, Lkon;->g(Lknx;)Lkse;
+
+    move-result-object v0
+
+    iget-wide v1, p0, Lkon;->d:J
+
+    invoke-virtual {p2, v0, v1, v2}, Lkoq;->c(Lkse;J)V
+
+    goto :goto_1
+
+    :cond_2
+    move v1, p2
+
+    :cond_3
+    if-ne v1, v2, :cond_4
+
+    iget-object p2, p0, Lkon;->n:Lkor;
+
+    if-eqz p2, :cond_6
+
+    .line 19
+    invoke-direct {p0, p1}, Lkon;->g(Lknx;)Lkse;
+
+    move-result-object v0
+
+    iget-wide v1, p0, Lkon;->d:J
+
+    invoke-virtual {p2, v0, v1, v2}, Lkoq;->c(Lkse;J)V
+
+    goto :goto_1
+
+    :cond_4
+    const/16 p2, 0x12
+
+    if-ne v1, p2, :cond_6
+
+    .line 18
+    iget-object p2, p0, Lkon;->o:Lkoo;
+
+    if-eqz p2, :cond_6
+
+    .line 17
+    invoke-direct {p0, p1}, Lkon;->g(Lknx;)Lkse;
+
+    move-result-object v0
+
+    iget-wide v1, p0, Lkon;->d:J
+
+    invoke-virtual {p2, v0, v1, v2}, Lkoq;->c(Lkse;J)V
+
+    iget-object p2, p0, Lkon;->o:Lkoo;
+
+    iget-wide v0, p2, Lkoq;->b:J
+
+    const-wide/16 v7, -0x1
+
+    cmp-long v2, v0, v7
+
+    if-eqz v2, :cond_7
+
+    iget-object v2, p0, Lkon;->m:Lkom;
+
+    if-eqz v2, :cond_5
+
+    iput-wide v0, v2, Lkoq;->b:J
+
+    :cond_5
+    iget-object v0, p0, Lkon;->n:Lkor;
+
+    if-eqz v0, :cond_7
+
+    iget-wide v1, p2, Lkoq;->b:J
+
+    iput-wide v1, v0, Lkoq;->b:J
+
+    goto :goto_1
+
+    .line 19
+    :cond_6
+    iget p2, p0, Lkon;->b:I
+
+    .line 18
+    invoke-virtual {p1, p2}, Lknx;->g(I)V
+
+    const/4 v6, 0x0
+
+    .line 20
+    :cond_7
+    :goto_1
+    iput v4, p0, Lkon;->l:I
+
+    iput v3, p0, Lkon;->k:I
+
+    if-eqz v6, :cond_0
+
+    return v5
+
+    .line 0
+    :cond_8
+    iget-object p2, p0, Lkon;->h:Lkse;
+
+    iget-object p2, p2, Lkse;->c:Ljava/lang/Object;
+
+    check-cast p2, [B
+
+    const/16 v1, 0xb
+
+    .line 10
+    invoke-virtual {p1, p2, v5, v1, v6}, Lknx;->j([BIIZ)Z
+
+    move-result p2
+
+    if-nez p2, :cond_9
+
+    return v0
+
+    :cond_9
+    iget-object p2, p0, Lkon;->h:Lkse;
+
+    .line 11
+    invoke-virtual {p2, v5}, Lkse;->w(I)V
+
+    iget-object p2, p0, Lkon;->h:Lkse;
+
+    .line 12
+    invoke-virtual {p2}, Lkse;->h()I
+
+    move-result p2
+
+    iput p2, p0, Lkon;->a:I
+
+    iget-object p2, p0, Lkon;->h:Lkse;
+
+    .line 13
+    invoke-virtual {p2}, Lkse;->i()I
+
+    move-result p2
+
+    iput p2, p0, Lkon;->b:I
+
+    iget-object p2, p0, Lkon;->h:Lkse;
+
+    .line 14
+    invoke-virtual {p2}, Lkse;->i()I
+
+    move-result p2
+
+    int-to-long v0, p2
+
+    iput-wide v0, p0, Lkon;->d:J
+
+    iget-object p2, p0, Lkon;->h:Lkse;
+
+    .line 15
+    invoke-virtual {p2}, Lkse;->h()I
+
+    move-result p2
+
+    shl-int/lit8 p2, p2, 0x18
+
+    int-to-long v0, p2
+
+    iget-wide v2, p0, Lkon;->d:J
+
+    or-long/2addr v0, v2
+
+    const-wide/16 v2, 0x3e8
+
+    mul-long v0, v0, v2
+
+    iput-wide v0, p0, Lkon;->d:J
+
+    iget-object p2, p0, Lkon;->h:Lkse;
+
+    .line 16
+    invoke-virtual {p2, v7}, Lkse;->x(I)V
+
+    iput v4, p0, Lkon;->k:I
+
+    goto/16 :goto_0
+
+    .line 8
+    :cond_a
+    iget p2, p0, Lkon;->l:I
+
+    .line 9
+    invoke-virtual {p1, p2}, Lknx;->g(I)V
+
+    iput v5, p0, Lkon;->l:I
+
+    iput v7, p0, Lkon;->k:I
+
+    goto/16 :goto_0
+
+    .line 16
+    :cond_b
+    iget-object p2, p0, Lkon;->g:Lkse;
+
+    iget-object p2, p2, Lkse;->c:Ljava/lang/Object;
+
+    check-cast p2, [B
+
+    .line 1
+    invoke-virtual {p1, p2, v5, v2, v6}, Lknx;->j([BIIZ)Z
+
+    move-result p2
+
+    if-nez p2, :cond_c
+
+    return v0
+
+    :cond_c
+    iget-object p2, p0, Lkon;->g:Lkse;
+
+    .line 2
+    invoke-virtual {p2, v5}, Lkse;->w(I)V
+
+    iget-object p2, p0, Lkon;->g:Lkse;
+
+    .line 3
+    invoke-virtual {p2, v4}, Lkse;->x(I)V
+
+    iget-object p2, p0, Lkon;->g:Lkse;
+
+    .line 4
+    invoke-virtual {p2}, Lkse;->h()I
+
+    move-result p2
+
+    and-int/lit8 v0, p2, 0x1
+
+    and-int/2addr p2, v4
+
+    if-eqz p2, :cond_d
+
+    iget-object p2, p0, Lkon;->m:Lkom;
+
+    if-nez p2, :cond_d
+
+    new-instance p2, Lkom;
+
+    iget-object v4, p0, Lkon;->j:Lkob;
+
+    .line 5
+    invoke-interface {v4, v1}, Lkob;->n(I)Lkol;
+
+    move-result-object v1
+
+    invoke-direct {p2, v1}, Lkom;-><init>(Lkol;)V
+
+    iput-object p2, p0, Lkon;->m:Lkom;
+
+    :cond_d
+    if-eqz v0, :cond_e
+
+    iget-object p2, p0, Lkon;->n:Lkor;
+
+    if-nez p2, :cond_e
+
+    new-instance p2, Lkor;
+
+    iget-object v0, p0, Lkon;->j:Lkob;
+
+    .line 6
+    invoke-interface {v0, v2}, Lkob;->n(I)Lkol;
+
+    move-result-object v0
+
+    invoke-direct {p2, v0}, Lkor;-><init>(Lkol;)V
+
+    iput-object p2, p0, Lkon;->n:Lkor;
+
+    :cond_e
+    iget-object p2, p0, Lkon;->o:Lkoo;
+
+    if-nez p2, :cond_f
+
+    new-instance p2, Lkoo;
+
+    invoke-direct {p2}, Lkoo;-><init>()V
+
+    iput-object p2, p0, Lkon;->o:Lkoo;
+
+    :cond_f
+    iget-object p2, p0, Lkon;->j:Lkob;
+
+    .line 7
+    invoke-interface {p2}, Lkob;->o()V
+
+    iget-object p2, p0, Lkon;->j:Lkob;
+
+    check-cast p2, Lkof;
+
+    iput-object p0, p2, Lkof;->a:Lkok;
+
+    iget-object p2, p0, Lkon;->g:Lkse;
+
+    .line 8
+    invoke-virtual {p2}, Lkse;->c()I
+
+    move-result p2
+
+    add-int/lit8 p2, p2, -0x5
+
+    iput p2, p0, Lkon;->l:I
+
+    iput v3, p0, Lkon;->k:I
+
+    goto/16 :goto_0
+.end method

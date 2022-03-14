@@ -1,0 +1,111 @@
+.class public final synthetic Ljcs;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Landroid/view/View$OnTouchListener;
+
+
+# instance fields
+.field public final synthetic a:Ljcv;
+
+.field public final synthetic b:I
+
+.field public final synthetic c:Ljava/lang/CharSequence;
+
+.field public final synthetic d:Landroid/widget/ImageView;
+
+
+# direct methods
+.method public synthetic constructor <init>(Ljcv;ILjava/lang/CharSequence;Landroid/widget/ImageView;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Ljcs;->a:Ljcv;
+
+    iput p2, p0, Ljcs;->b:I
+
+    iput-object p3, p0, Ljcs;->c:Ljava/lang/CharSequence;
+
+    iput-object p4, p0, Ljcs;->d:Landroid/widget/ImageView;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
+    .locals 6
+
+    .line 1
+    iget-object p1, p0, Ljcs;->a:Ljcv;
+
+    iget v0, p0, Ljcs;->b:I
+
+    iget-object v1, p0, Ljcs;->c:Ljava/lang/CharSequence;
+
+    iget-object v2, p0, Ljcs;->d:Landroid/widget/ImageView;
+
+    invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
+
+    move-result v3
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x1
+
+    if-nez v3, :cond_0
+
+    invoke-virtual {p1, v0}, Ljcv;->o(I)V
+
+    iget-object p1, p1, Ljcv;->q:Landroid/widget/TextView;
+
+    .line 2
+    invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    :goto_0
+    const/4 v4, 0x1
+
+    goto :goto_1
+
+    .line 3
+    :cond_0
+    invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
+
+    move-result v0
+
+    const/4 v1, 0x3
+
+    if-ne v0, v1, :cond_1
+
+    iget p2, p1, Ljcv;->s:I
+
+    invoke-virtual {p1, p2}, Ljcv;->o(I)V
+
+    iget-object p2, p1, Ljcv;->q:Landroid/widget/TextView;
+
+    iget-object p1, p1, Ljcv;->r:Ljava/lang/CharSequence;
+
+    .line 4
+    invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    goto :goto_0
+
+    .line 5
+    :cond_1
+    invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
+
+    move-result p1
+
+    if-eq p1, v5, :cond_2
+
+    :goto_1
+    return v4
+
+    .line 6
+    :cond_2
+    invoke-virtual {v2}, Landroid/widget/ImageView;->performClick()Z
+
+    return v4
+.end method
