@@ -433,7 +433,7 @@
 
     const/4 v1, 0x0
 
-    const-string v2, "com.mgoogle"
+    const-string v2, "com.google"
 
     aput-object v2, v3, v1
 

@@ -9,8 +9,6 @@
 # static fields
 .field private static final a:J
 
-.field private static context:Landroid/content/Context;
-
 
 # instance fields
 .field public p:Labnl;
@@ -39,35 +37,6 @@
     invoke-direct {p0}, Landroid/app/Application;-><init>()V
 
     return-void
-.end method
-
-.method public static getAppContext()Landroid/content/Context;
-    .locals 2
-
-    .prologue
-    .line 25
-    sget-object v0, Lcom/google/android/apps/youtube/app/YouTubeTikTokRoot_Application;->context:Landroid/content/Context;
-
-    if-nez v0, :cond_0
-
-    .line 26
-    const-string v0, "YouTubeTikTokRoot_Application"
-
-    const-string v1, "Context is null!"
-
-    invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 27
-    const/4 v0, 0x0
-
-    .line 29
-    :goto_0
-    return-object v0
-
-    :cond_0
-    sget-object v0, Lcom/google/android/apps/youtube/app/YouTubeTikTokRoot_Application;->context:Landroid/content/Context;
-
-    goto :goto_0
 .end method
 
 
@@ -1821,10 +1790,6 @@
 
     .line 27
     invoke-super {p0}, Landroid/app/Application;->onCreate()V
-
-    invoke-static {p0}, Lpl/jakubweg/StringRef;->setContext(Landroid/content/Context;)V
-
-    sput-object p0, Lcom/google/android/apps/youtube/app/YouTubeTikTokRoot_Application;->context:Landroid/content/Context;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 

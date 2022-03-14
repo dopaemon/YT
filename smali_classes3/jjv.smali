@@ -85,8 +85,6 @@
     const p1, 0x7f0b00a3
 
     .line 4
-    invoke-static {p4}, Lfi/razerman/youtube/XAdRemover;->HideView(Landroid/view/View;)V
-
     invoke-virtual {p4, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1

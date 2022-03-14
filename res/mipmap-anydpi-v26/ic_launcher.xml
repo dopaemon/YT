@@ -3,5 +3,4 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <background android:drawable="@mipmap/adaptiveproduct_youtube_background_color_108" />
     <foreground android:drawable="@mipmap/adaptiveproduct_youtube_foreground_color_108" />
-    <monochrome android:drawable="@drawable/ic_vanced_monet_icon" />
 </adaptive-icon>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <transition
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/compat_selector_pressed" />
-    <item android:drawable="@drawable/compat_selector_longpressed" />
+    <item android:drawable="@drawable/APKTOOL_DUMMY_1c6" />
+    <item android:drawable="@drawable/APKTOOL_DUMMY_1c5" />
 </transition>

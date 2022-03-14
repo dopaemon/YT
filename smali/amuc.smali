@@ -664,17 +664,6 @@
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    sget-object v0, Lfi/razerman/youtube/XGlobals;->suggestionsShown:Ljava/lang/Boolean;
-
-    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    return-void
-
-    :cond_0
     const-string v0, "pixelValues"
 
     invoke-static {p1, v0}, Lmrr;->g(Ljava/lang/Object;Ljava/lang/String;)V
@@ -682,13 +671,13 @@
     .line 3
     array-length v0, p1
 
-    if-lt v0, p2, :cond_1
+    if-lt v0, p2, :cond_0
 
     const/4 v0, 0x1
 
     goto :goto_0
 
-    :cond_1
+    :cond_0
     const/4 v0, 0x0
 
     :goto_0

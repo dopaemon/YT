@@ -1758,10 +1758,6 @@
 
     const/4 v0, 0x0
 
-    const/4 v0, 0x1
-
-    return v0
-
     if-eqz p0, :cond_4
 
     .line 1

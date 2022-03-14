@@ -441,8 +441,6 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lfi/razerman/youtube/XAdRemover;->HideView(Landroid/view/View;)V
-
     .line 7
     invoke-direct {p0, p1, v0}, Ljco;->h(Lzle;Landroid/view/View;)Ljcn;
 

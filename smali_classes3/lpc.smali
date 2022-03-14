@@ -607,7 +607,7 @@
 
     move-result-object p0
 
-    const-string v2, "com.mgoogle.android.gms"
+    const-string v2, "com.google.android.gms"
 
     .line 8
     invoke-virtual {p0, v2}, Landroid/content/pm/PackageManager;->getResourcesForApplication(Ljava/lang/String;)Landroid/content/res/Resources;
@@ -634,7 +634,7 @@
     :cond_2
     const-string v2, "string"
 
-    const-string v3, "com.mgoogle.android.gms"
+    const-string v3, "com.google.android.gms"
 
     .line 10
     invoke-virtual {p0, p1, v2, v3}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I

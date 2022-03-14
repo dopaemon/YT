@@ -282,7 +282,7 @@
     const/4 v2, 0x0
 
     :try_start_1
-    const-string v3, "com.mgoogle.android.gms"
+    const-string v3, "com.google.android.gms"
 
     const/16 v4, 0x40
 
@@ -369,7 +369,7 @@
     :cond_3
     iget-object v3, v1, Landroid/content/pm/ProviderInfo;->packageName:Ljava/lang/String;
 
-    const-string v4, "com.mgoogle.android.gms"
+    const-string v4, "com.google.android.gms"
 
     invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

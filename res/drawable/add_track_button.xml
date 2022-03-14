@@ -2,5 +2,5 @@
 <layer-list
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/round_button_bg" />
-    <item android:gravity="center" android:drawable="@drawable/ic_add_text_track" />
+    <item android:gravity="center" android:drawable="@drawable/APKTOOL_DUMMY_259" />
 </layer-list>

@@ -10,9 +10,9 @@
             </LinearLayout>
         </LinearLayout>
         <LinearLayout android:id="@id/icons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true" android:layout_marginHorizontal="8.0dip">
-            <ImageView android:id="@id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/yt_outline_arrow_left_black_24" android:tint="?ytIconDisabled" android:contentDescription="@null" android:layout_marginEnd="24.0dip" />
-            <ImageView android:id="@id/open_in_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/yt_outline_open_new_black_24" android:tint="?ytTextPrimary" android:contentDescription="@null" android:layout_marginEnd="24.0dip" />
-            <ImageView android:id="@id/close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/yt_outline_x_black_24" android:tint="?ytTextPrimary" android:contentDescription="@string/accessibility_close_ad_button" />
+            <ImageView android:id="@id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMY_a72" android:tint="?ytIconDisabled" android:contentDescription="@null" android:layout_marginEnd="24.0dip" />
+            <ImageView android:id="@id/open_in_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMY_b07" android:tint="?ytTextPrimary" android:contentDescription="@null" android:layout_marginEnd="24.0dip" />
+            <ImageView android:id="@id/close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMY_b4c" android:tint="?ytTextPrimary" android:contentDescription="@string/accessibility_close_ad_button" />
         </LinearLayout>
     </RelativeLayout>
     <View android:background="?yt10PercentLayer" android:layout_width="fill_parent" android:layout_height="1.0dip" />

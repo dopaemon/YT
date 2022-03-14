@@ -147,8 +147,6 @@
 .method public final k(ILenv;Laijk;)V
     .locals 2
 
-    return-void
-
     if-eqz p2, :cond_0
 
     .line 1

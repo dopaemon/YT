@@ -48,8 +48,6 @@
 
     move-result-object p2
 
-    invoke-static {p2}, Lfi/razerman/youtube/XAdRemover;->HideView(Landroid/view/View;)V
-
     iput-object p2, p0, Ljlv;->a:Landroid/view/View;
 
     const v0, 0x7f0b1165

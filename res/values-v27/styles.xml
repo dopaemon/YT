@@ -10,12 +10,6 @@
         <item name="android:windowLightNavigationBar">false</item>
     </style>
     <style name="Base.Theme.GoogleMaterial.Light" parent="@style/Base.V27.Theme.GoogleMaterial.Light" />
-    <style name="Base.V27.Theme.YouTube.Launcher.Light" parent="@style/Base.V23.Theme.YouTube.Launcher.Light">
-        <item name="android:navigationBarColor">@android:color/transparent</item>
-        <item name="android:windowLightNavigationBar">true</item>
-        <item name="android:navigationBarDividerColor">@android:color/transparent</item>
-        <item name="navigationBarDividerSize">@dimen/navigation_bar_no_divider_size</item>
-    </style>
     <style name="ChannelCreation.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -87,6 +81,12 @@
     <style name="Base.V27.Theme.YouTube.Launcher.Dark" parent="@style/Base.V23.Theme.YouTube.Launcher.Dark">
         <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">@android:color/transparent</item>
+        <item name="navigationBarDividerSize">@dimen/navigation_bar_no_divider_size</item>
+    </style>
+    <style name="Base.V27.Theme.YouTube.Launcher.Light" parent="@style/Base.V23.Theme.YouTube.Launcher.Light">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar">true</item>
         <item name="android:navigationBarDividerColor">@android:color/transparent</item>
         <item name="navigationBarDividerSize">@dimen/navigation_bar_no_divider_size</item>
     </style>

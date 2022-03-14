@@ -47,7 +47,7 @@
     goto :goto_0
 
     :cond_0
-    const-string v0, "com.mgoogle.android.gms.phenotype.internal.IPhenotypeService"
+    const-string v0, "com.google.android.gms.phenotype.internal.IPhenotypeService"
 
     .line 1
     invoke-interface {p1, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
@@ -80,7 +80,7 @@
 .method protected final c()Ljava/lang/String;
     .locals 1
 
-    const-string v0, "com.mgoogle.android.gms.phenotype.internal.IPhenotypeService"
+    const-string v0, "com.google.android.gms.phenotype.internal.IPhenotypeService"
 
     return-object v0
 .end method
@@ -88,7 +88,7 @@
 .method protected final d()Ljava/lang/String;
     .locals 1
 
-    const-string v0, "com.mgoogle.android.gms.phenotype.service.START"
+    const-string v0, "com.google.android.gms.phenotype.service.START"
 
     return-object v0
 .end method

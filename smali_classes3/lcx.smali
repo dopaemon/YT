@@ -18,7 +18,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const-string v0, "com.mgoogle"
+    const-string v0, "com.google"
 
     iput-object v0, p0, Llcx;->a:Ljava/lang/String;
 

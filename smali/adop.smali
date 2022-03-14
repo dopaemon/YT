@@ -6,7 +6,7 @@
 # static fields
 .field static final a:Ladop;
 
-.field private static volatile b:Z
+.field private static volatile b:Z = false
 
 .field private static volatile c:Ladop;
 

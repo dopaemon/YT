@@ -237,61 +237,52 @@
 .method public final G(IIII)V
     .locals 7
 
-    invoke-static {}, Lfi/razerman/youtube/XGlobals;->isFensterBrightnessEnabled()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    return-void
-
     .line 1
-    :cond_0
     iget-boolean v0, p0, Lwju;->n:Z
 
-    if-nez v0, :cond_1
+    if-nez v0, :cond_0
 
     iget-boolean v0, p0, Lwju;->m:Z
 
-    if-eqz v0, :cond_2
+    if-eqz v0, :cond_1
 
-    :cond_1
+    :cond_0
     iget-object v0, p0, Lwju;->l:Landroid/view/Window;
 
-    if-nez v0, :cond_3
+    if-nez v0, :cond_2
 
-    :cond_2
+    :cond_1
     return-void
 
-    :cond_3
+    :cond_2
     const/high16 v0, -0x40800000    # -1.0f
 
-    if-nez p1, :cond_9
+    if-nez p1, :cond_8
 
-    if-nez p2, :cond_9
+    if-nez p2, :cond_8
 
     iget-object p1, p0, Lwju;->c:Landroid/graphics/Point;
 
     iget p1, p1, Landroid/graphics/Point;->x:I
 
-    if-ge p3, p1, :cond_4
+    if-ge p3, p1, :cond_3
 
     iget-object p1, p0, Lwju;->c:Landroid/graphics/Point;
 
     iget p1, p1, Landroid/graphics/Point;->y:I
 
-    if-lt p4, p1, :cond_9
+    if-lt p4, p1, :cond_8
 
-    :cond_4
+    :cond_3
     iget-boolean p1, p0, Lwju;->n:Z
 
-    if-eqz p1, :cond_9
+    if-eqz p1, :cond_8
 
     invoke-virtual {p0}, Lwju;->H()Z
 
     move-result p1
 
-    if-nez p1, :cond_9
+    if-nez p1, :cond_8
 
     iget-object p1, p0, Lwju;->i:Lwgv;
 
@@ -305,13 +296,13 @@
 
     cmpl-float p4, p2, p3
 
-    if-lez p4, :cond_7
+    if-lez p4, :cond_6
 
     iget p4, p0, Lwju;->o:F
 
     cmpl-float v1, p4, p3
 
-    if-nez v1, :cond_5
+    if-nez v1, :cond_4
 
     float-to-double v1, p1
 
@@ -325,40 +316,40 @@
 
     cmpg-double v5, v1, v3
 
-    if-gez v5, :cond_5
+    if-gez v5, :cond_4
 
     iput v0, p0, Lwju;->o:F
 
     goto :goto_0
 
-    :cond_5
+    :cond_4
     cmpl-float p4, p4, v0
 
-    if-nez p4, :cond_6
+    if-nez p4, :cond_5
 
     cmpl-float p1, p1, p2
 
-    if-lez p1, :cond_6
+    if-lez p1, :cond_5
 
     .line 9
     iput p3, p0, Lwju;->o:F
 
     goto :goto_0
 
-    :cond_6
+    :cond_5
     return-void
 
-    :cond_7
+    :cond_6
     iget p1, p0, Lwju;->o:F
 
     cmpl-float p1, p1, p3
 
-    if-nez p1, :cond_8
+    if-nez p1, :cond_7
 
     return-void
 
     .line 6
-    :cond_8
+    :cond_7
     :goto_0
     sget-object p1, Lwhr;->a:Lwhr;
 
@@ -385,10 +376,10 @@
 
     return-void
 
-    :cond_9
+    :cond_8
     iget-boolean p1, p0, Lwju;->m:Z
 
-    if-eqz p1, :cond_a
+    if-eqz p1, :cond_9
 
     iget-object p1, p0, Lwju;->l:Landroid/view/Window;
 
@@ -414,7 +405,7 @@
     .line 5
     sget-object p1, Lwhr;->a:Lwhr;
 
-    :cond_a
+    :cond_9
     return-void
 .end method
 

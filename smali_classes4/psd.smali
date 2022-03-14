@@ -96,7 +96,7 @@
 
     const/4 v2, 0x0
 
-    const-string v3, "com.mgoogle"
+    const-string v3, "com.google"
 
     aput-object v3, v1, v2
 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:id="@id/transition_frame" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageButton android:id="@id/back_button" android:src="@drawable/quantum_ic_close_white_24" android:layout_alignParentTop="true" android:layout_alignParentStart="true" style="@style/UiButton"
+    <ImageButton android:id="@id/back_button" android:src="@drawable/APKTOOL_DUMMY_6e4" android:layout_alignParentTop="true" android:layout_alignParentStart="true" style="@style/UiButton"
       xmlns:android="http://schemas.android.com/apk/res/android" />
     <RelativeLayout android:id="@id/transition_top_frame" android:paddingBottom="48.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
-        <ImageView android:id="@id/transition_icon" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/transition" android:scaleType="center" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/transition_icon" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMY_9a6" android:scaleType="center" android:layout_centerHorizontal="true" />
         <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/transition_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/place_your_phone_into_cardboard" android:layout_below="@id/transition_icon" />
     </RelativeLayout>
     <LinearLayout android:orientation="horizontal" android:id="@id/transition_bottom_frame" android:background="#ff546e7a" android:layout_width="fill_parent" android:layout_height="@dimen/transition_bottom_bar_height" android:layout_alignParentBottom="true">

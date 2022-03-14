@@ -10,5 +10,5 @@
             <FrameLayout android:layout_gravity="center" android:id="@id/filter_thumbnail_border" android:background="@drawable/edit_choose_filter_thumbnail_outline" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
         </com.google.android.libraries.youtube.edit.filters.ui.FilterThumbnailContainer>
     </FrameLayout>
-    <ImageView android:layout_gravity="bottom|center" android:id="@id/new_content_dot" android:visibility="gone" android:layout_width="@dimen/camera_filter_preview_item_dot_dimension" android:layout_height="@dimen/camera_filter_preview_item_dot_dimension" android:layout_marginBottom="@dimen/camera_filter_preview_item_dot_view_bottom_margin" android:src="@drawable/dot" />
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/new_content_dot" android:visibility="gone" android:layout_width="@dimen/camera_filter_preview_item_dot_dimension" android:layout_height="@dimen/camera_filter_preview_item_dot_dimension" android:layout_marginBottom="@dimen/camera_filter_preview_item_dot_view_bottom_margin" android:src="@drawable/APKTOOL_DUMMY_1ed" />
 </FrameLayout>

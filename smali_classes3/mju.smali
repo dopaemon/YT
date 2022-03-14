@@ -35,7 +35,7 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    const-string v0, "content://com.mgoogle.android.gsf.gservices"
+    const-string v0, "content://com.google.android.gsf.gservices"
 
     .line 1
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
@@ -44,7 +44,7 @@
 
     sput-object v0, Lmju;->a:Landroid/net/Uri;
 
-    const-string v0, "content://com.mgoogle.android.gsf.gservices/prefix"
+    const-string v0, "content://com.google.android.gsf.gservices/prefix"
 
     .line 2
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;

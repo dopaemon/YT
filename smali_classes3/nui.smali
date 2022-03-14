@@ -4,9 +4,9 @@
 
 
 # static fields
-.field private static volatile a:Z
+.field private static volatile a:Z = false
 
-.field private static volatile b:Z
+.field private static volatile b:Z = false
 
 
 # direct methods

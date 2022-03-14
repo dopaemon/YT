@@ -4,11 +4,11 @@
 
 
 # static fields
-.field private static r:J
+.field private static r:J = 0x0L
 
 .field protected static final s:Ljava/lang/Object;
 
-.field static t:Z
+.field static t:Z = false
 
 .field private static x:Ldrj;
 

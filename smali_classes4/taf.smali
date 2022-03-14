@@ -868,9 +868,7 @@
 
     iput-object v1, v2, Lagqw;->v:Ljava/lang/String;
 
-    invoke-static {}, Lfi/razerman/youtube/XGlobals;->getManufacturer()Ljava/lang/String;
-
-    move-result-object v1
+    sget-object v1, Landroid/os/Build;->MANUFACTURER:Ljava/lang/String;
 
     .line 19
     invoke-virtual {v0}, Ladox;->copyOnWrite()V
@@ -914,9 +912,7 @@
 
     iput-object v1, v2, Lagqw;->t:Ljava/lang/String;
 
-    invoke-static {}, Lfi/razerman/youtube/XGlobals;->getModel()Ljava/lang/String;
-
-    move-result-object v1
+    sget-object v1, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     .line 25
     invoke-virtual {v0}, Ladox;->copyOnWrite()V

@@ -73,8 +73,6 @@
 
     iput-object p10, p0, Lvos;->g:Ljava/lang/String;
 
-    invoke-static {p1, p2}, Lpl/jakubweg/PlayerController;->setCurrentVideoTimeHighPrecision(J)V
-
     return-void
 .end method
 

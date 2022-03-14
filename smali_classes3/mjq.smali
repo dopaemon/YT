@@ -12,14 +12,14 @@
 
     invoke-direct {v0}, Landroid/content/Intent;-><init>()V
 
-    const-string v1, "com.mgoogle.android.gsf.login"
+    const-string v1, "com.google.android.gsf.login"
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
     move-result-object v0
 
-    const-string v1, "com.mgoogle.android.gsf.action.GET_GLS"
+    const-string v1, "com.google.android.gsf.action.GET_GLS"
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;

@@ -376,10 +376,6 @@
 .method public final c(Z)V
     .locals 1
 
-    invoke-static {p1}, Lpl/jakubweg/ShieldButton;->changeVisibilityNegatedImmediate(Z)V
-
-    invoke-static {p1}, Lpl/jakubweg/VotingButton;->changeVisibilityNegatedImmediate(Z)V
-
     iput-boolean p1, p0, Lyih;->l:Z
 
     iget-boolean v0, p0, Lyih;->o:Z

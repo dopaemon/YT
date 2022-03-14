@@ -4,7 +4,7 @@
 
 
 # static fields
-.field public static volatile a:Z
+.field public static volatile a:Z = false
 
 
 # direct methods

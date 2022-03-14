@@ -5,12 +5,8 @@
     <string name="a11y_new_effect_indicator">new effect</string>
     <string name="a11y_object_moved_to">%1$s moved to %2$s</string>
     <string name="a11y_object_selected_at">%1$s selected at %2$s</string>
-    <item type="string" name="APKTOOL_DUMMY_5" />
     <string name="abc_action_bar_up_description">Navigate up</string>
-    <item type="string" name="APKTOOL_DUMMY_7" />
     <string name="abc_action_mode_done">Done</string>
-    <item type="string" name="APKTOOL_DUMMY_9" />
-    <item type="string" name="APKTOOL_DUMMY_a" />
     <string name="abc_capital_off">OFF</string>
     <string name="abc_capital_on">ON</string>
     <string name="abc_menu_alt_shortcut_label">Alt+</string>
@@ -25,21 +21,15 @@
     <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Search…</string>
     <string name="abc_searchview_description_clear">Clear query</string>
-    <item type="string" name="APKTOOL_DUMMY_19" />
     <string name="abc_searchview_description_search">Search</string>
     <string name="abc_searchview_description_submit">Submit query</string>
     <string name="abc_searchview_description_voice">Voice search</string>
-    <item type="string" name="APKTOOL_DUMMY_1d" />
-    <item type="string" name="APKTOOL_DUMMY_1e" />
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="about_key">about_key</string>
-    <item type="string" name="APKTOOL_DUMMY_21" />
     <string name="accessability_go_to_menu">Go to menu</string>
-    <item type="string" name="APKTOOL_DUMMY_23" />
     <string name="accessibility_addto">Add to</string>
     <string name="accessibility_annotation_overlay_info_cards_drawer_dismiss">Hide cards</string>
     <string name="accessibility_annotation_overlay_promo_dismiss">Close</string>
-    <item type="string" name="APKTOOL_DUMMY_27" />
     <string name="accessibility_audio_muted">Audio muted</string>
     <string name="accessibility_audio_toggle">Tap to mute or unmute playback audio</string>
     <string name="accessibility_audio_unmuted">Audio unmuted</string>
@@ -66,49 +56,36 @@
     <string name="accessibility_channel_subscribe_action">Subscribe to this channel</string>
     <string name="accessibility_channel_unsubscribe_action">Unsubscribe from this channel</string>
     <string name="accessibility_chapters_list_button_hint">Double tap to see a list of chapters</string>
-    <item type="string" name="APKTOOL_DUMMY_42" />
-    <item type="string" name="APKTOOL_DUMMY_43" />
     <string name="accessibility_close_ad_button">Close Ad</string>
     <string name="accessibility_close_button">Close</string>
     <string name="accessibility_close_dialog">Close dialog</string>
     <string name="accessibility_close_share_panel">Close share panel.</string>
     <string name="accessibility_closed_captions">Show closed captions menu</string>
-    <item type="string" name="APKTOOL_DUMMY_49" />
     <string name="accessibility_collapse">Minimize</string>
-    <item type="string" name="APKTOOL_DUMMY_4b" />
     <string name="accessibility_collapse_text">collapse</string>
-    <item type="string" name="APKTOOL_DUMMY_4d" />
     <string name="accessibility_decrement_amount">Decrement amount</string>
     <string name="accessibility_dislike_video">Dislike button</string>
     <string name="accessibility_dismiss">Dismiss</string>
-    <item type="string" name="APKTOOL_DUMMY_51" />
     <string name="accessibility_dismiss_chat_video">Dismiss video</string>
     <string name="accessibility_dismiss_tooltip_button">Dismiss tooltip</string>
     <string name="accessibility_drag_handle">Drag handle</string>
     <string name="accessibility_duration_hour">%1$s %2$s %3$s</string>
     <string name="accessibility_duration_minutes">%1$s %2$s</string>
     <string name="accessibility_edit_custom_thumbnail">Edit thumbnail</string>
-    <item type="string" name="APKTOOL_DUMMY_58" />
-    <item type="string" name="APKTOOL_DUMMY_59" />
     <string name="accessibility_end_screen_play_button">Continue Watching</string>
     <string name="accessibility_enter_fullscreen">Enter fullscreen</string>
     <string name="accessibility_enter_vr_mode">Enter virtual reality mode</string>
-    <item type="string" name="APKTOOL_DUMMY_5d" />
-    <item type="string" name="APKTOOL_DUMMY_5e" />
     <string name="accessibility_exit_fine_scrubbing">Exit fine scrubbing mode</string>
     <string name="accessibility_exit_fullscreen">Exit fullscreen</string>
     <string name="accessibility_expand_button">See more details about upcoming video</string>
     <string name="accessibility_expand_hats_survey">Expand survey</string>
-    <item type="string" name="APKTOOL_DUMMY_63" />
     <string name="accessibility_expand_text">expand</string>
-    <item type="string" name="APKTOOL_DUMMY_65" />
     <string name="accessibility_fast_forward">Fast forward</string>
     <string name="accessibility_feed_filter_bar_content_description">filters</string>
     <string name="accessibility_filter_view_closed">Filter effects list closed.</string>
     <string name="accessibility_filter_view_selected">%s selected</string>
     <string name="accessibility_filter_view_shown">Filter effects list shown.</string>
     <string name="accessibility_filter_view_unselected">%s unselected</string>
-    <item type="string" name="APKTOOL_DUMMY_6c" />
     <string name="accessibility_flashlight_turned_off">Flashlight turned off</string>
     <string name="accessibility_flashlight_turned_on">Flashlight turned on</string>
     <string name="accessibility_floaty_close_button">Close miniplayer</string>
@@ -121,49 +98,37 @@
     <string name="accessibility_hide_player_controls">Hide controls</string>
     <string name="accessibility_hide_relateds">Hide related videos</string>
     <string name="accessibility_image_preview">This is the preview you selected</string>
-    <item type="string" name="APKTOOL_DUMMY_79" />
     <string name="accessibility_increment_amount">Increment amount</string>
     <string name="accessibility_info_cards">Show Cards</string>
-    <item type="string" name="APKTOOL_DUMMY_7c" />
     <string name="accessibility_learn_more">Learn more</string>
     <string name="accessibility_left_trim_handle">%1$s left trim handle</string>
     <string name="accessibility_like_video">Like button</string>
     <string name="accessibility_list_item_drag_end">Moved item %1$d to position %2$d of %3$d</string>
     <string name="accessibility_list_item_drag_over">%1$d</string>
     <string name="accessibility_list_item_drag_start">Moving item %1$d of %2$d</string>
-    <item type="string" name="APKTOOL_DUMMY_83" />
     <string name="accessibility_map_link">Map of this location</string>
     <string name="accessibility_menu">Menu</string>
     <string name="accessibility_miniplayer">Open mini player</string>
     <string name="accessibility_more_actions_video">More actions</string>
-    <item type="string" name="APKTOOL_DUMMY_88" />
-    <item type="string" name="APKTOOL_DUMMY_89" />
     <string name="accessibility_navigate_up_button">Back to album</string>
     <string name="accessibility_navigation_back_button">Back</string>
-    <item type="string" name="APKTOOL_DUMMY_8c" />
     <string name="accessibility_new_content_available">New content available</string>
     <string name="accessibility_next">Next video</string>
-    <item type="string" name="APKTOOL_DUMMY_8f" />
     <string name="accessibility_offline_button_cancel">Stop downloading</string>
     <string name="accessibility_offline_button_cannot_save">"Can't download"</string>
-    <item type="string" name="APKTOOL_DUMMY_92" />
     <string name="accessibility_offline_button_remove_playlist">Remove downloaded playlist</string>
     <string name="accessibility_offline_button_remove_video">Remove from downloads</string>
-    <item type="string" name="APKTOOL_DUMMY_95" />
-    <item type="string" name="APKTOOL_DUMMY_96" />
     <string name="accessibility_offline_button_save">Download</string>
     <string name="accessibility_offline_button_sync">Sync new videos</string>
     <string name="accessibility_open_in_external_browser">Open in browser</string>
     <string name="accessibility_open_keyboard_button">Open Keyboard</string>
     <string name="accessibility_overflow">More options</string>
-    <item type="string" name="APKTOOL_DUMMY_9c" />
     <string name="accessibility_overflow_menu">More options</string>
     <string name="accessibility_parent_tools_toolbar_back">back</string>
     <string name="accessibility_pause">Pause video</string>
     <string name="accessibility_place_image">Picture of this location</string>
     <string name="accessibility_play">Play video</string>
     <string name="accessibility_play_in_youtube">Play in YouTube application</string>
-    <item type="string" name="APKTOOL_DUMMY_a3" />
     <string name="accessibility_player">Expand Mini Player</string>
     <string name="accessibility_player_content_description">Video player</string>
     <string name="accessibility_player_elapsed_time">%1$s elapsed of %2$s</string>
@@ -172,7 +137,6 @@
     <string name="accessibility_player_progress_time">%1$s of %2$s</string>
     <string name="accessibility_player_remaining_time">%1$s remaining of %2$s</string>
     <string name="accessibility_player_remaining_time_hint">Double tap for remaining time</string>
-    <item type="string" name="APKTOOL_DUMMY_ac" />
     <string name="accessibility_playlist_collaboration_settings">Go to playlist collaboration settings</string>
     <string name="accessibility_playlist_download">Download</string>
     <string name="accessibility_playlist_edit">Edit playlist</string>
@@ -181,9 +145,6 @@
     <string name="accessibility_playlist_public">Public playlist</string>
     <string name="accessibility_playlist_share">Share playlist</string>
     <string name="accessibility_playlist_unlisted">Unlisted playlist</string>
-    <item type="string" name="APKTOOL_DUMMY_b5" />
-    <item type="string" name="APKTOOL_DUMMY_b6" />
-    <item type="string" name="APKTOOL_DUMMY_b7" />
     <string name="accessibility_poll_remove_option">Remove option</string>
     <string name="accessibility_preview_available_horizontal_gesture">Drag left and right to reposition the preview</string>
     <string name="accessibility_preview_available_portrait_gesture">Drag up and down to reposition the preview</string>
@@ -198,22 +159,17 @@
     <string name="accessibility_profile_picture_camera_icon">Update profile picture</string>
     <string name="accessibility_quality">Show video quality menu</string>
     <string name="accessibility_recording_end">Recording has ended, entering editor screen</string>
-    <item type="string" name="APKTOOL_DUMMY_c6" />
     <string name="accessibility_reel_portrait_shelf_watched_video_text">Watched</string>
     <string name="accessibility_related_screen">Related videos and playlists</string>
     <string name="accessibility_related_screen_swipe_down">Related videos and playlists. Swipe down with two fingers to close</string>
     <string name="accessibility_related_screen_swipe_up">Related videos and playlists. Swipe up with two fingers to open</string>
     <string name="accessibility_remove_attached_image">Remove attached image</string>
     <string name="accessibility_remove_attached_video">Remove attached video</string>
-    <item type="string" name="APKTOOL_DUMMY_cd" />
     <string name="accessibility_remove_from_playlists">Remove from Playlist</string>
     <string name="accessibility_repeat">Repeat</string>
     <string name="accessibility_replay">Replay video</string>
-    <item type="string" name="APKTOOL_DUMMY_d1" />
-    <item type="string" name="APKTOOL_DUMMY_d2" />
     <string name="accessibility_rewind">Rewind</string>
     <string name="accessibility_right_trim_handle">%1$s right trim handle</string>
-    <item type="string" name="APKTOOL_DUMMY_d5" />
     <string name="accessibility_save_to_playlists">Save to Playlists</string>
     <string name="accessibility_scrubbed_preview">Scrubbed preview</string>
     <string name="accessibility_search_cancel_button_text">Cancel search</string>
@@ -224,7 +180,6 @@
     <string name="accessibility_seek_forward">Seek Forward</string>
     <string name="accessibility_selected">Selected</string>
     <string name="accessibility_send_button">Send reply</string>
-    <item type="string" name="APKTOOL_DUMMY_e0" />
     <string name="accessibility_send_comment_button">Send comment</string>
     <string name="accessibility_send_share">Share</string>
     <string name="accessibility_settings_edu_opt_in_text">Turn on accessibility controls for the video player?</string>
@@ -235,11 +190,9 @@
     <string name="accessibility_share_page">Share</string>
     <string name="accessibility_share_target">App</string>
     <string name="accessibility_share_video">Share video</string>
-    <item type="string" name="APKTOOL_DUMMY_eb" />
     <string name="accessibility_show_channels">Show channels</string>
     <string name="accessibility_show_options_menu">Show options menu</string>
     <string name="accessibility_shuffle">Shuffle</string>
-    <item type="string" name="APKTOOL_DUMMY_ef" />
     <string name="accessibility_smart_downloads_settings">Smart downloads settings</string>
     <string name="accessibility_stories_camera_page">Stories camera page</string>
     <string name="accessibility_timestamp_button">Add a timestamp</string>
@@ -251,9 +204,7 @@
     <string name="accessibility_undo_dislike_video">Undo dislike button</string>
     <string name="accessibility_undo_like_video">Undo like button</string>
     <string name="accessibility_user_image">User Image Button</string>
-    <item type="string" name="APKTOOL_DUMMY_fb" />
     <string name="accessibility_video_reply_button">Attach video to reply</string>
-    <item type="string" name="APKTOOL_DUMMY_fd" />
     <string name="accessibility_watch_in_youtube">Watch this video in YouTube</string>
     <string name="accessibility_watch_metadata_row">%1$s %2$s</string>
     <string name="accessibility_watch_page">Open video player</string>
@@ -278,7 +229,6 @@
     <string name="active_account_header_avatar_label">Your channel</string>
     <string name="ad_badge">Ad</string>
     <string name="ad_button">Ad Button</string>
-    <item type="string" name="APKTOOL_DUMMY_116" />
     <string name="ad_count">%1$d of %2$d</string>
     <string name="ad_learn_more">Visit advertiser</string>
     <string name="ad_minimized">Ad%1$s%2$s</string>
@@ -299,25 +249,16 @@ in %1$ds"</string>
     <string name="add_video_to_offline_error">"Video wasn't downloaded"</string>
     <string name="advertisement">Advertisement</string>
     <string name="advertisement_assurance">Your video will play after this ad</string>
-    <item type="string" name="APKTOOL_DUMMY_12a" />
-    <item type="string" name="APKTOOL_DUMMY_12b" />
     <string name="all_media_album_display_name">Gallery</string>
     <string name="allow_access_button">Allow access</string>
-    <item type="string" name="APKTOOL_DUMMY_12e" />
-    <item type="string" name="APKTOOL_DUMMY_12f" />
-    <item type="string" name="APKTOOL_DUMMY_130" />
-    <item type="string" name="APKTOOL_DUMMY_131" />
     <string name="any">any</string>
     <string name="api_service_name">YouTube Player API Service</string>
     <string name="api_standalone_player_activity_name">YouTube Standalone Player</string>
     <string name="aplosA11yChartTypeCombo">Combo Chart</string>
     <string name="aplosA11yChartTypeGroupBar">{0,choice,1#|1&lt;Grouped }Bar</string>
     <string name="aplosA11yChartTypeLine">Line</string>
-    <item type="string" name="APKTOOL_DUMMY_138" />
     <string name="aplosA11yChartTypeStackedBar">{0,choice,1#|1&lt;Stacked }Bar</string>
     <string name="aplosA11yChartTypeStackedLine">{0,choice,1#|1&lt;Stacked }Line</string>
-    <item type="string" name="APKTOOL_DUMMY_13b" />
-    <item type="string" name="APKTOOL_DUMMY_13c" />
     <string name="aplosA11yChartTypeTemplate">{0} Chart</string>
     <string name="aplosA11yDomainExplorerDomainAnnounce">{0}:</string>
     <string name="aplosA11yDomainExplorerValueAnnounce">{0} is {1}</string>
@@ -339,7 +280,6 @@ in %1$ds"</string>
     <string name="application_name">YouTube</string>
     <string name="apply">Apply</string>
     <string name="approve_playlist_sync">Sync new videos</string>
-    <item type="string" name="APKTOOL_DUMMY_152" />
     <string name="audio_swap_deprecation_message">Starting from February 20th 2020, it will no longer be possible to adjust the audio track of a video in this app. Audio can still be changed in YouTube Studio on a computer.</string>
     <string name="audio_tracks_title">Audio Track</string>
     <string name="audio_unavailable">Audio unavailable</string>
@@ -347,8 +287,7 @@ in %1$ds"</string>
 Try removing and re-adding 
 your account on this device."</string>
     <string name="auth_uncertified_close_button_label">Close</string>
-    <string name="auth_uncertified_notification_play_protect_description2">Your device isn’t certified to run Google apps or use Google services. Contact the device manufacturer or retailer and ask for a certified device.</string>
-    <item type="string" name="APKTOOL_DUMMY_159" />
+    <string name="auth_uncertified_notification_play_protect_description2">Your device isn’t certified to run Google apps or use Google services. Contact the device manufacturer or retailer and ask for a certified device. <a href="https://g.co/AndroidCertifiedDevice">Learn more</a></string>
     <string name="authorized_url_error_browser_not_found">"Couldn't find a browser to open for this request."</string>
     <string name="auto_play_key">auto_play_key</string>
     <string name="auto_switched_to_dark_by_device_theme">Dark theme is on to match your device theme. Adjust in Settings > Appearance.</string>
@@ -357,7 +296,6 @@ your account on this device."</string>
     <string name="auto_translate_subtitles">Auto-translate</string>
     <string name="auto_translate_subtitles_cc_turned_on_with_language">Subtitles/CC turned on %s (auto-translated)</string>
     <string name="autoconnect_action_button">Connect</string>
-    <item type="string" name="APKTOOL_DUMMY_162" />
     <string name="autoconnect_details">Connect to easily access video details, comments &amp; more</string>
     <string name="autoconnect_details_new_copy">Browse for videos, read comments and more while you watch on TV</string>
     <string name="autoconnect_dismiss_button">Not now</string>
@@ -372,7 +310,6 @@ your account on this device."</string>
     <string name="available_storage">Available storage</string>
     <string name="avatar_description">YouTube user image</string>
     <string name="back_button">Back</string>
-    <item type="string" name="APKTOOL_DUMMY_16f" />
     <string name="background_audio_policy_default">@string/on</string>
     <string name="background_audio_policy_off">Off</string>
     <string name="background_audio_policy_on">Always on</string>
@@ -394,8 +331,6 @@ your account on this device."</string>
     <string name="begin_handle_content_description">Left Trim Handle</string>
     <string name="beta">Beta</string>
     <string name="billing_and_payment_key">billing_and_payment_key</string>
-    <item type="string" name="APKTOOL_DUMMY_185" />
-    <item type="string" name="APKTOOL_DUMMY_186" />
     <string name="birthday_description">Birthday image</string>
     <string name="bollard_setting_dialog_title">Reminder frequency</string>
     <string name="bollard_setting_title">Remind me to take a break</string>
@@ -410,7 +345,6 @@ your account on this device."</string>
     <string name="camera_add_sounds_button">Add sound</string>
     <string name="camera_align_button_label">Align</string>
     <string name="camera_can_not_record">"Can't record video"</string>
-    <item type="string" name="APKTOOL_DUMMY_195" />
     <string name="camera_enhance_label">Retouch</string>
     <string name="camera_filter_presets_done">Done</string>
     <string name="camera_flash_button_label">Flash</string>
@@ -426,7 +360,6 @@ your account on this device."</string>
     <string name="camera_permission_positive_button">Open settings</string>
     <string name="camera_preview_error">Front-facing camera issue: please try again</string>
     <string name="camera_recording_time_too_short_click_to_record">Too short, try again</string>
-    <item type="string" name="APKTOOL_DUMMY_1a5" />
     <string name="camera_relight_label">Lighting</string>
     <string name="camera_retouch_off_text">Retouch off</string>
     <string name="camera_retouch_on_text">Retouch on</string>
@@ -436,27 +369,14 @@ your account on this device."</string>
     <string name="camera_timer_template">%1$02d:%2$02d.%4$01d</string>
     <string name="cancel">Cancel</string>
     <string name="cancel_button">Cancel</string>
-    <item type="string" name="APKTOOL_DUMMY_1af" />
     <string name="cannot_find_symbol">"Can't find this symbol?"</string>
     <string name="cannot_watch_offline">This video can’t be watched offline</string>
     <string name="captions_key">captions_key</string>
-    <item type="string" name="APKTOOL_DUMMY_1b3" />
     <string name="cast_auth_error_message_desc">"%1$s couldn't be verified. This could be caused by outdated device firmware."</string>
     <string name="cast_auth_error_message_title">Untrusted device</string>
     <string name="cast_casting_to_device">Casting to %1$s</string>
-    <item type="string" name="APKTOOL_DUMMY_1b7" />
-    <item type="string" name="APKTOOL_DUMMY_1b8" />
-    <item type="string" name="APKTOOL_DUMMY_1b9" />
     <string name="cast_disconnect">Disconnect</string>
-    <item type="string" name="APKTOOL_DUMMY_1bb" />
-    <item type="string" name="APKTOOL_DUMMY_1bc" />
     <string name="cast_expanded_controller_ad_in_progress">Ad in progress…</string>
-    <item type="string" name="APKTOOL_DUMMY_1be" />
-    <item type="string" name="APKTOOL_DUMMY_1bf" />
-    <item type="string" name="APKTOOL_DUMMY_1c0" />
-    <item type="string" name="APKTOOL_DUMMY_1c1" />
-    <item type="string" name="APKTOOL_DUMMY_1c2" />
-    <item type="string" name="APKTOOL_DUMMY_1c3" />
     <string name="cast_forward">Forward</string>
     <string name="cast_forward_10">Forward ten seconds</string>
     <string name="cast_forward_30">Forward thirty seconds</string>
@@ -466,33 +386,14 @@ Watch them on TV."</string>
     <string name="cast_icon_mealbar_title">Watch videos on your TV</string>
     <string name="cast_icon_mealbar_watch_on_tv_text">Watch on TV</string>
     <string name="cast_icon_tooltip_text">Watch on TV</string>
-    <item type="string" name="APKTOOL_DUMMY_1cc" />
-    <item type="string" name="APKTOOL_DUMMY_1cd" />
-    <item type="string" name="APKTOOL_DUMMY_1ce" />
-    <item type="string" name="APKTOOL_DUMMY_1cf" />
-    <item type="string" name="APKTOOL_DUMMY_1d0" />
-    <item type="string" name="APKTOOL_DUMMY_1d1" />
-    <item type="string" name="APKTOOL_DUMMY_1d2" />
-    <item type="string" name="APKTOOL_DUMMY_1d3" />
-    <item type="string" name="APKTOOL_DUMMY_1d4" />
     <string name="cast_pause">Pause</string>
     <string name="cast_play">Play</string>
     <string name="cast_rewind">Rewind</string>
     <string name="cast_rewind_10">Rewind ten seconds</string>
     <string name="cast_rewind_30">Rewind thirty seconds</string>
-    <item type="string" name="APKTOOL_DUMMY_1da" />
     <string name="cast_skip_next">Skip to next item</string>
     <string name="cast_skip_prev">Skip to previous item</string>
-    <item type="string" name="APKTOOL_DUMMY_1dd" />
     <string name="cast_stop_live_stream">Stop live stream</string>
-    <item type="string" name="APKTOOL_DUMMY_1df" />
-    <item type="string" name="APKTOOL_DUMMY_1e0" />
-    <item type="string" name="APKTOOL_DUMMY_1e1" />
-    <item type="string" name="APKTOOL_DUMMY_1e2" />
-    <item type="string" name="APKTOOL_DUMMY_1e3" />
-    <item type="string" name="APKTOOL_DUMMY_1e4" />
-    <item type="string" name="APKTOOL_DUMMY_1e5" />
-    <item type="string" name="APKTOOL_DUMMY_1e6" />
     <string name="cellular_upload_dialog_action_negative">No thanks</string>
     <string name="cellular_upload_dialog_action_positive">Turn on</string>
     <string name="cellular_upload_dialog_do_not_ask_again">"Don't ask me this again."</string>
@@ -500,19 +401,12 @@ Watch them on TV."</string>
     <string name="cellular_upload_dialog_title">Upload over mobile?</string>
     <string name="change_setting">Settings</string>
     <string name="change_sound_option">Change sound</string>
-    <item type="string" name="APKTOOL_DUMMY_1ee" />
     <string name="channel_created">Channel created</string>
-    <item type="string" name="APKTOOL_DUMMY_1f0" />
     <string name="channel_creation_title2">"How you'll appear"</string>
-    <item type="string" name="APKTOOL_DUMMY_1f2" />
-    <item type="string" name="APKTOOL_DUMMY_1f3" />
-    <item type="string" name="APKTOOL_DUMMY_1f4" />
     <string name="channel_mention_dialog_text">View Channel</string>
-    <item type="string" name="APKTOOL_DUMMY_1f6" />
     <string name="channel_settings">Channel settings</string>
     <string name="channel_settings_add_description">Add a description</string>
     <string name="channels_notification_tutorial_description">Never miss an update! Tap the bell to get every notification for this channel.</string>
-    <item type="string" name="APKTOOL_DUMMY_1fa" />
     <string name="chapter_repeat_on">Chapter repeat is on</string>
     <string name="chapter_repeat_turn_off">Turn Off</string>
     <string name="chapter_seek_education_text">Double tap with 2 fingers to skip chapters</string>
@@ -529,13 +423,9 @@ Watch them on TV."</string>
     <string name="clip_edit_edu_text">Tap thumbnail to edit</string>
     <string name="clip_edit_edu_text_2">Adjust the length of the clip</string>
     <string name="close_auth_dialog">Close authentication dialog</string>
-    <item type="string" name="APKTOOL_DUMMY_20b" />
     <string name="close_emoji_picker_button_cd">Close custom emoji picker</string>
-    <item type="string" name="APKTOOL_DUMMY_20d" />
-    <item type="string" name="APKTOOL_DUMMY_20e" />
     <string name="collab_playlist_link_loading">Loading link…</string>
     <string name="collab_playlist_turn_off_confirm_message">Playlist will no longer receive contributions and all collaborators will be removed.</string>
-    <item type="string" name="APKTOOL_DUMMY_211" />
     <string name="combined_notification_text">&lt;b> %1$s &lt;/b> %2$s</string>
     <string name="commands_list">Commands List</string>
     <string name="commands_list_keyboard_command">Ctrl</string>
@@ -553,7 +443,6 @@ Watch them on TV."</string>
     <string name="comments_notifications_channel">Comments and replies</string>
     <string name="commerce_dialog_ok">OK, got it</string>
     <string name="commerce_error_generic">An error occurred</string>
-    <item type="string" name="APKTOOL_DUMMY_223" />
     <string name="common_error_authenticating">There was a problem signing in to your account</string>
     <string name="common_error_connection">Please check your network connection</string>
     <string name="common_error_forbidden_action">"This action isn't allowed"</string>
@@ -581,8 +470,6 @@ Watch them on TV."</string>
     <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
     <string name="common_no_network">No connection</string>
     <string name="common_open_on_phone">Open on phone</string>
-    <item type="string" name="APKTOOL_DUMMY_23f" />
-    <item type="string" name="APKTOOL_DUMMY_240" />
     <string name="confirm">Confirm</string>
     <string name="confirm_by_touching_sensor">Confirm by touching sensor</string>
     <string name="confirm_device_credential_password">Use password</string>
@@ -592,21 +479,14 @@ Watch them on TV."</string>
     <string name="connection_error">Connection error</string>
     <string name="connection_to_server_lost">No connection</string>
     <string name="connectivity_regained_pill_button_title">Latest videos</string>
-    <string name="content_owner_rights_text">to submit a copyright infringement notice</string>
-    <item type="string" name="APKTOOL_DUMMY_24b" />
+    <string name="content_owner_rights_text">If you are the copyright owner of this video and believe it has been uploaded without your permission, please follow <a href="http://www.youtube.com/t/copyright_notice">these directions</a> to submit a copyright infringement notice</string>
     <string name="continue_watching">Continue Watching</string>
-    <item type="string" name="APKTOOL_DUMMY_24d" />
     <string name="continue_watching_on_tv_text">Tap to play now on your TV (%1$s)</string>
     <string name="continue_watching_on_tv_title">Resume on TV: %1$s</string>
     <string name="continue_watching_text">Continue Watching</string>
-    <item type="string" name="APKTOOL_DUMMY_251" />
-    <item type="string" name="APKTOOL_DUMMY_252" />
     <string name="conversation_accessibility_ignore_invitation">Ignore invitation</string>
     <string name="conversation_accessibility_invite_contact">Invite contact</string>
-    <item type="string" name="APKTOOL_DUMMY_255" />
-    <item type="string" name="APKTOOL_DUMMY_256" />
     <string name="copy">Copy</string>
-    <item type="string" name="APKTOOL_DUMMY_258" />
     <string name="cpn_msg_on_error">(Playback ID: %1$s)</string>
     <string name="create_button_text">Create</string>
     <string name="create_playlist_description">Description</string>
@@ -616,7 +496,6 @@ Watch them on TV."</string>
     <string name="crop_image_description">Image</string>
     <string name="crop_image_too_small">Your image dimension is smaller than the minimum supported of %1$d x %2$d px</string>
     <string name="crop_save_button">Save</string>
-    <item type="string" name="APKTOOL_DUMMY_262" />
     <string name="current_playback_time_content_description">Current playback time is %1$d minutes %2$d seconds</string>
     <string name="custom_notification_bullet">•</string>
     <string name="custom_notification_live">LIVE</string>
@@ -639,7 +518,6 @@ Watch them on TV."</string>
     <string name="day_of_week_sticker">Day of the week</string>
     <string name="days_ago">{count, plural, =1{1 day ago} other{# days ago}}</string>
     <string name="default_android_client_id">414843287017-so064kbkr9tli8sfs19nvbkieq5rs9ak.apps.googleusercontent.com</string>
-    <item type="string" name="APKTOOL_DUMMY_279" />
     <string name="default_error_msg">Unknown error</string>
     <string name="default_notifications_channel">General notifications</string>
     <string name="default_web_client_id">414843287017-6hhq9v3hgu4tfcltl0jltb03v26sl4t0.apps.googleusercontent.com</string>
@@ -651,13 +529,6 @@ Watch them on TV."</string>
     <string name="delete_reel_item_confirmation">Remove video from story?</string>
     <string name="delete_reel_item_failed">Failed removing video from story</string>
     <string name="delete_reel_item_succeed">Video deleted from your story</string>
-    <item type="string" name="APKTOOL_DUMMY_285" />
-    <item type="string" name="APKTOOL_DUMMY_286" />
-    <item type="string" name="APKTOOL_DUMMY_287" />
-    <item type="string" name="APKTOOL_DUMMY_288" />
-    <item type="string" name="APKTOOL_DUMMY_289" />
-    <item type="string" name="APKTOOL_DUMMY_28a" />
-    <item type="string" name="APKTOOL_DUMMY_28b" />
     <string name="delete_search_suggestion_confirmation">Remove from search history?</string>
     <string name="delete_search_suggestion_error">Error deleting search suggestion.</string>
     <string name="delete_sound_option">Delete sound</string>
@@ -680,8 +551,6 @@ Error: [%1$d]"</string>
     <string name="dialog_message_incompatible_phone">A Daydream-ready phone is required. Visit the Daydream Help Center for more information.</string>
     <string name="dialog_message_no_cardboard">Get the Cardboard app in order to configure your viewer.</string>
     <string name="dialog_title_incompatible_phone">Incompatible phone</string>
-    <item type="string" name="APKTOOL_DUMMY_2a1" />
-    <item type="string" name="APKTOOL_DUMMY_2a2" />
     <string name="dialog_title_warning">Warning</string>
     <string name="dialog_vr_core_not_enabled">This application may not work properly without enabling Google VR Services, please enable this in phone Settings before continuing.</string>
     <string name="dialog_vr_core_not_installed">This application may not work properly without Google VR Services. Please install Google VR Services from the Play Store before continuing.</string>
@@ -755,14 +624,11 @@ Error: [%1$d]"</string>
     <string name="duration_seconds_ultra_short">%1$ds</string>
     <string name="easy_seek_edu">Slide left or right to seek</string>
     <string name="edit_filter_beam">Beam</string>
-    <item type="string" name="APKTOOL_DUMMY_2ec" />
-    <item type="string" name="APKTOOL_DUMMY_2ed" />
     <string name="edit_filter_dawn">Dawn</string>
     <string name="edit_filter_documentary">Docu</string>
     <string name="edit_filter_dream">Dream</string>
     <string name="edit_filter_eight_mm">8mm</string>
     <string name="edit_filter_glamour">Glamour</string>
-    <item type="string" name="APKTOOL_DUMMY_2f3" />
     <string name="edit_filter_original">Normal</string>
     <string name="edit_filter_sepia">Sepia</string>
     <string name="edit_filter_silver_screen">Silver screen</string>
@@ -773,16 +639,13 @@ Error: [%1$d]"</string>
     <string name="edit_playlist_form_title">Edit playlist</string>
     <string name="edit_settings_action">Edit settings</string>
     <string name="edit_video_done">Video updated</string>
-    <item type="string" name="APKTOOL_DUMMY_2fe" />
     <string name="edit_video_error_empty_title">Please enter a title</string>
     <string name="edit_video_error_failed">Failed to update the video</string>
     <string name="edit_video_form_title">Edit video</string>
     <string name="edited_video_duration_content_description">Edited video duration is %1$d minutes %2$d seconds</string>
-    <item type="string" name="APKTOOL_DUMMY_303" />
     <string name="end_handle_content_description">Right Trim Handle</string>
     <string name="endscreen_element_playlist_count">%1$s</string>
     <string name="enter_fullscreen_chat">Enter full screen chat</string>
-    <item type="string" name="APKTOOL_DUMMY_307" />
     <string name="error_audio_cast_background">"Don't forget to keep YouTube open when casting to your speaker!"</string>
     <string name="error_browser_not_found">"Couldn't find a browser to open for this request."</string>
     <string name="error_comment_failed">There was a problem posting your comment. Please try again.</string>
@@ -794,9 +657,7 @@ Error: [%1$d]"</string>
     <string name="error_icon_content_description">Error</string>
     <string name="error_image_uploading">Error uploading</string>
     <string name="error_invalid_phone_number">Please input a valid phone number.</string>
-    <item type="string" name="APKTOOL_DUMMY_313" />
     <string name="error_link_cannot_be_opened">"YouTube can't open this link"</string>
-    <item type="string" name="APKTOOL_DUMMY_315" />
     <string name="error_network">There was a problem with the network</string>
     <string name="error_no_activity_for_uri">"YouTube can't open this link"</string>
     <string name="error_no_messaging_apps_installed">No messaging apps are installed on this device.</string>
@@ -815,7 +676,6 @@ Error: [%1$d]"</string>
     <string name="error_streaming_devices_quota_per_24h_exceeded">Too many devices or IP addresses have been used to play purchased videos in the past 24 hours – please try again later</string>
     <string name="error_streaming_not_allowed">You cannot watch this video because you have downloaded it on another device</string>
     <string name="error_text_with_bottom_sheet">Something went wrong</string>
-    <item type="string" name="APKTOOL_DUMMY_328" />
     <string name="error_too_many_streams_per_entitlement">Playback stopped because this video is being played on too many devices</string>
     <string name="error_too_many_streams_per_user">Playback stopped because your account is playing too many purchased videos</string>
     <string name="error_unplayable_reason_unknown">An error occurred playing the video</string>
@@ -826,33 +686,13 @@ Error: [%1$d]"</string>
     <string name="error_with_bottom_sheet_button">Try again</string>
     <string name="error_youtube_device_busy">%1$s is in use and could not start YouTube. Try again later.</string>
     <string name="error_youtube_tv_needs_install">YouTube is not installed on %1$s</string>
-    <item type="string" name="APKTOOL_DUMMY_333" />
-    <item type="string" name="APKTOOL_DUMMY_334" />
-    <item type="string" name="APKTOOL_DUMMY_335" />
-    <item type="string" name="APKTOOL_DUMMY_336" />
-    <item type="string" name="APKTOOL_DUMMY_337" />
-    <item type="string" name="APKTOOL_DUMMY_338" />
-    <item type="string" name="APKTOOL_DUMMY_339" />
-    <item type="string" name="APKTOOL_DUMMY_33a" />
-    <item type="string" name="APKTOOL_DUMMY_33b" />
-    <item type="string" name="APKTOOL_DUMMY_33c" />
     <string name="expand_button_message">View %1d more</string>
     <string name="expand_button_title">Advanced</string>
-    <item type="string" name="APKTOOL_DUMMY_33f" />
-    <item type="string" name="APKTOOL_DUMMY_340" />
     <string name="expired_video_title">[Video Expired]</string>
     <string name="explore">Explore</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
-    <item type="string" name="APKTOOL_DUMMY_344" />
-    <item type="string" name="APKTOOL_DUMMY_345" />
     <string name="fallback_client_sorting_section_renderer_header">Playlists (A-Z)</string>
     <string name="fallback_downloads_top_link_title">Downloads</string>
-    <item type="string" name="APKTOOL_DUMMY_348" />
-    <item type="string" name="APKTOOL_DUMMY_349" />
-    <item type="string" name="APKTOOL_DUMMY_34a" />
-    <item type="string" name="APKTOOL_DUMMY_34b" />
-    <item type="string" name="APKTOOL_DUMMY_34c" />
-    <item type="string" name="APKTOOL_DUMMY_34d" />
     <string name="feed_filter_bar_tutorial_description">Tap to filter your feed</string>
     <string name="feedback_notifications_channel">Feedback</string>
     <string name="filmstrip_content_description">Filmstrip</string>
@@ -866,14 +706,11 @@ Error: [%1$d]"</string>
     <string name="fingerprint_failed">Not recognized.</string>
     <string name="fingerprint_icon_description">Fingerprint Icon</string>
     <string name="fingerprint_not_recognized">Not recognized</string>
-    <item type="string" name="APKTOOL_DUMMY_35b" />
     <string name="fingerprint_other_methods_prefix">Verify your account with your fingerprint or %1$s</string>
-    <item type="string" name="APKTOOL_DUMMY_35d" />
     <string name="firebase_database_url">https://com--android.firebaseio.com</string>
     <string name="floaty_bar_queue_status">TV queue • %1$s/%2$s</string>
     <string name="floaty_bar_tutorial_description">Swipe down to dismiss</string>
     <string name="force_muted_video">Audio is unavailable due to a copyright claim</string>
-    <item type="string" name="APKTOOL_DUMMY_362" />
     <string name="forgot_password">Forgot password?</string>
     <string name="forward_button">Forward</string>
     <string name="frequency_compound_time_unit">Every %1$s %2$s</string>
@@ -891,10 +728,10 @@ Error: [%1$d]"</string>
     <string name="gallery_image_display_name_default">Untitled image</string>
     <string name="gallery_permission_allow_access_only_media_description">To create a new video, allow access to Photos</string>
     <string name="gallery_permission_allow_access_storage_camera_description">To create a new video, allow access to Photos and Camera</string>
-    <string name="gallery_permission_open_settings_for_camera">and allow access to Camera</string>
-    <string name="gallery_permission_open_settings_for_camera_storage_description">and allow access to Camera and Storage</string>
-    <string name="gallery_permission_open_settings_for_microphone_secondary">and allow access to Microphone</string>
-    <string name="gallery_permission_open_settings_for_only_media_description">and allow access to Storage</string>
+    <string name="gallery_permission_open_settings_for_camera">To record a new video, go to <b>Settings > Permissions</b> and allow access to Camera</string>
+    <string name="gallery_permission_open_settings_for_camera_storage_description">To create a new video, go to <b>Settings > Permissions</b> and allow access to Camera and Storage</string>
+    <string name="gallery_permission_open_settings_for_microphone_secondary">To continue, go to <b>Settings > Permissions</b> and allow access to Microphone</string>
+    <string name="gallery_permission_open_settings_for_only_media_description">To create a new video, go to <b>Settings > Permissions</b> and allow access to Storage</string>
     <string name="gallery_permissions_missing_camera_secondary_warning">To continue, allow access to Camera and Microphone</string>
     <string name="gallery_permissions_missing_camera_warning">To record a video, allow access to Camera</string>
     <string name="gallery_permissions_missing_microphone_secondary_warning">To continue, allow access to Microphone</string>
@@ -927,7 +764,6 @@ Error: [%1$d]"</string>
     <string name="google_app_id">1:414843287017:android:9d526f6607903f60</string>
     <string name="google_crash_reporting_api_key">AIzaSyCtkvNIR1HCEwzsqK6JuE6KqpyjusIRI30</string>
     <string name="google_play_protect_title">Google Play Protect</string>
-    <item type="string" name="APKTOOL_DUMMY_398" />
     <string name="habanero_entry_point_cta_button">Download playlists</string>
     <string name="habanero_entry_point_offline_message">Connect to the internet to continue</string>
     <string name="habanero_entry_point_subtitle">Downloaded and kept fresh weekly</string>
@@ -980,31 +816,23 @@ Error: [%1$d]"</string>
     <string name="headset_detection_activity_title">HeadsetDetector</string>
     <string name="here_are_some_results_about">Here are some results about %1$s</string>
     <string name="here_are_some_results_about_alternate_en_in">ये रहे %1$s से जुड़े कुछ नतीजे</string>
-    <item type="string" name="APKTOOL_DUMMY_3ad" />
     <string name="hide_button_text">✕</string>
     <string name="history_key">history_key</string>
     <string name="history_search_cancel_button_text">Cancel</string>
     <string name="home">Home</string>
     <string name="hours_ago">{count, plural, =1{1 hour ago} other{# hours ago}}</string>
-    <item type="string" name="APKTOOL_DUMMY_3b3" />
-    <item type="string" name="APKTOOL_DUMMY_3b4" />
     <string name="image_gallery_file_size_too_large_error">"Your image's file size exceeds our limit. Choose an image that's smaller than %1$dMB."</string>
     <string name="image_gallery_permission_allow_access_description">To create a new image post, allow access to Photos</string>
-    <string name="image_gallery_permission_open_settings_description">and allow access to Storage</string>
+    <string name="image_gallery_permission_open_settings_description">To create a new image post, go to <b>Settings > Permissions</b> and allow access to Storage</string>
     <string name="image_gallery_zero_state_text_primary">No photos yet</string>
     <string name="image_gallery_zero_state_text_secondary">Take a photo to add it to a post</string>
-    <item type="string" name="APKTOOL_DUMMY_3ba" />
     <string name="image_upload_error">Failed to upload picture. Please try again.</string>
     <string name="image_upload_something_went_wrong">Oops, something went wrong!</string>
-    <item type="string" name="APKTOOL_DUMMY_3bd" />
-    <item type="string" name="APKTOOL_DUMMY_3be" />
     <string name="in_app_update_downloaded_message">Update downloaded</string>
     <string name="in_app_update_downloading_message">Downloading update...</string>
     <string name="in_app_update_restart_button">RESTART</string>
     <string name="incognito_auto_terminated">Incognito has been turned off due to inactivity</string>
     <string name="indeterminate_upload_progress">Uploading</string>
-    <item type="string" name="APKTOOL_DUMMY_3c4" />
-    <item type="string" name="APKTOOL_DUMMY_3c5" />
     <string name="inline_global_play_pause_off">Off</string>
     <string name="inline_global_play_pause_on">Always on</string>
     <string name="inline_global_play_pause_on_wifi_only">Wi-Fi only</string>
@@ -1015,7 +843,6 @@ Error: [%1$d]"</string>
     <string name="inline_surveys_undo_selection">Undo</string>
     <string name="invalid_qr_code">Invalid QR Code</string>
     <string name="item_view_role_description">Tab</string>
-    <item type="string" name="APKTOOL_DUMMY_3d0" />
     <string name="last_update_recently">Updated recently</string>
     <string name="lc_abr_bitrate_text">Target bitrate</string>
     <string name="lc_abr_frame_rate_text">Target frame rate</string>
@@ -1026,11 +853,9 @@ Error: [%1$d]"</string>
     <string name="lc_camera_facing_accessibility_string">%1$s selected.</string>
     <string name="lc_camera_id_accessibility_string">Camera %1$s.</string>
     <string name="lc_character_counter_text">%1$s/%2$s</string>
-    <item type="string" name="APKTOOL_DUMMY_3db" />
     <string name="lc_chat_off_indicator">Chat hidden</string>
     <string name="lc_confirm_abandon_streaming">Are you sure you want to abandon your stream?</string>
     <string name="lc_confirm_delete_scheduled_stream">Delete scheduled stream?</string>
-    <item type="string" name="APKTOOL_DUMMY_3df" />
     <string name="lc_confirm_stop_streaming">Are you sure you want to stop streaming?</string>
     <string name="lc_crash_recovery_dialog_end_button_text">End</string>
     <string name="lc_crash_recovery_dialog_message">Do you want to resume your last stream where you left off?</string>
@@ -1046,12 +871,7 @@ Error: [%1$d]"</string>
     <string name="lc_default_stream_status_revoked_text">Stream removed by administrator</string>
     <string name="lc_default_stream_status_starting_text">Your stream has started</string>
     <string name="lc_default_stream_status_unknown_text">Unable to check status of stream health</string>
-    <item type="string" name="APKTOOL_DUMMY_3ef" />
-    <item type="string" name="APKTOOL_DUMMY_3f0" />
-    <item type="string" name="APKTOOL_DUMMY_3f1" />
-    <item type="string" name="APKTOOL_DUMMY_3f2" />
     <string name="lc_error_audio_quality_good">@string/lc_error_video_quality_good</string>
-    <item type="string" name="APKTOOL_DUMMY_3f4" />
     <string name="lc_error_audio_quality_poor">@string/lc_error_video_quality_poor</string>
     <string name="lc_error_battery_low">Low battery</string>
     <string name="lc_error_browser_not_found">"Couldn't find a browser to open for this request."</string>
@@ -1065,21 +885,17 @@ Error: [%1$d]"</string>
     <string name="lc_error_scheduled_date_in_past">The scheduled start time should be in the future.</string>
     <string name="lc_error_screen_overlay_permission_required">Permission to display over other apps is required.</string>
     <string name="lc_error_state_account_not_enabled">Mobile live streaming is not enabled on your account</string>
-    <item type="string" name="APKTOOL_DUMMY_402" />
     <string name="lc_error_state_connection_failed">Unable to connect at this moment</string>
     <string name="lc_error_state_no_internet">You are not connected to the internet</string>
     <string name="lc_error_state_reconnecting">Trying to reconnect</string>
-    <item type="string" name="APKTOOL_DUMMY_406" />
     <string name="lc_error_stream_setup_error">Error configuring the live stream</string>
     <string name="lc_error_update_broadcast">Error updating live broadcast</string>
     <string name="lc_error_video_quality_good">Audio and video quality has improved.</string>
-    <item type="string" name="APKTOOL_DUMMY_40a" />
     <string name="lc_error_video_quality_poor">Poor stream quality: stop stream and try again.</string>
     <string name="lc_finish_stream_button_text">Finish</string>
     <string name="lc_front_camera_accessibility_string">Front camera</string>
     <string name="lc_game_title_clear_button_cd">Clear game title</string>
     <string name="lc_game_title_hint">Game title</string>
-    <item type="string" name="APKTOOL_DUMMY_410" />
     <string name="lc_game_title_search_hint">Search game title</string>
     <string name="lc_game_title_set_button_cd">Search game title</string>
     <string name="lc_going_live">Going Live …</string>
@@ -1097,10 +913,7 @@ Error: [%1$d]"</string>
     <string name="lc_live_streaming_account_blocked_more_info">Find out more</string>
     <string name="lc_live_streaming_error">Live Streaming Error</string>
     <string name="lc_live_streaming_not_enabled_no">"Don't stream"</string>
-    <item type="string" name="APKTOOL_DUMMY_422" />
-    <item type="string" name="APKTOOL_DUMMY_423" />
     <string name="lc_mobile_screen_capture_cd">Capture screen</string>
-    <item type="string" name="APKTOOL_DUMMY_425" />
     <string name="lc_must_add_title">How about adding a title first?</string>
     <string name="lc_muted_indicator">Muted</string>
     <string name="lc_not_signed_in">Not signed in</string>
@@ -1109,15 +922,11 @@ Error: [%1$d]"</string>
     <string name="lc_orientation_help">More info on screen capture orientation.</string>
     <string name="lc_orientation_text">Orientation</string>
     <string name="lc_permission_allow_access_description">To go live, allow access to Camera and Microphone</string>
-    <item type="string" name="APKTOOL_DUMMY_42e" />
-    <string name="lc_permission_open_settings_description">and allow access to Camera and Microphone</string>
-    <item type="string" name="APKTOOL_DUMMY_430" />
+    <string name="lc_permission_open_settings_description">To go live, go to <b>Settings > Permissions</b> and allow access to Camera and Microphone</string>
     <string name="lc_permission_open_settings_dialog_confirm">Open Settings</string>
     <string name="lc_permission_open_settings_dialog_dismiss">Not Now</string>
-    <string name="lc_permission_open_settings_location_description">and allow access to Location</string>
-    <string name="lc_permission_open_settings_storage_description">and allow access to Storage</string>
-    <item type="string" name="APKTOOL_DUMMY_435" />
-    <item type="string" name="APKTOOL_DUMMY_436" />
+    <string name="lc_permission_open_settings_location_description">To add a location, go to <b>Settings > Permissions</b> and allow access to Location</string>
+    <string name="lc_permission_open_settings_storage_description">To upload a thumbnail, go to <b>Settings > Permissions</b> and allow access to Storage</string>
     <string name="lc_permissions_missing_location">To add a place, allow access to Location</string>
     <string name="lc_permissions_missing_storage">To upload a thumbnail, allow access to Storage</string>
     <string name="lc_post_stream_done_button_text">Done</string>
@@ -1126,7 +935,6 @@ Error: [%1$d]"</string>
     <string name="lc_retry_no">End Stream</string>
     <string name="lc_retry_yes">Try again</string>
     <string name="lc_rotate_device">Rotate device</string>
-    <item type="string" name="APKTOOL_DUMMY_43f" />
     <string name="lc_statistic_item_cd">%1$s: %2$s</string>
     <string name="lc_stats_bandwidth_test_label">Bandwidth test result</string>
     <string name="lc_stats_current_bitrate_label">Current bitrate</string>
@@ -1135,7 +943,6 @@ Error: [%1$d]"</string>
     <string name="lc_stats_target_bitrate_label">Target bitrate</string>
     <string name="lc_stats_target_frame_rate_label">Target frame rate</string>
     <string name="lc_stats_toggle_text">Show stats for nerds</string>
-    <item type="string" name="APKTOOL_DUMMY_448" />
     <string name="lc_stream_in_portrait">Stream in portrait</string>
     <string name="lc_stream_start_error">Unable to start stream. Check your connection.</string>
     <string name="lc_stream_status_bad_connection">Very bad connection</string>
@@ -1176,9 +983,6 @@ Error: [%1$d]"</string>
     <string name="listening_controls_overflow_menu_item">Listening controls</string>
     <string name="live_badge_text">LIVE</string>
     <string name="live_chat_banner_dismissed">Dismissed.</string>
-    <item type="string" name="APKTOOL_DUMMY_471" />
-    <item type="string" name="APKTOOL_DUMMY_472" />
-    <item type="string" name="APKTOOL_DUMMY_473" />
     <string name="live_chat_header_title">Live chat</string>
     <string name="live_chat_item_context_menu_cd">Chat Actions</string>
     <string name="live_chat_item_context_menu_close_cd">Close</string>
@@ -1191,15 +995,9 @@ Error: [%1$d]"</string>
     <string name="live_chat_purchase_amount">%1$s %2$s</string>
     <string name="live_chat_purchase_flow_retry_button">Try Again</string>
     <string name="live_chat_purchase_flow_retry_message">"Can't load at this time"</string>
-    <item type="string" name="APKTOOL_DUMMY_480" />
     <string name="live_chat_report_form_service_failed">Report service not available. Please try again.</string>
-    <item type="string" name="APKTOOL_DUMMY_482" />
-    <item type="string" name="APKTOOL_DUMMY_483" />
     <string name="live_event_starts_in">This live event will begin in %1$s</string>
-    <item type="string" name="APKTOOL_DUMMY_485" />
     <string name="live_label">LIVE</string>
-    <item type="string" name="APKTOOL_DUMMY_487" />
-    <item type="string" name="APKTOOL_DUMMY_488" />
     <string name="live_upcoming_scheduled_datetime">Scheduled for %1$s</string>
     <string name="livestream_notifications_channel">Livestreams</string>
     <string name="load_less_label">Less</string>
@@ -1207,66 +1005,14 @@ Error: [%1$d]"</string>
     <string name="local_timezone_label">Local Time</string>
     <string name="lock_screen_notifications_channel">Lock screen media controls</string>
     <string name="low_storage_error">Detector dependencies cannot be downloaded due to low device storage</string>
-    <item type="string" name="APKTOOL_DUMMY_490" />
-    <item type="string" name="APKTOOL_DUMMY_491" />
-    <item type="string" name="APKTOOL_DUMMY_492" />
-    <item type="string" name="APKTOOL_DUMMY_493" />
-    <item type="string" name="APKTOOL_DUMMY_494" />
-    <item type="string" name="APKTOOL_DUMMY_495" />
-    <item type="string" name="APKTOOL_DUMMY_496" />
-    <item type="string" name="APKTOOL_DUMMY_497" />
-    <item type="string" name="APKTOOL_DUMMY_498" />
-    <item type="string" name="APKTOOL_DUMMY_499" />
-    <item type="string" name="APKTOOL_DUMMY_49a" />
-    <item type="string" name="APKTOOL_DUMMY_49b" />
-    <item type="string" name="APKTOOL_DUMMY_49c" />
-    <item type="string" name="APKTOOL_DUMMY_49d" />
-    <item type="string" name="APKTOOL_DUMMY_49e" />
-    <item type="string" name="APKTOOL_DUMMY_49f" />
-    <item type="string" name="APKTOOL_DUMMY_4a0" />
-    <item type="string" name="APKTOOL_DUMMY_4a1" />
-    <item type="string" name="APKTOOL_DUMMY_4a2" />
-    <item type="string" name="APKTOOL_DUMMY_4a3" />
-    <item type="string" name="APKTOOL_DUMMY_4a4" />
-    <item type="string" name="APKTOOL_DUMMY_4a5" />
-    <item type="string" name="APKTOOL_DUMMY_4a6" />
-    <item type="string" name="APKTOOL_DUMMY_4a7" />
-    <item type="string" name="APKTOOL_DUMMY_4a8" />
-    <item type="string" name="APKTOOL_DUMMY_4a9" />
-    <item type="string" name="APKTOOL_DUMMY_4aa" />
-    <item type="string" name="APKTOOL_DUMMY_4ab" />
-    <item type="string" name="APKTOOL_DUMMY_4ac" />
-    <item type="string" name="APKTOOL_DUMMY_4ad" />
-    <item type="string" name="APKTOOL_DUMMY_4ae" />
-    <item type="string" name="APKTOOL_DUMMY_4af" />
     <string name="main_flagging_while_offline">"Can't report a video while offline"</string>
     <string name="manage_phone_settings_link">Manage phone settings</string>
     <string name="material_clock_display_divider">:</string>
-    <item type="string" name="APKTOOL_DUMMY_4b3" />
-    <item type="string" name="APKTOOL_DUMMY_4b4" />
-    <item type="string" name="APKTOOL_DUMMY_4b5" />
-    <item type="string" name="APKTOOL_DUMMY_4b6" />
-    <item type="string" name="APKTOOL_DUMMY_4b7" />
     <string name="material_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
     <string name="material_motion_easing_decelerated">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
     <string name="material_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
     <string name="material_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
     <string name="material_motion_easing_standard">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
-    <item type="string" name="APKTOOL_DUMMY_4bd" />
-    <item type="string" name="APKTOOL_DUMMY_4be" />
-    <item type="string" name="APKTOOL_DUMMY_4bf" />
-    <item type="string" name="APKTOOL_DUMMY_4c0" />
-    <item type="string" name="APKTOOL_DUMMY_4c1" />
-    <item type="string" name="APKTOOL_DUMMY_4c2" />
-    <item type="string" name="APKTOOL_DUMMY_4c3" />
-    <item type="string" name="APKTOOL_DUMMY_4c4" />
-    <item type="string" name="APKTOOL_DUMMY_4c5" />
-    <item type="string" name="APKTOOL_DUMMY_4c6" />
-    <item type="string" name="APKTOOL_DUMMY_4c7" />
-    <item type="string" name="APKTOOL_DUMMY_4c8" />
-    <item type="string" name="APKTOOL_DUMMY_4c9" />
-    <item type="string" name="APKTOOL_DUMMY_4ca" />
-    <item type="string" name="APKTOOL_DUMMY_4cb" />
     <string name="mde_thumbnail_bad_resolution_notice">Thumbnails for viewers will be displayed in higher quality than what’s shown here.</string>
     <string name="mde_thumbnail_crop_content_description">Thumbnail preview: left %1$d%%, top %2$d%%, right %3$d%%, bottom %4$d%%</string>
     <string name="mde_thumbnail_image_loading_failed">There was a problem loading the image.</string>
@@ -1274,7 +1020,7 @@ Error: [%1$d]"</string>
     <string name="mdx_accessibility_footer_link_with_tv_code">Goes to the link with TV Code screen.</string>
     <string name="mdx_assisted_tv_sign_in_dialog_desc">Sign in to see all your recommended videos on the big screen</string>
     <string name="mdx_assisted_tv_sign_in_dialog_sign_in_button">SIGN IN</string>
-    <string name="mdx_assisted_tv_sign_in_dialog_title" />
+    <string name="mdx_assisted_tv_sign_in_dialog_title"><b>Get the most out of YouTube on TV</b></string>
     <string name="mdx_audio_cast_not_castable_dialog_message">Get Premium to play all of YouTube Music</string>
     <string name="mdx_audio_cast_not_castable_dialog_negative_button">DISMISS</string>
     <string name="mdx_audio_cast_not_castable_dialog_positive_button">GET PREMIUM</string>
@@ -1285,7 +1031,6 @@ Error: [%1$d]"</string>
     <string name="mdx_audio_cast_partly_castable_dialog_title">Connect to play uploaded music on your speakers</string>
     <string name="mdx_autonav_label_off">Autoplay is off</string>
     <string name="mdx_autonav_label_on">Autoplay is on</string>
-    <item type="string" name="APKTOOL_DUMMY_4de" />
     <string name="mdx_autoplay_overlay_action_cancel">STOP</string>
     <string name="mdx_autoplay_overlay_action_cancel_desc">Next video is starting soon. Double tap to cancel</string>
     <string name="mdx_autoplay_overlay_action_play_now">PLAY NOW</string>
@@ -1295,16 +1040,11 @@ Error: [%1$d]"</string>
     <string name="mdx_background_playback_error_help">Get Help</string>
     <string name="mdx_background_playback_error_text">Tap to retry</string>
     <string name="mdx_background_playback_error_title">Unable to connect to your TV (%1$s)</string>
-    <item type="string" name="APKTOOL_DUMMY_4e8" />
-    <item type="string" name="APKTOOL_DUMMY_4e9" />
-    <item type="string" name="APKTOOL_DUMMY_4ea" />
-    <item type="string" name="APKTOOL_DUMMY_4eb" />
-    <string name="mdx_cast_settings_desc">in Settings to find devices for casting.</string>
+    <string name="mdx_cast_settings_desc">Missing a device? Turn on <b>Use network information</b> in Settings to find devices for casting.</string>
     <string name="mdx_connect_navigation_command_cant_connect_get_help_button">Get help</string>
     <string name="mdx_connect_navigation_command_cant_connect_message">"Can't connect to %s."</string>
     <string name="mdx_connect_navigation_command_no_devices_found_learn_more_button">Learn more</string>
     <string name="mdx_connect_navigation_command_no_devices_found_message">No devices found.</string>
-    <item type="string" name="APKTOOL_DUMMY_4f1" />
     <string name="mdx_connected_to_screen">Connected to &lt;b>%1$s&lt;/b></string>
     <string name="mdx_connecting_to_screen">Connecting to %1$s…</string>
     <string name="mdx_connection_lost">Connection temporarily lost</string>
@@ -1331,19 +1071,15 @@ To avoid this, cancel and sign in to YouTube on your mobile device."</string>
     <string name="mdx_media_route_dialog_footer_learn_more">Learn more</string>
     <string name="mdx_media_route_dialog_footer_link_with_tv_code">Link with TV code</string>
     <string name="mdx_media_route_dialog_searching_title">Connect to a device</string>
-    <item type="string" name="APKTOOL_DUMMY_50a" />
     <string name="mdx_minibar_accessibility_queue_closed_action">TV queue closed</string>
     <string name="mdx_minibar_accessibility_queue_open_action">Open remote queue</string>
     <string name="mdx_minibar_accessibility_queue_opened_action">TV queue opened</string>
-    <item type="string" name="APKTOOL_DUMMY_50e" />
     <string name="mdx_minibar_accessibility_queue_status_last_video">You are on the last video in the TV queue on %1$s with autoplay turned off.</string>
     <string name="mdx_minibar_accessibility_queue_status_next_video">Next video is %1$s which will be playing on %2$s, tap to open TV queue</string>
     <string name="mdx_minibar_description">Cast status bar: tap to open queue</string>
     <string name="mdx_minibar_last_video_text">Last video</string>
-    <item type="string" name="APKTOOL_DUMMY_513" />
     <string name="mdx_minibar_next_video_text">&lt;b>Next:&lt;/b> %1$s</string>
     <string name="mdx_minibar_queue_status">TV queue • %1$s/%2$s</string>
-    <item type="string" name="APKTOOL_DUMMY_516" />
     <string name="mdx_minibar_toggle_description">Open TV queue</string>
     <string name="mdx_next_gen_fiji_close_button_text">Close</string>
     <string name="mdx_next_gen_fiji_connected_to_confirm_text">Connected to %1$s</string>
@@ -1357,7 +1093,6 @@ To avoid this, cancel and sign in to YouTube on your mobile device."</string>
     <string name="mdx_next_gen_fiji_volume_icon_content_description">Volume icon. Sliding the seekbar to the right lets you control the casting volume.</string>
     <string name="mdx_no_device_found_text">No device found</string>
     <string name="mdx_pair_with_tv_prefs_title">Watch on TV</string>
-    <item type="string" name="APKTOOL_DUMMY_524" />
     <string name="mdx_pref_accessibility_use_tv_code_learn_more">Learn more. Opens a help page with more information on using a TV code to connect to a TV.</string>
     <string name="mdx_pref_accessibility_use_tv_code_link_button">Connect to the TV</string>
     <string name="mdx_pref_delete_tv_codes_code_title">@string/mdx_pref_pair_with_tv_delete_tv_codes_title</string>
@@ -1375,7 +1110,6 @@ To avoid this, cancel and sign in to YouTube on your mobile device."</string>
     <string name="mdx_pref_pair_with_tv_header_with_wifi">No TVs found. Make sure your TV is on and connected to Wi-Fi.</string>
     <string name="mdx_pref_pair_with_tv_link_button">LINK</string>
     <string name="mdx_pref_pair_with_tv_link_button_content_description">Link button</string>
-    <item type="string" name="APKTOOL_DUMMY_536" />
     <string name="mdx_pref_pair_with_tv_no_browser_to_show_help_page">No browser available to open the help page.</string>
     <string name="mdx_pref_pair_with_tv_no_tvs_found_no_wifi_button">OPEN Wi-Fi SETTINGS</string>
     <string name="mdx_pref_pair_with_tv_no_tvs_found_no_wifi_summary">"Check your phone settings and try again. If that doesn't work, you can also link your TV and phone using a TV code."</string>
@@ -1389,18 +1123,15 @@ To avoid this, cancel and sign in to YouTube on your mobile device."</string>
     <string name="mdx_pref_pair_with_tv_tv_code_title">Link with TV code</string>
     <string name="mdx_pref_pair_with_tv_unlink_button">UNLINK</string>
     <string name="mdx_pref_pair_with_tv_unlink_button_content_description">Unlink button</string>
-    <item type="string" name="APKTOOL_DUMMY_544" />
     <string name="mdx_pref_pair_with_tv_watching_on_summary">Watching on this TV</string>
     <string name="mdx_pref_use_tv_code_enter_tv_code_header">Enter TV Code</string>
-    <string name="mdx_pref_use_tv_code_get_tv_code_steps">". A blue TV code will appear on your TV.
+    <string name="mdx_pref_use_tv_code_get_tv_code_steps">"1. Open the YouTube app on your TV device.
+2. Go to Settings.
+3. Scroll down to "<b>Link with TV code</b>". A blue TV code will appear on your TV.
 4. Enter the code above. "</string>
     <string name="mdx_pref_use_tv_code_get_tv_code_title">How to get a TV code</string>
     <string name="mdx_pref_use_tv_code_learn_more">LEARN MORE</string>
     <string name="mdx_pref_use_tv_code_link_button">LINK</string>
-    <item type="string" name="APKTOOL_DUMMY_54b" />
-    <item type="string" name="APKTOOL_DUMMY_54c" />
-    <item type="string" name="APKTOOL_DUMMY_54d" />
-    <item type="string" name="APKTOOL_DUMMY_54e" />
     <string name="mdx_pref_use_tv_code_title">@string/mdx_pref_pair_with_tv_tv_code_title</string>
     <string name="mdx_promotional_mealbar_livefeed_channels_mealbar_connect_button_text">WATCH ON TV</string>
     <string name="mdx_promotional_mealbar_livefeed_channels_mealbar_detail_text">See every detail on a bigger screen</string>
@@ -1460,22 +1191,15 @@ Add some videos!"</string>
     <string name="mdx_tv_signin_cancel_snackbar_message">TV sign in canceled</string>
     <string name="mdx_tv_signin_connecting_snackbar_message">"You're now signed in to the TV"</string>
     <string name="mdx_tv_signin_error_snackbar_message">An error occurred while signing in to the TV.</string>
-    <item type="string" name="APKTOOL_DUMMY_589" />
-    <item type="string" name="APKTOOL_DUMMY_58a" />
     <string name="mdx_tvsignin_account_chooser_cancel_button">Cancel</string>
     <string name="mdx_tvsignin_account_chooser_continue_as">CONTINUE AS %1$s</string>
     <string name="mdx_tvsignin_account_chooser_sign_in">SIGN IN</string>
     <string name="mdx_tvsignin_account_chooser_subtitle">Your subscriptions, playlists and more will appear on your TV.</string>
     <string name="mdx_tvsignin_account_chooser_switch_account">SWITCH ACCOUNT</string>
     <string name="mdx_tvsignin_account_chooser_title">Choose an account to sign in</string>
-    <item type="string" name="APKTOOL_DUMMY_591" />
-    <item type="string" name="APKTOOL_DUMMY_592" />
     <string name="mdx_use_tv_code_help_page_error">Error while loading the help page.</string>
-    <item type="string" name="APKTOOL_DUMMY_594" />
-    <item type="string" name="APKTOOL_DUMMY_595" />
     <string name="mdx_voice_query_html_format">%1$s &lt;font color=\"#9B9B9B\">%2$s&lt;/font></string>
     <string name="mentions_in_text_hint">New! Type @ and then a channel to mention them.</string>
-    <item type="string" name="APKTOOL_DUMMY_598" />
     <string name="menu_cast_overflow">Connect to a device</string>
     <string name="menu_clear_offline">Delete all downloads</string>
     <string name="menu_creation">Create video or post</string>
@@ -1490,18 +1214,14 @@ Add some videos!"</string>
     <string name="menu_settings">Settings</string>
     <string name="menu_upload">Upload</string>
     <string name="menu_watch_on_tv">Watch on TV</string>
-    <item type="string" name="APKTOOL_DUMMY_5a7" />
     <string name="minutes_ago">{count, plural, =1{1 minute ago} other{# minutes ago}}</string>
     <string name="missing_dependencies">QR Code detection dependency is missing. Try connecting to WiFi and update Google Play Services.</string>
     <string name="mobile_privacy_uri">https://www.youtube.com/t/terms</string>
     <string name="months_ago">{count, plural, =1{1 month ago} other{# months ago}}</string>
     <string name="more_offers">More offers</string>
-    <item type="string" name="APKTOOL_DUMMY_5ad" />
-    <item type="string" name="APKTOOL_DUMMY_5ae" />
     <string name="mr_cast_button_connected">Cast. Connected</string>
     <string name="mr_cast_button_connecting">Cast. Connecting</string>
     <string name="mr_cast_button_disconnected">Cast. Disconnected</string>
-    <item type="string" name="APKTOOL_DUMMY_5b2" />
     <string name="mr_chooser_searching">Finding devices</string>
     <string name="mr_chooser_title">Cast to</string>
     <string name="mr_controller_album_art">Album art</string>
@@ -1518,46 +1238,7 @@ Add some videos!"</string>
     <string name="mr_controller_stop_casting">Stop casting</string>
     <string name="mr_controller_volume_slider">Volume slider</string>
     <string name="mr_dialog_default_group_name">Group</string>
-    <item type="string" name="APKTOOL_DUMMY_5c3" />
-    <item type="string" name="APKTOOL_DUMMY_5c4" />
-    <item type="string" name="APKTOOL_DUMMY_5c5" />
     <string name="mr_user_route_category_name">Devices</string>
-    <item type="string" name="APKTOOL_DUMMY_5c7" />
-    <item type="string" name="APKTOOL_DUMMY_5c8" />
-    <item type="string" name="APKTOOL_DUMMY_5c9" />
-    <item type="string" name="APKTOOL_DUMMY_5ca" />
-    <item type="string" name="APKTOOL_DUMMY_5cb" />
-    <item type="string" name="APKTOOL_DUMMY_5cc" />
-    <item type="string" name="APKTOOL_DUMMY_5cd" />
-    <item type="string" name="APKTOOL_DUMMY_5ce" />
-    <item type="string" name="APKTOOL_DUMMY_5cf" />
-    <item type="string" name="APKTOOL_DUMMY_5d0" />
-    <item type="string" name="APKTOOL_DUMMY_5d1" />
-    <item type="string" name="APKTOOL_DUMMY_5d2" />
-    <item type="string" name="APKTOOL_DUMMY_5d3" />
-    <item type="string" name="APKTOOL_DUMMY_5d4" />
-    <item type="string" name="APKTOOL_DUMMY_5d5" />
-    <item type="string" name="APKTOOL_DUMMY_5d6" />
-    <item type="string" name="APKTOOL_DUMMY_5d7" />
-    <item type="string" name="APKTOOL_DUMMY_5d8" />
-    <item type="string" name="APKTOOL_DUMMY_5d9" />
-    <item type="string" name="APKTOOL_DUMMY_5da" />
-    <item type="string" name="APKTOOL_DUMMY_5db" />
-    <item type="string" name="APKTOOL_DUMMY_5dc" />
-    <item type="string" name="APKTOOL_DUMMY_5dd" />
-    <item type="string" name="APKTOOL_DUMMY_5de" />
-    <item type="string" name="APKTOOL_DUMMY_5df" />
-    <item type="string" name="APKTOOL_DUMMY_5e0" />
-    <item type="string" name="APKTOOL_DUMMY_5e1" />
-    <item type="string" name="APKTOOL_DUMMY_5e2" />
-    <item type="string" name="APKTOOL_DUMMY_5e3" />
-    <item type="string" name="APKTOOL_DUMMY_5e4" />
-    <item type="string" name="APKTOOL_DUMMY_5e5" />
-    <item type="string" name="APKTOOL_DUMMY_5e6" />
-    <item type="string" name="APKTOOL_DUMMY_5e7" />
-    <item type="string" name="APKTOOL_DUMMY_5e8" />
-    <item type="string" name="APKTOOL_DUMMY_5e9" />
-    <item type="string" name="APKTOOL_DUMMY_5ea" />
     <string name="music_balancer_original_label">Original</string>
     <string name="music_balancer_sound_label">Sound</string>
     <string name="music_scrubber_controller_close_button_text">DONE</string>
@@ -1596,7 +1277,6 @@ Add some videos!"</string>
     <string name="no_camera_permission">Camera permission is not granted and is needed to read QR codes</string>
     <string name="no_manual_offline_content_title">Videos you download will appear here</string>
     <string name="no_offline_content_title">No downloads</string>
-    <item type="string" name="APKTOOL_DUMMY_611" />
     <string name="no_offline_playlists_subtitle">"Use the download button to save playlists. Watch them next time you're offline!"</string>
     <string name="no_offline_playlists_title">No downloaded playlists</string>
     <string name="no_offline_videos_subtitle">"Use the download button to save videos. Watch them next time you're offline!"</string>
@@ -1607,7 +1287,6 @@ Add some videos!"</string>
     <string name="no_subtitles">No captions available for this video</string>
     <string name="no_videos_found">No videos found</string>
     <string name="non_retriable_host_app_verification_service_error_message">Something went wrong</string>
-    <item type="string" name="APKTOOL_DUMMY_61c" />
     <string name="not_set">Not set</string>
     <string name="notification_bullet">•</string>
     <string name="notification_cancel_transfer">Cancel download</string>
@@ -1630,32 +1309,23 @@ Add some videos!"</string>
     <string name="offline_actions_video_deleted_undo_snackbar_text">Video deleted from downloads</string>
     <string name="offline_adding_progress">Downloading… %1$d%%</string>
     <string name="offline_application_name">YouTube</string>
-    <item type="string" name="APKTOOL_DUMMY_633" />
-    <item type="string" name="APKTOOL_DUMMY_634" />
-    <item type="string" name="APKTOOL_DUMMY_635" />
     <string name="offline_bottom_status_bar_connection_lost">No connection</string>
     <string name="offline_bottom_status_bar_connection_regained">Back online</string>
     <string name="offline_button_complete_text">Downloaded</string>
     <string name="offline_button_label_paused">Paused</string>
     <string name="offline_button_loading_snackbar_message">Loading your downloads, try again in a few seconds…</string>
     <string name="offline_button_progress_text">Downloading</string>
-    <item type="string" name="APKTOOL_DUMMY_63c" />
-    <item type="string" name="APKTOOL_DUMMY_63d" />
-    <item type="string" name="APKTOOL_DUMMY_63e" />
-    <item type="string" name="APKTOOL_DUMMY_63f" />
     <string name="offline_click_queued_offline_video_snackbar_text">This video is not downloaded yet.</string>
     <string name="offline_dialog_download_failed">Download failed</string>
     <string name="offline_dialog_message_expired">Renew videos to keep them available offline. This does not re-download the video.</string>
     <string name="offline_dialog_title_expired">Renew expired videos?</string>
-    <item type="string" name="APKTOOL_DUMMY_644" />
-    <string name="offline_dialog_waiting_for_discount_or_wifi_message">during discounted data hours.</string>
+    <string name="offline_dialog_waiting_for_discount_or_wifi_message">This video will download when <b>either</b> you have a Wi-Fi connection <b>or</b> during discounted data hours.</string>
     <string name="offline_dialog_waiting_for_discount_title">Waiting to download</string>
     <string name="offline_error_no_external_storage">"Can't download. Please insert an SD card."</string>
     <string name="offline_expiration_dialog_renew_button">Renew</string>
     <string name="offline_expired">Expired – tap to renew</string>
     <string name="offline_failed">Failed to download</string>
     <string name="offline_failed_disk_error">Disk read/write error</string>
-    <item type="string" name="APKTOOL_DUMMY_64c" />
     <string name="offline_failed_file_not_found">File not found, tap to learn more</string>
     <string name="offline_failed_network_error">Network error</string>
     <string name="offline_fallback_notification">Looking for incomplete downloads</string>
@@ -1694,7 +1364,6 @@ Add some videos!"</string>
     <string name="offline_retry_failed_videos_menu_item">Try downloading failed videos again?</string>
     <string name="offline_save_button_text">Save</string>
     <string name="offline_share_button_text">Share</string>
-    <item type="string" name="APKTOOL_DUMMY_673" />
     <string name="offline_stream_out_of_date">Unplayable, tap to download again</string>
     <string name="offline_stream_pending">Waiting for sync</string>
     <string name="offline_stream_selection_error">"This video can't be downloaded"</string>
@@ -1722,7 +1391,6 @@ Add some videos!"</string>
     <string name="offline_waiting_for_space">Waiting for more storage</string>
     <string name="offline_waiting_for_wifi">Waiting for Wi-Fi…</string>
     <string name="offline_waiting_tap_here">Waiting to download. Tap here to learn more.</string>
-    <item type="string" name="APKTOOL_DUMMY_68f" />
     <string name="og_add_another_account">Add another account</string>
     <string name="og_choose_an_account_title">Choose an account</string>
     <string name="og_collapse_account_list_a11y">Collapse account list.</string>
@@ -1733,7 +1401,6 @@ Add some videos!"</string>
     <string name="og_loading_a11y">Loading</string>
     <string name="og_selected_account_a11y">%1$s selected.</string>
     <string name="og_sign_in_">Sign In</string>
-    <item type="string" name="APKTOOL_DUMMY_69a" />
     <string name="og_use_account_a11y_no_period">Use %1$s</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -1746,49 +1413,23 @@ Add some videos!"</string>
     <string name="op3_allow_access_in_settings">Allow access in Settings</string>
     <string name="op3_allow_access_to_photos">Allow access to photos</string>
     <string name="op3_allow_access_to_photos_in_settings">Allow access to photos in Settings</string>
-    <item type="string" name="APKTOOL_DUMMY_6a7" />
-    <item type="string" name="APKTOOL_DUMMY_6a8" />
-    <item type="string" name="APKTOOL_DUMMY_6a9" />
-    <item type="string" name="APKTOOL_DUMMY_6aa" />
-    <item type="string" name="APKTOOL_DUMMY_6ab" />
-    <item type="string" name="APKTOOL_DUMMY_6ac" />
-    <item type="string" name="APKTOOL_DUMMY_6ad" />
-    <item type="string" name="APKTOOL_DUMMY_6ae" />
-    <item type="string" name="APKTOOL_DUMMY_6af" />
-    <item type="string" name="APKTOOL_DUMMY_6b0" />
-    <item type="string" name="APKTOOL_DUMMY_6b1" />
-    <item type="string" name="APKTOOL_DUMMY_6b2" />
     <string name="op3_change_profile_picture">Change profile picture</string>
     <string name="op3_check_your_connection">Check your connection</string>
     <string name="op3_choose_photo">Choose a photo</string>
-    <item type="string" name="APKTOOL_DUMMY_6b6" />
     <string name="op3_dismiss">Dismiss</string>
     <string name="op3_edit_crop_and_rotate">Crop &amp; rotate</string>
     <string name="op3_edit_info_button">More information on profile picture shape</string>
     <string name="op3_edit_photo_a11y_label">Photo %.1fx</string>
     <string name="op3_edit_rotate_button">Rotate 90 degrees counterclockwise</string>
-    <item type="string" name="APKTOOL_DUMMY_6bc" />
     <string name="op3_edit_save">Save as profile picture</string>
     <string name="op3_edit_shape_message">Your picture may appear as a circle or a square in different Google services</string>
-    <item type="string" name="APKTOOL_DUMMY_6bf" />
-    <item type="string" name="APKTOOL_DUMMY_6c0" />
-    <item type="string" name="APKTOOL_DUMMY_6c1" />
     <string name="op3_fullscreen_error_settings_button">Settings</string>
     <string name="op3_menu_help">Help</string>
-    <item type="string" name="APKTOOL_DUMMY_6c4" />
     <string name="op3_menu_past_profile_pictures">Past profile pictures</string>
     <string name="op3_menu_send_feedback">Send feedback</string>
-    <item type="string" name="APKTOOL_DUMMY_6c7" />
-    <item type="string" name="APKTOOL_DUMMY_6c8" />
     <string name="op3_more">More</string>
-    <item type="string" name="APKTOOL_DUMMY_6ca" />
     <string name="op3_nameless_cluster_photo_content_description">Photo</string>
     <string name="op3_picker_accessibility_photo">Photo taken on %s</string>
-    <item type="string" name="APKTOOL_DUMMY_6cd" />
-    <item type="string" name="APKTOOL_DUMMY_6ce" />
-    <item type="string" name="APKTOOL_DUMMY_6cf" />
-    <item type="string" name="APKTOOL_DUMMY_6d0" />
-    <item type="string" name="APKTOOL_DUMMY_6d1" />
     <string name="op3_picker_browse_face_groups_title">More people &amp; pets</string>
     <string name="op3_picker_camera">Camera</string>
     <string name="op3_picker_clusters_header_text">Pick a face to see more photos of them</string>
@@ -1798,67 +1439,21 @@ Add some videos!"</string>
     <string name="op3_picker_more_from_google_photos">More from Google Photos</string>
     <string name="op3_picker_people_and_pets">People &amp; pets</string>
     <string name="op3_picker_photos_of_you">Photos of you</string>
-    <item type="string" name="APKTOOL_DUMMY_6db" />
-    <item type="string" name="APKTOOL_DUMMY_6dc" />
-    <item type="string" name="APKTOOL_DUMMY_6dd" />
-    <item type="string" name="APKTOOL_DUMMY_6de" />
-    <item type="string" name="APKTOOL_DUMMY_6df" />
-    <item type="string" name="APKTOOL_DUMMY_6e0" />
     <string name="op3_preview_profile_picture">Profile picture</string>
-    <item type="string" name="APKTOOL_DUMMY_6e2" />
-    <item type="string" name="APKTOOL_DUMMY_6e3" />
-    <item type="string" name="APKTOOL_DUMMY_6e4" />
-    <item type="string" name="APKTOOL_DUMMY_6e5" />
-    <item type="string" name="APKTOOL_DUMMY_6e6" />
-    <item type="string" name="APKTOOL_DUMMY_6e7" />
-    <item type="string" name="APKTOOL_DUMMY_6e8" />
-    <item type="string" name="APKTOOL_DUMMY_6e9" />
-    <item type="string" name="APKTOOL_DUMMY_6ea" />
-    <item type="string" name="APKTOOL_DUMMY_6eb" />
     <string name="op3_retry">Retry</string>
-    <item type="string" name="APKTOOL_DUMMY_6ed" />
-    <item type="string" name="APKTOOL_DUMMY_6ee" />
-    <item type="string" name="APKTOOL_DUMMY_6ef" />
-    <item type="string" name="APKTOOL_DUMMY_6f0" />
-    <item type="string" name="APKTOOL_DUMMY_6f1" />
-    <item type="string" name="APKTOOL_DUMMY_6f2" />
-    <item type="string" name="APKTOOL_DUMMY_6f3" />
     <string name="op3_something_went_wrong">Something went wrong</string>
-    <item type="string" name="APKTOOL_DUMMY_6f5" />
-    <item type="string" name="APKTOOL_DUMMY_6f6" />
-    <item type="string" name="APKTOOL_DUMMY_6f7" />
-    <item type="string" name="APKTOOL_DUMMY_6f8" />
-    <item type="string" name="APKTOOL_DUMMY_6f9" />
-    <item type="string" name="APKTOOL_DUMMY_6fa" />
     <string name="op3_update_got_it">Got it</string>
-    <item type="string" name="APKTOOL_DUMMY_6fc" />
-    <item type="string" name="APKTOOL_DUMMY_6fd" />
-    <item type="string" name="APKTOOL_DUMMY_6fe" />
-    <item type="string" name="APKTOOL_DUMMY_6ff" />
-    <item type="string" name="APKTOOL_DUMMY_700" />
     <string name="open_chapters_list">Chapters</string>
     <string name="open_emoji_picker_button_cd">Open custom emoji picker</string>
     <string name="open_key_moments_list">Key moments</string>
     <string name="open_settings_button">Open settings</string>
-    <item type="string" name="APKTOOL_DUMMY_705" />
-    <item type="string" name="APKTOOL_DUMMY_706" />
-    <item type="string" name="APKTOOL_DUMMY_707" />
-    <item type="string" name="APKTOOL_DUMMY_708" />
-    <item type="string" name="APKTOOL_DUMMY_709" />
-    <item type="string" name="APKTOOL_DUMMY_70a" />
     <string name="other_methods_modal_cancel_text">Cancel</string>
     <string name="other_methods_modal_header">Choose a way to verify</string>
     <string name="other_methods_suffix">choose another way to verify.</string>
     <string name="overflow_captions">Captions</string>
-    <item type="string" name="APKTOOL_DUMMY_70f" />
-    <item type="string" name="APKTOOL_DUMMY_710" />
-    <item type="string" name="APKTOOL_DUMMY_711" />
-    <item type="string" name="APKTOOL_DUMMY_712" />
     <string name="overflow_quality">Quality</string>
-    <item type="string" name="APKTOOL_DUMMY_714" />
     <string name="overflow_search_filter">Filters</string>
     <string name="pair_with_tv_key">pair_with_tv_key</string>
-    <item type="string" name="APKTOOL_DUMMY_717" />
     <string name="parent_tools_key">parent_tools_key</string>
     <string name="parent_tools_tool_bar_title">Parent settings</string>
     <string name="partial_playback_end_of_downloaded_bytes">Waiting for download to resume</string>
@@ -1881,7 +1476,7 @@ Add some videos!"</string>
     <string name="permission_allow_access_button">Allow access</string>
     <string name="permission_fragment_title">Search with your voice</string>
     <string name="permission_open_settings_button">Open settings</string>
-    <string name="permission_open_settings_location">and allow access to Location</string>
+    <string name="permission_open_settings_location">To search for nearby places, go to <b>Settings > Permissions</b> and allow access to Location</string>
     <string name="permission_title">Start the show</string>
     <string name="permissions_missing_location">To search for nearby places, allow access to Location</string>
     <string name="permissions_not_now">Not now</string>
@@ -1891,12 +1486,11 @@ Add some videos!"</string>
     <string name="persistent_video_quality_high_description">Uses more data</string>
     <string name="persistent_video_quality_high_label">Higher picture quality</string>
     <string name="persistent_video_quality_intro_description">Select your default streaming quality for all videos. You can change streaming quality in player options for single videos.</string>
-    <string name="persistent_video_quality_intro_heading">Video quality preferences</string>
+    <string name="persistent_video_quality_intro_heading">Video quality preferences <b>(BETA)</b></string>
     <string name="persistent_video_quality_low_description">Lower picture quality</string>
     <string name="persistent_video_quality_low_label">Data saver</string>
     <string name="persistent_video_quality_mobile_network_heading">VIDEO QUALITY ON MOBILE NETWORKS</string>
     <string name="persistent_video_quality_wifi_heading">VIDEO QUALITY ON WI-FI</string>
-    <item type="string" name="APKTOOL_DUMMY_73d" />
     <string name="photos_album_display_name">Photos</string>
     <string name="pip_cancel_autoplay">Cancel autoplay for next video</string>
     <string name="pip_is_not_available_for_this_video">This video can not be viewed in Picture-in-Picture mode</string>
@@ -1904,8 +1498,6 @@ Add some videos!"</string>
     <string name="pip_play_next_video">Play next video</string>
     <string name="pip_playback_control_replay">Replay the video</string>
     <string name="pip_playback_control_retry">Retry the playback</string>
-    <item type="string" name="APKTOOL_DUMMY_745" />
-    <item type="string" name="APKTOOL_DUMMY_746" />
     <string name="place_your_phone_into_cardboard">Place your phone into your Cardboard viewer</string>
     <string name="place_your_viewer_into_viewer_format">Place your phone into your %s viewer</string>
     <string name="play_all">Play all</string>
@@ -1946,7 +1538,6 @@ Add some videos!"</string>
     <string name="playlist_shuffle">Shuffle play</string>
     <string name="playlist_size_total_and_downloaded">%1$s • %2$s</string>
     <string name="playlist_skipped_unavailable_videos">"Skipped one or more videos that weren't available"</string>
-    <item type="string" name="APKTOOL_DUMMY_76f" />
     <string name="pref_about_category">About</string>
     <string name="pref_accessibility_player_for_app_summary">Display accessibility controls in the player</string>
     <string name="pref_accessibility_player_for_app_title">Accessibility player</string>
@@ -1967,7 +1558,6 @@ Add some videos!"</string>
     <string name="pref_dark_theme_for_app_summary">Reduce glare &amp; improve night viewing</string>
     <string name="pref_dark_theme_for_app_title">Dark theme</string>
     <string name="pref_developer_category">Developer</string>
-    <item type="string" name="APKTOOL_DUMMY_784" />
     <string name="pref_dogfood_category">Dogfood</string>
     <string name="pref_double_tap_skip_duration_title">Double-tap to seek</string>
     <string name="pref_double_tap_skip_entry_10s">10</string>
@@ -2019,7 +1609,7 @@ Add some videos!"</string>
     <string name="pref_safety_mode_title">Restricted Mode</string>
     <string name="pref_settings_accessibility">Accessibility</string>
     <string name="pref_settings_data_saving">Data saving</string>
-    <string name="pref_settings_video_quality">Video quality preferences</string>
+    <string name="pref_settings_video_quality">Video quality preferences <b>(BETA)</b></string>
     <string name="pref_settings_video_quality_nonbeta">Video quality preferences</string>
     <string name="pref_smart_downloads_opted_in_title">Smart downloads</string>
     <string name="pref_subtitles_category">Captions</string>
@@ -2027,13 +1617,11 @@ Add some videos!"</string>
     <string name="pref_upload_policy_title">Uploads</string>
     <string name="pref_voice_language_title">Voice search language</string>
     <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
-    <item type="string" name="APKTOOL_DUMMY_7c0" />
     <string name="preferences_license_title">Open source licenses</string>
     <string name="premiering_now_badge_text">PREMIERE</string>
     <string name="premium_early_access_browse_page_key">premium_early_access_browse_page_key</string>
     <string name="prev_chapter">Previous Chapter</string>
     <string name="prev_chapter_keyboard_command">Alt ←</string>
-    <item type="string" name="APKTOOL_DUMMY_7c6" />
     <string name="primes_marker">PrImEs</string>
     <string name="privacy_key">privacy_key</string>
     <string name="problem_while_playing">There was a problem while playing</string>
@@ -2049,10 +1637,7 @@ Add some videos!"</string>
     <string name="quality_ds_res">Data Saver %1$s</string>
     <string name="quality_hpq_res">Higher Picture Quality %1$s</string>
     <string name="quality_label">(%1$s)</string>
-    <item type="string" name="APKTOOL_DUMMY_7d6" />
     <string name="quality_title">Quality</string>
-    <item type="string" name="APKTOOL_DUMMY_7d8" />
-    <item type="string" name="APKTOOL_DUMMY_7d9" />
     <string name="readd_offline">Download</string>
     <string name="readd_to_offline">Download again</string>
     <string name="readd_to_offline_video">Download again?</string>
@@ -2061,7 +1646,6 @@ Add some videos!"</string>
     <string name="reconnecting">Reconnecting…</string>
     <string name="reconnecting_to_screen">Reconnecting to %1$s…</string>
     <string name="redirect_to_mobile_web">Visit YouTube.com</string>
-    <item type="string" name="APKTOOL_DUMMY_7e2" />
     <string name="reel_accessibility_camera_close_button">Close</string>
     <string name="reel_accessibility_camera_effects_button">Effects</string>
     <string name="reel_accessibility_camera_presets_button">Filters</string>
@@ -2075,23 +1659,19 @@ Add some videos!"</string>
     <string name="reel_accessibility_edit_choose_filter">Filters</string>
     <string name="reel_accessibility_edit_draw">Draw</string>
     <string name="reel_accessibility_edit_next">Next</string>
-    <item type="string" name="APKTOOL_DUMMY_7f0" />
     <string name="reel_accessibility_edit_volume_trim_button">Trim</string>
     <string name="reel_accessibility_end_page_spinner">Please Wait</string>
     <string name="reel_accessibility_enter_editor_page">Editor screen</string>
     <string name="reel_accessibility_like_announcement">Video liked</string>
-    <item type="string" name="APKTOOL_DUMMY_7f5" />
     <string name="reel_accessibility_menu">Menu</string>
     <string name="reel_accessibility_next_reel">Next Story</string>
     <string name="reel_accessibility_next_video">Next Video</string>
-    <item type="string" name="APKTOOL_DUMMY_7f9" />
     <string name="reel_accessibility_pause_video">Pause Video</string>
     <string name="reel_accessibility_pivot_page_menu_button">More</string>
     <string name="reel_accessibility_play_video">Play Video</string>
     <string name="reel_accessibility_playback_ended">End of the story</string>
     <string name="reel_accessibility_playback_index">Playing video %1$d of %2$d</string>
     <string name="reel_accessibility_player_back_button">Back</string>
-    <item type="string" name="APKTOOL_DUMMY_800" />
     <string name="reel_accessibility_previous_reel">Previous Story</string>
     <string name="reel_accessibility_previous_video">Previous Video</string>
     <string name="reel_accessibility_story_channel_announcement">Playing story %1$s, %2$s</string>
@@ -2114,11 +1694,6 @@ Add some videos!"</string>
     <string name="reel_camera_no_external_storage">Insert an SD card before using the camera.</string>
     <string name="reel_camera_out_of_space">Out of storage space on this device</string>
     <string name="reel_camera_server_error">Server error.</string>
-    <item type="string" name="APKTOOL_DUMMY_817" />
-    <item type="string" name="APKTOOL_DUMMY_818" />
-    <item type="string" name="APKTOOL_DUMMY_819" />
-    <item type="string" name="APKTOOL_DUMMY_81a" />
-    <item type="string" name="APKTOOL_DUMMY_81b" />
     <string name="reel_camera_start_record">Start Record Button</string>
     <string name="reel_camera_stop_record">Stop Record Button</string>
     <string name="reel_camera_switch_to_front_button">Switch to front camera</string>
@@ -2151,7 +1726,6 @@ Add some videos!"</string>
     <string name="reel_edit_video_trim_done_button_text">Done</string>
     <string name="reel_editor_post_button_text">Post</string>
     <string name="reel_edu_continue_text">Tap anywhere to continue</string>
-    <item type="string" name="APKTOOL_DUMMY_83c" />
     <string name="reel_edu_next_description">Tap the right side icon</string>
     <string name="reel_edu_next_message">Tap the right side</string>
     <string name="reel_edu_next_title">Next</string>
@@ -2182,20 +1756,14 @@ Add some videos!"</string>
     <string name="reel_gallery_video_wrong_ratio">Selected video is not 9:16.</string>
     <string name="reel_generic_error_message">Something went wrong</string>
     <string name="reel_loading_dialog_text">Loading creative tools</string>
-    <item type="string" name="APKTOOL_DUMMY_85b" />
     <string name="reel_nerd_stats">Stats for nerds</string>
-    <item type="string" name="APKTOOL_DUMMY_85d" />
     <string name="reel_overflow_menu_error">Failed to access menu. Please try again.</string>
     <string name="reel_permission_allow_access_description">To create a new video, allow access to Photos, Camera, and Microphone</string>
-    <string name="reel_permission_open_settings_description">and allow access to Camera, Microphone, and Storage</string>
-    <string name="reel_permission_open_settings_location">and allow access to Location</string>
+    <string name="reel_permission_open_settings_description">To create a new video, go to <b>Settings > Permissions</b> and allow access to Camera, Microphone, and Storage</string>
+    <string name="reel_permission_open_settings_location">To search for nearby places, go to <b>Settings > Permissions</b> and allow access to Location</string>
     <string name="reel_permissions_missing_location">To search for nearby places, allow access to Location</string>
     <string name="reel_persistent_edu_text">Swipe</string>
     <string name="reel_player_menu_title_text">More</string>
-    <item type="string" name="APKTOOL_DUMMY_865" />
-    <item type="string" name="APKTOOL_DUMMY_866" />
-    <item type="string" name="APKTOOL_DUMMY_867" />
-    <item type="string" name="APKTOOL_DUMMY_868" />
     <string name="reel_sticker_usage_limit_description">Video sticker has already been added in another segment from this story. Only one video sticker is allowed.</string>
     <string name="reel_text_size_slider_description">Swipe up or down to adjust the text size.</string>
     <string name="reel_timestamp_separator">•</string>
@@ -2208,14 +1776,9 @@ Add some videos!"</string>
     <string name="reel_upload_bottomsheet_uploading">Uploading · %1$s</string>
     <string name="reel_upload_bottomsheet_waiting_for_network">Waiting for network</string>
     <string name="reel_upload_bottomsheet_waiting_for_wifi">Waiting for Wi-Fi</string>
-    <item type="string" name="APKTOOL_DUMMY_875" />
     <string name="reel_upload_default_snackbar_text">Uploading to your story</string>
     <string name="reel_upload_snackbar_action_button_text">View</string>
     <string name="reel_upload_snackbar_text">Added to \"%1$s\"</string>
-    <item type="string" name="APKTOOL_DUMMY_879" />
-    <item type="string" name="APKTOOL_DUMMY_87a" />
-    <item type="string" name="APKTOOL_DUMMY_87b" />
-    <item type="string" name="APKTOOL_DUMMY_87c" />
     <string name="reel_video_editor_fail_save_photo">Failed to save photo to camera roll.</string>
     <string name="reel_video_editor_fail_save_video">Failed to save video to camera roll.</string>
     <string name="reel_video_editor_succeed_save_media">Saved</string>
@@ -2244,10 +1807,6 @@ Add some videos!"</string>
     <string name="rental_expired_dialog_title">Rental expired</string>
     <string name="rental_long_less_than_one_hour_remaining">Expires in less than 1 hour</string>
     <string name="rental_medium_less_than_one_hour_remaining">Exp. in &lt; 1 hr.</string>
-    <item type="string" name="APKTOOL_DUMMY_899" />
-    <item type="string" name="APKTOOL_DUMMY_89a" />
-    <item type="string" name="APKTOOL_DUMMY_89b" />
-    <item type="string" name="APKTOOL_DUMMY_89c" />
     <string name="rented">Rented</string>
     <string name="replace_fragment_failed">"Can't perform the action."</string>
     <string name="reply_added">Reply added</string>
@@ -2260,7 +1819,6 @@ Add some videos!"</string>
  Tap to retry"</string>
     <string name="retry_fingerprint">Not recognized, try again</string>
     <string name="retry_offline">Try downloading again</string>
-    <item type="string" name="APKTOOL_DUMMY_8a8" />
     <string name="retry_password">Wrong password. Try again or click Forgot password to reset it.</string>
     <string name="sans_serif_medium_fontFamily">sans-serif-medium</string>
     <string name="save_cross_device_offline_menu">Save</string>
@@ -2270,128 +1828,44 @@ Add some videos!"</string>
     <string name="save_playlist_changes_dialog_title">Save playlist changes</string>
     <string name="save_playlist_menu_item_title">Save</string>
     <string name="scheduled_time_local_format">Scheduled for %s (local time)</string>
-    <item type="string" name="APKTOOL_DUMMY_8b2" />
     <string name="screen_name">TV %1$d</string>
-    <item type="string" name="APKTOOL_DUMMY_8b4" />
     <string name="screen_queue">Add to queue</string>
-    <item type="string" name="APKTOOL_DUMMY_8b6" />
     <string name="screencast_blocking_snackbar_text">Feature blocked during screencast</string>
     <string name="screencast_cam_disabled_button_description">Camera disabled</string>
     <string name="screencast_cam_off_button_description">Turn the camera off</string>
     <string name="screencast_cam_on_button_description">Turn the camera on</string>
-    <item type="string" name="APKTOOL_DUMMY_8bb" />
     <string name="screencast_capture_active_error">Capture session stopped: please try again</string>
     <string name="screencast_capture_communication_error">Unable to communicate with YouTube: please check your connection</string>
-    <item type="string" name="APKTOOL_DUMMY_8be" />
-    <item type="string" name="APKTOOL_DUMMY_8bf" />
-    <item type="string" name="APKTOOL_DUMMY_8c0" />
-    <item type="string" name="APKTOOL_DUMMY_8c1" />
-    <item type="string" name="APKTOOL_DUMMY_8c2" />
-    <item type="string" name="APKTOOL_DUMMY_8c3" />
-    <item type="string" name="APKTOOL_DUMMY_8c4" />
-    <item type="string" name="APKTOOL_DUMMY_8c5" />
-    <item type="string" name="APKTOOL_DUMMY_8c6" />
-    <item type="string" name="APKTOOL_DUMMY_8c7" />
-    <item type="string" name="APKTOOL_DUMMY_8c8" />
-    <item type="string" name="APKTOOL_DUMMY_8c9" />
     <string name="screencast_capture_stopped_on_sign_out">Stopping stream because you have signed out</string>
-    <item type="string" name="APKTOOL_DUMMY_8cb" />
-    <item type="string" name="APKTOOL_DUMMY_8cc" />
-    <item type="string" name="APKTOOL_DUMMY_8cd" />
     <string name="screencast_chat_off_button_description">Hide chat</string>
     <string name="screencast_chat_on_button_description">Display chat</string>
-    <item type="string" name="APKTOOL_DUMMY_8d0" />
-    <item type="string" name="APKTOOL_DUMMY_8d1" />
-    <item type="string" name="APKTOOL_DUMMY_8d2" />
-    <item type="string" name="APKTOOL_DUMMY_8d3" />
-    <item type="string" name="APKTOOL_DUMMY_8d4" />
-    <item type="string" name="APKTOOL_DUMMY_8d5" />
-    <item type="string" name="APKTOOL_DUMMY_8d6" />
-    <item type="string" name="APKTOOL_DUMMY_8d7" />
-    <item type="string" name="APKTOOL_DUMMY_8d8" />
-    <item type="string" name="APKTOOL_DUMMY_8d9" />
-    <item type="string" name="APKTOOL_DUMMY_8da" />
-    <item type="string" name="APKTOOL_DUMMY_8db" />
-    <item type="string" name="APKTOOL_DUMMY_8dc" />
-    <item type="string" name="APKTOOL_DUMMY_8dd" />
-    <item type="string" name="APKTOOL_DUMMY_8de" />
-    <item type="string" name="APKTOOL_DUMMY_8df" />
-    <item type="string" name="APKTOOL_DUMMY_8e0" />
-    <item type="string" name="APKTOOL_DUMMY_8e1" />
-    <item type="string" name="APKTOOL_DUMMY_8e2" />
     <string name="screencast_go_live_button_name">Go live</string>
-    <item type="string" name="APKTOOL_DUMMY_8e4" />
     <string name="screencast_mic_off_button_description">Turn the microphone off</string>
     <string name="screencast_mic_on_button_description">Turn the microphone on</string>
     <string name="screencast_mic_update_error">Microphone error during capture session</string>
     <string name="screencast_notification_text">Tap to end your YouTube screen capture session</string>
-    <item type="string" name="APKTOOL_DUMMY_8e9" />
     <string name="screencast_notification_title_cancel_stream">Cancel stream</string>
-    <item type="string" name="APKTOOL_DUMMY_8eb" />
     <string name="screencast_notification_title_stop_stream">Stop streaming</string>
     <string name="screencast_offline">Offline</string>
     <string name="screencast_pause_button_description">Pause</string>
     <string name="screencast_pause_error">Could not pause screencast</string>
-    <item type="string" name="APKTOOL_DUMMY_8f0" />
-    <item type="string" name="APKTOOL_DUMMY_8f1" />
-    <item type="string" name="APKTOOL_DUMMY_8f2" />
-    <item type="string" name="APKTOOL_DUMMY_8f3" />
-    <item type="string" name="APKTOOL_DUMMY_8f4" />
-    <item type="string" name="APKTOOL_DUMMY_8f5" />
-    <item type="string" name="APKTOOL_DUMMY_8f6" />
-    <item type="string" name="APKTOOL_DUMMY_8f7" />
-    <item type="string" name="APKTOOL_DUMMY_8f8" />
-    <item type="string" name="APKTOOL_DUMMY_8f9" />
     <string name="screencast_resume_button_description">Resume</string>
     <string name="screencast_resume_error">Could not resume screencast</string>
     <string name="screencast_self_cam_description">Your front facing camera view</string>
     <string name="screencast_self_view_description">Your profile image</string>
-    <item type="string" name="APKTOOL_DUMMY_8fe" />
-    <item type="string" name="APKTOOL_DUMMY_8ff" />
-    <item type="string" name="APKTOOL_DUMMY_900" />
-    <item type="string" name="APKTOOL_DUMMY_901" />
     <string name="screencast_settings_back_button_description">Back</string>
     <string name="screencast_settings_button_description">Settings</string>
-    <item type="string" name="APKTOOL_DUMMY_904" />
-    <item type="string" name="APKTOOL_DUMMY_905" />
-    <item type="string" name="APKTOOL_DUMMY_906" />
-    <item type="string" name="APKTOOL_DUMMY_907" />
-    <item type="string" name="APKTOOL_DUMMY_908" />
-    <item type="string" name="APKTOOL_DUMMY_909" />
-    <item type="string" name="APKTOOL_DUMMY_90a" />
-    <item type="string" name="APKTOOL_DUMMY_90b" />
-    <item type="string" name="APKTOOL_DUMMY_90c" />
     <string name="screencast_stop_record_button_description">Stop recording</string>
-    <item type="string" name="APKTOOL_DUMMY_90e" />
-    <item type="string" name="APKTOOL_DUMMY_90f" />
-    <item type="string" name="APKTOOL_DUMMY_910" />
-    <item type="string" name="APKTOOL_DUMMY_911" />
-    <item type="string" name="APKTOOL_DUMMY_912" />
-    <item type="string" name="APKTOOL_DUMMY_913" />
-    <item type="string" name="APKTOOL_DUMMY_914" />
-    <item type="string" name="APKTOOL_DUMMY_915" />
     <string name="screencast_stream_paused">Your stream has been paused</string>
     <string name="screencast_stream_resumed">Your stream has been resumed</string>
-    <item type="string" name="APKTOOL_DUMMY_918" />
     <string name="screencast_stream_transmitting">Your stream has started</string>
-    <item type="string" name="APKTOOL_DUMMY_91a" />
-    <item type="string" name="APKTOOL_DUMMY_91b" />
-    <item type="string" name="APKTOOL_DUMMY_91c" />
-    <item type="string" name="APKTOOL_DUMMY_91d" />
-    <item type="string" name="APKTOOL_DUMMY_91e" />
     <string name="scrub_seek_bar_short">Seek Bar</string>
     <string name="search">Search</string>
     <string name="search_360_videos">Search \"360 videos\"</string>
-    <item type="string" name="APKTOOL_DUMMY_922" />
-    <item type="string" name="APKTOOL_DUMMY_923" />
-    <item type="string" name="APKTOOL_DUMMY_924" />
-    <item type="string" name="APKTOOL_DUMMY_925" />
-    <item type="string" name="APKTOOL_DUMMY_926" />
     <string name="search_filter_title">Search filter</string>
     <string name="search_for_an_artist">Search for an artist</string>
     <string name="search_hint">Search YouTube</string>
     <string name="search_incognito_message">"Search history is paused while you're incognito"</string>
-    <item type="string" name="APKTOOL_DUMMY_92b" />
     <string name="search_offline_hint">Search downloads</string>
     <string name="search_title">YouTube</string>
     <string name="search_your_NBA_team">Search your NBA team</string>
@@ -2409,25 +1883,18 @@ Add some videos!"</string>
     <string name="send_chat_button_cd">Send</string>
     <string name="send_playlist">Share this playlist</string>
     <string name="send_video">Share this video via</string>
-    <item type="string" name="APKTOOL_DUMMY_93d" />
-    <item type="string" name="APKTOOL_DUMMY_93e" />
     <string name="set_reminder">Set Reminder</string>
     <string name="setting_nerd_stats">Stats for nerds</string>
-    <item type="string" name="APKTOOL_DUMMY_941" />
     <string name="settings">Settings</string>
     <string name="settings_button">SETTINGS</string>
     <string name="settings_button_content_description">settings</string>
-    <item type="string" name="APKTOOL_DUMMY_945" />
-    <item type="string" name="APKTOOL_DUMMY_946" />
     <string name="share">Share</string>
-    <item type="string" name="APKTOOL_DUMMY_948" />
     <string name="share_copy_url_success">URL copied to clipboard</string>
     <string name="share_panel_add_more_contacts">Add more contacts</string>
     <string name="share_subject">Watch \"%1$s\" on YouTube</string>
     <string name="share_text">%1$s: %2$s</string>
     <string name="share_untitled">Untitled</string>
     <string name="shared_queue_disconnect_toast">All videos in the shared TV queue are still viewable. To remove your videos, relink to TV.</string>
-    <item type="string" name="APKTOOL_DUMMY_94f" />
     <string name="shorts_a11y_add_segment">Add segment to project</string>
     <string name="shorts_a11y_align_controls">Preview last frame</string>
     <string name="shorts_a11y_camera_align_overlay">Camera align overlay</string>
@@ -2466,7 +1933,6 @@ Add some videos!"</string>
     <string name="shorts_camera_green_screen_request_access_button_text">Allow access</string>
     <string name="shorts_camera_green_screen_request_access_dialog_text">View and share your photos</string>
     <string name="shorts_camera_no_media_dialog_text">Add photos to your camera roll to get started</string>
-    <item type="string" name="APKTOOL_DUMMY_976" />
     <string name="shorts_continue_project_dialog_continue">Continue</string>
     <string name="shorts_continue_project_dialog_start_new">Start new</string>
     <string name="shorts_continue_project_dialog_start_new_project_message">Starting over will discard your last draft.</string>
@@ -2475,13 +1941,10 @@ Add some videos!"</string>
     <string name="shorts_continue_project_dialog_title">Continue your draft video?</string>
     <string name="shorts_countdown_timer_countdown_label">Countdown</string>
     <string name="shorts_countdown_timer_stop_point_label">Drag to change where recording stops</string>
-    <item type="string" name="APKTOOL_DUMMY_97f" />
-    <item type="string" name="APKTOOL_DUMMY_980" />
     <string name="shorts_creation_start_new_cancel">Cancel</string>
     <string name="shorts_creation_start_new_continue">Continue</string>
     <string name="shorts_creation_start_new_project">Create new Short video?</string>
     <string name="shorts_creation_start_new_project_message">If you continue, your last one will be deleted</string>
-    <item type="string" name="APKTOOL_DUMMY_985" />
     <string name="shorts_edit_edit_text_tooltip">Edit</string>
     <string name="shorts_editor_close_confirmation_exit">Save as draft</string>
     <string name="shorts_editor_close_confirmation_reshoot">Discard edits</string>
@@ -2503,11 +1966,11 @@ Add some videos!"</string>
     <string name="shorts_green_screen_title">Green screen</string>
     <string name="shorts_multi_segment_progress_bar_start_label">Start</string>
     <string name="shorts_multi_segment_progress_bar_stop_label">Stop</string>
-    <string name="shorts_permission_camera_open_settings_description">and allow access to Camera and Microphone</string>
+    <string name="shorts_permission_camera_open_settings_description">Open <b>Settings > Permissions</b> and allow access to Camera and Microphone</string>
     <string name="shorts_permission_camera_open_settings_title">This feature requires Camera and Microphone access</string>
     <string name="shorts_permission_open_settings_dialog_confirm">Open Settings</string>
     <string name="shorts_permission_open_settings_dialog_dismiss">Not Now</string>
-    <string name="shorts_permission_storage_open_settings_description">and allow access to Storage</string>
+    <string name="shorts_permission_storage_open_settings_description">Open <b>Settings > Permissions</b> and allow access to Storage</string>
     <string name="shorts_permission_storage_open_settings_title">This feature requires Storage access</string>
     <string name="shorts_recording_tooltip_time_x">Record up to %1$ds</string>
     <string name="shorts_segment_import_bottom_sheet_title">Add clip</string>
@@ -2551,7 +2014,6 @@ ad in %1$ds"</string>
     <string name="skip_ads">Skip ads</string>
     <string name="skip_scanning">SKIP</string>
     <string name="skip_survey">Skip survey</string>
-    <item type="string" name="APKTOOL_DUMMY_9c9" />
     <string name="smart_downloads_future_update_today_text">Smart downloads will automatically update today</string>
     <string name="smart_downloads_future_update_wifi_text">"Smart downloads will automatically update the next time you're on WiFi"</string>
     <string name="smart_downloads_last_updated_today_text">Updated today</string>
@@ -2587,11 +2049,8 @@ Best experienced with headphones."</string>
     <string name="stop_upload_dialog_positive">Discard</string>
     <string name="stop_upload_dialog_title">Discard changes?</string>
     <string name="storage_free">&lt;b>%1$s&lt;/b> Free</string>
-    <item type="string" name="APKTOOL_DUMMY_9ec" />
-    <item type="string" name="APKTOOL_DUMMY_9ed" />
     <string name="storage_used">&lt;b>%1$s&lt;/b> Used</string>
-    <item type="string" name="APKTOOL_DUMMY_9ef" />
-    <string name="stories_aadc_dialog_text">To keep yourself and our community safe, avoid sharing personal info and follow our</string>
+    <string name="stories_aadc_dialog_text">To keep yourself and our community safe, avoid sharing personal info and follow our <a href="https://support.google.com/youtube/answer/9288567">Community Guidelines</a></string>
     <string name="stories_aadc_dialog_title">Remember that anyone can see public videos</string>
     <string name="stories_add_link_enter_url">Enter a URL</string>
     <string name="stories_add_link_header">Add link</string>
@@ -2601,7 +2060,6 @@ Best experienced with headphones."</string>
     <string name="stories_link_sticker_usage_details">Keep viewers interested by sharing a variety of updates</string>
     <string name="stories_link_sticker_usage_exceeded">You recently shared a URL in your Story. Try using other stickers to share your most recent updates.</string>
     <string name="stories_link_sticker_usage_notice">You can share a link once every 7 days</string>
-    <item type="string" name="APKTOOL_DUMMY_9fa" />
     <string name="submit_survey">Submit survey</string>
     <string name="subs_channel_tutorial_description">A list of all your channels</string>
     <string name="subs_tab_tutorial_description">New videos from your subscriptions</string>
@@ -2610,8 +2068,7 @@ Best experienced with headphones."</string>
     <string name="subscription_product_setting_key">subscription_product_setting_key</string>
     <string name="subscriptions">Subscriptions</string>
     <string name="subscriptions_notifications_channel">Subscriptions</string>
-    <item type="string" name="APKTOOL_DUMMY_a03" />
-    <string name="subtitle_menu_settings_footer_info">.</string>
+    <string name="subtitle_menu_settings_footer_info">To keep captions on by default, adjust captions visibility in your <annotation font="deeplink_emphasis">device settings</annotation>.</string>
     <string name="subtitles">Captions</string>
     <string name="subtitles_auto_translate_menu_item_secondary_text">%s (auto-translated)</string>
     <string name="subtitles_cc_turned_off">Subtitles/CC turned off</string>
@@ -2677,18 +2134,11 @@ Best experienced with headphones."</string>
     <string name="text_color_yellow">yellow</string>
     <string name="theme_not_match_with_system_theme">"New! Set YouTube's appearance to always match your device theme"</string>
     <string name="third_party_key">third_party_key</string>
-    <item type="string" name="APKTOOL_DUMMY_a46" />
-    <item type="string" name="APKTOOL_DUMMY_a47" />
-    <item type="string" name="APKTOOL_DUMMY_a48" />
-    <item type="string" name="APKTOOL_DUMMY_a49" />
-    <item type="string" name="APKTOOL_DUMMY_a4a" />
     <string name="time_minutes_seconds">%1$02d:%2$02d</string>
     <string name="time_minutes_seconds_millis">%1$02d:%2$02d.%3$03d</string>
     <string name="timeline_add_new_text_track_content_desc">Add Text</string>
-    <item type="string" name="APKTOOL_DUMMY_a4e" />
     <string name="timeline_tooltip_entry_title">Timing</string>
     <string name="timezone_format">(%1$s) %2$s</string>
-    <item type="string" name="APKTOOL_DUMMY_a51" />
     <string name="tipjar_next">Next</string>
     <string name="title_activity_qr_code_capture">QrCodeCapture</string>
     <string name="toggle_captions">Toggle Captions</string>
@@ -2697,7 +2147,6 @@ Best experienced with headphones."</string>
     <string name="total_time">" / %s"</string>
     <string name="touch_when_view_obscured">Video cannot play when covered</string>
     <string name="transcode_notification_content_text">Processing video</string>
-    <item type="string" name="APKTOOL_DUMMY_a5a" />
     <string name="travel_error_message">Your downloads expired because some YouTube Premium features are not available in this country.</string>
     <string name="trending_tab_tutorial_description">"Discover what's trending on YouTube"</string>
     <string name="trim_cancel">Cancel</string>
@@ -2713,7 +2162,6 @@ Best experienced with headphones."</string>
     <string name="turn_off_subtitles">Turn off captions</string>
     <string name="turn_on_bedtime_reminder_title">Turn on bedtime reminder?</string>
     <string name="turn_on_bedtime_reminder_update_reminder">TURN ON</string>
-    <item type="string" name="APKTOOL_DUMMY_a6a" />
     <string name="unable_to_connect">Unable to connect to server</string>
     <string name="universal_watch_card_collapse_button_accessibility_label">Show fewer</string>
     <string name="universal_watch_card_view_all_button_accessibility_label">View all videos in channel</string>
@@ -2732,14 +2180,11 @@ Best experienced with headphones."</string>
     <string name="update_bedtime_reminder_text">"YouTube can remind you to go to bed when your phone's Bedtime mode is on."</string>
     <string name="update_bedtime_reminder_title">Update bedtime reminder?</string>
     <string name="update_bedtime_reminder_update_reminder">UPDATE REMINDER</string>
-    <item type="string" name="APKTOOL_DUMMY_a7d" />
     <string name="updates_notifications_channel">Product updates</string>
     <string name="upgrade_title">Update your app</string>
     <string name="upload_cancelling">Cancelling upload</string>
     <string name="upload_complete">Upload complete</string>
     <string name="upload_details">Details</string>
-    <item type="string" name="APKTOOL_DUMMY_a83" />
-    <item type="string" name="APKTOOL_DUMMY_a84" />
     <string name="upload_edit_audio_swap_audio_selection_title">Add music</string>
     <string name="upload_edit_audio_swap_audio_selection_title_loading">Loading…</string>
     <string name="upload_edit_audio_swap_audio_track_view_scroll_hint">Scroll here</string>
@@ -2759,7 +2204,6 @@ Best experienced with headphones."</string>
     <string name="upload_edit_camera_switch_to_back_button">Switch to back camera</string>
     <string name="upload_edit_camera_switch_to_front_button">Switch to front camera</string>
     <string name="upload_edit_choose_filter_button_description">Choose filter</string>
-    <item type="string" name="APKTOOL_DUMMY_a98" />
     <string name="upload_edit_video_fragment_audio_swap_error">Failed to load audio track. Using original audio.</string>
     <string name="upload_edit_video_title">Add details</string>
     <string name="upload_external_permission_allow_access_button">Continue</string>
@@ -2779,17 +2223,10 @@ Best experienced with headphones."</string>
     <string name="upload_notification_waiting_network">Waiting for network</string>
     <string name="upload_notification_waiting_wifi">Waiting for Wi-Fi</string>
     <string name="upload_on_any_network">On any network</string>
-    <item type="string" name="APKTOOL_DUMMY_aac" />
-    <item type="string" name="APKTOOL_DUMMY_aad" />
-    <item type="string" name="APKTOOL_DUMMY_aae" />
-    <item type="string" name="APKTOOL_DUMMY_aaf" />
-    <item type="string" name="APKTOOL_DUMMY_ab0" />
     <string name="upload_quality_value_1080p">1080p</string>
-    <item type="string" name="APKTOOL_DUMMY_ab2" />
     <string name="upload_quality_value_480p">480p</string>
     <string name="upload_quality_value_720p">720p</string>
     <string name="upload_quality_value_original">original</string>
-    <item type="string" name="APKTOOL_DUMMY_ab6" />
     <string name="upload_snackbar_button_text">See video</string>
     <string name="upload_snackbar_upload_complete">Uploaded to Your Videos</string>
     <string name="upload_snackbar_upload_failed">Upload failed. Check Your Videos</string>
@@ -2803,19 +2240,12 @@ Best experienced with headphones."</string>
     <string name="upload_waiting_wifi">Waiting for Wi-Fi</string>
     <string name="upload_when_on_wifi">Only when on Wi-Fi</string>
     <string name="url_resolver_failed">"Can't load link"</string>
-    <item type="string" name="APKTOOL_DUMMY_ac4" />
-    <item type="string" name="APKTOOL_DUMMY_ac5" />
-    <item type="string" name="APKTOOL_DUMMY_ac6" />
-    <item type="string" name="APKTOOL_DUMMY_ac7" />
     <string name="use_fingerprint">Use fingerprint</string>
-    <item type="string" name="APKTOOL_DUMMY_ac9" />
-    <item type="string" name="APKTOOL_DUMMY_aca" />
     <string name="use_fingerprint_suffix">use your fingerprint.</string>
     <string name="use_password">Enter account password</string>
     <string name="use_password_instead">Use password instead</string>
     <string name="use_password_only">Verify your account by entering your password.</string>
     <string name="use_password_suffix">enter your password.</string>
-    <item type="string" name="APKTOOL_DUMMY_ad0" />
     <string name="user_mention_search_view_input_text_hint">Search channels</string>
     <string name="user_mention_search_view_no_results_message">No results found</string>
     <string name="user_mention_search_view_results_box_hint">Search for a channel to mention with this sticker</string>
@@ -2834,12 +2264,10 @@ after ad"</string>
     <string name="video_after_ads_mulitline">"Video will play
 after ads"</string>
     <string name="video_already_added_to_offline">Video already downloaded</string>
-    <item type="string" name="APKTOOL_DUMMY_ae1" />
     <string name="video_editor_fail_open_video">Failed to open video.</string>
     <string name="video_file_name_format">"'VID'_yyyyMMdd_HHmmss"</string>
     <string name="video_flagged">Thanks for reporting</string>
     <string name="video_is_flagged">Thanks for reporting</string>
-    <item type="string" name="APKTOOL_DUMMY_ae6" />
     <string name="video_notifications_default_title">YouTube</string>
     <string name="video_privacy_label">Privacy</string>
     <string name="video_privacy_private">Private</string>
@@ -2853,14 +2281,13 @@ after ads"</string>
     <string name="video_quality_quick_menu_advanced_menu_description">Select a specific resolution</string>
     <string name="video_quality_quick_menu_advanced_menu_label">Advanced</string>
     <string name="video_quality_quick_menu_auto_toast">Auto</string>
-    <string name="video_quality_quick_menu_settings_footer_info_2">This selection only applies to the current video. For all videos, go to</string>
+    <string name="video_quality_quick_menu_settings_footer_info_2">This selection only applies to the current video. For all videos, go to <annotation font="deeplink_emphasis">Settings > Video Quality Preferences.</annotation></string>
     <string name="video_quality_quick_menu_title">Quality for current video</string>
     <string name="video_quality_settings_key">video_quality_settings_key</string>
     <string name="video_quality_title_seperator">•</string>
     <string name="video_quality_unavailable_announcement">Quality unavailable</string>
     <string name="video_quality_unavailable_menu_item_secondary_text">Unavailable</string>
     <string name="video_removed_from_tv_queue">Video removed from queue</string>
-    <item type="string" name="APKTOOL_DUMMY_afb" />
     <string name="video_views">%1$,d views</string>
     <string name="video_with_preview_image_error">Unable to preview the video.</string>
     <string name="video_zoom_normal_title">Original</string>
@@ -2872,12 +2299,10 @@ after ads"</string>
     <string name="visit_channel">Visit channel</string>
     <string name="vr_auto_quality_tooltip">Quality: Auto (%1$s)</string>
     <string name="vr_back_button_content_description">back</string>
-    <item type="string" name="APKTOOL_DUMMY_b07" />
     <string name="vr_click_to_recenter">Click to recenter</string>
     <string name="vr_gvr_dialog_title">Configure</string>
     <string name="vr_highest_quality_tooltip">Quality: Highest (%1$s)</string>
     <string name="vr_overflow_menu_item">Watch in VR</string>
-    <item type="string" name="APKTOOL_DUMMY_b0c" />
     <string name="vr_pick_different_viewer_title">Use a different viewer</string>
     <string name="vr_select_viewers_label">Switch viewers</string>
     <string name="vr_watch_in_vr_message">Watch in &lt;b>&lt;xliff:g id=viewer_model>%1$s&lt;/xliff:g>&lt;/b> viewer?</string>
@@ -2886,18 +2311,17 @@ after ads"</string>
     <string name="vr_welcome_continue">Continue</string>
     <string name="vr_welcome_dont_have_viewer">"Don't have a viewer?"</string>
     <string name="vr_welcome_experience_vr">Experience YouTube in VR</string>
-    <string name="vr_welcome_get_vr_headset_link" />
+    <string name="vr_welcome_get_vr_headset_link"><a href="https://arvr.google.com/cardboard/get-cardboard/">Get a VR Cardboard</a></string>
     <string name="vr_welcome_watch_videos">Place your phone in a VR headset. For the best VR experience, turn on High Quality playback.</string>
     <string name="vs_permission_allow_access_description">To search by voice, allow audio recording</string>
-    <string name="vs_permission_open_settings_description">and allow access to Microphone</string>
-    <item type="string" name="APKTOOL_DUMMY_b19" />
+    <string name="vs_permission_open_settings_description">To search by voice, go to <b>Settings > Permissions</b> and allow access to Microphone</string>
     <string name="watch_break_frequency_picker_hours_label">Hours</string>
     <string name="watch_break_frequency_picker_minutes_label">Minutes</string>
     <string name="watch_break_setting_summary_off">Off</string>
     <string name="watch_card_expand_text">Show more</string>
     <string name="watch_downloaded_videos">Watch downloaded videos</string>
     <string name="watch_history_clear">Clear watch history</string>
-    <string name="watch_history_clear_confirmation">.</string>
+    <string name="watch_history_clear_confirmation">"This account's watch history will be cleared from all devices. Your video recommendations will be reset, but may still be influenced by activity on other Google products. To learn more, visit "<a href="https://myaccount.google.com/activitycontrols">My Activity</a>.</string>
     <string name="watch_history_clear_done">Watch history cleared</string>
     <string name="watch_history_pause_confirmation">Pause your watch history?</string>
     <string name="watch_history_pause_confirmation_label">Pause</string>
@@ -2913,390 +2337,589 @@ after ads"</string>
     <string name="you_are_offline">You’re offline. Please connect and try again.</string>
     <string name="you_are_online">Back online. Try again.</string>
     <string name="you_are_online_half_plate">Back online. Tap microphone to try again.</string>
-    <item type="string" name="APKTOOL_DUMMY_b30" />
     <string name="youtube_api_version_name">1.13.0</string>
     <string name="youtube_help_uri">https://support.google.com/youtube/topic/2422554</string>
     <string name="yt_lib_common_retry">Retry</string>
     <string name="yt_unlimited_post_purchase_key">yt_unlimited_post_purchase_key</string>
     <string name="yt_unlimited_pre_purchase_key">yt_unlimited_pre_purchase_key</string>
     <string name="yt_unplugged_pref_key">yt_unplugged_pref_key</string>
-    <string name="about">About</string>
-    <string name="about_api">This app uses the API from SponsorBlock</string>
-    <string name="about_api_sum">Tap to learn more, and see downloads for other platforms at: sponsor.ajay.app</string>
-    <string name="about_madeby">Integration made by JakubWeg</string>
-    <string name="action_ads">Ads</string>
-    <string name="action_browser">SB Browser</string>
-    <string name="action_copy">Copy link</string>
-    <string name="action_segments">Segments</string>
-    <string name="action_tcopy">Timestamp</string>
-    <string name="api_url_changed">API URL changed</string>
-    <string name="api_url_invalid">Provided API URL is invalid</string>
-    <string name="api_url_reset">API URL reset</string>
-    <string name="bawm_summary">SponsorBlock implementation</string>
-    <string name="bawm_title">JakubWeg</string>
-    <string name="cane_summary">Enhancements to SponsorBlock implementation</string>
-    <string name="cane_title">cane</string>
-    <string name="change">Change</string>
-    <string name="color_change">Are you looking for changing colors?</string>
-    <string name="color_change_sum">"You can now change a category's color by clicking on it above."</string>
-    <string name="color_changed">Color changed</string>
-    <string name="color_choose_category">Choose the category</string>
-    <string name="color_invalid">Invalid hex code</string>
-    <string name="color_reset">Color reset</string>
-    <string name="diff_segments">What to do with different segments</string>
-    <string name="enable_sb">Enable SponsorBlock</string>
-    <string name="enable_sb_sum">SponsorBlock is a crowd-sourced system for skipping annoying parts in YouTube videos</string>
-    <string name="enable_segmadding">Enable new segment adding</string>
-    <string name="enable_segmadding_sum">Switch this on to enable experimental segment adding (has button visibility issues)</string>
-    <string name="enable_voting">Enable voting</string>
-    <string name="enable_voting_sum">Switch this on to enable voting.</string>
-    <string name="general">General</string>
-    <string name="general_adjusting">Adjusting new segment step</string>
-    <string name="general_adjusting_sum">This is the number of milliseconds you can move when you use the time adjustment buttons while adding new segment</string>
-    <string name="general_api_url">Change API URL</string>
-    <string name="general_api_url_sum">"The address SponsorBlock uses to make calls to the server. &lt;b>Don't change this unless you know what you're doing.&lt;/b>"</string>
-    <string name="general_browser_button">Enable SB Browser button</string>
-    <string name="general_browser_button_sum">Clicking this button under the player will open sb.ltn.fi where you can see more details about segments.</string>
-    <string name="general_cache">Cache segments locally</string>
-    <string name="general_cache_clear">Clear SponsorBlock segments cache</string>
-    <string name="general_cache_sum">Frequently watched videos (eg. music videos) may store segments in app cache to make skipping segments faster</string>
-    <string name="general_min_duration">Minimum segment duration</string>
-    <string name="general_min_duration_sum">Segments shorter than the set value (in seconds) will not be skipped or show in the player</string>
-    <string name="general_skipcount">Skip count tracking</string>
-    <string name="general_skipcount_sum">This lets SponsorBlock leaderboard system know how much time people have saved. The extension sends a message to the server each time you skip a segment</string>
-    <string name="general_skiptoast">Show a toast when skipping segment automatically</string>
-    <string name="general_skiptoast_sum">Click to see an example toast</string>
-    <string name="general_time_without_sb">Show time without segments</string>
-    <string name="general_time_without_sb_sum">This time appears in brackets next to the current time. This shows the total video duration minus any segments.</string>
-    <string name="general_uuid">Your unique user id</string>
-    <string name="general_uuid_sum">This should be kept private. This is like a password and should not be shared with anyone. If someone has this, they can impersonate you</string>
-    <string name="general_whitelisting">Channel whitelisting</string>
-    <string name="general_whitelisting_sum">Use the Segments button under the player to whitelist a channel</string>
-    <string name="litho_comments">Comments removal</string>
-    <string name="litho_comments_off">Comments removal is turned off (new comments / phones only)</string>
-    <string name="litho_comments_on">Comments removal is turned on (new comments / phones only)</string>
-    <string name="litho_community_guidelines">Community guidelines</string>
-    <string name="litho_community_guidelines_off">Community guidelines removal is turned off</string>
-    <string name="litho_community_guidelines_on">Community guidelines removal is turned on</string>
-    <string name="litho_community_posts">Community post removal</string>
-    <string name="litho_community_posts_off">Community post removal is turned off</string>
-    <string name="litho_community_posts_on">Community post removal is turned on</string>
-    <string name="litho_compact_banner">Compact banner removal</string>
-    <string name="litho_compact_banner_off">Compact banner removal is turned off</string>
-    <string name="litho_compact_banner_on">Compact banner removal is turned on</string>
-    <string name="litho_compact_movie">Compact movie removal</string>
-    <string name="litho_compact_movie_off">Compact movie removal is turned off</string>
-    <string name="litho_compact_movie_on">Compact movie removal is turned on</string>
-    <string name="litho_general_ad_removal">General layout ad removal</string>
-    <string name="litho_general_ad_removal_off">General layout ad removal is turned off</string>
-    <string name="litho_general_ad_removal_on">General layout ad removal is turned on</string>
-    <string name="litho_horizontal_movie_shelf">Movie shelf removal</string>
-    <string name="litho_horizontal_movie_shelf_off">Movie shelf removal is turned off</string>
-    <string name="litho_horizontal_movie_shelf_on">Movie shelf removal is turned on</string>
-    <string name="litho_in_feed_survey">Survey removal</string>
-    <string name="litho_in_feed_survey_off">Feed survey removal is turned off</string>
-    <string name="litho_in_feed_survey_on">Feed survey removal is turned on</string>
-    <string name="litho_merchandise">Merchandise removal</string>
-    <string name="litho_merchandise_off">Merchandise removal is turned off</string>
-    <string name="litho_merchandise_on">Merchandise removal is turned on</string>
-    <string name="litho_movie_upsell">Movie upsell removal</string>
-    <string name="litho_movie_upsell_off">Movie upsell removal is turned off</string>
-    <string name="litho_movie_upsell_on">Movie upsell removal is turned on</string>
-    <string name="litho_shorts_shelf">Shorts shelf</string>
-    <string name="litho_shorts_shelf_off">Shorts shelf removal is turned off</string>
-    <string name="litho_shorts_shelf_on">Shorts shelf removal is turned on</string>
-    <string name="microg_notification_settings">Notification settings</string>
-    <string name="microg_notification_settings_summary">"1. Google device registration and Google Cloud Messaging need to be enabled for notifications.
-2. Vanced needs to be shown as registered under GCM.
-3. Current State in GCM must not be Disconnected.
-4. GCM -> Advanced (three dots top right) and switch Wi-Fi ping interval back and forth once to connect."</string>
-    <string name="microg_settings">MicroG settings</string>
-    <string name="minutes">minutes</string>
-    <string name="new_segment_choose_category">Choose the segment category</string>
-    <string name="new_segment_confirm_content" formatted="false">"The segment lasts from %02d:%02d to %02d:%02d (%d minutes %02d seconds)
-Is it ready to submit?"</string>
-    <string name="new_segment_confirm_title">Are the times correct?</string>
-    <string name="new_segment_disabled_category">"You've disabled this category in the settings, enable it to be able to submit"</string>
-    <string name="new_segment_edit_by_hand_content">Do you want to edit the timing for the start or end of the segment?</string>
-    <string name="new_segment_edit_by_hand_parse_error">Invalid time given</string>
-    <string name="new_segment_edit_by_hand_saved">Done</string>
-    <string name="new_segment_edit_by_hand_title">Edit timing of segment manually</string>
-    <string name="new_segment_mark_end">end</string>
-    <string name="new_segment_mark_locations_first">Mark two locations on the time bar first</string>
-    <string name="new_segment_mark_start">start</string>
-    <string name="new_segment_mark_time_as_question" formatted="false">Set %02d:%02d:%04d as the start or end of a new segment?</string>
-    <string name="new_segment_now">now</string>
-    <string name="new_segment_time_end">Time the segment ends at</string>
-    <string name="new_segment_time_end_set">End of segment set</string>
-    <string name="new_segment_time_start">Time the segment begins at</string>
-    <string name="new_segment_time_start_set">Beginning of segment set</string>
-    <string name="new_segment_title">New SponsorBlock segment</string>
-    <string name="oizaro_summary">Bug fixing/helping out</string>
-    <string name="oizaro_title">Oizaro</string>
-    <string name="pref_developer_dark_theme_for_app_summary">Use black theme throughout the app</string>
-    <string name="pref_developer_dark_theme_for_app_title">Black theme</string>
-    <string name="pref_developer_dark_theme_for_watch_panel_summary">Use black theme in the watch panel</string>
-    <string name="pref_developer_dark_theme_for_watch_panel_title">Black watch</string>
-    <string name="pref_subtitles_scale_normal">Normal</string>
-    <string name="reset">Reset</string>
-    <string name="sb_guidelines_popup_already_read">Already read</string>
-    <string name="sb_guidelines_popup_content">"It's recommended to read the Sponsor Block guidelines before submitting any segment"</string>
-    <string name="sb_guidelines_popup_open">Show me</string>
-    <string name="sb_guidelines_popup_title">There are guidelines</string>
-    <string name="sb_guidelines_preference_sum">Guidelines contain tips about submitting a segment</string>
-    <string name="sb_guidelines_preference_title">View guidelines</string>
-    <string name="sb_settings">SponsorBlock settings</string>
-    <string name="sb_summary">Uses the sponsor.ajay.app API</string>
-    <string name="segments_endcards">Endcards/Credits</string>
-    <string name="segments_endcards_sum">Credits or when the YouTube endcards appear. Not spoken conclusions</string>
-    <string name="segments_filler">Filler Tangent/Jokes</string>
-    <string name="segments_filler_sum">Tangential scenes added only for filler or humor that are not required to understand the main content of the video. This should not include segments providing context or background details</string>
-    <string name="segments_intermission">Intermission/Intro Animation</string>
-    <string name="segments_intermission_sum">An interval without actual content. Could be a pause, static frame, repeating animation</string>
-    <string name="segments_nomusic">Music: Non-Music Section</string>
-    <string name="segments_nomusic_sum">Only for use in music videos. This includes introductions or outros in music videos</string>
-    <string name="segments_preview">Preview/Recap</string>
-    <string name="segments_preview_sum">"Quick recap of previous episodes, or a preview of what's coming up later in the current video. Meant for edited together clips, not for spoken summaries."</string>
-    <string name="segments_selfpromo">Unpaid/Self Promotion</string>
-    <string name="segments_selfpromo_sum">Similar to sponsor except for unpaid or self promotion. This includes sections about merchandise, donations, or information about who they collaborated with</string>
-    <string name="segments_sponsor">Sponsor</string>
-    <string name="segments_sponsor_sum">Paid promotion, paid referrals and direct advertisements</string>
-    <string name="segments_subscribe">Interaction Reminder (Subscribe)</string>
-    <string name="segments_subscribe_sum">When there is a short reminder to like, subscribe or follow them in the middle of content</string>
-    <string name="settings_export_failed">Failed to export settings</string>
-    <string name="settings_ie">Import/Export settings</string>
-    <string name="settings_ie_sum">This is your entire configuration that is applicable in the desktop extension in JSON. This includes your userID, so be sure to share this wisely.</string>
-    <string name="settings_import_failed">Failed to import settings</string>
-    <string name="settings_import_successful">Settings were successfully imported</string>
-    <string name="skip_automatically">Skip automatically</string>
-    <string name="skip_ignore">"Don't do anything"</string>
-    <string name="skip_showbutton">Show a skip button</string>
-    <string name="skip_sponsor">Skip segment</string>
-    <string name="skipped_endcard">Skipped outro</string>
-    <string name="skipped_filler">Skipped filler</string>
-    <string name="skipped_intermission">Skipped intro</string>
-    <string name="skipped_nomusic">Skipped silence</string>
-    <string name="skipped_preview">Skipped preview</string>
-    <string name="skipped_segment">Skipped a sponsor segment</string>
-    <string name="skipped_selfpromo">Skipped self promotion</string>
-    <string name="skipped_sponsor">Skipped sponsor</string>
-    <string name="skipped_subscribe">Skipped annoying reminder</string>
-    <string name="skipped_unsubmitted">Skipped unsubmitted segment</string>
-    <string name="souramoo_summary">Home ads removing enhancement and showed other kinds of debugging methods</string>
-    <string name="souramoo_title">souramoo</string>
-    <string name="stats">Stats</string>
-    <string name="stats_loading">Loading..</string>
-    <string name="stats_saved">"You've saved people from &lt;b>%s&lt;/b> segments."</string>
-    <string name="stats_saved_sum">"That's &lt;b>%s&lt;/b> of their lives. Click to see the leaderboard"</string>
-    <string name="stats_sb_disabled">SponsorBlock is disabled</string>
-    <string name="stats_self_saved">"You've skipped &lt;b>%s&lt;/b> segments."</string>
-    <string name="stats_self_saved_sum">"That's &lt;b>%s&lt;/b>."</string>
-    <string name="stats_submissions">Submissions: &lt;b>%s&lt;/b></string>
-    <string name="stats_username">Your username: &lt;b>%s&lt;/b></string>
-    <string name="stats_username_change">Click to change your username</string>
-    <string name="stats_username_change_unknown_error" formatted="false">Unable to change username: Status: %d %s</string>
-    <string name="stats_username_changed">Username successfully changed</string>
-    <string name="submit_failed_duplicate">"Can't submit the segment.
-Already exists"</string>
-    <string name="submit_failed_forbidden">"Can't submit the segment.
-
-%s"</string>
-    <string name="submit_failed_rate_limit">"Can't submit the segment.
-Rate Limited (Too many from the same user or IP)"</string>
-    <string name="submit_failed_unknown_error" formatted="false">Unable to submit segments: Status: %d %s</string>
-    <string name="submit_started">Submitting segment…</string>
-    <string name="submit_succeeded">Segment submitted successfully</string>
-    <string name="tap_skip">Tap to skip</string>
-    <string name="vanced_button_location_entry_both">Both</string>
-    <string name="vanced_button_location_entry_buttoncontainer">Under player (ALPHA)</string>
-    <string name="vanced_button_location_entry_none">Hidden</string>
-    <string name="vanced_button_location_entry_player">In player</string>
-    <string name="vanced_disable">Disable</string>
-    <string name="vanced_enable">Enable</string>
-    <string name="vanced_learnmore">Learn more</string>
-    <string name="vanced_ryd">Return YouTube Dislike</string>
-    <string name="vanced_ryd_attribution_summary">This integration uses the RYD API from https://returnyoutubedislike.com. Tap to learn more</string>
-    <string name="vanced_ryd_attribution_title">Return YouTube Dislike Integration</string>
-    <string name="vanced_ryd_firstrun">(WARNING! CURRENTLY IN ALPHA, You may not see dislike button appear if YouTube pushes a server side update to you) Want to enable Return YouTube Dislikes to see dislikes again? Your likes/dislikes will be sent to RYD API (anonymously) after enabling RYD integration. You can enable/disable this in the settings at any time.</string>
-    <string name="vanced_ryd_settings_summary">Uses the RYD API</string>
-    <string name="vanced_ryd_settings_title">Return YouTube Dislike settings</string>
-    <string name="vanced_ryd_summary">Switch this on to see the dislike counts again</string>
-    <string name="vanced_ryd_title">Enable RYD (ALPHA)</string>
-    <string name="vanced_sb">SponsorBlock</string>
-    <string name="vanced_sb_firstrun">Are you aware of the SponsorBlock integration in Vanced? With it you can skip sponsored segments in the videos. You can enable/disable this in the settings at any time.</string>
-    <string name="vanced_settings">Vanced settings</string>
-    <string name="vanced_translators_summary">Link to Crowdin where you can contribute by translating Vanced to your language</string>
-    <string name="vanced_translators_title">Vanced translators</string>
-    <string name="vanced_video_ad_settings_title">Video ad settings</string>
-    <string name="vanced_videoadwhitelisting_summary_off">Video ad whitelisting is turned off</string>
-    <string name="vanced_videoadwhitelisting_summary_on">Video ad whitelisting is turned on. Use the Ads button under the player to whitelist a channel</string>
-    <string name="vanced_videoadwhitelisting_title">Video ad whitelisting</string>
-    <string name="vanced_whitelisting_add_failed" formatted="false">Failed to add channel %s to the %s whitelist</string>
-    <string name="vanced_whitelisting_added" formatted="false">Channel %s was added to the %s whitelist</string>
-    <string name="vanced_whitelisting_ads">Ads</string>
-    <string name="vanced_whitelisting_fetch_failed">Failed to retrieve channel details, received code %d</string>
-    <string name="vanced_whitelisting_remove_failed" formatted="false">Failed to remove channel %s from the %s whitelist</string>
-    <string name="vanced_whitelisting_removed" formatted="false">Channel %s was removed from the %s whitelist</string>
-    <string name="vanced_whitelisting_sponsorblock">SponsorBlock</string>
-    <string name="vote_category">Change category</string>
-    <string name="vote_downvote">Downvote</string>
-    <string name="vote_failed_forbidden">"Can't vote for segment.
-
-%s"</string>
-    <string name="vote_failed_rate_limit">"Can't vote for segment.
-Rate Limited (Too many from the same user or IP)"</string>
-    <string name="vote_failed_unknown_error" formatted="false">Unable to vote for segment: Status: %d %s</string>
-    <string name="vote_no_segments">There are no segments to vote for</string>
-    <string name="vote_started">Voting for segment…</string>
-    <string name="vote_succeeded">Voted successfully</string>
-    <string name="vote_upvote">Upvote</string>
-    <string name="xfile_about_summary">"
-- xfileFIN (Mods, Theming, Support)
-- Laura (Theming, Support)
-- ZaneZam (Publishing, Support)
-- KevinX8 (Overlord, Support)"</string>
-    <string name="xfile_about_theme_summary">New official theme toggle is in the General settings. This theme toggle is \"Developer\" toggle</string>
-    <string name="xfile_about_theme_title">Theme info</string>
-    <string name="xfile_about_title">About</string>
-    <string name="xfile_accessibility_seek_buttons_summary_off">"Accessibility controls aren't displayed in the player"</string>
-    <string name="xfile_accessibility_seek_buttons_summary_on">Accessibility controls are displayed in the player</string>
-    <string name="xfile_accessibility_seek_buttons_title">Accessibility player</string>
-    <string name="xfile_ad_settings_title">Ad settings</string>
-    <string name="xfile_auto_captions_summary_off">"Captions aren't enabled automatically at 0% volume"</string>
-    <string name="xfile_auto_captions_summary_on">Captions are enabled automatically at 0% volume</string>
-    <string name="xfile_auto_captions_title">Auto captions</string>
-    <string name="xfile_auto_repeat_button_summary_off">"Doesn't show auto repeat button in the player overlay. Use the toggle below to control auto repeat"</string>
-    <string name="xfile_auto_repeat_button_summary_on">Auto repeat button is shown in the player overlay</string>
-    <string name="xfile_auto_repeat_button_title">Auto repeat button</string>
-    <string name="xfile_auto_repeat_summary_off">Auto repeat is off</string>
-    <string name="xfile_auto_repeat_summary_on">Auto repeat is on</string>
-    <string name="xfile_auto_repeat_title">Auto repeat</string>
-    <string name="xfile_branding_watermark_summary_off">Video watermark is hidden</string>
-    <string name="xfile_branding_watermark_summary_on">Video watermark is shown</string>
-    <string name="xfile_branding_watermark_title">Video watermark</string>
-    <string name="xfile_buffer_summary">ExoPlayer v2 has to be enabled for buffer settings</string>
-    <string name="xfile_buffer_title">Buffer settings</string>
-    <string name="xfile_cast_button_summary_off">Cast button is hidden</string>
-    <string name="xfile_cast_button_summary_on">Cast button is shown</string>
-    <string name="xfile_cast_button_title">Cast button</string>
-    <string name="xfile_codec_override_title">Codec override</string>
-    <string name="xfile_comments_location_summary_off">Comments are shown at the top (new place)</string>
-    <string name="xfile_comments_location_summary_on">Comments are shown at the bottom (old place). This feature can break things. For example swipe features will not work</string>
-    <string name="xfile_comments_location_title">Comments location (Alpha)</string>
-    <string name="xfile_copy_video_url_summary_off">Button to copy link is hidden from the player overlay</string>
-    <string name="xfile_copy_video_url_summary_on">Button to copy link is shown in the player overlay</string>
-    <string name="xfile_copy_video_url_timestamp_summary_off">Button to copy link with timestamp is hidden from the player overlay</string>
-    <string name="xfile_copy_video_url_timestamp_summary_on">Button to copy link with timestamp is shown in the player overlay</string>
-    <string name="xfile_copy_video_url_timestamp_title">Copy link (with timestamp)</string>
-    <string name="xfile_copy_video_url_title">Copy link</string>
-    <string name="xfile_create_button_summary_off">Create button has default visibility</string>
-    <string name="xfile_create_button_summary_on">Create button is forcefully disabled</string>
-    <string name="xfile_create_button_title">Create button</string>
-    <string name="xfile_credit_summary">Credits for people who have contributed</string>
-    <string name="xfile_credit_title">Credits</string>
-    <string name="xfile_current_override_manufacturer">Override manufacturer</string>
-    <string name="xfile_current_override_model">Override model</string>
-    <string name="xfile_debug_summary_off">Extra debug logging is disabled</string>
-    <string name="xfile_debug_summary_on">Extra debug logging is enabled</string>
-    <string name="xfile_debug_title">Debug mode</string>
-    <string name="xfile_default_codec_summary">"Tap to set your device's default codec"</string>
-    <string name="xfile_default_codec_title">Default codec</string>
-    <string name="xfile_discord_summary">Tap to join Vanced on Discord</string>
-    <string name="xfile_discord_title">Discord Server</string>
-    <string name="xfile_exoplayer_v2">ExoPlayer V2</string>
-    <string name="xfile_exoplayer_v2_off">ExoPlayer V2 is disabled (ExoPlayer V1 is being used)</string>
-    <string name="xfile_exoplayer_v2_on">ExoPlayer V2 is enabled (Default). ExoPlayer V1 might have a better performance</string>
-    <string name="xfile_exoplayerv2_warning_summary">ExoPlayer v2 is experimental. DO NOT report errors that occur when ExoPlayer v2 is enabled</string>
-    <string name="xfile_exoplayerv2_warning_title">Warning</string>
-    <string name="xfile_hardware_hdr_summary">Tap to enable hardware HDR</string>
-    <string name="xfile_hardware_hdr_title">Samsung Galaxy S8+</string>
-    <string name="xfile_hdr_full_brightness_summary_off">"Video brightness will follow your device's brightness on HDR landscape videos"</string>
-    <string name="xfile_hdr_full_brightness_summary_on">Video brightness is set to max on HDR landscape videos</string>
-    <string name="xfile_hdr_full_brightness_title">HDR Max brightness</string>
-    <string name="xfile_hiddenmenu_needed">taps needed to enable hidden settings</string>
-    <string name="xfile_hiddenmenu_open">No need, hidden settings are already enabled</string>
-    <string name="xfile_hiddenmenu_opened">Hidden settings have been enabled</string>
-    <string name="xfile_home_ads_summary_off">Home ads are hidden</string>
-    <string name="xfile_home_ads_summary_on">Home ads are shown</string>
-    <string name="xfile_home_ads_title">Home ads (Experimental)</string>
-    <string name="xfile_info_cards_summary_off">Info cards are hidden</string>
-    <string name="xfile_info_cards_summary_on">Info cards are shown</string>
-    <string name="xfile_info_cards_title">Info cards</string>
-    <string name="xfile_layout_settings_title">Layout settings</string>
-    <string name="xfile_maximum_buffer_summary">"The maximum duration of media that the player will attempt to buffer (in milliseconds)
-
-        Default: 120000"</string>
-    <string name="xfile_maximum_buffer_title">Maximum buffer</string>
-    <string name="xfile_minimized_video_type_summary">Select the preferred minimized video type</string>
-    <string name="xfile_minimized_video_type_title">Minimized video type</string>
-    <string name="xfile_miniplayer_style_video">Video only</string>
-    <string name="xfile_miniplayer_style_video_controls">Video with media controls</string>
-    <string name="xfile_misc_title">Misc</string>
-    <string name="xfile_new_actionbar_summary_off">Search bar style is defined by the app</string>
-    <string name="xfile_new_actionbar_summary_on">Forcing wide search bar</string>
-    <string name="xfile_new_actionbar_title">Wide search bar</string>
-    <string name="xfile_old_style_quality_settings_summary_off">Using default style video quality settings</string>
-    <string name="xfile_old_style_quality_settings_summary_on">Using old style video quality settings</string>
-    <string name="xfile_old_style_quality_settings_title">Quality settings style</string>
-    <string name="xfile_override_resolution_summary_off">Video resolution is following your device screen resolution</string>
-    <string name="xfile_override_resolution_summary_on">Video resolution is being overridden to max</string>
-    <string name="xfile_override_resolution_title">Max resolution</string>
-    <string name="xfile_playback_start_summary">"The duration of media that must be buffered for playback to start or resume following a user action such as seeking (in milliseconds)
-
-        Default: 2500"</string>
-    <string name="xfile_playback_start_title">Playback start</string>
-    <string name="xfile_preferred_video_quality_mobile_summary">Select preferred video resolution on Cellular Network</string>
-    <string name="xfile_preferred_video_quality_mobile_title">Preferred video quality Cellular</string>
-    <string name="xfile_preferred_video_quality_wifi_summary">Select preferred video resolution on Wi-Fi Network</string>
-    <string name="xfile_preferred_video_quality_wifi_title">Preferred video quality Wi-Fi</string>
-    <string name="xfile_preferred_video_speed_summary">Select preferred video speed</string>
-    <string name="xfile_preferred_video_speed_title">Preferred video speed</string>
-    <string name="xfile_rebuffer_summary">"The duration of media that must be buffered for playback to resume after a rebuffer (in milliseconds). A rebuffer is defined to be caused by buffer depletion rather than a user action
-
-        Default: 5000"</string>
-    <string name="xfile_rebuffer_title">Rebuffer</string>
-    <string name="xfile_reel_summary_off">Stories are hidden</string>
-    <string name="xfile_reel_summary_on">Stories are shown</string>
-    <string name="xfile_reel_title">YouTube stories (Experimental)</string>
-    <string name="xfile_seekbar_tapping">Tapping on seek bar</string>
-    <string name="xfile_seekbar_tapping_off">Tapping on seek bar (video progress bar) is disabled</string>
-    <string name="xfile_seekbar_tapping_on">Tapping on seek bar (video progress bar) is enabled</string>
-    <string name="xfile_settings">Vanced settings</string>
-    <string name="xfile_software_hdr_summary">Tap to enable software HDR</string>
-    <string name="xfile_software_hdr_title">Google Pixel XL</string>
-    <string name="xfile_suggestion_summary_off">End screens are hidden</string>
-    <string name="xfile_suggestion_summary_on">End screens are shown</string>
-    <string name="xfile_suggestion_title">End screens</string>
-    <string name="xfile_support_summary">Support links</string>
-    <string name="xfile_support_title">Support</string>
-    <string name="xfile_swipe_padding_top_summary">Amount of pixels excluded from swiping at the top of the display to prevent swipe controls when dragging down notifications</string>
-    <string name="xfile_swipe_padding_top_title">Swipe padding</string>
-    <string name="xfile_swipe_threshold_summary">Amount of pixels you have to swipe until detecting starts to prevent unintended swiping</string>
-    <string name="xfile_swipe_threshold_title">Swipe threshold</string>
-    <string name="xfile_tablet_miniplayer_summary_off">Tablet miniplayer is not being used</string>
-    <string name="xfile_tablet_miniplayer_summary_on">Tablet miniplayer is being used</string>
-    <string name="xfile_tablet_miniplayer_title">Tablet miniplayer</string>
-    <string name="xfile_video_settings_title">Video settings</string>
-    <string name="xfile_vp9_summary">Tap to force usage of the VP9 codec</string>
-    <string name="xfile_vp9_summary_off">VP9 codec not forced</string>
-    <string name="xfile_vp9_summary_on">VP9 codec is enabled by default for supported devices, disable if you encounter stuttering/slowness in videos</string>
-    <string name="xfile_vp9_title">VP9 codec</string>
-    <string name="xfile_website_summary">Tap to open our website</string>
-    <string name="xfile_website_title">Vanced website</string>
-    <string name="xfile_xda_summary">Tap to open the XDA post</string>
-    <string name="xfile_xda_title">XDA thread</string>
-    <string name="xfile_xfenster_brightness_summary_off">Swipe controls for brightness are disabled</string>
-    <string name="xfile_xfenster_brightness_summary_on">Swipe controls for brightness are enabled</string>
-    <string name="xfile_xfenster_brightness_title">Swipe controls for Brightness</string>
-    <string name="xfile_xfenster_screen_summary">Swipe controls for Brightness and Volume</string>
-    <string name="xfile_xfenster_tablet_summary_off">Tablet style is turned off</string>
-    <string name="xfile_xfenster_tablet_summary_on">Tablet style is turned on. For example suggested videos are only partially working</string>
-    <string name="xfile_xfenster_tablet_title">Tablet style</string>
-    <string name="xfile_xfenster_title">Swipe controls</string>
-    <string name="xfile_xfenster_volume_summary_off">Swipe controls for volume are disabled</string>
-    <string name="xfile_xfenster_volume_summary_on">Swipe controls for volume are enabled</string>
-    <string name="xfile_xfenster_volume_title">Swipe controls for Volume</string>
-    <string name="xfile_zoom_to_fit_vertical_summary_off">Dynamic player is defined automatically</string>
-    <string name="xfile_zoom_to_fit_vertical_summary_on">Dynamic player is forced on square and vertical videos</string>
-    <string name="xfile_zoom_to_fit_vertical_title">Dynamic player</string>
+    <item type="string" name="APKTOOL_DUMMY_5" />
+    <item type="string" name="APKTOOL_DUMMY_7" />
+    <item type="string" name="APKTOOL_DUMMY_9" />
+    <item type="string" name="APKTOOL_DUMMY_a" />
+    <item type="string" name="APKTOOL_DUMMY_19" />
+    <item type="string" name="APKTOOL_DUMMY_1d" />
+    <item type="string" name="APKTOOL_DUMMY_1e" />
+    <item type="string" name="APKTOOL_DUMMY_21" />
+    <item type="string" name="APKTOOL_DUMMY_23" />
+    <item type="string" name="APKTOOL_DUMMY_27" />
+    <item type="string" name="APKTOOL_DUMMY_42" />
+    <item type="string" name="APKTOOL_DUMMY_43" />
+    <item type="string" name="APKTOOL_DUMMY_49" />
+    <item type="string" name="APKTOOL_DUMMY_4b" />
+    <item type="string" name="APKTOOL_DUMMY_4d" />
+    <item type="string" name="APKTOOL_DUMMY_51" />
+    <item type="string" name="APKTOOL_DUMMY_58" />
+    <item type="string" name="APKTOOL_DUMMY_59" />
+    <item type="string" name="APKTOOL_DUMMY_5d" />
+    <item type="string" name="APKTOOL_DUMMY_5e" />
+    <item type="string" name="APKTOOL_DUMMY_63" />
+    <item type="string" name="APKTOOL_DUMMY_65" />
+    <item type="string" name="APKTOOL_DUMMY_6c" />
+    <item type="string" name="APKTOOL_DUMMY_79" />
+    <item type="string" name="APKTOOL_DUMMY_7c" />
+    <item type="string" name="APKTOOL_DUMMY_83" />
+    <item type="string" name="APKTOOL_DUMMY_88" />
+    <item type="string" name="APKTOOL_DUMMY_89" />
+    <item type="string" name="APKTOOL_DUMMY_8c" />
+    <item type="string" name="APKTOOL_DUMMY_8f" />
+    <item type="string" name="APKTOOL_DUMMY_92" />
+    <item type="string" name="APKTOOL_DUMMY_95" />
+    <item type="string" name="APKTOOL_DUMMY_96" />
+    <item type="string" name="APKTOOL_DUMMY_9c" />
+    <item type="string" name="APKTOOL_DUMMY_a3" />
+    <item type="string" name="APKTOOL_DUMMY_ac" />
+    <item type="string" name="APKTOOL_DUMMY_b5" />
+    <item type="string" name="APKTOOL_DUMMY_b6" />
+    <item type="string" name="APKTOOL_DUMMY_b7" />
+    <item type="string" name="APKTOOL_DUMMY_c6" />
+    <item type="string" name="APKTOOL_DUMMY_cd" />
+    <item type="string" name="APKTOOL_DUMMY_d1" />
+    <item type="string" name="APKTOOL_DUMMY_d2" />
+    <item type="string" name="APKTOOL_DUMMY_d5" />
+    <item type="string" name="APKTOOL_DUMMY_e0" />
+    <item type="string" name="APKTOOL_DUMMY_eb" />
+    <item type="string" name="APKTOOL_DUMMY_ef" />
+    <item type="string" name="APKTOOL_DUMMY_fb" />
+    <item type="string" name="APKTOOL_DUMMY_fd" />
+    <item type="string" name="APKTOOL_DUMMY_116" />
+    <item type="string" name="APKTOOL_DUMMY_12a" />
+    <item type="string" name="APKTOOL_DUMMY_12b" />
+    <item type="string" name="APKTOOL_DUMMY_12e" />
+    <item type="string" name="APKTOOL_DUMMY_12f" />
+    <item type="string" name="APKTOOL_DUMMY_130" />
+    <item type="string" name="APKTOOL_DUMMY_131" />
+    <item type="string" name="APKTOOL_DUMMY_138" />
+    <item type="string" name="APKTOOL_DUMMY_13b" />
+    <item type="string" name="APKTOOL_DUMMY_13c" />
+    <item type="string" name="APKTOOL_DUMMY_152" />
+    <item type="string" name="APKTOOL_DUMMY_159" />
+    <item type="string" name="APKTOOL_DUMMY_162" />
+    <item type="string" name="APKTOOL_DUMMY_16f" />
+    <item type="string" name="APKTOOL_DUMMY_185" />
+    <item type="string" name="APKTOOL_DUMMY_186" />
+    <item type="string" name="APKTOOL_DUMMY_195" />
+    <item type="string" name="APKTOOL_DUMMY_1a5" />
+    <item type="string" name="APKTOOL_DUMMY_1af" />
+    <item type="string" name="APKTOOL_DUMMY_1b3" />
+    <item type="string" name="APKTOOL_DUMMY_1b7" />
+    <item type="string" name="APKTOOL_DUMMY_1b8" />
+    <item type="string" name="APKTOOL_DUMMY_1b9" />
+    <item type="string" name="APKTOOL_DUMMY_1bb" />
+    <item type="string" name="APKTOOL_DUMMY_1bc" />
+    <item type="string" name="APKTOOL_DUMMY_1be" />
+    <item type="string" name="APKTOOL_DUMMY_1bf" />
+    <item type="string" name="APKTOOL_DUMMY_1c0" />
+    <item type="string" name="APKTOOL_DUMMY_1c1" />
+    <item type="string" name="APKTOOL_DUMMY_1c2" />
+    <item type="string" name="APKTOOL_DUMMY_1c3" />
+    <item type="string" name="APKTOOL_DUMMY_1cc" />
+    <item type="string" name="APKTOOL_DUMMY_1cd" />
+    <item type="string" name="APKTOOL_DUMMY_1ce" />
+    <item type="string" name="APKTOOL_DUMMY_1cf" />
+    <item type="string" name="APKTOOL_DUMMY_1d0" />
+    <item type="string" name="APKTOOL_DUMMY_1d1" />
+    <item type="string" name="APKTOOL_DUMMY_1d2" />
+    <item type="string" name="APKTOOL_DUMMY_1d3" />
+    <item type="string" name="APKTOOL_DUMMY_1d4" />
+    <item type="string" name="APKTOOL_DUMMY_1da" />
+    <item type="string" name="APKTOOL_DUMMY_1dd" />
+    <item type="string" name="APKTOOL_DUMMY_1df" />
+    <item type="string" name="APKTOOL_DUMMY_1e0" />
+    <item type="string" name="APKTOOL_DUMMY_1e1" />
+    <item type="string" name="APKTOOL_DUMMY_1e2" />
+    <item type="string" name="APKTOOL_DUMMY_1e3" />
+    <item type="string" name="APKTOOL_DUMMY_1e4" />
+    <item type="string" name="APKTOOL_DUMMY_1e5" />
+    <item type="string" name="APKTOOL_DUMMY_1e6" />
+    <item type="string" name="APKTOOL_DUMMY_1ee" />
+    <item type="string" name="APKTOOL_DUMMY_1f0" />
+    <item type="string" name="APKTOOL_DUMMY_1f2" />
+    <item type="string" name="APKTOOL_DUMMY_1f3" />
+    <item type="string" name="APKTOOL_DUMMY_1f4" />
+    <item type="string" name="APKTOOL_DUMMY_1f6" />
+    <item type="string" name="APKTOOL_DUMMY_1fa" />
+    <item type="string" name="APKTOOL_DUMMY_20b" />
+    <item type="string" name="APKTOOL_DUMMY_20d" />
+    <item type="string" name="APKTOOL_DUMMY_20e" />
+    <item type="string" name="APKTOOL_DUMMY_211" />
+    <item type="string" name="APKTOOL_DUMMY_223" />
+    <item type="string" name="APKTOOL_DUMMY_23f" />
+    <item type="string" name="APKTOOL_DUMMY_240" />
+    <item type="string" name="APKTOOL_DUMMY_24b" />
+    <item type="string" name="APKTOOL_DUMMY_24d" />
+    <item type="string" name="APKTOOL_DUMMY_251" />
+    <item type="string" name="APKTOOL_DUMMY_252" />
+    <item type="string" name="APKTOOL_DUMMY_255" />
+    <item type="string" name="APKTOOL_DUMMY_256" />
+    <item type="string" name="APKTOOL_DUMMY_258" />
+    <item type="string" name="APKTOOL_DUMMY_262" />
+    <item type="string" name="APKTOOL_DUMMY_279" />
+    <item type="string" name="APKTOOL_DUMMY_285" />
+    <item type="string" name="APKTOOL_DUMMY_286" />
+    <item type="string" name="APKTOOL_DUMMY_287" />
+    <item type="string" name="APKTOOL_DUMMY_288" />
+    <item type="string" name="APKTOOL_DUMMY_289" />
+    <item type="string" name="APKTOOL_DUMMY_28a" />
+    <item type="string" name="APKTOOL_DUMMY_28b" />
+    <item type="string" name="APKTOOL_DUMMY_2a1" />
+    <item type="string" name="APKTOOL_DUMMY_2a2" />
+    <item type="string" name="APKTOOL_DUMMY_2ec" />
+    <item type="string" name="APKTOOL_DUMMY_2ed" />
+    <item type="string" name="APKTOOL_DUMMY_2f3" />
+    <item type="string" name="APKTOOL_DUMMY_2fe" />
+    <item type="string" name="APKTOOL_DUMMY_303" />
+    <item type="string" name="APKTOOL_DUMMY_307" />
+    <item type="string" name="APKTOOL_DUMMY_313" />
+    <item type="string" name="APKTOOL_DUMMY_315" />
+    <item type="string" name="APKTOOL_DUMMY_328" />
+    <item type="string" name="APKTOOL_DUMMY_333" />
+    <item type="string" name="APKTOOL_DUMMY_334" />
+    <item type="string" name="APKTOOL_DUMMY_335" />
+    <item type="string" name="APKTOOL_DUMMY_336" />
+    <item type="string" name="APKTOOL_DUMMY_337" />
+    <item type="string" name="APKTOOL_DUMMY_338" />
+    <item type="string" name="APKTOOL_DUMMY_339" />
+    <item type="string" name="APKTOOL_DUMMY_33a" />
+    <item type="string" name="APKTOOL_DUMMY_33b" />
+    <item type="string" name="APKTOOL_DUMMY_33c" />
+    <item type="string" name="APKTOOL_DUMMY_33f" />
+    <item type="string" name="APKTOOL_DUMMY_340" />
+    <item type="string" name="APKTOOL_DUMMY_344" />
+    <item type="string" name="APKTOOL_DUMMY_345" />
+    <item type="string" name="APKTOOL_DUMMY_348" />
+    <item type="string" name="APKTOOL_DUMMY_349" />
+    <item type="string" name="APKTOOL_DUMMY_34a" />
+    <item type="string" name="APKTOOL_DUMMY_34b" />
+    <item type="string" name="APKTOOL_DUMMY_34c" />
+    <item type="string" name="APKTOOL_DUMMY_34d" />
+    <item type="string" name="APKTOOL_DUMMY_35b" />
+    <item type="string" name="APKTOOL_DUMMY_35d" />
+    <item type="string" name="APKTOOL_DUMMY_362" />
+    <item type="string" name="APKTOOL_DUMMY_398" />
+    <item type="string" name="APKTOOL_DUMMY_3ad" />
+    <item type="string" name="APKTOOL_DUMMY_3b3" />
+    <item type="string" name="APKTOOL_DUMMY_3b4" />
+    <item type="string" name="APKTOOL_DUMMY_3ba" />
+    <item type="string" name="APKTOOL_DUMMY_3bd" />
+    <item type="string" name="APKTOOL_DUMMY_3be" />
+    <item type="string" name="APKTOOL_DUMMY_3c4" />
+    <item type="string" name="APKTOOL_DUMMY_3c5" />
+    <item type="string" name="APKTOOL_DUMMY_3d0" />
+    <item type="string" name="APKTOOL_DUMMY_3db" />
+    <item type="string" name="APKTOOL_DUMMY_3df" />
+    <item type="string" name="APKTOOL_DUMMY_3ef" />
+    <item type="string" name="APKTOOL_DUMMY_3f0" />
+    <item type="string" name="APKTOOL_DUMMY_3f1" />
+    <item type="string" name="APKTOOL_DUMMY_3f2" />
+    <item type="string" name="APKTOOL_DUMMY_3f4" />
+    <item type="string" name="APKTOOL_DUMMY_402" />
+    <item type="string" name="APKTOOL_DUMMY_406" />
+    <item type="string" name="APKTOOL_DUMMY_40a" />
+    <item type="string" name="APKTOOL_DUMMY_410" />
+    <item type="string" name="APKTOOL_DUMMY_422" />
+    <item type="string" name="APKTOOL_DUMMY_423" />
+    <item type="string" name="APKTOOL_DUMMY_425" />
+    <item type="string" name="APKTOOL_DUMMY_42e" />
+    <item type="string" name="APKTOOL_DUMMY_430" />
+    <item type="string" name="APKTOOL_DUMMY_435" />
+    <item type="string" name="APKTOOL_DUMMY_436" />
+    <item type="string" name="APKTOOL_DUMMY_43f" />
+    <item type="string" name="APKTOOL_DUMMY_448" />
+    <item type="string" name="APKTOOL_DUMMY_471" />
+    <item type="string" name="APKTOOL_DUMMY_472" />
+    <item type="string" name="APKTOOL_DUMMY_473" />
+    <item type="string" name="APKTOOL_DUMMY_480" />
+    <item type="string" name="APKTOOL_DUMMY_482" />
+    <item type="string" name="APKTOOL_DUMMY_483" />
+    <item type="string" name="APKTOOL_DUMMY_485" />
+    <item type="string" name="APKTOOL_DUMMY_487" />
+    <item type="string" name="APKTOOL_DUMMY_488" />
+    <item type="string" name="APKTOOL_DUMMY_490" />
+    <item type="string" name="APKTOOL_DUMMY_491" />
+    <item type="string" name="APKTOOL_DUMMY_492" />
+    <item type="string" name="APKTOOL_DUMMY_493" />
+    <item type="string" name="APKTOOL_DUMMY_494" />
+    <item type="string" name="APKTOOL_DUMMY_495" />
+    <item type="string" name="APKTOOL_DUMMY_496" />
+    <item type="string" name="APKTOOL_DUMMY_497" />
+    <item type="string" name="APKTOOL_DUMMY_498" />
+    <item type="string" name="APKTOOL_DUMMY_499" />
+    <item type="string" name="APKTOOL_DUMMY_49a" />
+    <item type="string" name="APKTOOL_DUMMY_49b" />
+    <item type="string" name="APKTOOL_DUMMY_49c" />
+    <item type="string" name="APKTOOL_DUMMY_49d" />
+    <item type="string" name="APKTOOL_DUMMY_49e" />
+    <item type="string" name="APKTOOL_DUMMY_49f" />
+    <item type="string" name="APKTOOL_DUMMY_4a0" />
+    <item type="string" name="APKTOOL_DUMMY_4a1" />
+    <item type="string" name="APKTOOL_DUMMY_4a2" />
+    <item type="string" name="APKTOOL_DUMMY_4a3" />
+    <item type="string" name="APKTOOL_DUMMY_4a4" />
+    <item type="string" name="APKTOOL_DUMMY_4a5" />
+    <item type="string" name="APKTOOL_DUMMY_4a6" />
+    <item type="string" name="APKTOOL_DUMMY_4a7" />
+    <item type="string" name="APKTOOL_DUMMY_4a8" />
+    <item type="string" name="APKTOOL_DUMMY_4a9" />
+    <item type="string" name="APKTOOL_DUMMY_4aa" />
+    <item type="string" name="APKTOOL_DUMMY_4ab" />
+    <item type="string" name="APKTOOL_DUMMY_4ac" />
+    <item type="string" name="APKTOOL_DUMMY_4ad" />
+    <item type="string" name="APKTOOL_DUMMY_4ae" />
+    <item type="string" name="APKTOOL_DUMMY_4af" />
+    <item type="string" name="APKTOOL_DUMMY_4b3" />
+    <item type="string" name="APKTOOL_DUMMY_4b4" />
+    <item type="string" name="APKTOOL_DUMMY_4b5" />
+    <item type="string" name="APKTOOL_DUMMY_4b6" />
+    <item type="string" name="APKTOOL_DUMMY_4b7" />
+    <item type="string" name="APKTOOL_DUMMY_4bd" />
+    <item type="string" name="APKTOOL_DUMMY_4be" />
+    <item type="string" name="APKTOOL_DUMMY_4bf" />
+    <item type="string" name="APKTOOL_DUMMY_4c0" />
+    <item type="string" name="APKTOOL_DUMMY_4c1" />
+    <item type="string" name="APKTOOL_DUMMY_4c2" />
+    <item type="string" name="APKTOOL_DUMMY_4c3" />
+    <item type="string" name="APKTOOL_DUMMY_4c4" />
+    <item type="string" name="APKTOOL_DUMMY_4c5" />
+    <item type="string" name="APKTOOL_DUMMY_4c6" />
+    <item type="string" name="APKTOOL_DUMMY_4c7" />
+    <item type="string" name="APKTOOL_DUMMY_4c8" />
+    <item type="string" name="APKTOOL_DUMMY_4c9" />
+    <item type="string" name="APKTOOL_DUMMY_4ca" />
+    <item type="string" name="APKTOOL_DUMMY_4cb" />
+    <item type="string" name="APKTOOL_DUMMY_4de" />
+    <item type="string" name="APKTOOL_DUMMY_4e8" />
+    <item type="string" name="APKTOOL_DUMMY_4e9" />
+    <item type="string" name="APKTOOL_DUMMY_4ea" />
+    <item type="string" name="APKTOOL_DUMMY_4eb" />
+    <item type="string" name="APKTOOL_DUMMY_4f1" />
+    <item type="string" name="APKTOOL_DUMMY_50a" />
+    <item type="string" name="APKTOOL_DUMMY_50e" />
+    <item type="string" name="APKTOOL_DUMMY_513" />
+    <item type="string" name="APKTOOL_DUMMY_516" />
+    <item type="string" name="APKTOOL_DUMMY_524" />
+    <item type="string" name="APKTOOL_DUMMY_536" />
+    <item type="string" name="APKTOOL_DUMMY_544" />
+    <item type="string" name="APKTOOL_DUMMY_54b" />
+    <item type="string" name="APKTOOL_DUMMY_54c" />
+    <item type="string" name="APKTOOL_DUMMY_54d" />
+    <item type="string" name="APKTOOL_DUMMY_54e" />
+    <item type="string" name="APKTOOL_DUMMY_589" />
+    <item type="string" name="APKTOOL_DUMMY_58a" />
+    <item type="string" name="APKTOOL_DUMMY_591" />
+    <item type="string" name="APKTOOL_DUMMY_592" />
+    <item type="string" name="APKTOOL_DUMMY_594" />
+    <item type="string" name="APKTOOL_DUMMY_595" />
+    <item type="string" name="APKTOOL_DUMMY_598" />
+    <item type="string" name="APKTOOL_DUMMY_5a7" />
+    <item type="string" name="APKTOOL_DUMMY_5ad" />
+    <item type="string" name="APKTOOL_DUMMY_5ae" />
+    <item type="string" name="APKTOOL_DUMMY_5b2" />
+    <item type="string" name="APKTOOL_DUMMY_5c3" />
+    <item type="string" name="APKTOOL_DUMMY_5c4" />
+    <item type="string" name="APKTOOL_DUMMY_5c5" />
+    <item type="string" name="APKTOOL_DUMMY_5c7" />
+    <item type="string" name="APKTOOL_DUMMY_5c8" />
+    <item type="string" name="APKTOOL_DUMMY_5c9" />
+    <item type="string" name="APKTOOL_DUMMY_5ca" />
+    <item type="string" name="APKTOOL_DUMMY_5cb" />
+    <item type="string" name="APKTOOL_DUMMY_5cc" />
+    <item type="string" name="APKTOOL_DUMMY_5cd" />
+    <item type="string" name="APKTOOL_DUMMY_5ce" />
+    <item type="string" name="APKTOOL_DUMMY_5cf" />
+    <item type="string" name="APKTOOL_DUMMY_5d0" />
+    <item type="string" name="APKTOOL_DUMMY_5d1" />
+    <item type="string" name="APKTOOL_DUMMY_5d2" />
+    <item type="string" name="APKTOOL_DUMMY_5d3" />
+    <item type="string" name="APKTOOL_DUMMY_5d4" />
+    <item type="string" name="APKTOOL_DUMMY_5d5" />
+    <item type="string" name="APKTOOL_DUMMY_5d6" />
+    <item type="string" name="APKTOOL_DUMMY_5d7" />
+    <item type="string" name="APKTOOL_DUMMY_5d8" />
+    <item type="string" name="APKTOOL_DUMMY_5d9" />
+    <item type="string" name="APKTOOL_DUMMY_5da" />
+    <item type="string" name="APKTOOL_DUMMY_5db" />
+    <item type="string" name="APKTOOL_DUMMY_5dc" />
+    <item type="string" name="APKTOOL_DUMMY_5dd" />
+    <item type="string" name="APKTOOL_DUMMY_5de" />
+    <item type="string" name="APKTOOL_DUMMY_5df" />
+    <item type="string" name="APKTOOL_DUMMY_5e0" />
+    <item type="string" name="APKTOOL_DUMMY_5e1" />
+    <item type="string" name="APKTOOL_DUMMY_5e2" />
+    <item type="string" name="APKTOOL_DUMMY_5e3" />
+    <item type="string" name="APKTOOL_DUMMY_5e4" />
+    <item type="string" name="APKTOOL_DUMMY_5e5" />
+    <item type="string" name="APKTOOL_DUMMY_5e6" />
+    <item type="string" name="APKTOOL_DUMMY_5e7" />
+    <item type="string" name="APKTOOL_DUMMY_5e8" />
+    <item type="string" name="APKTOOL_DUMMY_5e9" />
+    <item type="string" name="APKTOOL_DUMMY_5ea" />
+    <item type="string" name="APKTOOL_DUMMY_611" />
+    <item type="string" name="APKTOOL_DUMMY_61c" />
+    <item type="string" name="APKTOOL_DUMMY_633" />
+    <item type="string" name="APKTOOL_DUMMY_634" />
+    <item type="string" name="APKTOOL_DUMMY_635" />
+    <item type="string" name="APKTOOL_DUMMY_63c" />
+    <item type="string" name="APKTOOL_DUMMY_63d" />
+    <item type="string" name="APKTOOL_DUMMY_63e" />
+    <item type="string" name="APKTOOL_DUMMY_63f" />
+    <item type="string" name="APKTOOL_DUMMY_644" />
+    <item type="string" name="APKTOOL_DUMMY_64c" />
+    <item type="string" name="APKTOOL_DUMMY_673" />
+    <item type="string" name="APKTOOL_DUMMY_68f" />
+    <item type="string" name="APKTOOL_DUMMY_69a" />
+    <item type="string" name="APKTOOL_DUMMY_6a7" />
+    <item type="string" name="APKTOOL_DUMMY_6a8" />
+    <item type="string" name="APKTOOL_DUMMY_6a9" />
+    <item type="string" name="APKTOOL_DUMMY_6aa" />
+    <item type="string" name="APKTOOL_DUMMY_6ab" />
+    <item type="string" name="APKTOOL_DUMMY_6ac" />
+    <item type="string" name="APKTOOL_DUMMY_6ad" />
+    <item type="string" name="APKTOOL_DUMMY_6ae" />
+    <item type="string" name="APKTOOL_DUMMY_6af" />
+    <item type="string" name="APKTOOL_DUMMY_6b0" />
+    <item type="string" name="APKTOOL_DUMMY_6b1" />
+    <item type="string" name="APKTOOL_DUMMY_6b2" />
+    <item type="string" name="APKTOOL_DUMMY_6b6" />
+    <item type="string" name="APKTOOL_DUMMY_6bc" />
+    <item type="string" name="APKTOOL_DUMMY_6bf" />
+    <item type="string" name="APKTOOL_DUMMY_6c0" />
+    <item type="string" name="APKTOOL_DUMMY_6c1" />
+    <item type="string" name="APKTOOL_DUMMY_6c4" />
+    <item type="string" name="APKTOOL_DUMMY_6c7" />
+    <item type="string" name="APKTOOL_DUMMY_6c8" />
+    <item type="string" name="APKTOOL_DUMMY_6ca" />
+    <item type="string" name="APKTOOL_DUMMY_6cd" />
+    <item type="string" name="APKTOOL_DUMMY_6ce" />
+    <item type="string" name="APKTOOL_DUMMY_6cf" />
+    <item type="string" name="APKTOOL_DUMMY_6d0" />
+    <item type="string" name="APKTOOL_DUMMY_6d1" />
+    <item type="string" name="APKTOOL_DUMMY_6db" />
+    <item type="string" name="APKTOOL_DUMMY_6dc" />
+    <item type="string" name="APKTOOL_DUMMY_6dd" />
+    <item type="string" name="APKTOOL_DUMMY_6de" />
+    <item type="string" name="APKTOOL_DUMMY_6df" />
+    <item type="string" name="APKTOOL_DUMMY_6e0" />
+    <item type="string" name="APKTOOL_DUMMY_6e2" />
+    <item type="string" name="APKTOOL_DUMMY_6e3" />
+    <item type="string" name="APKTOOL_DUMMY_6e4" />
+    <item type="string" name="APKTOOL_DUMMY_6e5" />
+    <item type="string" name="APKTOOL_DUMMY_6e6" />
+    <item type="string" name="APKTOOL_DUMMY_6e7" />
+    <item type="string" name="APKTOOL_DUMMY_6e8" />
+    <item type="string" name="APKTOOL_DUMMY_6e9" />
+    <item type="string" name="APKTOOL_DUMMY_6ea" />
+    <item type="string" name="APKTOOL_DUMMY_6eb" />
+    <item type="string" name="APKTOOL_DUMMY_6ed" />
+    <item type="string" name="APKTOOL_DUMMY_6ee" />
+    <item type="string" name="APKTOOL_DUMMY_6ef" />
+    <item type="string" name="APKTOOL_DUMMY_6f0" />
+    <item type="string" name="APKTOOL_DUMMY_6f1" />
+    <item type="string" name="APKTOOL_DUMMY_6f2" />
+    <item type="string" name="APKTOOL_DUMMY_6f3" />
+    <item type="string" name="APKTOOL_DUMMY_6f5" />
+    <item type="string" name="APKTOOL_DUMMY_6f6" />
+    <item type="string" name="APKTOOL_DUMMY_6f7" />
+    <item type="string" name="APKTOOL_DUMMY_6f8" />
+    <item type="string" name="APKTOOL_DUMMY_6f9" />
+    <item type="string" name="APKTOOL_DUMMY_6fa" />
+    <item type="string" name="APKTOOL_DUMMY_6fc" />
+    <item type="string" name="APKTOOL_DUMMY_6fd" />
+    <item type="string" name="APKTOOL_DUMMY_6fe" />
+    <item type="string" name="APKTOOL_DUMMY_6ff" />
+    <item type="string" name="APKTOOL_DUMMY_700" />
+    <item type="string" name="APKTOOL_DUMMY_705" />
+    <item type="string" name="APKTOOL_DUMMY_706" />
+    <item type="string" name="APKTOOL_DUMMY_707" />
+    <item type="string" name="APKTOOL_DUMMY_708" />
+    <item type="string" name="APKTOOL_DUMMY_709" />
+    <item type="string" name="APKTOOL_DUMMY_70a" />
+    <item type="string" name="APKTOOL_DUMMY_70f" />
+    <item type="string" name="APKTOOL_DUMMY_710" />
+    <item type="string" name="APKTOOL_DUMMY_711" />
+    <item type="string" name="APKTOOL_DUMMY_712" />
+    <item type="string" name="APKTOOL_DUMMY_714" />
+    <item type="string" name="APKTOOL_DUMMY_717" />
+    <item type="string" name="APKTOOL_DUMMY_73d" />
+    <item type="string" name="APKTOOL_DUMMY_745" />
+    <item type="string" name="APKTOOL_DUMMY_746" />
+    <item type="string" name="APKTOOL_DUMMY_76f" />
+    <item type="string" name="APKTOOL_DUMMY_784" />
+    <item type="string" name="APKTOOL_DUMMY_7c0" />
+    <item type="string" name="APKTOOL_DUMMY_7c6" />
+    <item type="string" name="APKTOOL_DUMMY_7d6" />
+    <item type="string" name="APKTOOL_DUMMY_7d8" />
+    <item type="string" name="APKTOOL_DUMMY_7d9" />
+    <item type="string" name="APKTOOL_DUMMY_7e2" />
+    <item type="string" name="APKTOOL_DUMMY_7f0" />
+    <item type="string" name="APKTOOL_DUMMY_7f5" />
+    <item type="string" name="APKTOOL_DUMMY_7f9" />
+    <item type="string" name="APKTOOL_DUMMY_800" />
+    <item type="string" name="APKTOOL_DUMMY_817" />
+    <item type="string" name="APKTOOL_DUMMY_818" />
+    <item type="string" name="APKTOOL_DUMMY_819" />
+    <item type="string" name="APKTOOL_DUMMY_81a" />
+    <item type="string" name="APKTOOL_DUMMY_81b" />
+    <item type="string" name="APKTOOL_DUMMY_83c" />
+    <item type="string" name="APKTOOL_DUMMY_85b" />
+    <item type="string" name="APKTOOL_DUMMY_85d" />
+    <item type="string" name="APKTOOL_DUMMY_865" />
+    <item type="string" name="APKTOOL_DUMMY_866" />
+    <item type="string" name="APKTOOL_DUMMY_867" />
+    <item type="string" name="APKTOOL_DUMMY_868" />
+    <item type="string" name="APKTOOL_DUMMY_875" />
+    <item type="string" name="APKTOOL_DUMMY_879" />
+    <item type="string" name="APKTOOL_DUMMY_87a" />
+    <item type="string" name="APKTOOL_DUMMY_87b" />
+    <item type="string" name="APKTOOL_DUMMY_87c" />
+    <item type="string" name="APKTOOL_DUMMY_899" />
+    <item type="string" name="APKTOOL_DUMMY_89a" />
+    <item type="string" name="APKTOOL_DUMMY_89b" />
+    <item type="string" name="APKTOOL_DUMMY_89c" />
+    <item type="string" name="APKTOOL_DUMMY_8a8" />
+    <item type="string" name="APKTOOL_DUMMY_8b2" />
+    <item type="string" name="APKTOOL_DUMMY_8b4" />
+    <item type="string" name="APKTOOL_DUMMY_8b6" />
+    <item type="string" name="APKTOOL_DUMMY_8bb" />
+    <item type="string" name="APKTOOL_DUMMY_8be" />
+    <item type="string" name="APKTOOL_DUMMY_8bf" />
+    <item type="string" name="APKTOOL_DUMMY_8c0" />
+    <item type="string" name="APKTOOL_DUMMY_8c1" />
+    <item type="string" name="APKTOOL_DUMMY_8c2" />
+    <item type="string" name="APKTOOL_DUMMY_8c3" />
+    <item type="string" name="APKTOOL_DUMMY_8c4" />
+    <item type="string" name="APKTOOL_DUMMY_8c5" />
+    <item type="string" name="APKTOOL_DUMMY_8c6" />
+    <item type="string" name="APKTOOL_DUMMY_8c7" />
+    <item type="string" name="APKTOOL_DUMMY_8c8" />
+    <item type="string" name="APKTOOL_DUMMY_8c9" />
+    <item type="string" name="APKTOOL_DUMMY_8cb" />
+    <item type="string" name="APKTOOL_DUMMY_8cc" />
+    <item type="string" name="APKTOOL_DUMMY_8cd" />
+    <item type="string" name="APKTOOL_DUMMY_8d0" />
+    <item type="string" name="APKTOOL_DUMMY_8d1" />
+    <item type="string" name="APKTOOL_DUMMY_8d2" />
+    <item type="string" name="APKTOOL_DUMMY_8d3" />
+    <item type="string" name="APKTOOL_DUMMY_8d4" />
+    <item type="string" name="APKTOOL_DUMMY_8d5" />
+    <item type="string" name="APKTOOL_DUMMY_8d6" />
+    <item type="string" name="APKTOOL_DUMMY_8d7" />
+    <item type="string" name="APKTOOL_DUMMY_8d8" />
+    <item type="string" name="APKTOOL_DUMMY_8d9" />
+    <item type="string" name="APKTOOL_DUMMY_8da" />
+    <item type="string" name="APKTOOL_DUMMY_8db" />
+    <item type="string" name="APKTOOL_DUMMY_8dc" />
+    <item type="string" name="APKTOOL_DUMMY_8dd" />
+    <item type="string" name="APKTOOL_DUMMY_8de" />
+    <item type="string" name="APKTOOL_DUMMY_8df" />
+    <item type="string" name="APKTOOL_DUMMY_8e0" />
+    <item type="string" name="APKTOOL_DUMMY_8e1" />
+    <item type="string" name="APKTOOL_DUMMY_8e2" />
+    <item type="string" name="APKTOOL_DUMMY_8e4" />
+    <item type="string" name="APKTOOL_DUMMY_8e9" />
+    <item type="string" name="APKTOOL_DUMMY_8eb" />
+    <item type="string" name="APKTOOL_DUMMY_8f0" />
+    <item type="string" name="APKTOOL_DUMMY_8f1" />
+    <item type="string" name="APKTOOL_DUMMY_8f2" />
+    <item type="string" name="APKTOOL_DUMMY_8f3" />
+    <item type="string" name="APKTOOL_DUMMY_8f4" />
+    <item type="string" name="APKTOOL_DUMMY_8f5" />
+    <item type="string" name="APKTOOL_DUMMY_8f6" />
+    <item type="string" name="APKTOOL_DUMMY_8f7" />
+    <item type="string" name="APKTOOL_DUMMY_8f8" />
+    <item type="string" name="APKTOOL_DUMMY_8f9" />
+    <item type="string" name="APKTOOL_DUMMY_8fe" />
+    <item type="string" name="APKTOOL_DUMMY_8ff" />
+    <item type="string" name="APKTOOL_DUMMY_900" />
+    <item type="string" name="APKTOOL_DUMMY_901" />
+    <item type="string" name="APKTOOL_DUMMY_904" />
+    <item type="string" name="APKTOOL_DUMMY_905" />
+    <item type="string" name="APKTOOL_DUMMY_906" />
+    <item type="string" name="APKTOOL_DUMMY_907" />
+    <item type="string" name="APKTOOL_DUMMY_908" />
+    <item type="string" name="APKTOOL_DUMMY_909" />
+    <item type="string" name="APKTOOL_DUMMY_90a" />
+    <item type="string" name="APKTOOL_DUMMY_90b" />
+    <item type="string" name="APKTOOL_DUMMY_90c" />
+    <item type="string" name="APKTOOL_DUMMY_90e" />
+    <item type="string" name="APKTOOL_DUMMY_90f" />
+    <item type="string" name="APKTOOL_DUMMY_910" />
+    <item type="string" name="APKTOOL_DUMMY_911" />
+    <item type="string" name="APKTOOL_DUMMY_912" />
+    <item type="string" name="APKTOOL_DUMMY_913" />
+    <item type="string" name="APKTOOL_DUMMY_914" />
+    <item type="string" name="APKTOOL_DUMMY_915" />
+    <item type="string" name="APKTOOL_DUMMY_918" />
+    <item type="string" name="APKTOOL_DUMMY_91a" />
+    <item type="string" name="APKTOOL_DUMMY_91b" />
+    <item type="string" name="APKTOOL_DUMMY_91c" />
+    <item type="string" name="APKTOOL_DUMMY_91d" />
+    <item type="string" name="APKTOOL_DUMMY_91e" />
+    <item type="string" name="APKTOOL_DUMMY_922" />
+    <item type="string" name="APKTOOL_DUMMY_923" />
+    <item type="string" name="APKTOOL_DUMMY_924" />
+    <item type="string" name="APKTOOL_DUMMY_925" />
+    <item type="string" name="APKTOOL_DUMMY_926" />
+    <item type="string" name="APKTOOL_DUMMY_92b" />
+    <item type="string" name="APKTOOL_DUMMY_93d" />
+    <item type="string" name="APKTOOL_DUMMY_93e" />
+    <item type="string" name="APKTOOL_DUMMY_941" />
+    <item type="string" name="APKTOOL_DUMMY_945" />
+    <item type="string" name="APKTOOL_DUMMY_946" />
+    <item type="string" name="APKTOOL_DUMMY_948" />
+    <item type="string" name="APKTOOL_DUMMY_94f" />
+    <item type="string" name="APKTOOL_DUMMY_976" />
+    <item type="string" name="APKTOOL_DUMMY_97f" />
+    <item type="string" name="APKTOOL_DUMMY_980" />
+    <item type="string" name="APKTOOL_DUMMY_985" />
+    <item type="string" name="APKTOOL_DUMMY_9c9" />
+    <item type="string" name="APKTOOL_DUMMY_9ec" />
+    <item type="string" name="APKTOOL_DUMMY_9ed" />
+    <item type="string" name="APKTOOL_DUMMY_9ef" />
+    <item type="string" name="APKTOOL_DUMMY_9fa" />
+    <item type="string" name="APKTOOL_DUMMY_a03" />
+    <item type="string" name="APKTOOL_DUMMY_a46" />
+    <item type="string" name="APKTOOL_DUMMY_a47" />
+    <item type="string" name="APKTOOL_DUMMY_a48" />
+    <item type="string" name="APKTOOL_DUMMY_a49" />
+    <item type="string" name="APKTOOL_DUMMY_a4a" />
+    <item type="string" name="APKTOOL_DUMMY_a4e" />
+    <item type="string" name="APKTOOL_DUMMY_a51" />
+    <item type="string" name="APKTOOL_DUMMY_a5a" />
+    <item type="string" name="APKTOOL_DUMMY_a6a" />
+    <item type="string" name="APKTOOL_DUMMY_a7d" />
+    <item type="string" name="APKTOOL_DUMMY_a83" />
+    <item type="string" name="APKTOOL_DUMMY_a84" />
+    <item type="string" name="APKTOOL_DUMMY_a98" />
+    <item type="string" name="APKTOOL_DUMMY_aac" />
+    <item type="string" name="APKTOOL_DUMMY_aad" />
+    <item type="string" name="APKTOOL_DUMMY_aae" />
+    <item type="string" name="APKTOOL_DUMMY_aaf" />
+    <item type="string" name="APKTOOL_DUMMY_ab0" />
+    <item type="string" name="APKTOOL_DUMMY_ab2" />
+    <item type="string" name="APKTOOL_DUMMY_ab6" />
+    <item type="string" name="APKTOOL_DUMMY_ac4" />
+    <item type="string" name="APKTOOL_DUMMY_ac5" />
+    <item type="string" name="APKTOOL_DUMMY_ac6" />
+    <item type="string" name="APKTOOL_DUMMY_ac7" />
+    <item type="string" name="APKTOOL_DUMMY_ac9" />
+    <item type="string" name="APKTOOL_DUMMY_aca" />
+    <item type="string" name="APKTOOL_DUMMY_ad0" />
+    <item type="string" name="APKTOOL_DUMMY_ae1" />
+    <item type="string" name="APKTOOL_DUMMY_ae6" />
+    <item type="string" name="APKTOOL_DUMMY_afb" />
+    <item type="string" name="APKTOOL_DUMMY_b07" />
+    <item type="string" name="APKTOOL_DUMMY_b0c" />
+    <item type="string" name="APKTOOL_DUMMY_b19" />
+    <item type="string" name="APKTOOL_DUMMY_b30" />
 </resources>

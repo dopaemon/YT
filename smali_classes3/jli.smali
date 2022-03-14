@@ -158,8 +158,6 @@
     const v4, 0x7f0b00a3
 
     .line 10
-    invoke-static {v3}, Lfi/razerman/youtube/XAdRemover;->HideView(Landroid/view/View;)V
-
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v11

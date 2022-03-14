@@ -28,7 +28,7 @@
 
     iput-object v0, p0, Lyv;->a:Ljava/lang/String;
 
-    const-string v1, "com.mgoogle.android.gms"
+    const-string v1, "com.google.android.gms"
 
     iput-object v1, p0, Lyv;->b:Ljava/lang/String;
 

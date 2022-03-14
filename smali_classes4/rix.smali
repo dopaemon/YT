@@ -1917,7 +1917,7 @@
 
     invoke-direct {v0, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    const-string p0, "com.vanced.android.youtube.fileprovider"
+    const-string p0, "com.google.android.youtube.fileprovider"
 
     .line 2
     invoke-static {p1, p0, v0}, Lxg;->a(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)Landroid/net/Uri;

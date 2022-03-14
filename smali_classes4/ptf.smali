@@ -1191,7 +1191,7 @@
 
     move-result-object v3
 
-    const-string v5, "com.vanced.android.youtube.fileprovider"
+    const-string v5, "com.google.android.youtube.fileprovider"
 
     invoke-virtual {p0}, Lbp;->rm()Landroid/content/Context;
 

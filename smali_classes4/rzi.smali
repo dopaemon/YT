@@ -188,7 +188,7 @@
 
     move-result-object v0
 
-    const-string v1, "com.mgoogle"
+    const-string v1, "com.google"
 
     .line 7
     invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z

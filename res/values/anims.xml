@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item type="anim" name="APKTOOL_DUMMY_a">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_c">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_12">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_13">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_14">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_15">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_16">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_31">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_32">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_36">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_3a">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_3b">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_3e">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_3f">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_53">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_54">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_5a">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_64">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_65">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_6c">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_6d">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_6e">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_70">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_7f">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_80">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_81">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_82">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_87">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_88">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_89">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_8a">@null</item>
-    <item type="anim" name="APKTOOL_DUMMY_8b">@null</item>
+    <item type="anim" name="APKTOOL_DUMMY_a" />
+    <item type="anim" name="APKTOOL_DUMMY_c" />
+    <item type="anim" name="APKTOOL_DUMMY_12" />
+    <item type="anim" name="APKTOOL_DUMMY_13" />
+    <item type="anim" name="APKTOOL_DUMMY_14" />
+    <item type="anim" name="APKTOOL_DUMMY_15" />
+    <item type="anim" name="APKTOOL_DUMMY_16" />
+    <item type="anim" name="APKTOOL_DUMMY_31" />
+    <item type="anim" name="APKTOOL_DUMMY_32" />
+    <item type="anim" name="APKTOOL_DUMMY_36" />
+    <item type="anim" name="APKTOOL_DUMMY_3a" />
+    <item type="anim" name="APKTOOL_DUMMY_3b" />
+    <item type="anim" name="APKTOOL_DUMMY_3e" />
+    <item type="anim" name="APKTOOL_DUMMY_3f" />
+    <item type="anim" name="APKTOOL_DUMMY_53" />
+    <item type="anim" name="APKTOOL_DUMMY_54" />
+    <item type="anim" name="APKTOOL_DUMMY_5a" />
+    <item type="anim" name="APKTOOL_DUMMY_64" />
+    <item type="anim" name="APKTOOL_DUMMY_65" />
+    <item type="anim" name="APKTOOL_DUMMY_6c" />
+    <item type="anim" name="APKTOOL_DUMMY_6d" />
+    <item type="anim" name="APKTOOL_DUMMY_6e" />
+    <item type="anim" name="APKTOOL_DUMMY_70" />
+    <item type="anim" name="APKTOOL_DUMMY_7f" />
+    <item type="anim" name="APKTOOL_DUMMY_80" />
+    <item type="anim" name="APKTOOL_DUMMY_81" />
+    <item type="anim" name="APKTOOL_DUMMY_82" />
+    <item type="anim" name="APKTOOL_DUMMY_87" />
+    <item type="anim" name="APKTOOL_DUMMY_88" />
+    <item type="anim" name="APKTOOL_DUMMY_89" />
+    <item type="anim" name="APKTOOL_DUMMY_8a" />
+    <item type="anim" name="APKTOOL_DUMMY_8b" />
 </resources>

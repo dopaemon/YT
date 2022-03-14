@@ -12,6 +12,6 @@
         </shape>
     </item>
     <item android:left="24.0dip" android:top="24.0dip" android:right="24.0dip" android:bottom="24.0dip">
-        <bitmap android:src="@drawable/quantum_ic_close_white_24" />
+        <bitmap android:src="@drawable/APKTOOL_DUMMY_6e4" />
     </item>
 </layer-list>

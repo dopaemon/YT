@@ -673,10 +673,6 @@
 
     move-result v0
 
-    invoke-static {v0}, Lfi/razerman/youtube/XGlobals;->getTabletMiniplayerOverride(Z)Z
-
-    move-result v0
-
     if-nez v0, :cond_9
 
     .line 35

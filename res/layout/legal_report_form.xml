@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
     <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
         <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:paddingEnd="@dimen/legal_report_form_standard_spacing">
-            <ImageButton android:layout_gravity="end" android:id="@id/send_report" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_send_grey600_24" android:contentDescription="@null" />
+            <ImageButton android:layout_gravity="end" android:id="@id/send_report" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMY_7fd" android:contentDescription="@null" />
         </android.support.v7.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
     <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">

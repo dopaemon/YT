@@ -4,7 +4,7 @@
 
 
 # static fields
-.field static a:Z
+.field static a:Z = false
 
 .field public static b:Ljava/security/MessageDigest;
 

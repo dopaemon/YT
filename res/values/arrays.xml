@@ -30,7 +30,6 @@
         <item>@id/cast_button_type_skip_next</item>
         <item>@id/cast_button_type_mute_toggle</item>
     </array>
-    <item type="array" name="APKTOOL_DUMMY_6">@null</item>
     <array name="com_google_android_gms_fonts_certs">
         <item>@array/com_google_android_gms_fonts_certs_dev</item>
         <item>@array/com_google_android_gms_fonts_certs_prod</item>
@@ -131,7 +130,6 @@
         <item>SCV45</item>
     </string-array>
     <array name="keyguard_biometric_and_credential_exclude_vendors" />
-    <item type="array" name="APKTOOL_DUMMY_18">@null</item>
     <string-array name="pref_hide_controls_entries">
         <item>@string/pref_hide_controls_entry_3s</item>
         <item>@string/pref_hide_controls_entry_5s</item>
@@ -146,7 +144,6 @@
         <item>@string/pref_hide_controls_value_30s</item>
         <item>@string/pref_hide_controls_value_never</item>
     </string-array>
-    <item type="array" name="APKTOOL_DUMMY_1b">@null</item>
     <string-array name="upload_policy_entries">
         <item>@string/upload_when_on_wifi</item>
         <item>@string/upload_on_any_network</item>
@@ -155,16 +152,7 @@
         <item>@string/upload_network_policy_pref_value_wifi</item>
         <item>@string/upload_network_policy_pref_value_any</item>
     </string-array>
-    <string-array name="vanced_button_location_entries">
-        <item>@string/vanced_button_location_entry_none</item>
-        <item>@string/vanced_button_location_entry_player</item>
-        <item>@string/vanced_button_location_entry_buttoncontainer</item>
-        <item>@string/vanced_button_location_entry_both</item>
-    </string-array>
-    <string-array name="vanced_button_location_entry_values">
-        <item>NONE</item>
-        <item>PLAYER</item>
-        <item>BUTTON_CONTAINER</item>
-        <item>BOTH</item>
-    </string-array>
+    <item type="array" name="APKTOOL_DUMMY_6" />
+    <item type="array" name="APKTOOL_DUMMY_18" />
+    <item type="array" name="APKTOOL_DUMMY_1b" />
 </resources>

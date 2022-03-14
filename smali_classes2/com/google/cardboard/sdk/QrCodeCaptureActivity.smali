@@ -16,7 +16,7 @@
 
 .field private static final TAG:Ljava/lang/String; = "QrCodeCaptureActivity"
 
-.field private static qrCodeSaved:Z
+.field private static qrCodeSaved:Z = false
 
 
 # instance fields

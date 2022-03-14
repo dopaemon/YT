@@ -361,8 +361,6 @@
 
     iput-object v10, v0, Lcom/google/android/apps/youtube/app/player/overlay/YouTubeControlsOverlay;->f:Lyit;
 
-    invoke-static {v10}, Lfi/razerman/youtube/Helpers/XSwipeHelper;->SetFrameLayout(Ljava/lang/Object;)V
-
     iput-object v13, v0, Lcom/google/android/apps/youtube/app/player/overlay/YouTubeControlsOverlay;->ae:Lhwf;
 
     move-object/from16 v6, p21
@@ -2123,12 +2121,6 @@
 .method private final ac(ZZ)V
     .locals 2
 
-    invoke-static {p1}, Lpl/jakubweg/ShieldButton;->changeVisibility(Z)V
-
-    invoke-static {p1}, Lpl/jakubweg/VotingButton;->changeVisibility(Z)V
-
-    invoke-static {p1}, Lfi/razerman/youtube/Autorepeat/AutoRepeat;->changeVisibility(Z)V
-
     .line 1
     iget-object v0, p0, Lcom/google/android/apps/youtube/app/player/overlay/YouTubeControlsOverlay;->f:Lyit;
 
@@ -2552,10 +2544,6 @@
     invoke-virtual {v0}, Landroid/view/ViewStub;->inflate()Landroid/view/View;
 
     move-result-object v0
-
-    invoke-static {v0}, Lpl/jakubweg/ShieldButton;->initialize(Ljava/lang/Object;)V
-
-    invoke-static {v0}, Lpl/jakubweg/VotingButton;->initialize(Ljava/lang/Object;)V
 
     iput-object v0, p0, Lcom/google/android/apps/youtube/app/player/overlay/YouTubeControlsOverlay;->i:Landroid/view/View;
 

@@ -15,6 +15,6 @@
         <include android:id="@id/select_message_view" android:visibility="gone" layout="@layout/share_panel_select_message" />
         <include android:id="@id/message_input_view" android:visibility="gone" layout="@layout/message_input_section_v15" />
     </LinearLayout>
-    <com.google.android.libraries.quantum.fab.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/send_button" android:visibility="gone" android:layout_width="@dimen/quantum_fab_diameter_default" android:layout_height="@dimen/quantum_fab_diameter_default" android:layout_margin="@dimen/quantum_fab_edge_margin" android:src="@drawable/quantum_ic_send_white_24" android:contentDescription="@string/accessibility_send_share" yt:quantumFabColor="?ytStaticBrandRed" />
+    <com.google.android.libraries.quantum.fab.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/send_button" android:visibility="gone" android:layout_width="@dimen/quantum_fab_diameter_default" android:layout_height="@dimen/quantum_fab_diameter_default" android:layout_margin="@dimen/quantum_fab_edge_margin" android:src="@drawable/APKTOOL_DUMMY_7fe" android:contentDescription="@string/accessibility_send_share" yt:quantumFabColor="?ytStaticBrandRed" />
     <com.google.android.libraries.quantum.snackbar.Snackbar android:layout_gravity="bottom" android:id="@id/snackbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
 </FrameLayout>

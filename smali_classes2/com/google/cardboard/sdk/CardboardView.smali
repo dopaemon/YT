@@ -6,7 +6,7 @@
 # static fields
 .field private static final TAG:Ljava/lang/String; = "CardboardView"
 
-.field private static useGvrGlSurfaceView:Z
+.field private static useGvrGlSurfaceView:Z = false
 
 
 # instance fields

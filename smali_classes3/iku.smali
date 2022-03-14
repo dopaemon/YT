@@ -1593,10 +1593,6 @@
 
     iget-object v4, v2, Landroidx/preference/Preference;->u:Ljava/lang/String;
 
-    invoke-static {v4}, Lfi/razerman/youtube/Helpers/NullCheck;->ensureHasFragment(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v4
-
     .line 167
     invoke-virtual {v1, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

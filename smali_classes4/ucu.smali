@@ -174,7 +174,7 @@
     .line 58
     invoke-direct {v0}, Landroid/content/Intent;-><init>()V
 
-    const-string v1, "com.mgoogle.android.gms"
+    const-string v1, "com.google.android.gms"
 
     const-string v2, "com.google.android.gms.cast.settings.CastSettingsActivity"
 

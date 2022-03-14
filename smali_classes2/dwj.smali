@@ -526,7 +526,7 @@
 
     new-instance v0, Landroid/content/IntentFilter;
 
-    const-string v3, "com.mgoogle.android.gms.phenotype.UPDATE"
+    const-string v3, "com.google.android.gms.phenotype.UPDATE"
 
     invoke-direct {v0, v3}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 

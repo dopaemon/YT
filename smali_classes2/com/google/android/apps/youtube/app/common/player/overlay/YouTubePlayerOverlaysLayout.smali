@@ -8,10 +8,6 @@
 .implements Lene;
 
 
-# static fields
-.field public static overlayContext:Landroid/content/Context;
-
-
 # instance fields
 .field public final a:Ljava/util/List;
 
@@ -73,8 +69,6 @@
 
     iput-object p1, p0, Lcom/google/android/apps/youtube/app/common/player/overlay/YouTubePlayerOverlaysLayout;->d:Landroid/view/ViewGroup;
 
-    invoke-direct {p0}, Lcom/google/android/apps/youtube/app/common/player/overlay/YouTubePlayerOverlaysLayout;->InitializeSwipeControls()V
-
     return-void
 .end method
 
@@ -117,28 +111,6 @@
     iput-object p1, p0, Lcom/google/android/apps/youtube/app/common/player/overlay/YouTubePlayerOverlaysLayout;->h:Lbu;
 
     iput-object p1, p0, Lcom/google/android/apps/youtube/app/common/player/overlay/YouTubePlayerOverlaysLayout;->d:Landroid/view/ViewGroup;
-
-    invoke-direct {p0}, Lcom/google/android/apps/youtube/app/common/player/overlay/YouTubePlayerOverlaysLayout;->InitializeSwipeControls()V
-
-    return-void
-.end method
-
-.method private final InitializeSwipeControls()V
-    .locals 2
-
-    invoke-virtual {p0}, Lcom/google/android/apps/youtube/app/common/player/overlay/YouTubePlayerOverlaysLayout;->getContext()Landroid/content/Context;
-
-    move-result-object v0
-
-    invoke-virtual {p0}, Lcom/google/android/apps/youtube/app/common/player/overlay/YouTubePlayerOverlaysLayout;->getContext()Landroid/content/Context;
-
-    move-result-object v1
-
-    invoke-static {v1}, Landroid/view/ViewConfiguration;->get(Landroid/content/Context;)Landroid/view/ViewConfiguration;
-
-    move-result-object v1
-
-    invoke-static {v0, p0, v1}, Lfi/razerman/youtube/XGlobals;->InitializeFensterController(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/view/ViewConfiguration;)V
 
     return-void
 .end method
@@ -600,14 +572,6 @@
     return-void
 
     :cond_0
-    invoke-virtual {p0}, Lcom/google/android/apps/youtube/app/common/player/overlay/YouTubePlayerOverlaysLayout;->getContext()Landroid/content/Context;
-
-    move-result-object v0
-
-    sput-object v0, Lcom/google/android/apps/youtube/app/common/player/overlay/YouTubePlayerOverlaysLayout;->overlayContext:Landroid/content/Context;
-
-    invoke-static {p1}, Lfi/razerman/youtube/XGlobals;->PlayerTypeChanged(Lenv;)V
-
     iput-object p1, p0, Lcom/google/android/apps/youtube/app/common/player/overlay/YouTubePlayerOverlaysLayout;->i:Lenv;
 
     .line 2
@@ -703,12 +667,6 @@
 
 .method public final onTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 0
-
-    invoke-static {p1}, Lfi/razerman/youtube/XGlobals;->FensterTouchEvent(Landroid/view/MotionEvent;)Z
-
-    move-result p1
-
-    return p1
 
     const/4 p1, 0x0
 

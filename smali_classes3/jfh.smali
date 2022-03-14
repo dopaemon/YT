@@ -125,8 +125,6 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lfi/razerman/youtube/XAdRemover;->HideReel(Landroid/view/View;)V
-
     iput-object v2, v0, Ljfh;->o:Landroid/view/View;
 
     const v3, 0x7f0b0d3f

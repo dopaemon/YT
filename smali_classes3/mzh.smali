@@ -6,7 +6,7 @@
 # static fields
 .field public static final a:[Ljava/lang/String;
 
-.field public static b:Z
+.field public static b:Z = false
 
 .field public static final c:Ljava/lang/Object;
 

@@ -12,5 +12,5 @@
             <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="@android:color/darker_gray" android:gravity="center_vertical" android:id="@id/audio_swap_track_duration" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:text="0:00" android:layout_weight="1.0" yt:robotoFont="light" />
         </LinearLayout>
     </LinearLayout>
-    <ImageButton android:layout_gravity="center" android:id="@id/audio_swap_change_dialog_close_button" android:background="@drawable/ic_close" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/upload_edit_audio_swap_dialog_close_button_content_description" />
+    <ImageButton android:layout_gravity="center" android:id="@id/audio_swap_change_dialog_close_button" android:background="@drawable/APKTOOL_DUMMY_2a0" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/upload_edit_audio_swap_dialog_close_button_content_description" />
 </RelativeLayout>

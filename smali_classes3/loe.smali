@@ -113,7 +113,7 @@
     :try_start_1
     new-instance v10, Landroid/accounts/Account;
 
-    const-string v12, "com.mgoogle"
+    const-string v12, "com.google"
 
     invoke-direct {v10, v11, v12}, Landroid/accounts/Account;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 

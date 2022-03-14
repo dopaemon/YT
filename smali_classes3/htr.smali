@@ -443,10 +443,6 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lpl/jakubweg/SponsorBlockUtils;->appendTimeWithoutSegments(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
     iget-object p2, p0, Lhtr;->o:Lrvh;
 
     iget-object p2, p2, Lrvh;->b:Landroid/view/View;

@@ -7,6 +7,6 @@
         </shape>
     </item>
     <item android:left="8.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip">
-        <bitmap android:src="@drawable/quantum_ic_mic_white_18" />
+        <bitmap android:src="@drawable/APKTOOL_DUMMY_77b" />
     </item>
 </layer-list>

@@ -9,7 +9,7 @@
             </FrameLayout>
             <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceBody2a" android:textColor="?ytOverlayTextPrimary" android:ellipsize="end" android:id="@id/alternative_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart" />
         </LinearLayout>
-        <ImageView android:id="@id/close_button" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/quantum_ic_close_white_24" android:contentDescription="@string/accessibility_close_button" style="@style/YouTubePlayerButton" />
+        <ImageView android:id="@id/close_button" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/APKTOOL_DUMMY_6e4" android:contentDescription="@string/accessibility_close_button" style="@style/YouTubePlayerButton" />
     </LinearLayout>
     <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <include android:id="@id/info_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/autonav_info_panel_margin_bottom" layout="@layout/autonav_info_panel" />

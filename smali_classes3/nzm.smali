@@ -476,7 +476,7 @@
 
     iput v9, v8, Lnvo;->b:I
 
-    const-string v9, "com.mgoogle.android.gms"
+    const-string v9, "com.google.android.gms"
 
     iput-object v9, v8, Lnvo;->d:Ljava/lang/String;
 

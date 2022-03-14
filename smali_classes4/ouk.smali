@@ -6,11 +6,11 @@
 # static fields
 .field private static final a:Ljava/lang/Object;
 
-.field public static final synthetic d:I
+.field public static final synthetic d:I = 0x0
 
-.field private static volatile e:Louj;
+.field private static volatile e:Louj; = null
 
-.field private static volatile f:Z
+.field private static volatile f:Z = false
 
 .field private static final g:Ljava/util/concurrent/atomic/AtomicInteger;
 
@@ -361,7 +361,7 @@
 
     move-result-object v2
 
-    const-string v3, "com.mgoogle.android.gms.phenotype"
+    const-string v3, "com.google.android.gms.phenotype"
 
     .line 18
     invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -383,7 +383,7 @@
 
     move-result-object v0
 
-    const-string v2, " is an unsupported authority. Only com.mgoogle.android.gms.phenotype authority is supported."
+    const-string v2, " is an unsupported authority. Only com.google.android.gms.phenotype authority is supported."
 
     invoke-virtual {v0, v2}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
@@ -456,7 +456,7 @@
     goto :goto_3
 
     :cond_4
-    const-string v3, "com.mgoogle.android.gms"
+    const-string v3, "com.google.android.gms"
 
     .line 24
     invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
@@ -479,7 +479,7 @@
 
     move-result-object v3
 
-    const-string v5, "com.mgoogle.android.gms.phenotype"
+    const-string v5, "com.google.android.gms.phenotype"
 
     sget v6, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -502,7 +502,7 @@
 
     if-eqz v3, :cond_8
 
-    const-string v5, "com.mgoogle.android.gms"
+    const-string v5, "com.google.android.gms"
 
     .line 27
     iget-object v3, v3, Landroid/content/pm/ProviderInfo;->packageName:Ljava/lang/String;
@@ -526,7 +526,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     :try_start_1
-    const-string v3, "com.mgoogle.android.gms"
+    const-string v3, "com.google.android.gms"
 
     .line 30
     invoke-virtual {v0, v3, v4}, Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;

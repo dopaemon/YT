@@ -33,7 +33,7 @@
     .line 1
     iget-object p1, p0, Lhpv;->a:Ljava/lang/String;
 
-    const-string v0, "com.mgoogle.android.gms.phenotype.PACKAGE_NAME"
+    const-string v0, "com.google.android.gms.phenotype.PACKAGE_NAME"
 
     invoke-virtual {p2, v0}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 

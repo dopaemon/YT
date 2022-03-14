@@ -1371,7 +1371,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    const-string v3, "com.mgoogle.android.gms"
+    const-string v3, "com.google.android.gms"
 
     if-eqz v1, :cond_1b
 

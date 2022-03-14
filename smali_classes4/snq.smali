@@ -1012,21 +1012,9 @@
 .end method
 
 .method public final j(Z)V
-    .locals 1
+    .locals 0
 
     .line 1
-    invoke-static/range {p1 .. p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lfi/razerman/youtube/XAdRemover;->RemoveSuggestions(Ljava/lang/Boolean;)Ljava/lang/Boolean;
-
-    move-result-object v0
-
-    invoke-virtual/range {v0 .. v0}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result p1
-
     iput-boolean p1, p0, Lsnq;->n:Z
 
     iget-object p1, p0, Lsnq;->k:Lsnp;

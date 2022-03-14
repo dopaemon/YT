@@ -56,7 +56,7 @@
 
     check-cast v0, Landroid/accounts/AccountManager;
 
-    const-string v1, "com.mgoogle"
+    const-string v1, "com.google"
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/accounts/AccountManager;->getAccountsByType(Ljava/lang/String;)[Landroid/accounts/Account;

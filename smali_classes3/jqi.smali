@@ -71,30 +71,6 @@
     return-void
 .end method
 
-.method private overrideSpeed(F)V
-    .locals 3
-    .param p1, "position"    # F
-
-    const/4 v0, 0x0
-
-    cmpg-float v0, p1, v0
-
-    if-gez v0, :cond_0
-
-    return-void
-
-    :cond_0
-    iget-object v0, p0, Ljqi;->ag:Lyei;
-
-    check-cast v0, Lyek;
-
-    iget-object v1, v0, Lyek;->a:Lyqq;
-
-    invoke-virtual {v1, p1}, Lyqq;->F(F)V
-
-    return-void
-.end method
-
 
 # virtual methods
 .method public final X()V
@@ -161,13 +137,7 @@
 .end method
 
 .method public final b([Lalee;I)V
-    .locals 5
-
-    invoke-static {p1, p2}, Lfi/razerman/youtube/videosettings/VideoSpeed;->getSpeedValue([Ljava/lang/Object;I)F
-
-    move-result v4
-
-    invoke-direct {p0, v4}, Ljqi;->overrideSpeed(F)V
+    .locals 3
 
     .line 1
     iget-object v0, p0, Ljqi;->ae:[Lalee;
@@ -254,8 +224,6 @@
 
 .method public final onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
     .locals 0
-
-    invoke-static {}, Lfi/razerman/youtube/videosettings/VideoSpeed;->userChangedSpeed()V
 
     .line 1
     iget-object p1, p0, Lowo;->at:Landroid/widget/ListAdapter;

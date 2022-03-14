@@ -1136,8 +1136,6 @@
 
     move-object/from16 v0, p0
 
-    invoke-static {v0}, Lpl/jakubweg/PlayerController;->setSponsorBarRect(Ljava/lang/Object;)V
-
     move-object/from16 v9, p1
 
     .line 1
@@ -1373,8 +1371,6 @@
     invoke-static {v2}, Ljava/lang/Math;->round(F)I
 
     move-result v2
-
-    invoke-static {v2}, Lpl/jakubweg/PlayerController;->setSponsorBarThickness(I)V
 
     iget-object v3, v0, Lesa;->C:Landroid/graphics/Rect;
 
@@ -2082,8 +2078,6 @@
 
     invoke-virtual {v11, v1, v2}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 
-    invoke-static {v1}, Lpl/jakubweg/PlayerController;->setSponsorBarAbsoluteRight(Landroid/graphics/Rect;)V
-
     move-object/from16 v19, v3
 
     move-object/from16 v20, v4
@@ -2414,8 +2408,6 @@
     iget-object v2, v2, Lesb;->d:Landroid/graphics/Paint;
 
     invoke-virtual {v11, v1, v2}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/Rect;Landroid/graphics/Paint;)V
-
-    invoke-static {v1}, Lpl/jakubweg/PlayerController;->setSponsorBarAbsoluteLeft(Landroid/graphics/Rect;)V
 
     goto :goto_18
 
@@ -3946,8 +3938,6 @@
     iget-object v4, v4, Lesb;->d:Landroid/graphics/Paint;
 
     .line 201
-    invoke-static {v11, v3}, Lpl/jakubweg/PlayerController;->drawSponsorTimeBars(Landroid/graphics/Canvas;F)V
-
     invoke-virtual {v11, v2, v3, v1, v4}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
     .line 202
@@ -4241,7 +4231,7 @@
 
     const/4 v4, 0x1
 
-    if-eqz v3, :cond_17
+    if-eqz v3, :cond_16
 
     iget-object v3, p0, Lesa;->F:Lert;
 
@@ -4615,39 +4605,26 @@
     .line 53
     invoke-virtual {p0}, Lyfh;->M()V
 
-    const/4 v0, 0x0
-
-    invoke-static {}, Lfi/razerman/youtube/preferences/BooleanPreferences;->isTapSeekingEnabled()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_16
-
-    invoke-virtual {p0, v2}, Lyfh;->O(I)V
-
-    invoke-virtual {p0, v2}, Lyfh;->P(I)V
-
-    :cond_16
     return v4
 
     .line 17
-    :cond_17
+    :cond_16
     :goto_4
     invoke-virtual {p0}, Lyfh;->kW()Z
 
     move-result v3
 
-    if-eqz v3, :cond_18
+    if-eqz v3, :cond_17
 
     .line 18
     invoke-virtual {p0}, Lyfh;->r()V
 
-    :cond_18
+    :cond_17
     invoke-virtual {p0}, Lesa;->E()Z
 
     move-result v3
 
-    if-eqz v3, :cond_19
+    if-eqz v3, :cond_18
 
     int-to-float v2, v2
 
@@ -4658,7 +4635,7 @@
 
     move-result v2
 
-    if-eqz v2, :cond_19
+    if-eqz v2, :cond_18
 
     iget-object v2, p0, Lesa;->C:Landroid/graphics/Rect;
 
@@ -4666,19 +4643,19 @@
 
     move-result v2
 
-    if-le v0, v2, :cond_19
+    if-le v0, v2, :cond_18
 
     const/4 v1, 0x1
 
-    :cond_19
-    if-eqz v1, :cond_1a
+    :cond_18
+    if-eqz v1, :cond_19
 
     .line 20
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
     move-result p1
 
-    if-nez p1, :cond_1a
+    if-nez p1, :cond_19
 
     iget-object p1, p0, Lesa;->s:Labrk;
 
@@ -4687,7 +4664,7 @@
 
     move-result p1
 
-    if-eqz p1, :cond_1a
+    if-eqz p1, :cond_19
 
     iget-object p1, p0, Lesa;->s:Labrk;
 
@@ -4702,7 +4679,7 @@
 
     return v4
 
-    :cond_1a
+    :cond_19
     return v1
 .end method
 
@@ -5291,8 +5268,6 @@
     invoke-virtual {p0}, Lyfh;->kT()J
 
     move-result-wide v1
-
-    invoke-static {v1, v2}, Lpl/jakubweg/PlayerController;->setVideoLength(J)V
 
     .line 4
     invoke-virtual {p0}, Lyfh;->F()J

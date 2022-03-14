@@ -114,8 +114,6 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {v0}, Lpl/jakubweg/PlayerController;->onCreate(Ljava/lang/Object;)V
-
     sget-object v3, Lylj;->a:Lylj;
 
     iput-object v3, v0, Lywm;->l:Lylj;
@@ -3976,27 +3974,6 @@
     return-void
 .end method
 
-.method private final setCurrentVideoInformation()V
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lywm;->g:Lywz;
-
-    iget-object v0, v0, Lywz;->a:Lzal;
-
-    invoke-interface {v0}, Lzal;->c()Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;->y()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lfi/vanced/libraries/youtube/whitelisting/Whitelist;->setChannelName(Ljava/lang/String;)V
-
-    return-void
-.end method
-
 
 # virtual methods
 .method public final A(Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;Lylm;)V
@@ -4236,8 +4213,6 @@
     iget-object v0, p0, Lywm;->b:Lykp;
 
     .line 3
-    invoke-direct {p0}, Lywm;->setCurrentVideoInformation()V
-
     invoke-direct {p0}, Lywm;->aH()Lcom/google/android/libraries/youtube/innertube/model/player/PlayerResponseModel;
 
     move-result-object v1
@@ -5973,19 +5948,6 @@
 
     invoke-virtual {p0, v0}, Lywm;->ae(Lylj;)V
 
-    invoke-static {}, Lfi/vanced/libraries/youtube/player/VideoInformation;->videoEnded()V
-
-    invoke-static {}, Lfi/razerman/youtube/XGlobals;->shouldAutoRepeat()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    const/4 v0, 0x0
-
-    invoke-virtual/range {p0 .. p0}, Lywm;->D()V
-
-    :cond_0
     return-void
 .end method
 
@@ -7345,19 +7307,6 @@
     .end packed-switch
 .end method
 
-.method public final af(J)Z
-    .locals 1
-
-    .line 1
-    sget-object v0, Lajwm;->a:Lajwm;
-
-    invoke-virtual {p0, p1, p2, v0}, Lywm;->af(JLajwm;)Z
-
-    move-result p1
-
-    return p1
-.end method
-
 .method public final af(JLajwm;)Z
     .locals 26
 
@@ -8498,8 +8447,6 @@
     iget-object v2, p1, Lywz;->a:Lzal;
 
     .line 6
-    invoke-direct {p0}, Lywm;->setCurrentVideoInformation()V
-
     invoke-virtual {v1, v2}, Laczv;->m(Lzal;)V
 
     .line 7

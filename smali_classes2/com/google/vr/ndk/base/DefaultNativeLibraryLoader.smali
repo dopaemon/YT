@@ -4,7 +4,7 @@
 
 
 # static fields
-.field private static volatile shouldIgnoreDefaultLibrary:Z
+.field private static volatile shouldIgnoreDefaultLibrary:Z = false
 
 
 # direct methods

@@ -8,6 +8,6 @@
         </shape>
     </item>
     <item>
-        <bitmap android:gravity="center" android:src="@drawable/quantum_ic_search_grey600_24" android:tint="?ytHeaderIcon" />
+        <bitmap android:gravity="center" android:src="@drawable/APKTOOL_DUMMY_7fb" android:tint="?ytHeaderIcon" />
     </item>
 </layer-list>

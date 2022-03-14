@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="31" android:compileSdkVersionCodename="12" package="com.vanced.android.youtube" platformBuildVersionCode="31" platformBuildVersionName="12">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="32" android:compileSdkVersionCodename="Tiramisu" package="com.google.android.youtube" platformBuildVersionCode="32" platformBuildVersionName="Tiramisu">
     <queries>
         <package android:name="com.google.android.apps.youtube.music"/>
         <package android:name="com.google.android.apps.youtube.gaming"/>
@@ -47,7 +47,6 @@
         <intent>
             <action android:name="android.support.customtabs.action.CustomTabsService"/>
         </intent>
-        <package android:name="com.mgoogle.android.gms"/>
     </queries>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -59,13 +58,13 @@
     <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
     <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
-    <uses-permission android:name="com.mgoogle.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="android.permission.NFC"/>
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="com.google.android.gms.permission.AD_ID_NOTIFICATION"/>
-    <uses-permission android:name="com.vanced.android.youtube.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.google.android.youtube.permission.C2D_MESSAGE"/>
     <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
     <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
@@ -89,9 +88,9 @@
     <uses-feature android:name="android.hardware.location" android:required="false"/>
     <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
     <uses-feature android:name="android.hardware.location.network" android:required="false"/>
-    <permission android:name="com.vanced.android.youtube.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.google.android.youtube.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
     <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
-    <application android:allowBackup="true" android:backupAgent="com.google.android.apps.youtube.app.application.backup.YouTubeBackupAgent" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="YouTube Vanced" android:largeHeap="true" android:logo="@drawable/action_bar_logo_release" android:name="com.google.android.apps.youtube.app.YouTubeTikTokRoot_Application" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:restoreAnyVersion="true" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/Theme.YouTube.Light">
+    <application android:allowBackup="true" android:backupAgent="com.google.android.apps.youtube.app.application.backup.YouTubeBackupAgent" android:extractNativeLibs="true" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:isSplitRequired="true" android:label="@string/application_name" android:largeHeap="true" android:logo="@drawable/APKTOOL_DUMMY_8d" android:name="com.google.android.apps.youtube.app.YouTubeTikTokRoot_Application" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:restoreAnyVersion="true" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/Theme.YouTube.Light">
         <meta-data android:name="android.max_aspect" android:value="2.1"/>
         <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAIXi58ScnYbhPAPl8s4DjDkSik7XGKNcn8YqfZFg"/>
         <meta-data android:name="to.dualscreen" android:value="true"/>
@@ -121,7 +120,7 @@
             </intent-filter>
         </activity>
         <meta-data android:name="analytics.safelisted_events" android:resource="@array/firebase_safelisted_events"/>
-        <provider android:authorities="com.vanced.android.youtube.lifecycle-trojan" android:enabled="false" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <provider android:authorities="com.google.android.youtube.lifecycle-trojan" android:enabled="false" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
         <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:label="@string/api_standalone_player_activity_name" android:name="com.google.android.youtube.api.StandalonePlayerActivity" android:permission="android.permission.INTERNET" android:process="com.google.android.youtube.player" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:visibleToInstantApps="true">
             <meta-data android:name="instantapps.clients.allowed" android:value="true"/>
             <intent-filter>
@@ -138,28 +137,28 @@
         </service>
         <receiver android:exported="false" android:name="com.google.android.libraries.youtube.notification.NotificationInteractionBroadcastReceiver"/>
         <activity android:exported="false" android:name="com.google.android.libraries.youtube.notification.push.optoutdialog.NotificationOptOutDialogActivity" android:theme="@style/NotificationOptOutDialogActivity"/>
-        <meta-data android:name="com.mgoogle.android.gms.phenotype.registration.xml:com.google.android.libraries.notifications" android:resource="@xml/com_google_android_libraries_notifications_phenotype"/>
+        <meta-data android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.notifications" android:resource="@xml/com_google_android_libraries_notifications_phenotype"/>
         <service android:enabled="false" android:exported="false" android:name="com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService" android:process="">
             <intent-filter>
                 <action android:name="com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService"/>
             </intent-filter>
-            <meta-data android:name="com.mgoogle.android.gms.phenotype.registration.binarypb:com.google.android.libraries.notifications" android:resource="@raw/com_google_android_libraries_notifications_registration_info"/>
-            <meta-data android:name="com.mgoogle.android.gms.phenotype.registration.binarypb:com.google.android.libraries.consentverifier" android:resource="@raw/com_google_android_libraries_consentverifier_registration_info"/>
-            <meta-data android:name="com.mgoogle.android.gms.phenotype.registration.binarypb:com.google.android.libraries.notifications.platform" android:resource="@raw/com_google_android_libraries_notifications_platform_registration_info"/>
-            <meta-data android:name="com.mgoogle.android.gms.phenotype.registration.binarypb:com.google.android.libraries.mdi.sync" android:resource="@raw/com_google_android_libraries_mdi_sync_registration_info"/>
-            <meta-data android:name="com.mgoogle.android.gms.phenotype.registration.binarypb:com.google.android.libraries.onegoogle" android:resource="@raw/com_google_android_libraries_onegoogle_registration_info"/>
-            <meta-data android:name="com.mgoogle.android.gms.phenotype.registration.binarypb:com.google.android.libraries.user.profile.photopicker" android:resource="@raw/com_google_android_libraries_user_profile_photopicker_registration_info"/>
-            <meta-data android:name="com.mgoogle.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.libraries.performance.primes" android:resource="@raw/com_google_android_libraries_performance_primes_heterodyne_info"/>
-            <meta-data android:name="com.mgoogle.android.gms.phenotype.registration.binarypb:com.google.android.libraries.performance.primes" android:resource="@raw/com_google_android_libraries_performance_primes_registration_info"/>
-            <meta-data android:name="com.mgoogle.android.gms.phenotype.registration.binarypb:com.youtube.mainapp.android" android:resource="@raw/com_youtube_mainapp_android_registration_info"/>
+            <meta-data android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.notifications" android:resource="@raw/com_google_android_libraries_notifications_registration_info"/>
+            <meta-data android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.consentverifier" android:resource="@raw/com_google_android_libraries_consentverifier_registration_info"/>
+            <meta-data android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.notifications.platform" android:resource="@raw/com_google_android_libraries_notifications_platform_registration_info"/>
+            <meta-data android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.mdi.sync" android:resource="@raw/com_google_android_libraries_mdi_sync_registration_info"/>
+            <meta-data android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.onegoogle" android:resource="@raw/com_google_android_libraries_onegoogle_registration_info"/>
+            <meta-data android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.user.profile.photopicker" android:resource="@raw/com_google_android_libraries_user_profile_photopicker_registration_info"/>
+            <meta-data android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.libraries.performance.primes" android:resource="@raw/com_google_android_libraries_performance_primes_heterodyne_info"/>
+            <meta-data android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.performance.primes" android:resource="@raw/com_google_android_libraries_performance_primes_registration_info"/>
+            <meta-data android:name="com.google.android.gms.phenotype.registration.binarypb:com.youtube.mainapp.android" android:resource="@raw/com_youtube_mainapp_android_registration_info"/>
         </service>
-        <meta-data android:name="com.mgoogle.android.gms.phenotype.registration.xml:com.google.android.libraries.consentverifier" android:resource="@xml/com_google_android_libraries_consentverifier_phenotype"/>
-        <meta-data android:name="com.mgoogle.android.gms.phenotype.registration.xml:com.google.android.libraries.notifications.platform" android:resource="@xml/com_google_android_libraries_notifications_platform_phenotype"/>
-        <meta-data android:name="com.mgoogle.android.gms.phenotype.registration.xml:com.google.android.libraries.mdi.sync" android:resource="@xml/com_google_android_libraries_mdi_sync_phenotype"/>
-        <meta-data android:name="com.mgoogle.android.gms.phenotype.registration.xml:com.google.android.libraries.onegoogle" android:resource="@xml/com_google_android_libraries_onegoogle_phenotype"/>
-        <meta-data android:name="com.mgoogle.android.gms.phenotype.registration.xml:com.google.android.libraries.user.profile.photopicker" android:resource="@xml/com_google_android_libraries_user_profile_photopicker_phenotype"/>
-        <meta-data android:name="com.mgoogle.android.gms.phenotype.registration.xml:com.google.android.libraries.performance.primes" android:resource="@xml/com_google_android_libraries_performance_primes_phenotype"/>
-        <meta-data android:name="com.mgoogle.android.gms.phenotype.registration.xml:com.youtube.mainapp.android" android:resource="@xml/com_youtube_mainapp_android_phenotype"/>
+        <meta-data android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.consentverifier" android:resource="@xml/com_google_android_libraries_consentverifier_phenotype"/>
+        <meta-data android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.notifications.platform" android:resource="@xml/com_google_android_libraries_notifications_platform_phenotype"/>
+        <meta-data android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.mdi.sync" android:resource="@xml/com_google_android_libraries_mdi_sync_phenotype"/>
+        <meta-data android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.onegoogle" android:resource="@xml/com_google_android_libraries_onegoogle_phenotype"/>
+        <meta-data android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.user.profile.photopicker" android:resource="@xml/com_google_android_libraries_user_profile_photopicker_phenotype"/>
+        <meta-data android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.performance.primes" android:resource="@xml/com_google_android_libraries_performance_primes_phenotype"/>
+        <meta-data android:name="com.google.android.gms.phenotype.registration.xml:com.youtube.mainapp.android" android:resource="@xml/com_youtube_mainapp_android_phenotype"/>
         <activity android:enabled="false" android:exported="false" android:launchMode="singleInstance" android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity" android:process=":playcore_missing_splits_activity" android:stateNotNeeded="true"/>
         <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
         <activity android:exported="true" android:name="com.google.android.apps.youtube.app.application.Shell_HomeActivity" android:theme="@style/Theme.YouTube.Launcher"/>
@@ -282,7 +281,7 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>
             </intent-filter>
         </service>
-        <provider android:authorities="com.vanced.android.youtube.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.google.android.apps.youtube.app.common.util.MainAppFileProviderCompat">
+        <provider android:authorities="com.google.android.youtube.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.google.android.apps.youtube.app.common.util.MainAppFileProviderCompat">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_provider_exported_paths"/>
         </provider>
         <activity android:exported="true" android:launchMode="singleTask" android:name="com.google.android.apps.youtube.app.extensions.accountlinking.UriFlowActivity" android:theme="@style/Theme.AppCompat.Transparent.NoActionBar">
@@ -321,7 +320,7 @@
                 <data android:mimeType="video/*"/>
             </intent-filter>
         </activity>
-        <provider android:authorities="com.vanced.android.youtube.SuggestionProvider" android:exported="false" android:name="com.google.android.apps.youtube.app.search.suggest.YouTubeSuggestionProvider"/>
+        <provider android:authorities="com.google.android.youtube.SuggestionProvider" android:exported="false" android:name="com.google.android.apps.youtube.app.search.suggest.YouTubeSuggestionProvider"/>
         <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.google.android.apps.youtube.app.search.voice.VoiceSearchActivity" android:theme="@style/Theme.YouTube.Home"/>
         <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.google.android.apps.youtube.app.search.voice.VoiceSearchActivityV2" android:theme="@style/Theme.YouTube.Home"/>
         <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.google.android.apps.youtube.app.search.voice.PermissionRequestActivity" android:theme="@style/Theme.YouTube.Dark.Home"/>
@@ -332,10 +331,9 @@
             </intent-filter>
         </activity>
         <activity android:configChanges="keyboardHidden" android:exported="false" android:label="@string/settings" android:name="com.google.android.apps.youtube.app.settings.SettingsActivity" android:theme="@style/Theme.YouTube.Settings"/>
-        <activity android:configChanges="keyboardHidden" android:exported="true" android:label="Vanced settings" android:name="fi.razerman.youtube.XSettingActivity" android:theme="@style/Theme.YouTube.Settings"/>
         <activity android:configChanges="keyboardHidden" android:exported="false" android:label="@string/settings" android:name="com.google.android.apps.youtube.app.settings.videoquality.VideoQualitySettingsActivity" android:theme="@style/Theme.YouTube.Settings">
             <intent-filter>
-                <action android:name="com.vanced.android.apps.youtube.app.settings.videoquality.VideoQualitySettings"/>
+                <action android:name="com.google.android.apps.youtube.app.settings.videoquality.VideoQualitySettings"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
@@ -382,9 +380,9 @@
                 <action android:name="android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED"/>
             </intent-filter>
         </receiver>
-        <receiver android:exported="true" android:name="com.google.android.libraries.notifications.entrypoints.gcm.GcmBroadcastReceiver" android:permission="com.mgoogle.android.c2dm.permission.SEND">
+        <receiver android:exported="true" android:name="com.google.android.libraries.notifications.entrypoints.gcm.GcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter android:priority="99">
-                <action android:name="com.mgoogle.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
             </intent-filter>
         </receiver>
         <receiver android:exported="true" android:name="com.google.android.libraries.notifications.entrypoints.localechanged.LocaleChangedReceiver">
@@ -417,14 +415,14 @@
         </receiver>
         <receiver android:exported="true" android:name="com.google.android.libraries.phenotype.client.stable.PhenotypeUpdateBackgroundBroadcastReceiver" android:permission="com.google.android.gms.permission.PHENOTYPE_UPDATE_BROADCAST" android:process="">
             <intent-filter>
-                <action android:name="com.mgoogle.android.gms.phenotype.UPDATE"/>
+                <action android:name="com.google.android.gms.phenotype.UPDATE"/>
             </intent-filter>
         </receiver>
         <meta-data android:name="com.google.android.play.billingclient.version" android:value="4.0.0"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <activity android:exported="true" android:label="@string/preferences_license_title" android:name="com.google.android.libraries.social.licenses.LicenseMenuActivity" android:theme="@style/Theme.AppCompat.DayNight"/>
         <activity android:exported="false" android:label="@string/preferences_license_title" android:name="com.google.android.libraries.social.licenses.LicenseActivity" android:theme="@style/Theme.AppCompat.DayNight"/>
-        <provider android:authorities="com.vanced.android.youtube.photopicker_images" android:exported="false" android:grantUriPermissions="true" android:name="com.google.android.libraries.user.profile.photopicker.common.fileprovider.PhotoPickerFileProvider">
+        <provider android:authorities="com.google.android.youtube.photopicker_images" android:exported="false" android:grantUriPermissions="true" android:name="com.google.android.libraries.user.profile.photopicker.common.fileprovider.PhotoPickerFileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/picker_file_provider_path"/>
         </provider>
         <activity android:exported="false" android:label="@string/op3_edit_crop_and_rotate" android:name="com.google.android.libraries.user.profile.photopicker.edit.EditActivity" android:theme="@style/Theme.PhotoPicker.Dark"/>
@@ -469,9 +467,9 @@
                 <data android:scheme="cardboard"/>
             </intent-filter>
         </activity>
-        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.mgoogle.android.c2dm.permission.SEND">
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
-                <action android:name="com.mgoogle.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
             </intent-filter>
         </receiver>
         <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
@@ -531,10 +529,10 @@
             </intent-filter>
             <meta-data android:name="com.google.android.build.data.properties" android:resource="@raw/build_data"/>
         </service>
+        <meta-data android:name="com.android.vending.splits.required" android:value="true"/>
         <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
         <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
         <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
         <meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>
-        <meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base"/>
     </application>
 </manifest>

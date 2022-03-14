@@ -361,7 +361,7 @@
 
     :cond_0
     :try_start_0
-    const-string v0, "com.mgoogle.android.gms"
+    const-string v0, "com.google.android.gms"
 
     const/4 v1, 0x0
 

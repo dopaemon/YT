@@ -1437,8 +1437,6 @@
     :cond_0
     iget-boolean p0, p0, Laiap;->y:Z
 
-    const/4 p0, 0x1
-
     return p0
 .end method
 
@@ -3696,10 +3694,6 @@
     :cond_0
     iget-boolean p0, p0, Laiaj;->A:Z
 
-    invoke-static {p0}, Lfi/razerman/youtube/XGlobals;->getNewActionBar(Z)Z
-
-    move-result p0
-
     return p0
 .end method
 
@@ -3783,10 +3777,6 @@
 
     :cond_0
     iget-boolean p0, p0, Laiaj;->X:Z
-
-    invoke-static {p0}, Lfi/razerman/youtube/XGlobals;->getNewActionBar(Z)Z
-
-    move-result p0
 
     return p0
 .end method

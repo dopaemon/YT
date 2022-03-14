@@ -2656,8 +2656,6 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lfi/razerman/youtube/XAdRemover;->hideCreateButton(Landroid/view/View;)V
-
     move-object v7, v2
 
     .line 32

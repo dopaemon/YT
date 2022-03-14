@@ -346,12 +346,12 @@
 
     new-instance p1, Landroid/content/Intent;
 
-    const-string v0, "com.mgoogle.android.c2dm.intent.REGISTER"
+    const-string v0, "com.google.android.c2dm.intent.REGISTER"
 
     .line 6
     invoke-direct {p1, v0}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    const-string v0, "com.mgoogle.android.gms"
+    const-string v0, "com.google.android.gms"
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;

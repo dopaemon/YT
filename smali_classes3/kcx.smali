@@ -847,8 +847,6 @@
 
     check-cast p2, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;
 
-    invoke-static {p2}, Lfi/razerman/youtube/Helpers/XSwipeHelper;->setNextGenWatchLayout(Ljava/lang/Object;)V
-
     new-instance v0, Lkac;
 
     invoke-direct {v0, p1, p2}, Lkac;-><init>(Landroid/view/ViewGroup;Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;)V

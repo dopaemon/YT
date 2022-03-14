@@ -245,10 +245,6 @@
 
     check-cast v0, Landroid/widget/FrameLayout;
 
-    invoke-static {v0}, Lfi/razerman/youtube/XAdRemover;->CheckInfoCardsStatus(Landroid/widget/FrameLayout;)Landroid/widget/FrameLayout;
-
-    move-result-object v0
-
     iput-object v0, p0, Lyai;->k:Landroid/widget/FrameLayout;
 
     .line 3

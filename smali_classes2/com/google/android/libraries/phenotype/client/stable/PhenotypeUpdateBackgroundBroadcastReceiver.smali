@@ -18,7 +18,7 @@
 .method public final onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 6
 
-    const-string v0, "com.mgoogle.android.gms.phenotype.PACKAGE_NAME"
+    const-string v0, "com.google.android.gms.phenotype.PACKAGE_NAME"
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;

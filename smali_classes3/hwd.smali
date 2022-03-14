@@ -432,8 +432,6 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lfi/vanced/libraries/youtube/sponsors/player/ui/SponsorBlockView;->initialize(Ljava/lang/Object;)V
-
     check-cast p0, Lcom/google/android/apps/youtube/app/common/player/overlay/YouTubePlayerOverlaysLayout;
 
     .line 2

@@ -4,13 +4,13 @@
 
 
 # static fields
-.field public static a:Landroid/content/Context;
+.field public static a:Landroid/content/Context; = null
 
-.field public static volatile b:Z
+.field public static volatile b:Z = false
 
-.field public static volatile c:Lotz;
+.field public static volatile c:Lotz; = null
 
-.field public static volatile d:Z
+.field public static volatile d:Z = false
 
 .field public static volatile e:Lotz;
 

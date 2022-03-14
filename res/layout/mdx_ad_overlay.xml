@@ -7,6 +7,6 @@
     </LinearLayout>
     <LinearLayout android:id="@id/ad_text_and_ad_choices_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
         <include android:id="@id/ad_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginBottom="9.0dip" layout="@layout/ad_badge_extra_small" />
-        <ImageView android:layout_gravity="center_vertical" android:id="@id/ad_choices" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/ad_choices_instream_icon" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ad_choices" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/APKTOOL_DUMMY_92" />
     </LinearLayout>
 </RelativeLayout>

@@ -189,7 +189,7 @@
 
     if-eqz v0, :cond_0
 
-    const-string v0, "YouTubeTikTokRoot_Application"
+    const-string v0, "YouTubeApplication"
 
     return-object v0
 

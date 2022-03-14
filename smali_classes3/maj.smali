@@ -49,7 +49,7 @@
 .method private final e(Ljava/lang/String;Z)V
     .locals 5
 
-    const-string v0, "com.mgoogle.android.gms"
+    const-string v0, "com.google.android.gms"
 
     .line 1
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z

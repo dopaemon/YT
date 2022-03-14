@@ -46,7 +46,7 @@
     .line 2
     invoke-direct {v3, v4}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    const-string v4, "com.mgoogle.android.gms"
+    const-string v4, "com.google.android.gms"
 
     .line 3
     invoke-virtual {v3, v4}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;

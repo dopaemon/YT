@@ -2159,7 +2159,7 @@
 
     move-result-object v0
 
-    const-string v1, "com.mgoogle.android.c2dm.intent.RECEIVE"
+    const-string v1, "com.google.android.c2dm.intent.RECEIVE"
 
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

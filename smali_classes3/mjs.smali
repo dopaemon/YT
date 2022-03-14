@@ -11,7 +11,7 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    const-string v0, "content://com.mgoogle.settings/partner"
+    const-string v0, "content://com.google.settings/partner"
 
     .line 1
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;

@@ -5304,7 +5304,7 @@
 
     move-result-object p0
 
-    const-string v0, "com.mgoogle.android.gms"
+    const-string v0, "com.google.android.gms"
 
     invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

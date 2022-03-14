@@ -301,12 +301,6 @@
 .method public final a()Lhrk;
     .locals 2
 
-    invoke-static {}, Lfi/razerman/youtube/XGlobals;->useOldStyleQualitySettings()Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
     iget v0, p0, Lhry;->p:I
 
     const/4 v1, 0x3

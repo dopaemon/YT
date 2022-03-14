@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:background="@drawable/card_frame_middle" android:paddingTop="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+<LinearLayout android:orientation="horizontal" android:background="@drawable/APKTOOL_DUMMY_134" android:paddingTop="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
     <com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout android:id="@id/image_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" android:layout_marginStart="@dimen/margin_start" android:layout_marginEnd="2.0dip" yt:aspectRatio="@fraction/aspect_ratio_2_1">
         <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />

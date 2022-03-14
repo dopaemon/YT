@@ -7,5 +7,5 @@
             <size android:height="20.0dip" android:width="20.0dip" />
         </shape>
     </item>
-    <item android:gravity="center" android:height="16.0dip" android:width="16.0dip" android:drawable="@drawable/quantum_ic_pause_white_18" />
+    <item android:gravity="center" android:height="16.0dip" android:width="16.0dip" android:drawable="@drawable/APKTOOL_DUMMY_7ad" />
 </layer-list>

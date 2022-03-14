@@ -1734,9 +1734,9 @@
     :cond_2e
     invoke-static {v1, v2}, Lmio;->bc(Landroid/os/Parcel;I)V
 
-    new-instance v1, Lcom/mgoogle/android/gms/phenotype/GenericDimension;
+    new-instance v1, Lcom/google/android/gms/phenotype/GenericDimension;
 
-    invoke-direct {v1, v8, v3}, Lcom/mgoogle/android/gms/phenotype/GenericDimension;-><init>(II)V
+    invoke-direct {v1, v8, v3}, Lcom/google/android/gms/phenotype/GenericDimension;-><init>(II)V
 
     return-object v1
 
@@ -1789,14 +1789,14 @@
     goto :goto_12
 
     :cond_30
-    sget-object v10, Lcom/mgoogle/android/gms/phenotype/Flag;->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object v10, Lcom/google/android/gms/phenotype/Flag;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 176
     invoke-static {v1, v11, v10}, Lmio;->aU(Landroid/os/Parcel;ILandroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
 
     move-result-object v10
 
-    check-cast v10, Lcom/mgoogle/android/gms/phenotype/Flag;
+    check-cast v10, Lcom/google/android/gms/phenotype/Flag;
 
     goto :goto_12
 
@@ -1820,9 +1820,9 @@
     :cond_33
     invoke-static {v1, v2}, Lmio;->bc(Landroid/os/Parcel;I)V
 
-    new-instance v1, Lcom/mgoogle/android/gms/phenotype/FlagOverride;
+    new-instance v1, Lcom/google/android/gms/phenotype/FlagOverride;
 
-    invoke-direct {v1, v9, v5, v10, v8}, Lcom/mgoogle/android/gms/phenotype/FlagOverride;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/mgoogle/android/gms/phenotype/Flag;Z)V
+    invoke-direct {v1, v9, v5, v10, v8}, Lcom/google/android/gms/phenotype/FlagOverride;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/google/android/gms/phenotype/Flag;Z)V
 
     return-object v1
 
@@ -1857,7 +1857,7 @@
     goto :goto_13
 
     :cond_34
-    sget-object v4, Lcom/mgoogle/android/gms/phenotype/FlagOverride;->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object v4, Lcom/google/android/gms/phenotype/FlagOverride;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 184
     invoke-static {v1, v3, v4}, Lmio;->bb(Landroid/os/Parcel;ILandroid/os/Parcelable$Creator;)Ljava/util/ArrayList;
@@ -1870,9 +1870,9 @@
     :cond_35
     invoke-static {v1, v2}, Lmio;->bc(Landroid/os/Parcel;I)V
 
-    new-instance v1, Lcom/mgoogle/android/gms/phenotype/FlagOverrides;
+    new-instance v1, Lcom/google/android/gms/phenotype/FlagOverrides;
 
-    invoke-direct {v1, v9}, Lcom/mgoogle/android/gms/phenotype/FlagOverrides;-><init>(Ljava/util/List;)V
+    invoke-direct {v1, v9}, Lcom/google/android/gms/phenotype/FlagOverrides;-><init>(Ljava/util/List;)V
 
     return-object v1
 
@@ -2146,19 +2146,19 @@
 
     .line 18
     :pswitch_11
-    new-array p1, p1, [Lcom/mgoogle/android/gms/phenotype/GenericDimension;
+    new-array p1, p1, [Lcom/google/android/gms/phenotype/GenericDimension;
 
     return-object p1
 
     .line 19
     :pswitch_12
-    new-array p1, p1, [Lcom/mgoogle/android/gms/phenotype/FlagOverride;
+    new-array p1, p1, [Lcom/google/android/gms/phenotype/FlagOverride;
 
     return-object p1
 
     .line 20
     :pswitch_13
-    new-array p1, p1, [Lcom/mgoogle/android/gms/phenotype/FlagOverrides;
+    new-array p1, p1, [Lcom/google/android/gms/phenotype/FlagOverrides;
 
     return-object p1
 

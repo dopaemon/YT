@@ -642,10 +642,6 @@
 
     move-result p0
 
-    invoke-static {p0}, Lfi/razerman/youtube/XGlobals;->getTabletMiniplayerOverride(Z)Z
-
-    move-result p0
-
     return p0
 .end method
 
@@ -660,18 +656,10 @@
 
     iget-boolean v0, v0, Lshw;->a:Z
 
-    invoke-static {v0}, Lfi/razerman/youtube/XGlobals;->getTabletMiniplayerOverride(Z)Z
-
-    move-result v0
-
     return v0
 
     :cond_0
     iget-boolean v0, p0, Ljwv;->K:Z
-
-    invoke-static {v0}, Lfi/razerman/youtube/XGlobals;->getTabletMiniplayerOverride(Z)Z
-
-    move-result v0
 
     return v0
 .end method

@@ -350,10 +350,6 @@
     const/high16 v2, -0x40800000    # -1.0f
 
     .line 2
-    invoke-static/range {v2 .. v2}, Lfi/razerman/youtube/XGlobals;->getHDRBrightness(F)F
-
-    move-result v2
-
     iput v2, v1, Landroid/view/WindowManager$LayoutParams;->screenBrightness:F
 
     .line 3

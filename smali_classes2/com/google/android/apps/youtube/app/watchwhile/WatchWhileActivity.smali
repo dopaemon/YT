@@ -2772,10 +2772,6 @@
     .line 4
     invoke-super/range {p0 .. p1}, Lkdn;->onCreate(Landroid/os/Bundle;)V
 
-    invoke-static {v1}, Lfi/razerman/youtube/XGlobals;->ChangeLogAndOfficialChecker(Landroid/app/Activity;)V
-
-    invoke-static {v1}, Lfi/vanced/libraries/youtube/dialog/Dialogs;->showDialogsAtStartup(Landroid/app/Activity;)V
-
     .line 5
     invoke-direct/range {p0 .. p0}, Lcom/google/android/apps/youtube/app/watchwhile/WatchWhileActivity;->u()Lkei;
 

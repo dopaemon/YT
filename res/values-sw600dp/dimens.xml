@@ -180,13 +180,13 @@
     <dimen name="video_thumbnail_centered_badge_width_height">48.0dip</dimen>
     <dimen name="watch_card_list_item_thumbnail_width">188.0dip</dimen>
     <dimen name="watch_card_related_entities_width">120.0dip</dimen>
-    <dimen name="av_inner_view_width">450.0dip</dimen>
-    <dimen name="av_resend_button_margin_top">48.0dip</dimen>
-    <dimen name="lc_thumbnail_stream_info_horizontal_margin">36.0dip</dimen>
     <dimen name="av_button_width">300.0dip</dimen>
+    <dimen name="av_inner_view_width">450.0dip</dimen>
     <dimen name="av_phone_entry_title_width">500.0dip</dimen>
     <dimen name="av_radio_button_group_width">300.0dip</dimen>
+    <dimen name="av_resend_button_margin_top">48.0dip</dimen>
     <dimen name="av_success_text_margin_top">50.0dip</dimen>
+    <dimen name="lc_thumbnail_stream_info_horizontal_margin">36.0dip</dimen>
     <dimen name="playlist_video_index_padding">12.0dip</dimen>
     <dimen name="playlist_video_index_width">56.0dip</dimen>
 </resources>

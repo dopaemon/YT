@@ -254,7 +254,7 @@
 
     new-instance v2, Landroid/accounts/Account;
 
-    const-string v3, "com.mgoogle"
+    const-string v3, "com.google"
 
     .line 15
     invoke-direct {v2, v1, v3}, Landroid/accounts/Account;-><init>(Ljava/lang/String;Ljava/lang/String;)V
@@ -610,9 +610,9 @@
     .line 50
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
-    const-string v2, "com.mgoogle.android.gms"
+    const-string v2, "com.google.android.gms"
 
-    const-string v3, "com.mgoogle.android.gms.chimera.GmsIntentOperationService$GmsExternalReceiver"
+    const-string v3, "com.google.android.gms.chimera.GmsIntentOperationService$GmsExternalReceiver"
 
     .line 51
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;

@@ -171,10 +171,6 @@
     iget-boolean p2, p0, Lhsl;->a:Z
 
     .line 9
-    invoke-static {p2}, Lfi/razerman/youtube/XAdRemover;->isBrandingWatermarkShown(Z)Z
-
-    move-result p2
-
     invoke-static {p1, p2}, Lrlx;->F(Landroid/view/View;Z)V
 
     :cond_1

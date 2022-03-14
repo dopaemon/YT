@@ -34,8 +34,6 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {p1, p2}, Lpl/jakubweg/PlayerController;->setCurrentVideoTime(J)V
-
     move-wide v1, p1
 
     iput-wide v1, v0, Lxqm;->a:J

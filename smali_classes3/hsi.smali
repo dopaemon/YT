@@ -184,12 +184,6 @@
     .locals 6
 
     .line 1
-    invoke-static {}, Lfi/razerman/youtube/XGlobals;->isFensterEnabled()Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getX()F
 
     move-result v0
@@ -225,40 +219,37 @@
 
     const/4 v5, 0x1
 
-    if-le v3, v5, :cond_1
+    if-le v3, v5, :cond_0
 
     .line 5
     invoke-direct {p0, p1, v1}, Lhsi;->e(Landroid/view/View;F)V
 
-    :cond_0
-    const/4 v4, 0x0
-
     return v4
 
     .line 6
-    :cond_1
+    :cond_0
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v3
 
-    if-eqz v3, :cond_7
+    if-eqz v3, :cond_6
 
-    if-eq v3, v5, :cond_6
+    if-eq v3, v5, :cond_5
 
     const/4 p2, 0x2
 
-    if-eq v3, p2, :cond_2
+    if-eq v3, p2, :cond_1
 
     const/4 p2, 0x3
 
-    if-eq v3, p2, :cond_6
+    if-eq v3, p2, :cond_5
 
     goto :goto_2
 
-    :cond_2
+    :cond_1
     iget-boolean p2, p0, Lhsi;->c:Z
 
-    if-nez p2, :cond_3
+    if-nez p2, :cond_2
 
     iget p2, p0, Lhsi;->b:I
 
@@ -266,23 +257,23 @@
 
     cmpg-float v0, v0, p2
 
-    if-gtz v0, :cond_3
+    if-gtz v0, :cond_2
 
     cmpl-float p2, v2, p2
 
-    if-ltz p2, :cond_3
+    if-ltz p2, :cond_2
 
     .line 7
     invoke-direct {p0, p1, v5}, Lhsi;->f(Landroid/view/View;Z)V
 
-    :cond_3
+    :cond_2
     iget-boolean p1, p0, Lhsi;->c:Z
 
-    if-eqz p1, :cond_8
+    if-eqz p1, :cond_7
 
     iget-boolean p1, p0, Lhsi;->d:Z
 
-    if-eqz p1, :cond_4
+    if-eqz p1, :cond_3
 
     iget-object p1, p0, Lhsi;->a:Ljava/util/Set;
 
@@ -296,7 +287,7 @@
 
     move-result p2
 
-    if-eqz p2, :cond_5
+    if-eqz p2, :cond_4
 
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -309,7 +300,7 @@
 
     goto :goto_0
 
-    :cond_4
+    :cond_3
     iget-object p1, p0, Lhsi;->a:Ljava/util/Set;
 
     .line 8
@@ -322,7 +313,7 @@
 
     move-result p2
 
-    if-eqz p2, :cond_5
+    if-eqz p2, :cond_4
 
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -336,19 +327,19 @@
     goto :goto_1
 
     .line 11
-    :cond_5
+    :cond_4
     iput-boolean v4, p0, Lhsi;->d:Z
 
     goto :goto_2
 
     .line 12
-    :cond_6
+    :cond_5
     invoke-direct {p0, p1, v1}, Lhsi;->e(Landroid/view/View;F)V
 
     goto :goto_2
 
     .line 13
-    :cond_7
+    :cond_6
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getX()F
 
     move-result p1
@@ -363,7 +354,7 @@
     iput p1, p0, Lhsi;->g:F
 
     .line 11
-    :cond_8
+    :cond_7
     :goto_2
     iget-boolean p1, p0, Lhsi;->c:Z
 

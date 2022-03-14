@@ -744,7 +744,7 @@
     :cond_0
     new-instance v3, Landroid/accounts/Account;
 
-    const-string v2, "com.mgoogle"
+    const-string v2, "com.google"
 
     .line 6
     invoke-direct {v3, v1, v2}, Landroid/accounts/Account;-><init>(Ljava/lang/String;Ljava/lang/String;)V

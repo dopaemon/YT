@@ -172,8 +172,6 @@
 
     const v1, 0x7f040832
 
-    invoke-static {p0}, Lpl/jakubweg/PlayerController;->addSkipSponsorView15(Landroid/view/View;)V
-
     .line 7
     invoke-static {p1, v1}, Lrlx;->aa(Landroid/content/Context;I)Lj$/util/OptionalInt;
 
@@ -3129,18 +3127,7 @@
 .method public final onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 10
 
-    invoke-static {}, Lfi/razerman/youtube/XGlobals;->isFensterEnabled()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    const/4 v0, 0x0
-
-    return v0
-
     .line 1
-    :cond_0
     invoke-static {}, Lfft;->b()V
 
     .line 2
@@ -3163,29 +3150,29 @@
 
     const/4 v3, 0x1
 
-    if-eqz v2, :cond_1
+    if-eqz v2, :cond_0
 
     return v3
 
     .line 4
-    :cond_1
+    :cond_0
     invoke-direct {p0}, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->C()Z
 
     move-result v2
 
     const/4 v4, 0x0
 
-    if-eqz v2, :cond_12
+    if-eqz v2, :cond_11
 
     invoke-virtual {p0}, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->isEnabled()Z
 
     move-result v2
 
-    if-eqz v2, :cond_12
+    if-eqz v2, :cond_11
 
     iget-object v2, p0, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->p:Landroid/widget/RelativeLayout;
 
-    if-eqz v2, :cond_4
+    if-eqz v2, :cond_3
 
     iget-object v2, p0, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->i:Ljrv;
 
@@ -3194,7 +3181,7 @@
 
     move-result v2
 
-    if-eqz v2, :cond_4
+    if-eqz v2, :cond_3
 
     iget-object v2, p0, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->c:Lkaa;
 
@@ -3203,7 +3190,7 @@
 
     move-result v2
 
-    if-eqz v2, :cond_4
+    if-eqz v2, :cond_3
 
     iget-object v2, p0, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->T:Lrwl;
 
@@ -3211,12 +3198,12 @@
 
     const/4 v5, -0x1
 
-    if-eq v2, v5, :cond_2
+    if-eq v2, v5, :cond_1
 
     goto :goto_0
 
     .line 24
-    :cond_2
+    :cond_1
     iget-object v2, p0, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->i:Ljrv;
 
     .line 7
@@ -3226,11 +3213,11 @@
 
     iget-boolean v2, v2, Ljuz;->o:Z
 
-    if-eqz v2, :cond_3
+    if-eqz v2, :cond_2
 
     goto/16 :goto_5
 
-    :cond_3
+    :cond_2
     iget-object v2, p0, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->s:Ljzs;
 
     .line 8
@@ -3242,42 +3229,42 @@
 
     move-result v2
 
-    if-eqz v2, :cond_4
+    if-eqz v2, :cond_3
 
     goto/16 :goto_5
 
     .line 9
-    :cond_4
+    :cond_3
     :goto_0
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getActionMasked()I
 
     move-result v2
 
-    if-eqz v2, :cond_d
+    if-eqz v2, :cond_c
 
-    if-eq v2, v3, :cond_c
+    if-eq v2, v3, :cond_b
 
     const/4 v0, 0x3
 
     const/4 v1, 0x2
 
-    if-eq v2, v1, :cond_5
+    if-eq v2, v1, :cond_4
 
-    if-eq v2, v0, :cond_c
+    if-eq v2, v0, :cond_b
 
     goto/16 :goto_4
 
     .line 26
-    :cond_5
+    :cond_4
     invoke-direct {p0}, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->E()Z
 
     move-result v2
 
-    if-eqz v2, :cond_6
+    if-eqz v2, :cond_5
 
     return v3
 
-    :cond_6
+    :cond_5
     iget-object v2, p0, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->c:Lkaa;
 
     .line 16
@@ -3295,17 +3282,17 @@
 
     move-result v5
 
-    if-eqz v5, :cond_11
+    if-eqz v5, :cond_10
 
     const/16 v6, 0x80
 
-    if-eq v5, v6, :cond_7
+    if-eq v5, v6, :cond_6
 
     const/16 v6, 0x200
 
-    if-ne v5, v6, :cond_9
+    if-ne v5, v6, :cond_8
 
-    :cond_7
+    :cond_6
     iget-object v5, p0, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->f:Ljzh;
 
     iget-object v6, p0, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->ab:Landroid/graphics/Point;
@@ -3314,20 +3301,20 @@
 
     iget-boolean v7, v7, Ljzi;->c:Z
 
-    if-nez v7, :cond_8
+    if-nez v7, :cond_7
 
     iget-boolean v7, v5, Ljzh;->g:Z
 
-    if-eqz v7, :cond_11
+    if-eqz v7, :cond_10
 
     .line 19
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getPointerCount()I
 
     move-result v7
 
-    if-ne v7, v3, :cond_11
+    if-ne v7, v3, :cond_10
 
-    :cond_8
+    :cond_7
     iget-object v7, v5, Ljzh;->d:Ljzi;
 
     iget-object v5, v5, Ljzh;->a:Lkaa;
@@ -3348,15 +3335,15 @@
 
     sub-int/2addr v5, v9
 
-    if-ge v8, v5, :cond_11
+    if-ge v8, v5, :cond_10
 
     iget v5, v6, Landroid/graphics/Point;->y:I
 
     iget v6, v7, Ljzi;->a:I
 
-    if-le v5, v6, :cond_11
+    if-le v5, v6, :cond_10
 
-    :cond_9
+    :cond_8
     iget-object v5, p0, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->T:Lrwl;
 
     .line 22
@@ -3364,26 +3351,26 @@
 
     move-result p1
 
-    if-eqz p1, :cond_11
+    if-eqz p1, :cond_10
 
     iget-object p1, p0, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->u:Ljyd;
 
-    if-nez p1, :cond_11
+    if-nez p1, :cond_10
 
-    if-eq v2, v3, :cond_b
+    if-eq v2, v3, :cond_a
 
-    if-ne v2, v0, :cond_a
+    if-ne v2, v0, :cond_9
 
     goto :goto_1
 
-    :cond_a
+    :cond_9
     move v0, v2
 
     const/4 v1, 0x1
 
     goto :goto_1
 
-    :cond_b
+    :cond_a
     move v0, v2
 
     :goto_1
@@ -3402,7 +3389,7 @@
     goto :goto_4
 
     .line 25
-    :cond_c
+    :cond_b
     invoke-direct {p0, v4, p1}, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->z(ILandroid/view/MotionEvent;)V
 
     iget-object p1, p0, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->T:Lrwl;
@@ -3413,7 +3400,7 @@
     goto :goto_4
 
     .line 9
-    :cond_d
+    :cond_c
     iget-object v2, p0, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->c:Lkaa;
 
     .line 10
@@ -3437,7 +3424,7 @@
 
     move-result v6
 
-    if-eqz v6, :cond_e
+    if-eqz v6, :cond_d
 
     .line 13
     invoke-interface {v2}, Ljxy;->s()Landroid/graphics/Rect;
@@ -3448,30 +3435,30 @@
 
     move-result v2
 
-    if-eqz v2, :cond_e
+    if-eqz v2, :cond_d
 
     const/4 v2, 0x1
 
     goto :goto_2
 
-    :cond_e
+    :cond_d
     const/4 v2, 0x0
 
     :goto_2
-    if-nez v5, :cond_10
+    if-nez v5, :cond_f
 
-    if-eqz v2, :cond_f
+    if-eqz v2, :cond_e
 
     goto :goto_3
 
-    :cond_f
+    :cond_e
     const/4 v3, 0x0
 
-    :cond_10
+    :cond_f
     :goto_3
     iput-boolean v3, p0, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->U:Z
 
-    if-eqz v3, :cond_11
+    if-eqz v3, :cond_10
 
     iget-object v2, p0, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->T:Lrwl;
 
@@ -3483,7 +3470,7 @@
     .line 15
     invoke-virtual {p1, v0, v1}, Landroid/graphics/Point;->set(II)V
 
-    :cond_11
+    :cond_10
     :goto_4
     invoke-direct {p0}, Lcom/google/android/apps/youtube/app/watch/nextgenwatch/ui/NextGenWatchLayout;->E()Z
 
@@ -3491,7 +3478,7 @@
 
     return p1
 
-    :cond_12
+    :cond_11
     :goto_5
     return v4
 .end method

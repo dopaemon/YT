@@ -12,7 +12,7 @@
             </LinearLayout>
             <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textColor="?ytTextSecondary" android:ellipsize="end" android:id="@id/byline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" />
         </LinearLayout>
-        <ImageView android:id="@id/selection_checkmark" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/yt_outline_check_black_24" android:tint="?ytCallToAction" android:contentDescription="@null" />
+        <ImageView android:id="@id/selection_checkmark" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/APKTOOL_DUMMY_a91" android:tint="?ytCallToAction" android:contentDescription="@null" />
     </LinearLayout>
     <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/user_info" android:paddingStart="-12.0dip" android:layout_alignStart="@id/user_info">
         <com.google.android.libraries.youtube.common.ui.YouTubeButton android:textAppearance="?ytTextAppearanceButton" android:textColor="?ytCallToAction" android:ellipsize="end" android:id="@id/edit_channel" android:paddingTop="12.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />

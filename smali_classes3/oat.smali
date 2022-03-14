@@ -92,7 +92,7 @@
 
     move-result-object v2
 
-    const-string v3, "com.mgoogle.android.gms"
+    const-string v3, "com.google.android.gms"
 
     iput-object v3, v2, Lzsz;->e:Ljava/lang/Object;
 

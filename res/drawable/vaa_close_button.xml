@@ -10,6 +10,6 @@
     </item>
     <item android:drawable="?actionBarItemBackground" />
     <item>
-        <bitmap android:gravity="center" android:src="@drawable/yt_outline_x_black_24" android:tint="?ytTextPrimary" />
+        <bitmap android:gravity="center" android:src="@drawable/APKTOOL_DUMMY_b4c" android:tint="?ytTextPrimary" />
     </item>
 </layer-list>

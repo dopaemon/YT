@@ -1010,7 +1010,7 @@
 
     check-cast v2, Ljava/lang/String;
 
-    const-string v4, "com.mgoogle"
+    const-string v4, "com.google"
 
     .line 62
     invoke-direct {v3, v2, v4}, Landroid/accounts/Account;-><init>(Ljava/lang/String;Ljava/lang/String;)V

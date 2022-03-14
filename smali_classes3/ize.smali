@@ -516,10 +516,6 @@
     iget-object v5, p0, Lize;->e:Landroid/widget/TextView;
 
     .line 21
-    invoke-virtual {p0, v2}, Lize;->getButtonText(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
-
-    move-result-object v2
-
     invoke-virtual {v5, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     iget-object v2, p0, Lize;->f:Laeoq;
@@ -692,22 +688,6 @@
 
     :cond_20
     return-void
-.end method
-
-.method public final getButtonText(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
-    .locals 1
-
-    .line 1
-    invoke-virtual {p0}, Lize;->pe()Landroid/view/View;
-
-    move-result-object v0
-
-    .line 2
-    invoke-static {v0, p1}, Lfi/vanced/libraries/youtube/ryd/ReturnYouTubeDislikes;->onSetText(Landroid/view/View;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
-
-    move-result-object v0
-
-    return-object v0
 .end method
 
 .method public final h(Ljava/lang/Object;)V

@@ -94,7 +94,7 @@
 
     check-cast p1, Landroid/content/Intent;
 
-    const-string v1, "com.mgoogle.android.c2dm.intent.REGISTRATION"
+    const-string v1, "com.google.android.c2dm.intent.REGISTRATION"
 
     .line 12
     invoke-virtual {p1}, Landroid/content/Intent;->getAction()Ljava/lang/String;

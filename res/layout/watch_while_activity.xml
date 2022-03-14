@@ -11,5 +11,5 @@
     <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/bottom_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <com.google.android.apps.youtube.app.ui.pivotbar.PivotBar android:gravity="bottom|center" android:id="@id/pivot_bar" android:background="?ytBrandBackgroundSolid" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?actionBarSize" />
     </LinearLayout>
-    <FrameLayout android:id="@id/interstitials_container" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="1.0dip" android:elevation="12.0dip" />
+    <FrameLayout android:id="@id/interstitials_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="12.0dip" />
 </com.google.android.libraries.youtube.common.ui.AccessibilityLayerLayout>

@@ -226,7 +226,7 @@
     :goto_1
     sget-object v2, Llwa;->a:Ljava/lang/reflect/Method;
 
-    const-string v3, "com.mgoogle.android.gms"
+    const-string v3, "com.google.android.gms"
 
     const-string v4, "UploadAlarm"
 

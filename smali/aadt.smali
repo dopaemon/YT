@@ -7024,7 +7024,7 @@
     :goto_1
     if-eqz v0, :cond_2
 
-    const-string v0, "com.vanced.android.youtube.fileprovider"
+    const-string v0, "com.google.android.youtube.fileprovider"
 
     return-object v0
 

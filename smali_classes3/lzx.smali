@@ -74,7 +74,7 @@
 .method final e()Z
     .locals 9
 
-    const-string v0, "com.mgoogle"
+    const-string v0, "com.google"
 
     .line 1
     invoke-virtual {p0}, Lmbu;->n()V

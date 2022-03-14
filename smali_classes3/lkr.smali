@@ -254,7 +254,7 @@
     .line 5
     invoke-direct {v2}, Landroid/content/Intent;-><init>()V
 
-    const-string v3, "com.mgoogle.android.gms"
+    const-string v3, "com.google.android.gms"
 
     .line 6
     invoke-virtual {v2, v3}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
@@ -270,7 +270,7 @@
 
     if-ne v3, v4, :cond_0
 
-    const-string v3, "com.mgoogle.iid.TOKEN_REQUEST"
+    const-string v3, "com.google.iid.TOKEN_REQUEST"
 
     .line 8
     invoke-virtual {v2, v3}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
@@ -278,7 +278,7 @@
     goto :goto_0
 
     :cond_0
-    const-string v3, "com.mgoogle.android.c2dm.intent.REGISTER"
+    const-string v3, "com.google.android.c2dm.intent.REGISTER"
 
     .line 9
     invoke-virtual {v2, v3}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;

@@ -204,7 +204,7 @@
 
     move-result-object p1
 
-    const-string v2, "com.mgoogle"
+    const-string v2, "com.google"
 
     invoke-direct {v1, p1, v2}, Landroid/accounts/Account;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 

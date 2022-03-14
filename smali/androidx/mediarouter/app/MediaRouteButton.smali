@@ -1938,10 +1938,6 @@
 .method public final setVisibility(I)V
     .locals 0
 
-    invoke-static {p1}, Lfi/razerman/youtube/XGlobals;->getCastButtonOverrideV2(I)I
-
-    move-result p1
-
     .line 1
     iput p1, p0, Landroidx/mediarouter/app/MediaRouteButton;->k:I
 

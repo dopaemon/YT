@@ -76,7 +76,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    const-string p2, "com.mgoogle.android.gms"
+    const-string p2, "com.google.android.gms"
 
     .line 3
     invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

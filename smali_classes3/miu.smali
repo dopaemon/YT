@@ -370,7 +370,7 @@
     .line 7
     invoke-direct {v3}, Landroid/content/Intent;-><init>()V
 
-    const-string v4, "com.mgoogle.android.gms"
+    const-string v4, "com.google.android.gms"
 
     const-string v5, "com.google.android.gms.vision.DependencyBroadcastReceiverProxy"
 

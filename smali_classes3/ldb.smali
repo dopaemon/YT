@@ -21,7 +21,7 @@
 
     new-array v0, v0, [Ljava/lang/String;
 
-    const-string v1, "com.mgoogle"
+    const-string v1, "com.google"
 
     const/4 v2, 0x0
 
@@ -44,7 +44,7 @@
 
     new-instance v0, Landroid/content/ComponentName;
 
-    const-string v1, "com.mgoogle.android.gms"
+    const-string v1, "com.google.android.gms"
 
     const-string v4, "com.google.android.gms.auth.GetToken"
 
@@ -1011,7 +1011,7 @@
 .method public static l(Landroid/content/Context;)[Landroid/accounts/Account;
     .locals 7
 
-    const-string v0, "com.mgoogle"
+    const-string v0, "com.google"
 
     .line 1
     invoke-static {v0}, Lmio;->bx(Ljava/lang/String;)V
@@ -1034,7 +1034,7 @@
 
     move-result-object p0
 
-    const-string v1, "com.mgoogle.android.gms.auth.accounts"
+    const-string v1, "com.google.android.gms.auth.accounts"
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/content/ContentResolver;->acquireContentProviderClient(Ljava/lang/String;)Landroid/content/ContentProviderClient;
@@ -1224,7 +1224,7 @@
     :cond_4
     new-instance p0, Landroid/os/RemoteException;
 
-    const-string v0, "The com.mgoogle.android.gms.auth.accounts provider is not available."
+    const-string v0, "The com.google.android.gms.auth.accounts provider is not available."
 
     invoke-direct {p0, v0}, Landroid/os/RemoteException;-><init>(Ljava/lang/String;)V
 
@@ -1285,7 +1285,7 @@
     .line 1
     new-instance v0, Landroid/accounts/Account;
 
-    const-string v1, "com.mgoogle"
+    const-string v1, "com.google"
 
     invoke-direct {v0, p1, v1}, Landroid/accounts/Account;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -1303,7 +1303,7 @@
     .line 1
     invoke-static {p0}, Lmio;->bn(Ljava/lang/Object;)Ljava/lang/Object;
 
-    const-string v0, "com.mgoogle"
+    const-string v0, "com.google"
 
     .line 2
     invoke-static {v0}, Lmio;->bx(Ljava/lang/String;)V

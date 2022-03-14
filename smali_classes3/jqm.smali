@@ -112,12 +112,6 @@
 .method public final a([Lcom/google/android/libraries/youtube/innertube/model/media/VideoQuality;IIZI)V
     .locals 2
 
-    iget-object v0, p0, Ljqm;->an:Lyfu;
-
-    invoke-static {p1, p2, v0}, Lfi/razerman/youtube/videosettings/VideoQuality;->setVideoQuality([Ljava/lang/Object;ILjava/lang/Object;)I
-
-    move-result p2
-
     .line 1
     iget-object v0, p0, Ljqm;->aj:[Lcom/google/android/libraries/youtube/innertube/model/media/VideoQuality;
 
@@ -576,8 +570,6 @@
 
 .method public final onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
     .locals 6
-
-    invoke-static {}, Lfi/razerman/youtube/videosettings/VideoQuality;->userChangedQuality()V
 
     .line 1
     iget-object v0, p0, Ljqm;->ar:Ljql;

@@ -81,7 +81,7 @@
 
     move-result-object v4
 
-    const-string v5, "com.mgoogle"
+    const-string v5, "com.google"
 
     invoke-virtual {v4, v5}, Landroid/accounts/AccountManager;->getAccountsByType(Ljava/lang/String;)[Landroid/accounts/Account;
 

@@ -6,7 +6,7 @@
 # static fields
 .field private static final a:Ljava/lang/Throwable;
 
-.field private static volatile b:Z
+.field private static volatile b:Z = false
 
 
 # direct methods

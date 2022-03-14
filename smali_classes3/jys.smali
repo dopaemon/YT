@@ -211,8 +211,6 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lfi/razerman/youtube/Autorepeat/AutoRepeat;->initializeAutoRepeat(Ljava/lang/Object;)V
-
     iput-object v1, v0, Lcom/google/android/apps/youtube/app/player/overlay/YouTubeControlsOverlay;->k:Landroid/view/View;
 
     :cond_4

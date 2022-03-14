@@ -58,7 +58,7 @@
 
     move-result-object v1
 
-    const-string v2, "com.mgoogle.android.gms.auth.accounts"
+    const-string v2, "com.google.android.gms.auth.accounts"
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/content/ContentResolver;->acquireContentProviderClient(Ljava/lang/String;)Landroid/content/ContentProviderClient;
@@ -70,7 +70,7 @@
     :try_start_0
     const-string v2, "get_accounts"
 
-    const-string v3, "com.mgoogle"
+    const-string v3, "com.google"
 
     const/4 v4, 0x0
 

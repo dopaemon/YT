@@ -669,78 +669,6 @@
     return-object v0
 .end method
 
-.method public static getIsEmpty(Ljava/lang/String;)Z
-    .locals 0
-
-    if-eqz p0, :cond_1
-
-    invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
-
-    move-result p0
-
-    if-eqz p0, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    const/4 p0, 0x0
-
-    return p0
-
-    :cond_1
-    :goto_0
-    const/4 p0, 0x1
-
-    return p0
-.end method
-
-.method private static getTemplateName(Ladcs;)Ljava/lang/String;
-    .locals 1
-
-    .line 1
-    invoke-virtual {p0}, Ladcs;->ak()Ladcs;
-
-    move-result-object p0
-
-    const v0, 0xaed2868
-
-    .line 2
-    invoke-static {p0, v0}, Lkvn;->D(Ladcs;I)Ljava/nio/ByteBuffer;
-
-    move-result-object p0
-
-    if-eqz p0, :cond_0
-
-    .line 3
-    invoke-static {p0}, Ladcs;->ao(Ljava/nio/ByteBuffer;)Ladcs;
-
-    move-result-object p0
-
-    .line 4
-    invoke-virtual {p0}, Ladcs;->P()Ljava/lang/String;
-
-    move-result-object v0
-
-    .line 5
-    invoke-static {v0}, Lmzv;->getIsEmpty(Ljava/lang/String;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    .line 6
-    invoke-virtual {p0}, Ladcs;->P()Ljava/lang/String;
-
-    move-result-object p0
-
-    return-object p0
-
-    :cond_0
-    const/4 p0, 0x0
-
-    return-object p0
-.end method
-
 
 # virtual methods
 .method public final a(Lczu;Lnjf;[BLnjn;Lanuz;)Lczq;
@@ -1313,31 +1241,6 @@
 .method public final c(Lczu;Lnjf;Ladcs;Lnjn;Ljava/util/List;IZ)Lczq;
     .locals 25
 
-    invoke-static/range {p3 .. p3}, Lmzv;->getTemplateName(Ladcs;)Ljava/lang/String;
-
-    move-result-object v0
-
-    move-object/from16 v1, p3
-
-    iget-object v2, v1, Ladcs;->b:Ljava/nio/ByteBuffer;
-
-    invoke-static {v0, v2}, Lfi/razerman/youtube/litho/LithoAdRemoval;->containsAd(Ljava/lang/String;Ljava/nio/ByteBuffer;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_0
-
-    move-object/from16 v2, p1
-
-    invoke-static {v2}, Ldik;->a(Lczu;)Ldij;
-
-    move-result-object v0
-
-    iget-object v0, v0, Ldij;->a:Ldik;
-
-    return-object v0
-
-    :cond_0
     move-object/from16 v8, p0
 
     move-object/from16 v0, p2
@@ -1362,15 +1265,15 @@
 
     const/4 v6, 0x1
 
-    if-eqz v4, :cond_1
+    if-eqz v4, :cond_0
 
-    if-eqz p7, :cond_1
+    if-eqz p7, :cond_0
 
     const/4 v4, 0x1
 
     goto :goto_0
 
-    :cond_1
+    :cond_0
     const/4 v4, 0x0
 
     .line 3
@@ -1379,7 +1282,7 @@
 
     iget-object v4, v0, Lnjf;->l:Ljava/lang/StringBuilder;
 
-    if-eqz v4, :cond_2
+    if-eqz v4, :cond_1
 
     new-instance v7, Ljava/lang/StringBuilder;
 
@@ -1389,7 +1292,7 @@
     goto :goto_1
 
     .line 10
-    :cond_2
+    :cond_1
     new-instance v7, Ljava/lang/StringBuilder;
 
     .line 5
@@ -1401,7 +1304,7 @@
 
     move-result-object v4
 
-    if-eqz v4, :cond_3
+    if-eqz v4, :cond_2
 
     .line 7
     invoke-virtual/range {p3 .. p3}, Ladcs;->ai()Ladcs;
@@ -1414,13 +1317,13 @@
 
     goto :goto_2
 
-    :cond_3
+    :cond_2
     const/4 v4, 0x0
 
     :goto_2
     const v9, 0xa0f56b9
 
-    if-eq v4, v9, :cond_5
+    if-eq v4, v9, :cond_4
 
     sget-object v9, Lmzv;->a:Ljava/util/Map;
 
@@ -1433,7 +1336,7 @@
 
     move-result v11
 
-    if-eqz v11, :cond_4
+    if-eqz v11, :cond_3
 
     .line 9
     invoke-interface {v9, v10}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1447,7 +1350,7 @@
     goto :goto_3
 
     .line 10
-    :cond_4
+    :cond_3
     invoke-virtual {v7, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     :goto_3
@@ -1456,7 +1359,7 @@
     .line 11
     invoke-virtual {v7, v4}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    :cond_5
+    :cond_4
     iput-object v7, v2, Lnje;->h:Ljava/lang/StringBuilder;
 
     new-instance v4, Ljava/lang/StringBuilder;
@@ -1471,14 +1374,14 @@
 
     move-result v7
 
-    if-lez v7, :cond_6
+    if-lez v7, :cond_5
 
     const/16 v7, 0x2c
 
     .line 14
     invoke-virtual {v4, v7}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    :cond_6
+    :cond_5
     move/from16 v7, p6
 
     .line 15
@@ -1499,18 +1402,18 @@
 
     const/4 v7, 0x2
 
-    if-eqz v4, :cond_12
+    if-eqz v4, :cond_11
 
     iget-object v4, v0, Lnjf;->o:Ljava/lang/ref/WeakReference;
 
-    if-nez v4, :cond_7
+    if-nez v4, :cond_6
 
     move-object v4, v3
 
     goto :goto_4
 
     .line 17
-    :cond_7
+    :cond_6
     invoke-virtual {v4}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v4
@@ -1523,7 +1426,7 @@
 
     move-result-object v10
 
-    if-eqz v10, :cond_11
+    if-eqz v10, :cond_10
 
     .line 19
     invoke-virtual/range {p3 .. p3}, Ladcs;->ai()Ladcs;
@@ -1540,12 +1443,12 @@
 
     move-result v11
 
-    if-ne v10, v11, :cond_8
+    if-ne v10, v11, :cond_7
 
     goto/16 :goto_a
 
     .line 20
-    :cond_8
+    :cond_7
     invoke-virtual/range {p3 .. p3}, Ladcs;->ak()Ladcs;
 
     move-result-object v10
@@ -1557,17 +1460,17 @@
 
     move-result-object v10
 
-    if-nez v10, :cond_9
+    if-nez v10, :cond_8
 
     goto/16 :goto_a
 
     .line 22
-    :cond_9
+    :cond_8
     invoke-virtual {v10}, Ladcs;->K()I
 
     move-result v11
 
-    if-eq v11, v7, :cond_a
+    if-eq v11, v7, :cond_9
 
     iget-object v4, v8, Lmzv;->f:Lnkg;
 
@@ -1579,7 +1482,7 @@
     goto/16 :goto_a
 
     .line 24
-    :cond_a
+    :cond_9
     :try_start_0
     invoke-virtual {v10}, Ladcs;->L()Ljava/nio/ByteBuffer;
 
@@ -1612,7 +1515,7 @@
 
     move-result-object v12
 
-    if-eqz v12, :cond_b
+    if-eqz v12, :cond_a
 
     .line 30
     invoke-static {v12}, Ladcs;->ao(Ljava/nio/ByteBuffer;)Ladcs;
@@ -1629,7 +1532,7 @@
 
     move-result v13
 
-    if-nez v13, :cond_b
+    if-nez v13, :cond_a
 
     .line 33
     invoke-virtual {v12}, Ladcs;->P()Ljava/lang/String;
@@ -1638,7 +1541,7 @@
 
     goto :goto_5
 
-    :cond_b
+    :cond_a
     move-object v12, v3
 
     .line 34
@@ -1663,14 +1566,14 @@
 
     invoke-direct {v14, v13}, Lacfr;-><init>(I)V
 
-    if-nez v4, :cond_c
+    if-nez v4, :cond_b
 
     const/4 v13, 0x0
 
     goto :goto_6
 
     .line 45
-    :cond_c
+    :cond_b
     iget v13, v4, Lalza;->d:I
 
     .line 37
@@ -1683,7 +1586,7 @@
     move-result v13
 
     :goto_7
-    if-ge v5, v13, :cond_d
+    if-ge v5, v13, :cond_c
 
     .line 39
     invoke-interface {v12, v5}, Ljava/lang/CharSequence;->charAt(I)C
@@ -1705,7 +1608,7 @@
 
     goto :goto_7
 
-    :cond_d
+    :cond_c
     move-object/from16 p6, v4
 
     .line 41
@@ -1731,7 +1634,7 @@
 
     const/4 v10, 0x4
 
-    if-ge v5, v10, :cond_10
+    if-ge v5, v10, :cond_f
 
     .line 46
     :goto_9
@@ -1739,7 +1642,7 @@
 
     move-result v5
 
-    if-eqz v5, :cond_e
+    if-eqz v5, :cond_d
 
     .line 47
     invoke-virtual {v3}, Ljava/nio/ByteBuffer;->get()B
@@ -1756,7 +1659,7 @@
     goto :goto_9
 
     .line 49
-    :cond_e
+    :cond_d
     invoke-virtual {v3, v4}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
 
     .line 50
@@ -1859,7 +1762,7 @@
 
     iput v4, v5, Lalza;->d:I
 
-    if-eqz p6, :cond_f
+    if-eqz p6, :cond_e
 
     move-object/from16 v5, p6
 
@@ -1882,7 +1785,7 @@
     iput v4, v5, Lalza;->e:I
 
     .line 62
-    :cond_f
+    :cond_e
     invoke-virtual {v3}, Ladox;->build()Ladpf;
 
     move-result-object v3
@@ -1891,7 +1794,7 @@
 
     goto :goto_a
 
-    :cond_10
+    :cond_f
     move-object/from16 v5, p6
 
     .line 45
@@ -1916,11 +1819,11 @@
     .line 63
     invoke-virtual {v3, v9, v4, v0}, Lnkg;->c(ILjava/lang/String;Lnjf;)V
 
-    :cond_11
+    :cond_10
     const/4 v3, 0x0
 
     :goto_a
-    if-eqz v3, :cond_12
+    if-eqz v3, :cond_11
 
     move-object/from16 v0, p5
 
@@ -1939,13 +1842,13 @@
 
     goto :goto_b
 
-    :cond_12
+    :cond_11
     move-object/from16 v0, p5
 
     :goto_b
     iget-boolean v3, v8, Lmzv;->g:Z
 
-    if-eqz v3, :cond_14
+    if-eqz v3, :cond_13
 
     .line 67
     invoke-virtual/range {p3 .. p3}, Ladcs;->ak()Ladcs;
@@ -1956,7 +1859,7 @@
 
     move-result-object v3
 
-    if-nez v3, :cond_13
+    if-nez v3, :cond_12
 
     const-string v3, "Elements"
 
@@ -1968,11 +1871,11 @@
     goto :goto_c
 
     .line 93
-    :cond_13
+    :cond_12
     iput-object v3, v2, Lnje;->l:Ljava/lang/String;
 
     .line 69
-    :cond_14
+    :cond_13
     :goto_c
     invoke-virtual {v2}, Lnje;->a()Lnjf;
 
@@ -1995,7 +1898,7 @@
 
     move-result-object v12
 
-    if-nez v12, :cond_15
+    if-nez v12, :cond_14
 
     iget-object v0, v8, Lmzv;->f:Lnkg;
 
@@ -2016,16 +1919,16 @@
     goto/16 :goto_13
 
     .line 107
-    :cond_15
+    :cond_14
     iget-boolean v2, v8, Lmzv;->g:Z
 
-    if-eqz v2, :cond_17
+    if-eqz v2, :cond_16
 
     iget-object v2, v10, Lnjf;->s:Ljava/lang/String;
 
-    if-eqz v2, :cond_17
+    if-eqz v2, :cond_16
 
-    if-nez v1, :cond_16
+    if-nez v1, :cond_15
 
     new-instance v1, Lzdy;
 
@@ -2034,7 +1937,7 @@
     goto :goto_d
 
     .line 93
-    :cond_16
+    :cond_15
     new-instance v3, Lzdz;
 
     invoke-direct {v3, v1, v2, v6}, Lzdz;-><init>(Lnjn;Ljava/lang/String;I)V
@@ -2043,7 +1946,7 @@
 
     goto :goto_e
 
-    :cond_17
+    :cond_16
     :goto_d
     move-object/from16 v23, v1
 
@@ -2054,7 +1957,7 @@
 
     move-result v1
 
-    if-ne v1, v6, :cond_1b
+    if-ne v1, v6, :cond_1a
 
     iget-object v1, v8, Lmzv;->c:Landroid/util/SparseArray;
 
@@ -2071,12 +1974,12 @@
 
     check-cast v13, Lnkc;
 
-    if-nez v13, :cond_18
+    if-nez v13, :cond_17
 
     goto/16 :goto_10
 
     .line 75
-    :cond_18
+    :cond_17
     invoke-virtual {v12}, Ladcs;->L()Ljava/nio/ByteBuffer;
 
     move-result-object v1
@@ -2090,23 +1993,23 @@
 
     move-result-object v1
 
-    if-nez v1, :cond_19
+    if-nez v1, :cond_18
 
     sget-object v1, Lmzv;->b:Ladcs;
 
-    :cond_19
+    :cond_18
     move-object/from16 v21, v1
 
     iget-boolean v1, v8, Lmzv;->l:Z
 
-    if-eqz v1, :cond_1a
+    if-eqz v1, :cond_19
 
     .line 77
     invoke-virtual/range {p3 .. p3}, Ladcs;->ai()Ladcs;
 
     move-result-object v1
 
-    if-eqz v1, :cond_1a
+    if-eqz v1, :cond_19
 
     .line 78
     invoke-virtual/range {p3 .. p3}, Ladcs;->ai()Ladcs;
@@ -2119,7 +2022,7 @@
 
     const v2, 0x9770a0a
 
-    if-ne v1, v2, :cond_1a
+    if-ne v1, v2, :cond_19
 
     invoke-virtual {v10}, Lnjf;->f()Lnje;
 
@@ -2141,7 +2044,7 @@
 
     goto :goto_f
 
-    :cond_1a
+    :cond_19
     move-object/from16 v18, v10
 
     .line 81
@@ -2185,12 +2088,12 @@
     goto :goto_11
 
     .line 84
-    :cond_1b
+    :cond_1a
     invoke-virtual {v12}, Ladcs;->K()I
 
     move-result v1
 
-    if-ne v1, v7, :cond_1e
+    if-ne v1, v7, :cond_1d
 
     iget-object v1, v8, Lmzv;->d:Landroid/util/SparseArray;
 
@@ -2207,11 +2110,11 @@
 
     check-cast v16, Lnkb;
 
-    if-nez v16, :cond_1c
+    if-nez v16, :cond_1b
 
     goto :goto_10
 
-    :cond_1c
+    :cond_1b
     invoke-interface/range {v16 .. v16}, Lnkb;->b()Ladon;
 
     move-result-object v1
@@ -2244,14 +2147,14 @@
 
     move-result-object v1
 
-    if-nez v1, :cond_1d
+    if-nez v1, :cond_1c
 
     new-instance v1, Ladcs;
 
     .line 90
     invoke-direct {v1}, Ladcs;-><init>()V
 
-    :cond_1d
+    :cond_1c
     move-object/from16 v21, v1
 
     .line 91
@@ -2295,12 +2198,12 @@
 
     goto :goto_11
 
-    :cond_1e
+    :cond_1d
     :goto_10
     const/4 v3, 0x0
 
     :goto_11
-    if-eqz v3, :cond_1f
+    if-eqz v3, :cond_1e
 
     .line 74
     sget-object v0, Lnlx;->a:Lnlw;
@@ -2313,7 +2216,7 @@
     goto/16 :goto_13
 
     .line 95
-    :cond_1f
+    :cond_1e
     :try_start_2
     invoke-virtual {v12}, Ladcs;->J()I
 
@@ -2350,7 +2253,7 @@
 
     move-result v1
 
-    if-eqz v1, :cond_20
+    if-eqz v1, :cond_1f
 
     const-string v1, " because it was removed due to duplicate converter bindings."
 
@@ -2359,7 +2262,7 @@
 
     move-result-object v0
 
-    :cond_20
+    :cond_1f
     iget-object v1, v8, Lmzv;->f:Lnkg;
 
     const/16 v2, 0x18
@@ -2480,7 +2383,7 @@
     invoke-virtual {v1, v12}, Lnlw;->b(Ljava/lang/Object;)Z
 
     :goto_13
-    if-nez v0, :cond_21
+    if-nez v0, :cond_20
 
     .line 107
     invoke-static/range {p1 .. p1}, Ldik;->a(Lczu;)Ldij;
@@ -2489,7 +2392,7 @@
 
     iget-object v0, v0, Ldij;->a:Ldik;
 
-    :cond_21
+    :cond_20
     return-object v0
 
     .line 94

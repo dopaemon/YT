@@ -96,7 +96,7 @@
 
     new-instance p0, Landroid/accounts/Account;
 
-    const-string p1, "com.mgoogle"
+    const-string p1, "com.google"
 
     .line 6
     invoke-direct {p0, p2, p1}, Landroid/accounts/Account;-><init>(Ljava/lang/String;Ljava/lang/String;)V

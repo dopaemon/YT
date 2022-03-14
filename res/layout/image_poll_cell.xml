@@ -4,7 +4,7 @@
     <FrameLayout android:id="@id/image_option_image_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
         <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/image_option_empty_image_view" android:background="@drawable/image_poll_cell_top_border" android:layout_width="fill_parent" android:layout_height="fill_parent">
             <FrameLayout android:background="@drawable/round_call_to_action_button_background" android:layout_width="@dimen/image_poll_cell_select_image_background_size" android:layout_height="@dimen/image_poll_cell_select_image_background_size">
-                <ImageView android:layout_gravity="center" android:layout_width="@dimen/image_poll_cell_select_image_icon_size" android:layout_height="@dimen/image_poll_cell_select_image_icon_size" android:src="@drawable/quantum_ic_drive_image_white_24" />
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/image_poll_cell_select_image_icon_size" android:layout_height="@dimen/image_poll_cell_select_image_icon_size" android:src="@drawable/APKTOOL_DUMMY_703" />
             </FrameLayout>
         </LinearLayout>
     </FrameLayout>

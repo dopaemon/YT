@@ -16,7 +16,7 @@
     .line 1
     new-instance v0, Landroid/content/ComponentName;
 
-    const-string v1, "com.mgoogle.android.gms"
+    const-string v1, "com.google.android.gms"
 
     const-string v2, "com.google.android.gms.family.v2.manage.DeleteMemberActivity"
 

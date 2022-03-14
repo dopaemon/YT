@@ -4529,10 +4529,6 @@
 .method public final aG()Z
     .locals 2
 
-    const/4 v0, 0x1
-
-    return v0
-
     iget-object v0, p0, Lea;->c:Ljava/lang/Object;
 
     check-cast v0, Lcom/google/android/apps/youtube/app/settings/SettingsDataAccess;

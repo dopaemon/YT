@@ -1790,18 +1790,10 @@
 
     const/4 p0, 0x1
 
-    invoke-static {p0}, Lfi/razerman/youtube/XGlobals;->getOverride(Z)Z
-
-    move-result p0
-
     return p0
 
     :cond_1
     const/4 p0, 0x0
-
-    invoke-static {p0}, Lfi/razerman/youtube/XGlobals;->getOverride(Z)Z
-
-    move-result p0
 
     return p0
 .end method
@@ -1979,17 +1971,9 @@
 
     const/4 p0, 0x1
 
-    invoke-static {p0}, Lfi/razerman/youtube/XGlobals;->getOverride(Z)Z
-
-    move-result p0
-
     return p0
 
     :cond_1
-    invoke-static {v1}, Lfi/razerman/youtube/XGlobals;->getOverride(Z)Z
-
-    move-result v1
-
     return v1
 .end method
 

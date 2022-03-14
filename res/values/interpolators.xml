@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item type="interpolator" name="APKTOOL_DUMMY_d">@null</item>
-    <item type="interpolator" name="APKTOOL_DUMMY_e">@null</item>
+    <item type="interpolator" name="APKTOOL_DUMMY_d" />
+    <item type="interpolator" name="APKTOOL_DUMMY_e" />
 </resources>

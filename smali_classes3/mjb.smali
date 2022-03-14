@@ -39,7 +39,7 @@
 
     iput-object v0, p0, Lmjb;->a:Landroid/content/Intent;
 
-    const-string v1, "com.mgoogle.android.gms"
+    const-string v1, "com.google.android.gms"
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;

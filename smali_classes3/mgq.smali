@@ -10,7 +10,7 @@
 .method public constructor <init>(Landroid/os/IBinder;)V
     .locals 1
 
-    const-string v0, "com.mgoogle.android.gms.phenotype.internal.IPhenotypeService"
+    const-string v0, "com.google.android.gms.phenotype.internal.IPhenotypeService"
 
     .line 1
     invoke-direct {p0, p1, v0}, Ldth;-><init>(Landroid/os/IBinder;Ljava/lang/String;)V

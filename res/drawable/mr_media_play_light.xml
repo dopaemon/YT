@@ -2,6 +2,6 @@
 <selector
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
-        <bitmap android:src="@drawable/ic_media_play_light" android:alpha="0.87" />
+        <bitmap android:src="@drawable/APKTOOL_DUMMY_333" android:alpha="0.87" />
     </item>
 </selector>

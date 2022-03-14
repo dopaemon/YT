@@ -182,7 +182,7 @@
     iget-object v2, p0, Lhpx;->b:Ljava/lang/Object;
 
     .line 5
-    check-cast p1, Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;
+    check-cast p1, Lcom/google/android/gms/phenotype/ExperimentTokens;
 
     const/4 v3, 0x0
 
@@ -199,7 +199,7 @@
 
     move-result-object v4
 
-    iget-object v5, p1, Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;->g:[I
+    iget-object v5, p1, Lcom/google/android/gms/phenotype/ExperimentTokens;->g:[I
 
     invoke-static {v5}, Llat;->M([I)Z
 
@@ -298,7 +298,7 @@
     iput-object v3, v5, Lacvu;->c:Ladnz;
 
     :cond_9
-    iget-object v3, p1, Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;->b:[B
+    iget-object v3, p1, Lcom/google/android/gms/phenotype/ExperimentTokens;->b:[B
 
     if-eqz v3, :cond_a
 
@@ -315,7 +315,7 @@
     invoke-virtual {v4, v3}, Ladox;->L(Ladnz;)V
 
     :cond_a
-    iget-object v3, p1, Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;->h:[[B
+    iget-object v3, p1, Lcom/google/android/gms/phenotype/ExperimentTokens;->h:[[B
 
     if-eqz v3, :cond_c
 
@@ -368,17 +368,17 @@
 
     new-array v5, v3, [[[B
 
-    iget-object v6, p1, Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;->d:[[B
+    iget-object v6, p1, Lcom/google/android/gms/phenotype/ExperimentTokens;->d:[[B
 
     aput-object v6, v5, v7
 
-    iget-object v6, p1, Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;->e:[[B
+    iget-object v6, p1, Lcom/google/android/gms/phenotype/ExperimentTokens;->e:[[B
 
     aput-object v6, v5, v1
 
     const/4 v1, 0x2
 
-    iget-object p1, p1, Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;->f:[[B
+    iget-object p1, p1, Lcom/google/android/gms/phenotype/ExperimentTokens;->f:[[B
 
     aput-object p1, v5, v1
 

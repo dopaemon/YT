@@ -248,14 +248,14 @@
     goto :goto_2
 
     :pswitch_5
-    sget-object v4, Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object v4, Lcom/google/android/gms/phenotype/ExperimentTokens;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 20
     invoke-static {v1, v3, v4}, Lmio;->bi(Landroid/os/Parcel;ILandroid/os/Parcelable$Creator;)[Ljava/lang/Object;
 
     move-result-object v3
 
-    check-cast v3, [Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;
+    check-cast v3, [Lcom/google/android/gms/phenotype/ExperimentTokens;
 
     move-object/from16 v22, v3
 
@@ -343,7 +343,7 @@
 
     move-object v14, v1
 
-    invoke-direct/range {v14 .. v23}, Lcom/google/android/gms/clearcut/LogEventParcelable;-><init>(Lcom/google/android/gms/clearcut/internal/PlayLoggerContext;[B[I[Ljava/lang/String;[I[[BZ[Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;Lcom/google/android/gms/clearcut/internal/LogVerifierResultParcelable;)V
+    invoke-direct/range {v14 .. v23}, Lcom/google/android/gms/clearcut/LogEventParcelable;-><init>(Lcom/google/android/gms/clearcut/internal/PlayLoggerContext;[B[I[Ljava/lang/String;[I[[BZ[Lcom/google/android/gms/phenotype/ExperimentTokens;Lcom/google/android/gms/clearcut/internal/LogVerifierResultParcelable;)V
 
     return-object v1
 

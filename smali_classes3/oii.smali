@@ -748,7 +748,7 @@
 
     check-cast v1, Ljava/lang/String;
 
-    const-string v2, "com.mgoogle"
+    const-string v2, "com.google"
 
     invoke-virtual {v0, v2, v1}, Landroid/accounts/AccountManager;->invalidateAuthToken(Ljava/lang/String;Ljava/lang/String;)V
 

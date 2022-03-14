@@ -187,8 +187,6 @@
     move-result-object v0
 
     :goto_2
-    invoke-static {v0}, Lfi/razerman/youtube/Helpers/XThemeHelpers;->setTheme(Ljava/lang/Object;)V
-
     return-object v0
 
     .line 14
@@ -196,8 +194,6 @@
     invoke-virtual {p0}, Lfle;->b()Lfla;
 
     move-result-object v0
-
-    invoke-static {v0}, Lfi/razerman/youtube/Helpers/XThemeHelpers;->setTheme(Ljava/lang/Object;)V
 
     return-object v0
 .end method

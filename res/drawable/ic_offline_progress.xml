@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animation-list android:oneshot="false"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:duration="100" android:drawable="@drawable/ic_offline_progress_1" />
-    <item android:duration="100" android:drawable="@drawable/ic_offline_progress_2" />
-    <item android:duration="100" android:drawable="@drawable/ic_offline_progress_3" />
-    <item android:duration="100" android:drawable="@drawable/ic_offline_progress_4" />
-    <item android:duration="100" android:drawable="@drawable/ic_offline_progress_5" />
-    <item android:duration="100" android:drawable="@drawable/ic_offline_progress_6" />
-    <item android:duration="100" android:drawable="@drawable/ic_offline_progress_7" />
+    <item android:duration="100" android:drawable="@drawable/APKTOOL_DUMMY_3fe" />
+    <item android:duration="100" android:drawable="@drawable/APKTOOL_DUMMY_3ff" />
+    <item android:duration="100" android:drawable="@drawable/APKTOOL_DUMMY_400" />
+    <item android:duration="100" android:drawable="@drawable/APKTOOL_DUMMY_401" />
+    <item android:duration="100" android:drawable="@drawable/APKTOOL_DUMMY_402" />
+    <item android:duration="100" android:drawable="@drawable/APKTOOL_DUMMY_403" />
+    <item android:duration="100" android:drawable="@drawable/APKTOOL_DUMMY_404" />
 </animation-list>

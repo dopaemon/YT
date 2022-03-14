@@ -39,7 +39,7 @@
     .line 1
     iput p2, p0, Lamrf;->a:I
 
-    const-string p2, "com.mgoogle.android.gms.phenotype.internal.IPhenotypeCallbacks"
+    const-string p2, "com.google.android.gms.phenotype.internal.IPhenotypeCallbacks"
 
     invoke-direct {p0, p2}, Ldti;-><init>(Ljava/lang/String;)V
 
@@ -228,14 +228,14 @@
 
     check-cast p1, Lcom/google/android/gms/common/api/Status;
 
-    sget-object p3, Lcom/mgoogle/android/gms/phenotype/FlagOverrides;->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object p3, Lcom/google/android/gms/phenotype/FlagOverrides;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 9
     invoke-static {p2, p3}, Ldtj;->a(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
 
     move-result-object p2
 
-    check-cast p2, Lcom/mgoogle/android/gms/phenotype/FlagOverrides;
+    check-cast p2, Lcom/google/android/gms/phenotype/FlagOverrides;
 
     iget-object p3, p0, Lamrf;->b:Ljava/lang/Object;
 
@@ -303,14 +303,14 @@
 
     check-cast p1, Lcom/google/android/gms/common/api/Status;
 
-    sget-object p3, Lcom/mgoogle/android/gms/phenotype/Configurations;->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object p3, Lcom/google/android/gms/phenotype/Configurations;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 17
     invoke-static {p2, p3}, Ldtj;->a(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
 
     move-result-object p2
 
-    check-cast p2, Lcom/mgoogle/android/gms/phenotype/Configurations;
+    check-cast p2, Lcom/google/android/gms/phenotype/Configurations;
 
     iget-object p3, p0, Lamrf;->b:Ljava/lang/Object;
 
@@ -331,14 +331,14 @@
 
     check-cast p1, Lcom/google/android/gms/common/api/Status;
 
-    sget-object p3, Lcom/mgoogle/android/gms/phenotype/Flag;->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object p3, Lcom/google/android/gms/phenotype/Flag;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 20
     invoke-static {p2, p3}, Ldtj;->a(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
 
     move-result-object p2
 
-    check-cast p2, Lcom/mgoogle/android/gms/phenotype/Flag;
+    check-cast p2, Lcom/google/android/gms/phenotype/Flag;
 
     iget-object p3, p0, Lamrf;->b:Ljava/lang/Object;
 
@@ -378,14 +378,14 @@
 
     check-cast p1, Lcom/google/android/gms/common/api/Status;
 
-    sget-object p3, Lcom/mgoogle/android/gms/phenotype/DogfoodsToken;->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object p3, Lcom/google/android/gms/phenotype/DogfoodsToken;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 25
     invoke-static {p2, p3}, Ldtj;->a(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
 
     move-result-object p2
 
-    check-cast p2, Lcom/mgoogle/android/gms/phenotype/DogfoodsToken;
+    check-cast p2, Lcom/google/android/gms/phenotype/DogfoodsToken;
 
     iget-object p3, p0, Lamrf;->b:Ljava/lang/Object;
 
@@ -406,14 +406,14 @@
 
     check-cast p1, Lcom/google/android/gms/common/api/Status;
 
-    sget-object p3, Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object p3, Lcom/google/android/gms/phenotype/ExperimentTokens;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 28
     invoke-static {p2, p3}, Ldtj;->a(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
 
     move-result-object p2
 
-    check-cast p2, Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;
+    check-cast p2, Lcom/google/android/gms/phenotype/ExperimentTokens;
 
     iget-object p3, p0, Lamrf;->b:Ljava/lang/Object;
 
@@ -454,14 +454,14 @@
 
     check-cast p1, Lcom/google/android/gms/common/api/Status;
 
-    sget-object p3, Lcom/mgoogle/android/gms/phenotype/Configurations;->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object p3, Lcom/google/android/gms/phenotype/Configurations;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 33
     invoke-static {p2, p3}, Ldtj;->a(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
 
     move-result-object p2
 
-    check-cast p2, Lcom/mgoogle/android/gms/phenotype/Configurations;
+    check-cast p2, Lcom/google/android/gms/phenotype/Configurations;
 
     iget-object p3, p0, Lamrf;->b:Ljava/lang/Object;
 

@@ -443,12 +443,6 @@
     move-result-object p1
 
     iput-object p1, p0, Lcom/google/android/apps/youtube/app/common/player/PlaybackLifecycleMonitor;->f:Ljava/lang/String;
-
-    invoke-static {p1}, Lfi/vanced/libraries/youtube/player/VideoInformation;->setCurrentVideoId(Ljava/lang/String;)V
-
-    invoke-static {p1}, Lpl/jakubweg/PlayerController;->setCurrentVideoId(Ljava/lang/String;)V
-
-    invoke-static {}, Lfi/razerman/youtube/XGlobals;->NewVideoStarted()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 

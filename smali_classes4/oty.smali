@@ -48,7 +48,7 @@
 
     move-result-object v2
 
-    const-string v3, "content://com.mgoogle.android.gms.phenotype/"
+    const-string v3, "content://com.google.android.gms.phenotype/"
 
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 

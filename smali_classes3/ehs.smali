@@ -37,7 +37,7 @@
 .method public final c()Ljava/lang/String;
     .locals 1
 
-    const-string v0, "YouTubeTikTokRoot_Application"
+    const-string v0, "YouTubeApplication"
 
     return-object v0
 .end method

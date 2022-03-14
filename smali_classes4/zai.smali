@@ -154,10 +154,6 @@
     .locals 0
 
     .line 1
-    invoke-static {}, Lfi/vanced/libraries/youtube/whitelisting/Whitelist;->shouldShowAds()Z
-
-    move-result p1
-
     iput-boolean p1, p0, Lzai;->d:Z
 
     invoke-virtual {p0}, Lzai;->b()V

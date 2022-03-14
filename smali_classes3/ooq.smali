@@ -555,7 +555,7 @@
 
     const/16 v1, 0x13
 
-    const-string v2, "com.mgoogle.android.gms"
+    const-string v2, "com.google.android.gms"
 
     aput-object v2, v8, v1
 
@@ -739,7 +739,7 @@
 
     new-instance v1, Landroid/accounts/Account;
 
-    const-string v2, "com.mgoogle"
+    const-string v2, "com.google"
 
     invoke-direct {v1, p2, v2}, Landroid/accounts/Account;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 

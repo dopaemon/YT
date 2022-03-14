@@ -24,7 +24,7 @@
 
 .field public h:[[B
 
-.field public i:[Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;
+.field public i:[Lcom/google/android/gms/phenotype/ExperimentTokens;
 
 .field public j:Z
 
@@ -71,7 +71,7 @@
 
     iput-object p1, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->h:[[B
 
-    iput-object p1, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->i:[Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;
+    iput-object p1, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->i:[Lcom/google/android/gms/phenotype/ExperimentTokens;
 
     const/4 p1, 0x1
 
@@ -80,7 +80,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/google/android/gms/clearcut/internal/PlayLoggerContext;[B[I[Ljava/lang/String;[I[[BZ[Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;Lcom/google/android/gms/clearcut/internal/LogVerifierResultParcelable;)V
+.method public constructor <init>(Lcom/google/android/gms/clearcut/internal/PlayLoggerContext;[B[I[Ljava/lang/String;[I[[BZ[Lcom/google/android/gms/phenotype/ExperimentTokens;Lcom/google/android/gms/clearcut/internal/LogVerifierResultParcelable;)V
     .locals 0
 
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -105,7 +105,7 @@
 
     iput-object p6, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->h:[[B
 
-    iput-object p8, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->i:[Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;
+    iput-object p8, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->i:[Lcom/google/android/gms/phenotype/ExperimentTokens;
 
     iput-boolean p7, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->j:Z
 
@@ -235,9 +235,9 @@
 
     if-eqz v1, :cond_1
 
-    iget-object v1, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->i:[Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;
+    iget-object v1, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->i:[Lcom/google/android/gms/phenotype/ExperimentTokens;
 
-    iget-object v3, p1, Lcom/google/android/gms/clearcut/LogEventParcelable;->i:[Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;
+    iget-object v3, p1, Lcom/google/android/gms/clearcut/LogEventParcelable;->i:[Lcom/google/android/gms/phenotype/ExperimentTokens;
 
     .line 12
     invoke-static {v1, v3}, Ljava/util/Arrays;->equals([Ljava/lang/Object;[Ljava/lang/Object;)Z
@@ -331,7 +331,7 @@
 
     aput-object v1, v0, v2
 
-    iget-object v1, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->i:[Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;
+    iget-object v1, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->i:[Lcom/google/android/gms/phenotype/ExperimentTokens;
 
     const/16 v2, 0x9
 
@@ -492,7 +492,7 @@
     .line 19
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->i:[Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;
+    iget-object v1, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->i:[Lcom/google/android/gms/phenotype/ExperimentTokens;
 
     .line 20
     invoke-static {v1}, Ljava/util/Arrays;->toString([Ljava/lang/Object;)Ljava/lang/String;
@@ -597,7 +597,7 @@
     .line 8
     invoke-static {p1, v2, v1}, Lmio;->ao(Landroid/os/Parcel;IZ)V
 
-    iget-object v1, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->i:[Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;
+    iget-object v1, p0, Lcom/google/android/gms/clearcut/LogEventParcelable;->i:[Lcom/google/android/gms/phenotype/ExperimentTokens;
 
     const/16 v2, 0x9
 

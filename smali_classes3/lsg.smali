@@ -2415,7 +2415,7 @@
 
     move-result-object p2
 
-    const-string v4, "com.mgoogle.android.gms.chimera"
+    const-string v4, "com.google.android.gms.chimera"
 
     .line 5
     invoke-virtual {p2, v4}, Landroid/net/Uri$Builder;->authority(Ljava/lang/String;)Landroid/net/Uri$Builder;

@@ -245,11 +245,11 @@
     :cond_0
     invoke-static {v1, v2}, Lmio;->bc(Landroid/os/Parcel;I)V
 
-    new-instance v1, Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;
+    new-instance v1, Lcom/google/android/gms/phenotype/ExperimentTokens;
 
     move-object v11, v1
 
-    invoke-direct/range {v11 .. v20}, Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;-><init>(Ljava/lang/String;[B[[B[[B[[B[[B[I[[B[I)V
+    invoke-direct/range {v11 .. v20}, Lcom/google/android/gms/phenotype/ExperimentTokens;-><init>(Ljava/lang/String;[B[[B[[B[[B[[B[I[[B[I)V
 
     return-object v1
 
@@ -295,9 +295,9 @@
     :cond_2
     invoke-static {v1, v2}, Lmio;->bc(Landroid/os/Parcel;I)V
 
-    new-instance v1, Lcom/mgoogle/android/gms/phenotype/DogfoodsToken;
+    new-instance v1, Lcom/google/android/gms/phenotype/DogfoodsToken;
 
-    invoke-direct {v1, v10}, Lcom/mgoogle/android/gms/phenotype/DogfoodsToken;-><init>([B)V
+    invoke-direct {v1, v10}, Lcom/google/android/gms/phenotype/DogfoodsToken;-><init>([B)V
 
     return-object v1
 
@@ -374,14 +374,14 @@
     goto :goto_2
 
     :pswitch_f
-    sget-object v4, Lcom/mgoogle/android/gms/phenotype/Configuration;->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object v4, Lcom/google/android/gms/phenotype/Configuration;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 27
     invoke-static {v1, v3, v4}, Lmio;->bi(Landroid/os/Parcel;ILandroid/os/Parcelable$Creator;)[Ljava/lang/Object;
 
     move-result-object v3
 
-    check-cast v3, [Lcom/mgoogle/android/gms/phenotype/Configuration;
+    check-cast v3, [Lcom/google/android/gms/phenotype/Configuration;
 
     move-object v14, v3
 
@@ -411,12 +411,12 @@
     :cond_3
     invoke-static {v1, v2}, Lmio;->bc(Landroid/os/Parcel;I)V
 
-    new-instance v1, Lcom/mgoogle/android/gms/phenotype/Configurations;
+    new-instance v1, Lcom/google/android/gms/phenotype/Configurations;
 
     move-object v11, v1
 
     .line 32
-    invoke-direct/range {v11 .. v18}, Lcom/mgoogle/android/gms/phenotype/Configurations;-><init>(Ljava/lang/String;Ljava/lang/String;[Lcom/mgoogle/android/gms/phenotype/Configuration;Z[BJ)V
+    invoke-direct/range {v11 .. v18}, Lcom/google/android/gms/phenotype/Configurations;-><init>(Ljava/lang/String;Ljava/lang/String;[Lcom/google/android/gms/phenotype/Configuration;Z[BJ)V
 
     return-object v1
 
@@ -465,14 +465,14 @@
     goto :goto_3
 
     :cond_5
-    sget-object v5, Lcom/mgoogle/android/gms/phenotype/Flag;->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object v5, Lcom/google/android/gms/phenotype/Flag;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 37
     invoke-static {v1, v4, v5}, Lmio;->bi(Landroid/os/Parcel;ILandroid/os/Parcelable$Creator;)[Ljava/lang/Object;
 
     move-result-object v4
 
-    check-cast v4, [Lcom/mgoogle/android/gms/phenotype/Flag;
+    check-cast v4, [Lcom/google/android/gms/phenotype/Flag;
 
     move-object v10, v4
 
@@ -492,10 +492,10 @@
     :cond_7
     invoke-static {v1, v2}, Lmio;->bc(Landroid/os/Parcel;I)V
 
-    new-instance v1, Lcom/mgoogle/android/gms/phenotype/Configuration;
+    new-instance v1, Lcom/google/android/gms/phenotype/Configuration;
 
     .line 41
-    invoke-direct {v1, v9, v10, v3}, Lcom/mgoogle/android/gms/phenotype/Configuration;-><init>(I[Lcom/mgoogle/android/gms/phenotype/Flag;[Ljava/lang/String;)V
+    invoke-direct {v1, v9, v10, v3}, Lcom/google/android/gms/phenotype/Configuration;-><init>(I[Lcom/google/android/gms/phenotype/Flag;[Ljava/lang/String;)V
 
     return-object v1
 
@@ -1971,11 +1971,11 @@
     :cond_38
     invoke-static {v1, v2}, Lmio;->bc(Landroid/os/Parcel;I)V
 
-    new-instance v1, Lcom/mgoogle/android/gms/phenotype/Flag;
+    new-instance v1, Lcom/google/android/gms/phenotype/Flag;
 
     move-object v11, v1
 
-    invoke-direct/range {v11 .. v21}, Lcom/mgoogle/android/gms/phenotype/Flag;-><init>(Ljava/lang/String;JZDLjava/lang/String;[BII)V
+    invoke-direct/range {v11 .. v21}, Lcom/google/android/gms/phenotype/Flag;-><init>(Ljava/lang/String;JZDLjava/lang/String;[BII)V
 
     return-object v1
 
@@ -2083,31 +2083,31 @@
 
     packed-switch v0, :pswitch_data_0
 
-    new-array p1, p1, [Lcom/mgoogle/android/gms/phenotype/Flag;
+    new-array p1, p1, [Lcom/google/android/gms/phenotype/Flag;
 
     return-object p1
 
     .line 1
     :pswitch_0
-    new-array p1, p1, [Lcom/mgoogle/android/gms/phenotype/ExperimentTokens;
+    new-array p1, p1, [Lcom/google/android/gms/phenotype/ExperimentTokens;
 
     return-object p1
 
     .line 2
     :pswitch_1
-    new-array p1, p1, [Lcom/mgoogle/android/gms/phenotype/DogfoodsToken;
+    new-array p1, p1, [Lcom/google/android/gms/phenotype/DogfoodsToken;
 
     return-object p1
 
     .line 3
     :pswitch_2
-    new-array p1, p1, [Lcom/mgoogle/android/gms/phenotype/Configurations;
+    new-array p1, p1, [Lcom/google/android/gms/phenotype/Configurations;
 
     return-object p1
 
     .line 4
     :pswitch_3
-    new-array p1, p1, [Lcom/mgoogle/android/gms/phenotype/Configuration;
+    new-array p1, p1, [Lcom/google/android/gms/phenotype/Configuration;
 
     return-object p1
 

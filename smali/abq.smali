@@ -4,13 +4,13 @@
 
 
 # static fields
-.field private static a:Ljava/lang/reflect/Field;
+.field private static a:Ljava/lang/reflect/Field; = null
 
-.field private static b:Z
+.field private static b:Z = false
 
-.field private static c:Ljava/lang/reflect/Constructor;
+.field private static c:Ljava/lang/reflect/Constructor; = null
 
-.field private static d:Z
+.field private static d:Z = false
 
 
 # instance fields

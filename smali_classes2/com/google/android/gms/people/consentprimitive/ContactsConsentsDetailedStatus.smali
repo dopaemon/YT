@@ -76,7 +76,7 @@
 
     new-instance v3, Landroid/accounts/Account;
 
-    const-string v4, "com.mgoogle"
+    const-string v4, "com.google"
 
     .line 3
     invoke-direct {v3, v2, v4}, Landroid/accounts/Account;-><init>(Ljava/lang/String;Ljava/lang/String;)V

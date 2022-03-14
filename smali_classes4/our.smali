@@ -25,7 +25,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/mgoogle/android/gms/phenotype/Configurations;
+    check-cast v0, Lcom/google/android/gms/phenotype/Configurations;
 
     .line 2
     sget-object v1, Loun;->a:Loun;
@@ -36,7 +36,7 @@
     move-result-object v1
 
     .line 2
-    iget-object v2, v0, Lcom/mgoogle/android/gms/phenotype/Configurations;->a:Ljava/lang/String;
+    iget-object v2, v0, Lcom/google/android/gms/phenotype/Configurations;->a:Ljava/lang/String;
 
     .line 4
     invoke-virtual {v1}, Ladox;->copyOnWrite()V
@@ -60,7 +60,7 @@
     iput-object v2, v3, Loun;->c:Ljava/lang/String;
 
     .line 4
-    iget-object v2, v0, Lcom/mgoogle/android/gms/phenotype/Configurations;->c:Ljava/lang/String;
+    iget-object v2, v0, Lcom/google/android/gms/phenotype/Configurations;->c:Ljava/lang/String;
 
     .line 7
     invoke-virtual {v1}, Ladox;->copyOnWrite()V
@@ -84,7 +84,7 @@
     iput-object v2, v3, Loun;->e:Ljava/lang/String;
 
     .line 10
-    iget-boolean v2, v0, Lcom/mgoogle/android/gms/phenotype/Configurations;->f:Z
+    iget-boolean v2, v0, Lcom/google/android/gms/phenotype/Configurations;->f:Z
 
     .line 11
     invoke-virtual {v1}, Ladox;->copyOnWrite()V
@@ -103,7 +103,7 @@
     iput-boolean v2, v3, Loun;->h:Z
 
     .line 13
-    iget-wide v2, v0, Lcom/mgoogle/android/gms/phenotype/Configurations;->g:J
+    iget-wide v2, v0, Lcom/google/android/gms/phenotype/Configurations;->g:J
 
     .line 14
     invoke-virtual {v1}, Ladox;->copyOnWrite()V
@@ -122,7 +122,7 @@
     iput-wide v2, v4, Loun;->i:J
 
     .line 16
-    iget-object v2, v0, Lcom/mgoogle/android/gms/phenotype/Configurations;->b:[B
+    iget-object v2, v0, Lcom/google/android/gms/phenotype/Configurations;->b:[B
 
     const/4 v3, 0x2
 
@@ -151,7 +151,7 @@
 
     .line 20
     :cond_0
-    iget-object v0, v0, Lcom/mgoogle/android/gms/phenotype/Configurations;->d:[Lcom/mgoogle/android/gms/phenotype/Configuration;
+    iget-object v0, v0, Lcom/google/android/gms/phenotype/Configurations;->d:[Lcom/google/android/gms/phenotype/Configuration;
 
     array-length v2, v0
 
@@ -163,7 +163,7 @@
     aget-object v8, v0, v7
 
     .line 21
-    iget-object v9, v8, Lcom/mgoogle/android/gms/phenotype/Configuration;->b:[Lcom/mgoogle/android/gms/phenotype/Flag;
+    iget-object v9, v8, Lcom/google/android/gms/phenotype/Configuration;->b:[Lcom/google/android/gms/phenotype/Flag;
 
     array-length v10, v9
 
@@ -175,7 +175,7 @@
     aget-object v12, v9, v11
 
     .line 22
-    iget v13, v12, Lcom/mgoogle/android/gms/phenotype/Flag;->g:I
+    iget v13, v12, Lcom/google/android/gms/phenotype/Flag;->g:I
 
     if-eq v13, v5, :cond_9
 
@@ -200,7 +200,7 @@
     move-result-object v13
 
     .line 23
-    iget-object v15, v12, Lcom/mgoogle/android/gms/phenotype/Flag;->a:Ljava/lang/String;
+    iget-object v15, v12, Lcom/google/android/gms/phenotype/Flag;->a:Ljava/lang/String;
 
     .line 25
     invoke-virtual {v13}, Ladox;->copyOnWrite()V
@@ -221,12 +221,12 @@
 
     iput-object v15, v4, Louo;->e:Ljava/lang/String;
 
-    iget v3, v12, Lcom/mgoogle/android/gms/phenotype/Flag;->g:I
+    iget v3, v12, Lcom/google/android/gms/phenotype/Flag;->g:I
 
     if-ne v3, v14, :cond_1
 
     .line 75
-    iget-object v3, v12, Lcom/mgoogle/android/gms/phenotype/Flag;->f:[B
+    iget-object v3, v12, Lcom/google/android/gms/phenotype/Flag;->f:[B
 
     .line 28
     invoke-static {v3}, Lmio;->bn(Ljava/lang/Object;)Ljava/lang/Object;
@@ -307,7 +307,7 @@
     move-result-object v3
 
     .line 33
-    iget-object v4, v12, Lcom/mgoogle/android/gms/phenotype/Flag;->a:Ljava/lang/String;
+    iget-object v4, v12, Lcom/google/android/gms/phenotype/Flag;->a:Ljava/lang/String;
 
     invoke-virtual {v3}, Ladox;->copyOnWrite()V
 
@@ -327,12 +327,12 @@
 
     iput-object v4, v13, Louo;->e:Ljava/lang/String;
 
-    iget v4, v12, Lcom/mgoogle/android/gms/phenotype/Flag;->g:I
+    iget v4, v12, Lcom/google/android/gms/phenotype/Flag;->g:I
 
     if-ne v4, v6, :cond_4
 
     .line 76
-    iget-object v4, v12, Lcom/mgoogle/android/gms/phenotype/Flag;->e:Ljava/lang/String;
+    iget-object v4, v12, Lcom/google/android/gms/phenotype/Flag;->e:Ljava/lang/String;
 
     .line 37
     invoke-static {v4}, Lmio;->bn(Ljava/lang/Object;)Ljava/lang/Object;
@@ -379,7 +379,7 @@
     move-result-object v3
 
     .line 40
-    iget-object v4, v12, Lcom/mgoogle/android/gms/phenotype/Flag;->a:Ljava/lang/String;
+    iget-object v4, v12, Lcom/google/android/gms/phenotype/Flag;->a:Ljava/lang/String;
 
     invoke-virtual {v3}, Ladox;->copyOnWrite()V
 
@@ -399,12 +399,12 @@
 
     iput-object v4, v13, Louo;->e:Ljava/lang/String;
 
-    iget v4, v12, Lcom/mgoogle/android/gms/phenotype/Flag;->g:I
+    iget v4, v12, Lcom/google/android/gms/phenotype/Flag;->g:I
 
     if-ne v4, v14, :cond_6
 
     .line 77
-    iget-wide v12, v12, Lcom/mgoogle/android/gms/phenotype/Flag;->d:D
+    iget-wide v12, v12, Lcom/google/android/gms/phenotype/Flag;->d:D
 
     .line 44
     invoke-virtual {v3}, Ladox;->copyOnWrite()V
@@ -456,7 +456,7 @@
     move-result-object v3
 
     .line 47
-    iget-object v4, v12, Lcom/mgoogle/android/gms/phenotype/Flag;->a:Ljava/lang/String;
+    iget-object v4, v12, Lcom/google/android/gms/phenotype/Flag;->a:Ljava/lang/String;
 
     invoke-virtual {v3}, Ladox;->copyOnWrite()V
 
@@ -476,14 +476,14 @@
 
     iput-object v4, v13, Louo;->e:Ljava/lang/String;
 
-    iget v4, v12, Lcom/mgoogle/android/gms/phenotype/Flag;->g:I
+    iget v4, v12, Lcom/google/android/gms/phenotype/Flag;->g:I
 
     const/4 v13, 0x2
 
     if-ne v4, v13, :cond_8
 
     .line 78
-    iget-boolean v4, v12, Lcom/mgoogle/android/gms/phenotype/Flag;->c:Z
+    iget-boolean v4, v12, Lcom/google/android/gms/phenotype/Flag;->c:Z
 
     .line 51
     invoke-virtual {v3}, Ladox;->copyOnWrite()V
@@ -534,7 +534,7 @@
     move-result-object v3
 
     .line 54
-    iget-object v4, v12, Lcom/mgoogle/android/gms/phenotype/Flag;->a:Ljava/lang/String;
+    iget-object v4, v12, Lcom/google/android/gms/phenotype/Flag;->a:Ljava/lang/String;
 
     invoke-virtual {v3}, Ladox;->copyOnWrite()V
 
@@ -554,12 +554,12 @@
 
     iput-object v4, v14, Louo;->e:Ljava/lang/String;
 
-    iget v4, v12, Lcom/mgoogle/android/gms/phenotype/Flag;->g:I
+    iget v4, v12, Lcom/google/android/gms/phenotype/Flag;->g:I
 
     if-ne v4, v5, :cond_b
 
     .line 79
-    iget-wide v14, v12, Lcom/mgoogle/android/gms/phenotype/Flag;->b:J
+    iget-wide v14, v12, Lcom/google/android/gms/phenotype/Flag;->b:J
 
     .line 58
     invoke-virtual {v3}, Ladox;->copyOnWrite()V
@@ -640,7 +640,7 @@
     const/4 v13, 0x2
 
     .line 67
-    iget-object v3, v8, Lcom/mgoogle/android/gms/phenotype/Configuration;->c:[Ljava/lang/String;
+    iget-object v3, v8, Lcom/google/android/gms/phenotype/Configuration;->c:[Ljava/lang/String;
 
     if-eqz v3, :cond_e
 

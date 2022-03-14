@@ -666,7 +666,7 @@
 
     const-string v0, "<<default account>>"
 
-    const-string v2, "com.mgoogle"
+    const-string v2, "com.google"
 
     .line 6
     invoke-direct {p2, v0, v2}, Landroid/accounts/Account;-><init>(Ljava/lang/String;Ljava/lang/String;)V

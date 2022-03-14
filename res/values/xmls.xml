@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item type="xml" name="APKTOOL_DUMMY_c">@null</item>
-    <item type="xml" name="APKTOOL_DUMMY_11">@null</item>
-    <item type="xml" name="APKTOOL_DUMMY_12">@null</item>
+    <item type="xml" name="APKTOOL_DUMMY_c" />
+    <item type="xml" name="APKTOOL_DUMMY_11" />
+    <item type="xml" name="APKTOOL_DUMMY_12" />
 </resources>

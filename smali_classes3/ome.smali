@@ -98,7 +98,7 @@
 
     new-array v3, v2, [Ljava/lang/String;
 
-    const-string v4, "com.mgoogle"
+    const-string v4, "com.google"
 
     const/4 v5, 0x0
 

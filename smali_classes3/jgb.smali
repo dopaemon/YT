@@ -487,12 +487,6 @@
 
     iget-object p1, p0, Lize;->c:Landroid/view/View;
 
-    invoke-virtual {p0}, Ljgk;->i()Z
-
-    move-result v0
-
-    invoke-static {p1, v0}, Lfi/vanced/libraries/youtube/ryd/ReturnYouTubeDislikes;->setLikeTag(Landroid/view/View;Z)V
-
     const v0, 0x7f0b0805
 
     .line 21
@@ -507,12 +501,6 @@
     if-eqz p1, :cond_8
 
     iget-object p1, p0, Lize;->c:Landroid/view/View;
-
-    invoke-virtual {p0}, Ljgk;->i()Z
-
-    move-result v0
-
-    invoke-static {p1, v0}, Lfi/vanced/libraries/youtube/ryd/ReturnYouTubeDislikes;->setDislikeTag(Landroid/view/View;Z)V
 
     const v0, 0x7f0b050a
 
@@ -704,15 +692,9 @@
 .end method
 
 .method public final onClick(Landroid/view/View;)V
-    .locals 3
+    .locals 2
 
     .line 1
-    invoke-virtual {p0}, Ljgk;->i()Z
-
-    move-result v2
-
-    invoke-static {p1, v2}, Lfi/vanced/libraries/youtube/ryd/ReturnYouTubeDislikes;->onClick(Landroid/view/View;Z)V
-
     invoke-virtual {p0}, Ljgk;->i()Z
 
     move-result p1

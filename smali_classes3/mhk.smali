@@ -151,7 +151,7 @@
 
     iput-object v3, p0, Lmhk;->i:Llvy;
 
-    const-string v3, "com.mgoogle.android.gms"
+    const-string v3, "com.google.android.gms"
 
     .line 8
     invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;

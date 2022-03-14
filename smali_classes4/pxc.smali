@@ -498,7 +498,7 @@
 
     invoke-direct/range {v1 .. v6}, Lpxb;-><init>(Lsuf;[B[B[B[B)V
 
-    const-string v1, "com.mgoogle"
+    const-string v1, "com.google"
 
     const/4 v2, 0x0
 

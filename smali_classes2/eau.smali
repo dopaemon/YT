@@ -709,7 +709,7 @@
     .line 1
     new-instance v0, Landroid/provider/SearchRecentSuggestions;
 
-    const-string v1, "com.vanced.android.youtube.SuggestionProvider"
+    const-string v1, "com.google.android.youtube.SuggestionProvider"
 
     const/4 v2, 0x1
 

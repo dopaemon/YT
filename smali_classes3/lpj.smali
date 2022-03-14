@@ -35,7 +35,7 @@
 
     move-result-object v0
 
-    const-string v1, "com.mgoogle.android.gms.chimera"
+    const-string v1, "com.google.android.gms.chimera"
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/net/Uri$Builder;->authority(Ljava/lang/String;)Landroid/net/Uri$Builder;
@@ -89,7 +89,7 @@
 
     iput-object p1, p0, Llpj;->b:Ljava/lang/String;
 
-    const-string p1, "com.mgoogle.android.gms"
+    const-string p1, "com.google.android.gms"
 
     .line 3
     invoke-static {p1}, Lmio;->bx(Ljava/lang/String;)V

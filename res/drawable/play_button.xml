@@ -5,8 +5,8 @@
     <item android:gravity="center">
         <selector android:layout_width="fill_parent" android:layout_height="fill_parent">
             <item android:state_selected="true" android:drawable="@drawable/quantum_ic_pause_vd_theme_24" />
-            <item android:state_selected="false" android:drawable="@drawable/yt_fill_play_arrow_white_24" />
-            <item android:drawable="@drawable/yt_fill_play_arrow_white_24" />
+            <item android:state_selected="false" android:drawable="@drawable/APKTOOL_DUMMY_a40" />
+            <item android:drawable="@drawable/APKTOOL_DUMMY_a40" />
         </selector>
     </item>
 </layer-list>

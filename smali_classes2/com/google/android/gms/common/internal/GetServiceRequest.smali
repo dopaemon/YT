@@ -64,7 +64,7 @@
 
     iput p3, p0, Lcom/google/android/gms/common/internal/GetServiceRequest;->c:I
 
-    const-string p2, "com.mgoogle.android.gms"
+    const-string p2, "com.google.android.gms"
 
     invoke-virtual {p2, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

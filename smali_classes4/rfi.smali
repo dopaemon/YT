@@ -366,7 +366,7 @@
 
     move-result-object p1
 
-    const-string p2, "com.mgoogle.android.gms"
+    const-string p2, "com.google.android.gms"
 
     .line 17
     invoke-virtual {p1, p2}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;

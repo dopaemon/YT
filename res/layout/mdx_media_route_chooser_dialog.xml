@@ -14,6 +14,6 @@
     <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="14.0sp" android:textColor="?ytTextSecondary" android:id="@id/cast_setting_desc" android:paddingLeft="24.0dip" android:paddingTop="16.0dip" android:paddingRight="24.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mdx_cast_settings_desc" />
     <LinearLayout android:orientation="horizontal" android:id="@id/go_to_cast_settings" android:background="?android:selectableItemBackground" android:paddingLeft="24.0dip" android:paddingTop="12.0dip" android:paddingRight="24.0dip" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="14.0sp" android:textColor="?ytCallToAction" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mdx_go_to_cast_settings" />
-        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_open_in_new_googblue_18" android:contentDescription="@null" android:importantForAccessibility="no" android:layout_marginStart="8.0dip" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMY_7a2" android:contentDescription="@null" android:importantForAccessibility="no" android:layout_marginStart="8.0dip" />
     </LinearLayout>
 </LinearLayout>

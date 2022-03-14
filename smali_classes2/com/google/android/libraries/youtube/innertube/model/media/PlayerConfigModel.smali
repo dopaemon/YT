@@ -2328,10 +2328,6 @@
 
     if-lez v0, :cond_1
 
-    invoke-static {v0}, Lfi/razerman/youtube/XGlobals;->getPlaybackBuffer(I)I
-
-    move-result v0
-
     return v0
 
     :cond_1
@@ -2383,10 +2379,6 @@
 
     if-eqz v0, :cond_2
 
-    invoke-static {v0}, Lfi/razerman/youtube/XGlobals;->getMaxBuffer(I)I
-
-    move-result v0
-
     return v0
 
     :cond_2
@@ -2437,10 +2429,6 @@
     iget v0, v0, Lafyo;->s:I
 
     if-lez v0, :cond_1
-
-    invoke-static {v0}, Lfi/razerman/youtube/XGlobals;->getReBuffer(I)I
-
-    move-result v0
 
     return v0
 

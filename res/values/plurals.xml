@@ -68,11 +68,6 @@
         <item quantity="few">Undo like button, %1$d others have liked this video</item>
         <item quantity="many">Undo like button, %1$d others have liked this video</item>
     </plurals>
-    <item type="plurals" name="APKTOOL_DUMMY_a">@null</item>
-    <item type="plurals" name="APKTOOL_DUMMY_b">@null</item>
-    <item type="plurals" name="APKTOOL_DUMMY_c">@null</item>
-    <item type="plurals" name="APKTOOL_DUMMY_d">@null</item>
-    <item type="plurals" name="APKTOOL_DUMMY_e">@null</item>
     <plurals name="download_new_videos_button_text">
         <item quantity="other">Download %1$d new videos</item>
         <item quantity="zero">Download %1$d new videos</item>
@@ -121,7 +116,6 @@
         <item quantity="few">%1$d seconds</item>
         <item quantity="many">%1$d seconds</item>
     </plurals>
-    <item type="plurals" name="APKTOOL_DUMMY_18">@null</item>
     <plurals name="frequency_hours_component">
         <item quantity="other">%1$d hours</item>
         <item quantity="one">%1$d hour</item>
@@ -150,7 +144,6 @@
         <item quantity="few">Every %1$d minutes</item>
         <item quantity="many">Every %1$d minutes</item>
     </plurals>
-    <item type="plurals" name="APKTOOL_DUMMY_1d">@null</item>
     <plurals name="image_picker_title">
         <item quantity="other">%1$d selected</item>
         <item quantity="one">%1$d selected</item>
@@ -191,8 +184,6 @@
         <item quantity="few">Updated %1$d weeks ago</item>
         <item quantity="many">Updated %1$d weeks ago</item>
     </plurals>
-    <item type="plurals" name="APKTOOL_DUMMY_24">@null</item>
-    <item type="plurals" name="APKTOOL_DUMMY_25">@null</item>
     <plurals name="notification_playlist_progress_size">
         <item quantity="other">%1$d of %2$d videos</item>
         <item quantity="zero">%1$d of %2$d videos</item>
@@ -201,9 +192,6 @@
         <item quantity="few">%1$d of %2$d videos</item>
         <item quantity="many">%1$d of %2$d videos</item>
     </plurals>
-    <item type="plurals" name="APKTOOL_DUMMY_27">@null</item>
-    <item type="plurals" name="APKTOOL_DUMMY_28">@null</item>
-    <item type="plurals" name="APKTOOL_DUMMY_29">@null</item>
     <plurals name="offline_go_online_to_renew_dialog_message">
         <item quantity="other">Downloads remain available as long as your device has an internet connection every %1$d days. This process happens automatically and does not re-download the video.</item>
         <item quantity="one">Downloads remain available as long as your device has an internet connection every day. This process happens automatically and does not re-download the video.</item>
@@ -214,15 +202,10 @@
         <item quantity="one">Downloads remain available for 1 day without an internet connection.</item>
         <item quantity="two">Downloads remain available for %1$d days without an internet connection.</item>
     </plurals>
-    <item type="plurals" name="APKTOOL_DUMMY_2c">@null</item>
     <plurals name="offline_remember_setting_for_days">
         <item quantity="other">Remember my settings for %1$d days</item>
         <item quantity="one">Remember my settings for 1 day</item>
     </plurals>
-    <item type="plurals" name="APKTOOL_DUMMY_2e">@null</item>
-    <item type="plurals" name="APKTOOL_DUMMY_2f">@null</item>
-    <item type="plurals" name="APKTOOL_DUMMY_30">@null</item>
-    <item type="plurals" name="APKTOOL_DUMMY_31">@null</item>
     <plurals name="playlist_picker_dialog_done">
         <item quantity="other">Playlists updated</item>
         <item quantity="one">Playlist updated</item>
@@ -292,14 +275,6 @@
         <item quantity="few">%1$d videos selected</item>
         <item quantity="many">%1$d videos selected</item>
     </plurals>
-    <item type="plurals" name="APKTOOL_DUMMY_41">@null</item>
-    <item type="plurals" name="APKTOOL_DUMMY_42">@null</item>
-    <item type="plurals" name="APKTOOL_DUMMY_43">@null</item>
-    <item type="plurals" name="APKTOOL_DUMMY_44">@null</item>
-    <item type="plurals" name="APKTOOL_DUMMY_45">@null</item>
-    <item type="plurals" name="APKTOOL_DUMMY_46">@null</item>
-    <item type="plurals" name="APKTOOL_DUMMY_47">@null</item>
-    <item type="plurals" name="APKTOOL_DUMMY_48">@null</item>
     <plurals name="shorts_a11y_duration_seconds">
         <item quantity="other">%1$s seconds</item>
         <item quantity="one">%1$s second</item>
@@ -432,4 +407,29 @@
         <item quantity="few">%1$d videos</item>
         <item quantity="many">%1$d videos</item>
     </plurals>
+    <item type="plurals" name="APKTOOL_DUMMY_a" />
+    <item type="plurals" name="APKTOOL_DUMMY_b" />
+    <item type="plurals" name="APKTOOL_DUMMY_c" />
+    <item type="plurals" name="APKTOOL_DUMMY_d" />
+    <item type="plurals" name="APKTOOL_DUMMY_e" />
+    <item type="plurals" name="APKTOOL_DUMMY_18" />
+    <item type="plurals" name="APKTOOL_DUMMY_1d" />
+    <item type="plurals" name="APKTOOL_DUMMY_24" />
+    <item type="plurals" name="APKTOOL_DUMMY_25" />
+    <item type="plurals" name="APKTOOL_DUMMY_27" />
+    <item type="plurals" name="APKTOOL_DUMMY_28" />
+    <item type="plurals" name="APKTOOL_DUMMY_29" />
+    <item type="plurals" name="APKTOOL_DUMMY_2c" />
+    <item type="plurals" name="APKTOOL_DUMMY_2e" />
+    <item type="plurals" name="APKTOOL_DUMMY_2f" />
+    <item type="plurals" name="APKTOOL_DUMMY_30" />
+    <item type="plurals" name="APKTOOL_DUMMY_31" />
+    <item type="plurals" name="APKTOOL_DUMMY_41" />
+    <item type="plurals" name="APKTOOL_DUMMY_42" />
+    <item type="plurals" name="APKTOOL_DUMMY_43" />
+    <item type="plurals" name="APKTOOL_DUMMY_44" />
+    <item type="plurals" name="APKTOOL_DUMMY_45" />
+    <item type="plurals" name="APKTOOL_DUMMY_46" />
+    <item type="plurals" name="APKTOOL_DUMMY_47" />
+    <item type="plurals" name="APKTOOL_DUMMY_48" />
 </resources>

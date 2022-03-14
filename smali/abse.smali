@@ -104,7 +104,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const-string v0, "com.mgoogle.android.gms"
+    const-string v0, "com.google.android.gms"
 
     iput-object v0, p0, Labse;->c:Ljava/lang/Object;
 

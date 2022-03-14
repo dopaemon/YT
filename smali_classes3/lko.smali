@@ -57,7 +57,7 @@
 
     if-nez v0, :cond_0
 
-    const-string v0, "com.mgoogle.android.gms"
+    const-string v0, "com.google.android.gms"
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -164,9 +164,9 @@
 
     move-result-object v1
 
-    const-string v2, "com.mgoogle.android.c2dm.permission.SEND"
+    const-string v2, "com.google.android.c2dm.permission.SEND"
 
-    const-string v3, "com.mgoogle.android.gms"
+    const-string v3, "com.google.android.gms"
 
     invoke-virtual {v1, v2, v3}, Lkyo;->d(Ljava/lang/String;Ljava/lang/String;)I
 
@@ -203,12 +203,12 @@
 
     new-instance v1, Landroid/content/Intent;
 
-    const-string v4, "com.mgoogle.android.c2dm.intent.REGISTER"
+    const-string v4, "com.google.android.c2dm.intent.REGISTER"
 
     .line 4
     invoke-direct {v1, v4}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    const-string v4, "com.mgoogle.android.gms"
+    const-string v4, "com.google.android.gms"
 
     .line 5
     invoke-virtual {v1, v4}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
@@ -245,12 +245,12 @@
     :try_start_3
     new-instance v1, Landroid/content/Intent;
 
-    const-string v4, "com.mgoogle.iid.TOKEN_REQUEST"
+    const-string v4, "com.google.iid.TOKEN_REQUEST"
 
     .line 8
     invoke-direct {v1, v4}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    const-string v4, "com.mgoogle.android.gms"
+    const-string v4, "com.google.android.gms"
 
     .line 9
     invoke-virtual {v1, v4}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;

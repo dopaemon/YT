@@ -10,18 +10,14 @@
     <fraction name="carousel_default_aspect_ratio">177.99988%</fraction>
     <fraction name="channel_layer_banner_aspect_ratio">364.9994%</fraction>
     <fraction name="compact_promoted_video_item_thumbnail_full_bleed_aspect_ratio">177.99988%</fraction>
-    <item type="fraction" name="APKTOOL_DUMMY_a" />
     <fraction name="game_box_art_aspect_ratio">69.00001%</fraction>
-    <item type="fraction" name="APKTOOL_DUMMY_c" />
     <fraction name="info_card_square_aspect_ratio">100.0%</fraction>
-    <item type="fraction" name="APKTOOL_DUMMY_e" />
     <fraction name="lc_aspect_ratio_16_9">177.99988%</fraction>
     <fraction name="live_chat_aspect_ratio_16_9">177.99988%</fraction>
     <fraction name="movie_poster_aspect_ratio">69.00001%</fraction>
     <fraction name="peeking_aspect_ratio">239.99939%</fraction>
     <fraction name="playlist_panel_video_item_thumb_alpha">79.99999%</fraction>
     <fraction name="playlist_panel_video_item_thumb_selected_alpha">100.0%</fraction>
-    <item type="fraction" name="APKTOOL_DUMMY_15" />
     <fraction name="poster_aspect_ratio">66.99999%</fraction>
     <fraction name="promo_panel_avatar_end_offset_ratio">19.000006%</fraction>
     <fraction name="promo_panel_avatar_height_width_ratio">32.000004%</fraction>
@@ -37,4 +33,8 @@
     <fraction name="topic_channel_banner_aspect_ratio">331.99768%</fraction>
     <fraction name="unlimited_header_aspect_ratio">83.00001%</fraction>
     <fraction name="upload_edit_video_fragment_max_video_height">50.0%</fraction>
+    <item type="fraction" name="APKTOOL_DUMMY_a" />
+    <item type="fraction" name="APKTOOL_DUMMY_c" />
+    <item type="fraction" name="APKTOOL_DUMMY_e" />
+    <item type="fraction" name="APKTOOL_DUMMY_15" />
 </resources>
